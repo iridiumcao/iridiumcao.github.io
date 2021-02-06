@@ -1,6 +1,6 @@
 # SSH Auto-Login Failed
 
-When SSH Auto-login failed, the warning messages are different due to the OS.
+When SSH auto-login failed, the warning messages are different due to the OS.
 
 For Ubuntu, it shows the solution, but CentOS does not do so.
 
