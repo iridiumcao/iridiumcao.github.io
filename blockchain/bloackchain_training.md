@@ -2,7 +2,6 @@
 
 This page is copied from [8tc](https://app9rdplv402779.pc.xiaoe-tech.com/detail/p_5faa2b8ae4b0231ba8856c46/6?fromH5=true).
 
-
 ## Week 1
 
 1. 区块链的历史和发展

@@ -14,5 +14,8 @@
 1. [阿里巴巴云原生](https://my.oschina.net/u/3874284)
 1. [机智的祺祺](http://my.oschina.net/yevgeny)
 1. [Etby's blog](https://blog.etby.org/)
+1. [大米时代第六期-丁成云, 踏雪无痕](https://blog.csdn.net/sundenskyqq)
+1. [编程随想](https://program-think.blogspot.com/)
+1. [面向信仰编程](https://draveness.me/)
 1. 阿里核心系统团队blog，值得阅读
 1. InfoQ关于腾讯技术内幕的文章
