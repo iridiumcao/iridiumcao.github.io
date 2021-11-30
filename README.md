@@ -17,6 +17,7 @@
 * [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md)
 * [房价和房租的一点思考](house_price_rent.md)
 * [《道德经》入门该选哪个版本？](laozi-version.md)
+* [汉声数学图画书目录](young_math_books.md)
 * [简单问答](simple-ask-and-answer.md)
 * [Word List](word_list.md)
 
