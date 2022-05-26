@@ -35,3 +35,7 @@ MD5 的 velocity.7z 哈希:
 3331dbc1ed7ff83e19ff519e5058dab3
 CertUtil: -hashfile 命令成功完成。
 ```
+
+---
+
+* This blog is also post to [CSDN](https://blog.csdn.net/caoi/article/details/124983043?spm=1001.2014.3001.5501).

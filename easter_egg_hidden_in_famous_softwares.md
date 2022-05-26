@@ -4,7 +4,7 @@
 
 这个彩蛋应该在RedHat系列的Linux中都有的，但我只有CentOS上的经验。据说在openSUSE中也有这段有趣的话。
 
-当你第一次使用``sudo``时，系统会体会出现三句劝喻：
+当你第一次使用``sudo``时，系统会显示三句劝喻：
 
 1. Respect the privacy of others. 尊重他人隐私。
 1. Think before you type. 三思而后行。
