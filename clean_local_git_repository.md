@@ -2,6 +2,13 @@
 
 Keeping your local repository clean is helpful to development work.
 
+## 0. Clean Work Directory if necessary
+
+```text
+$ git stash
+$ git clean -df
+```
+
 ## 1. Clean Rubbish
 
 ```text
