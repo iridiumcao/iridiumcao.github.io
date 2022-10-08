@@ -1,0 +1,16 @@
+# Blockchain Series
+
+* [比特币概念解释（初阶）](bitcoin_concepts.md)
+* [给币安的一条产品建议](binance_btc_unit.md)
+* [Bitcoin Value](bitcoin_value.md)
+* [Filecoin Value](filecoin_value.md)
+* [Blockchain Training](bloackchain_training.md)
+* [区块链课程](blockchain_training2.md)
+* [Blockchain 术语](blockchain_words.md)
+* [比特币书单](books_for_bitcoin.md)
+* [全面的去中心化正在到来](decentralized_world_coming.md)
+* [Ethereum](ethereum.md)
+* [区块链交易平台](exchange_platform.md)
+* [Please Use Presearch to Get Money](presearch_en.md)
+* [Presearch助你探索未知并赚取奖励](presearch_zh_CN.md)
+* [量化交易参考资料](quant_ref.md)
