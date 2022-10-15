@@ -16,6 +16,8 @@ Start a postgres instace
 
 ``$ docker run --name some-postgres -e POSTGRES_PASSWORD=helloworld -d postgres``
 
+(`POSTGRES_PASSWORD` is required, or the container is not able to create.)
+
 ### Test the DB on the server side
 
 The docker container does not have a public port, so it's not able to be accessed by other hosts in the network. However, we can still test it.
