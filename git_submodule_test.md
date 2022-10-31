@@ -116,15 +116,15 @@ index 6443551..337ce9e 160000
 
 ```
 
-## 4. Note
+## 4. Not need to set branch of submodule
 
-Per git's document mentions, we can set submodules. e.g.,
+Per git's documents, we can set submodules branch. e.g.,
 
 ```bash
 $ git submodule set-branch --branch another-b-branch repob/
 ```
 
-The file `.gitsubmodes` is appended the submodule's branch:
+The submodule's branch is appended to file `.gitsubmodes`:
 
 ```text
 [submodule "repob"]
@@ -134,7 +134,7 @@ The file `.gitsubmodes` is appended the submodule's branch:
         branch = another-b-branch
 ```
 
-However, the block `[submodule]` is useless and invalid. Please ignore `[submodule]` in `.gitsubmodes`.
+However, the block `[submodule]` is useless. Please ignore `[submodule]` in `.gitsubmodes`.
 
 ---
 
