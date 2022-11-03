@@ -116,7 +116,15 @@ index 6443551..337ce9e 160000
 
 ```
 
-## 4. Not need to set branch of submodule
+## 4. Remove submodule
+
+e.g.
+```bash
+$ git submodule rm hello/world
+$ git rm --cached hello/world
+```
+
+## 5. Not need to set branch of submodule
 
 Per git's documents, we can set submodules branch. e.g.,
 
