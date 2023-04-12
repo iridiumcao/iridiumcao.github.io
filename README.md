@@ -8,7 +8,8 @@
 * [数据库系列](database/index.md)
 * [区块链系列](blockchain/index.md)
 
-### 其他
+### 未归类
+
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [Clean Local Git Repository](clean_local_git_repository.md)
 * [SSH Auto-Login Failed](ssh-failed.md)
@@ -20,6 +21,7 @@
 * [汉声数学图画书目录](young_math_books.md)
 * [简单问答](simple-ask-and-answer.md)
 * [Word List](word_list.md)
+* [每日复盘](daily_review.md)
 
 ## Links
 
