@@ -7,6 +7,7 @@
 * [算法系列](algorithm/index.md)
 * [数据库系列](database/index.md)
 * [区块链系列](blockchain/index.md)
+* [Java系列](java/index.md)
 
 ### 未归类
 
