@@ -4,3 +4,4 @@
 2. [素数判定](prime/prime.md)
 3. [求平方根——牛顿迭代法](sqrt/sqrt.md)
 4. [交换两数](exchange-two-values.md)
+5. [求 1-2+3-4+...](p1m2p3m4.md)
