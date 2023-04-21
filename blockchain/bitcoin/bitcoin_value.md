@@ -1,8 +1,8 @@
 # Bitcoin Value
 
-按：金融数据的统计口径不一导致数值差别很大，我选用的估算方法也极为简单，本文仅能提供大概的参考。我们大概能得知未来的趋势是涨，但无法预测短期的走向，也不能精确估计将来的价格。
+按：金融数据的统计口径不一导致数值差别很大，我选用的估算方法也极为简单，本文仅能提供大致的参考。我们大概能得知未来的趋势是涨，但无法预测短期的走向，也不能精确估计将来的价格。
 
-万亿即兆，考虑到兆在计算机领域被认为是100万，为了避免引起误解，本文不使用兆为单位。
+万万亿即兆，考虑到兆在计算机领域也被认为是100万，为了避免引起误解，本文不使用兆为单位。
 
 ## 1. 比特币市值
 
@@ -12,7 +12,7 @@
 
 Ref:
 
-* [Bitcoin 单价](https://www.qkl123.com/chart/huobipro_btc_usd)
+* [Bitcoin 单价](https://coinmarketcap.com/currencies/bitcoin/)
 * [Total BTC in Existence](https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/)
 * [加密货币的市值怎么算？有什么参考价值？| 白话区块链入门144](https://www.hellobtc.com/kp/kc/06/1883.html)
 
@@ -24,7 +24,7 @@ Ref:
 * 单价: $1887.6/oz
 * 总价值 = 储备 * 单价 = 35196.9t * 1000kg/t * 35.274oz/kg * $1887.6/oz = $2343522316552.56
 
-目前的比特币市值约为黄金的1/4到1/3，如果比特币能替代黄金储备，比特币的单价可能涨到现价的3到4倍左右。
+目前的比特币市值约为黄金的1/4到1/3，如果比特币能替代黄金储备，比特币的单价可能涨到现价的3到4倍左右，即20万美金左右。
 
 Ref:
 
@@ -42,7 +42,7 @@ Ref:
 Ref:
 
 * [Money Supply, Wikipedia](https://en.wikipedia.org/wiki/Money_supply)
-* [How much mondy is in the world](https://www.quora.com/How-much-money-is-in-the-world)
+* [How much money is in the world](https://www.quora.com/How-much-money-is-in-the-world)
 * [How much money is there in the world as of 2020?](https://www.thesun.co.uk/money/13497643/how-much-money-in-the-world/)
 * [Large numbers](https://www.britannica.com/topic/large-numbers-1765137)
 
