@@ -20,4 +20,4 @@
 
 配图如下：
 
-![比特币显示数额单位调整](images/bitcoin_unit_issue.jpg) {:height=”30%” width=”30%”}
+<img src="images/bitcoin_unit_issue.jpg" alt="比特币显示数额单位调整" width="30%"/> 

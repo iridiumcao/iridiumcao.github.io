@@ -8,7 +8,7 @@
 * block, 区块
 * blockchain, 区块链
 * BSV, Bitcoin Satoshi Version
-* BTC, bitcoin, 比特币
+* BTC, 比特币的计量单位
 * coinbase transaction, 币基交易
 * Conflux, 
 * Decentralize, 去中心化

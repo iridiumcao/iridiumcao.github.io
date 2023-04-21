@@ -2,8 +2,8 @@
 
 ## 数字货币
 
+1. [OKX](https://www.okx.com)
 1. [币安](https://www.binance.com)
-1. [火币](https://www.huobi.com)
 
 ## NFT
 
