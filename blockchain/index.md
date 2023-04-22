@@ -16,7 +16,6 @@
 * [全面的去中心化正在到来](decentralized_world_coming.md)
 * [区块链交易平台](exchange_platform.md)
 * [量化交易参考资料](quant_ref.md)
-* [Please Use Presearch to Get Money](presearch_en.md)
-* [Presearch助你探索未知并赚取奖励](presearch_zh_CN.md)
+* [Presearch助你探索未知并赚取奖励](presearch_zh_CN.md), [Please Use Presearch to Get Money](presearch_en.md)
 * [给币安的一条产品建议](binance_btc_unit.md)
 * [Filecoin Value](filecoin_value.md)
