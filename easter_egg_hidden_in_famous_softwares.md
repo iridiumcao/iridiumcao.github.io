@@ -24,6 +24,17 @@ Administrator. It usually boils down to these three things:
 Last login: Wed Feb  3 20:01:34 EST 2021 on pts/0
 ```
 
+官方的中文版是
+
+```plaintext
+我们信任您已经从系统管理员那里了解了日常注意事项。
+总结起来无外乎这三点：
+
+    #1) 尊重别人的隐私。
+    #2) 输入前要先考虑(后果和风险)。
+    #3) 权力越大，责任越大。
+```
+
 ## 2. Zen of Python
 
 打开``Python``的控制台，输入``import this``可以看到所谓的**Python之禅**(The Zen of Python)
