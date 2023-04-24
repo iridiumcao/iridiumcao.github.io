@@ -32,8 +32,11 @@
 
 因为还是早期市场，但长期趋势是向上的。
 
-## 9. 比特币的官网
+## 9. 比特币网络资源
 
-* [https://bitcoin.org/](https://bitcoin.org/)
+* 官网[https://bitcoin.org/](https://bitcoin.org/)
     * [Bitcoin for Individuals](https://bitcoin.org/en/bitcoin-for-individuals)
     * [Frequently Asked Questions](https://bitcoin.org/en/faq)
+* 论坛[https://bitcointalk.org/](https://bitcointalk.org/)
+* [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
+* [Reddit](https://www.reddit.com/r/Bitcoin)

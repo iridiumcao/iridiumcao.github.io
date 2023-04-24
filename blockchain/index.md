@@ -6,6 +6,7 @@
 * [初识比特币](bitcoin/bitcoin_newbie.md)
 * [Bitcoin Value](bitcoin/bitcoin_value.md)
 * [比特币书单](bitcoin/books_for_bitcoin.md)
+* [理解比特币白皮书](bitcoin/whitepaper.md)
 
 ## Blockchain
 
