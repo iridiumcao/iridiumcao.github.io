@@ -42,4 +42,4 @@
 1. 李四用自己的私钥lPrivateKey对消息加密
 2. 张三收到消息后，用李四的公钥zPublicKey解密，并获取信息。
 
-非对称加密在是[数字签名](digital_signature.md)的技术基础。
+非对称加密是[数字签名](digital_signature.md)的技术基础。

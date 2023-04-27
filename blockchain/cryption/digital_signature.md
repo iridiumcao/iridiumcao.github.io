@@ -19,8 +19,8 @@
 
 1. Alice使用某hash算法对消息生成摘要信息digest_a
 2. Alice使用私钥对摘要信息加密，加密后的文本即是数字签名ds
-3. Alice将数字签名ds已经CA的认证和原信息汇集在一起，并发送给Bob
-4. Bob收到消息后也使用同样的hash算法对消息生成摘要信息digest_b。
+3. Alice将数字签名ds以及CA的认证和原信息汇集在一起，并发送给Bob
+4. Bob收到消息后也使用同样的hash算法对消息生成摘要信息digest_b
 5. Bob通过CA得到Alice的公钥
 6. Bob使用Alice的公钥对Alice的签名解密，如果能正常解密，则消息是Alice发送的，如果解压出的内容和摘要信息digest_b相同，则消息没有被篡改
 
