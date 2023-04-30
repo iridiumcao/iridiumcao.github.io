@@ -33,10 +33,6 @@
 * [消失吧，你！(Without You)](without_you.md)
 * [文明用语转化表](workspace_phrase.md)
 
-## Links
+## The Third-Party Links
 
-* [BBS Roll](bbs_roll.md)
-* [Blog Roll](blog_roll.md)
-* [Book Roll](book_roll.md)
-* [Tool Roll](tool_roll.md)
 * [Link Roll](links_roll.md)
