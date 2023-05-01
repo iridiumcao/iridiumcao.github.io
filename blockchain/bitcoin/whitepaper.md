@@ -19,3 +19,4 @@
 * [6. Incentive 激励](wp06.md)
 * [7. Reclaiming Disk Space 回收磁盘空间](wp07.md)
 * [8. Simplified Payment Verification 简化支付验证](wp08.md)
+* [9. Combining and Splitting Value 合并和分割交易额](wp09.md)
