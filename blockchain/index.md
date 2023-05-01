@@ -6,7 +6,7 @@
 * [初识比特币](bitcoin/bitcoin_newbie.md)
 * [Bitcoin Value](bitcoin/bitcoin_value.md)
 * [比特币书单](bitcoin/books_for_bitcoin.md)
-* [理解比特币白皮书](bitcoin/whitepaper.md)
+* [通读比特币白皮书](bitcoin/whitepaper.md)
 
 ## Blockchain
 
@@ -21,7 +21,7 @@
 * [给币安的一条产品建议](binance_btc_unit.md)
 * [Filecoin Value](filecoin_value.md)
 
-## 基础知识
+## 其他
 
 * [数据加密](cryption/cryption.md)
 * [数字签名](cryption/digital_signature.md)

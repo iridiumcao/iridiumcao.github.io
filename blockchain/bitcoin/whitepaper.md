@@ -4,7 +4,7 @@
 
 白皮书
 
-* [bitcoinpaper.info](https://www.bitcoinpaper.info)
+* [bitcoinpaper.info](https://www.bitcoinpaper.info) (HTML版本第五章最后一段缺失)
 * [bitcoin.org](https://bitcoin.org/en/bitcoin-paper): [英文版](https://bitcoin.org/bitcoin.pdf), [简体中文版](https://bitcoin.org/files/bitcoin-paper/bitcoin_zh_cn.pdf)
 * 本站备份: [英文版](bitcoin_en.pdf), [简体中文版](bitcoin_zh_cn.pdf)
 
@@ -15,3 +15,4 @@
 * [2. Transactions 交易](wp02.md)
 * [3. Timestamp Server 时间戳服务器](wp03.md)
 * [4. Proof-of-Work 工作量证明](wp04.md)
+* [5. Network 网络](wp05.md)
