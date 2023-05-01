@@ -16,3 +16,4 @@
 * [3. Timestamp Server 时间戳服务器](wp03.md)
 * [4. Proof-of-Work 工作量证明](wp04.md)
 * [5. Network 网络](wp05.md)
+* [6. Incentive 激励](wp06.md)
