@@ -4,9 +4,9 @@
 
 白皮书
 
-* [bitcoinpaper.info](https://www.bitcoinpaper.info) (HTML版本第五章最后一段缺失)
 * [bitcoin.org](https://bitcoin.org/en/bitcoin-paper): [英文版](https://bitcoin.org/bitcoin.pdf), [简体中文版](https://bitcoin.org/files/bitcoin-paper/bitcoin_zh_cn.pdf)
 * 本站备份: [英文版](bitcoin_en.pdf), [简体中文版](bitcoin_zh_cn.pdf)
+* 排版最好的版本：[HTML](https://git.dhimmel.com/bitcoin-whitepaper/), [PDF](https://git.dhimmel.com/bitcoin-whitepaper/manuscript.pdf)
 
 章节目录
 
@@ -21,3 +21,4 @@
 * [08. Simplified Payment Verification 简化支付验证](wp08.md)
 * [09. Combining and Splitting Value 合并和分割交易额](wp09.md)
 * [10. Privacy 隐私](wp10.md)
+* [11. Calculations 计算](wp11.md)

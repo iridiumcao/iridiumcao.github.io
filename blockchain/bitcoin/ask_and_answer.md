@@ -20,7 +20,7 @@
 
 是，并且会越来越值钱。
 
-## 6. 比特币太贵了！
+## 6. 比特币太贵了？
 
 虽然比特币很贵，但并不需要一次买整个，可以买0.001个比特币试试看。
 
@@ -35,8 +35,8 @@
 ## 9. 比特币网络资源
 
 * 官网[https://bitcoin.org/](https://bitcoin.org/)
-    * [Bitcoin for Individuals](https://bitcoin.org/en/bitcoin-for-individuals)
-    * [Frequently Asked Questions](https://bitcoin.org/en/faq)
+  * [Bitcoin for Individuals](https://bitcoin.org/en/bitcoin-for-individuals)
+  * [Frequently Asked Questions](https://bitcoin.org/en/faq)
 * 论坛[https://bitcointalk.org/](https://bitcointalk.org/)
 * [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 * [Reddit](https://www.reddit.com/r/Bitcoin)
