@@ -54,3 +54,10 @@ MathJax = {
 
 1. [概率论公理](Probability_axioms.md)
 2. [概率论和数理统计基础](Probability_and_Statistics_Fundamentals.md)
+3. [概率分布](Probability_Distribution.md)
+4. [统计学基础]
+    * 学习统计学基础，包括样本、总体、估计、假设检验、方差分析等内容。
+5. [随机过程]
+    * 学习随机过程，包括泊松过程、马尔可夫过程等基本概念和应用。
+6. [应用领域情况了解]
+    * 学习应用领域的相关知识，如信号处理、通信工程、金融工程、风险管理等。
