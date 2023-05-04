@@ -13,6 +13,7 @@
 * [区块链系列](blockchain/index.md)
 * [Java系列](java/index.md)
 * [C++笔记](https://iridiumcao.github.io/cpp-note/)
+* [数学系列](maths/index.md)
 
 ### 未归类
 
