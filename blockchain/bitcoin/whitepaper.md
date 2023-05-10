@@ -22,3 +22,4 @@
 * [09. Combining and Splitting Value 合并和分割交易额](wp09.md)
 * [10. Privacy 隐私](wp10.md)
 * [11. Calculations 计算](wp11.md)
+* [12. Conclusion 总结](wp12.md)
