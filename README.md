@@ -15,6 +15,7 @@
 
 ### 未归类
 
+* [How to Display Math Formulas in GitHub Pages](maths/gh_math_formula.md)
 * [Probability Axioms 概率論公理](maths/Probability_axioms.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [浅尝二进制文件和文本文件](binary_text.md)
