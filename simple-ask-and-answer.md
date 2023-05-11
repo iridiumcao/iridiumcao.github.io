@@ -62,6 +62,13 @@ VO maps values of an object which presented to end user, e.g., we can use a VO o
 ## 9. How to Set a Script Runs at OS booting?
 
 e.g., add the following line to crontab:
+
 ```text
 @reboot (/home/ultraman/hello.sh)
 ```
+
+## 10. 自然数从0还是1开始？
+
+都可以，看当时如何定义。
+
+这个问题儿子问过我几次，我都告诉他，如果是学校考试，就依据教材的定义。如果是看其他书，留意其他书的定义。
