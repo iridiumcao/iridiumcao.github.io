@@ -1,5 +1,7 @@
 # Clean Local Git Repository
 
+[Home](index.md)
+
 Keeping your local repository clean is helpful to development work.
 
 ## 0. Clean Work Directory if necessary

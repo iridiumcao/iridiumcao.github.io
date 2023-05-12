@@ -1,5 +1,7 @@
 # Git Submodule Test
 
+[Home](index.md)
+
 Assume three repositories: repoa, repob, repoc
 
 * supermodule: repoa
