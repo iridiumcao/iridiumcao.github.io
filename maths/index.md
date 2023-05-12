@@ -15,6 +15,7 @@ MathJax = {
 * [平方和公式推导](square_pyramidal_numbers.md)
 * [素数的个数为什么是无限的](the_number_of_prime_number.md)
 * [自然常数$e$ Natural Constant](e.md)
+* [希腊字母表](greek_alphabet.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 
