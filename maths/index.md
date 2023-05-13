@@ -17,6 +17,7 @@ MathJax = {
 * [自然常数$e$ Natural Constant](e.md)
 * [希腊字母表](greek_alphabet.md)
 * [可微和可导的区别和联系(ChatGPT)](Diff_Conn_Diff_Cont.md)
+* [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 
