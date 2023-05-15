@@ -2,11 +2,12 @@
 
 ## Bitcoin
 
-* [比特币简单问答](bitcoin/ask_and_answer.md)
-* [初识比特币](bitcoin/bitcoin_newbie.md)
-* [Bitcoin Value](bitcoin/bitcoin_value.md)
-* [比特币书单](bitcoin/books_for_bitcoin.md)
 * [通读比特币白皮书](bitcoin/whitepaper.md)
+* [初识比特币](bitcoin/bitcoin_newbie.md)
+* [比特币简单问答](bitcoin/ask_and_answer.md)
+* [为什么比特币是更好的货币](bitcoin/why_bitcoin_is_the_better_currency.md)
+* [比特币书单](bitcoin/books_for_bitcoin.md)
+* [Bitcoin Value](bitcoin/bitcoin_value.md)
 
 ## Blockchain
 

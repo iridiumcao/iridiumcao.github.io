@@ -1,18 +1,27 @@
 # Links Roll
 
 1. [故宫博物院藏品总目](https://zm-digicol.dpm.org.cn/)
-1. [What Is Fair Use?](https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/)
+2. [What Is Fair Use?](https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/)
 3. [The Smithsonian Institution](https://www.si.edu/)
 4. [极客元素](https://www.geekmeta.com/)
 5. [长桥](https://longbridgeapp.com/)
 6. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+7. [What's New](https://whats.new/shortcuts)
+9. [深度长文：地位即服务（SaaS），一种社交网络深度分析模型](https://www.36kr.com/p/1723332722689)
+10. [What is the Doppler Effect](https://cn.comsol.com/blogs/what-is-the-doppler-effect/)
+11. [通信学会科普频道](https://www.china-cic.cn/list/46/15)
+12. [某机构在51CTO上的网络学习资源发布平台](https://edu.51cto.com/partner/view/id-15.html)
+13. [WireShark Wiki](https://wiki.wireshark.org/FrontPage)
 
 ## Cool Tools
 
-1. [Calendar](https://calendar-12.com/)
-2. [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
-3. [QR Code Gnerator 1](https://www.qr-code-generator.com/)
-4. [QR Code Gnerator 2](https://www.the-qrcode-generator.com/)
+1. [Jiumo Diary](https://www.jiumodiary.com/)
+2. [Calendar](https://calendar-12.com/)
+3. [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
+4. [Table Convert](https://tableconvert.com/)
+5. [QR Code Gnerator 1](https://www.qr-code-generator.com/)
+6. [QR Code Gnerator 2](https://www.the-qrcode-generator.com/)
+7. [JSON Parser Online](https://jsonformatter.org/json-parser)
 
 ## Blog List
 
@@ -20,21 +29,23 @@
 
 1. [https://justyy.com/](https://justyy.com)
     1. [Catalan Numbers](https://justyy.com/archives/31565)
-1. [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
-1. [Beyond the Void](https://byvoid.com/zht/)
-1. [Frank's Blog](https://blog.linshuang.info/) (not updated from 2017)
-1. [优哉·幽斋](http://liyaos.com/blog/) (not updated from 2017)
-1. [wzyboy’s blog](https://wzyboy.im/)
-1. [Chi's Journal](https://yuchi.me/)
-1. [Ali Developer](https://developer.aliyun.com/)
-1. [阿里巴巴云原生](https://my.oschina.net/u/3874284)
-1. [机智的祺祺](http://my.oschina.net/yevgeny)
-1. [Etby's blog](https://blog.etby.org/)
-1. [大米时代第六期-丁成云, 踏雪无痕](https://blog.csdn.net/sundenskyqq)
-1. [编程随想](https://program-think.blogspot.com/) (not updated from 2022)
-1. [面向信仰编程](https://draveness.me/)
-1. 阿里核心系统团队blog，值得阅读
-1. InfoQ关于腾讯技术内幕的文章
+2. [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
+3. [Beyond the Void](https://byvoid.com/zht/)
+4. [Frank's Blog](https://blog.linshuang.info/) (not updated from 2017)
+5. [优哉·幽斋](http://liyaos.com/blog/) (not updated from 2017)
+6. [wzyboy’s blog](https://wzyboy.im/)
+7. [Chi's Journal](https://yuchi.me/)
+8. [Ali Developer](https://developer.aliyun.com/)
+9. [阿里巴巴云原生](https://my.oschina.net/u/3874284)
+10. [机智的祺祺](http://my.oschina.net/yevgeny)
+11. [Etby's blog](https://blog.etby.org/)
+12. [大米时代第六期-丁成云, 踏雪无痕](https://blog.csdn.net/sundenskyqq)
+13. [编程随想](https://program-think.blogspot.com/) (not updated from 2022)
+14. [面向信仰编程](https://draveness.me/)
+15. [湾区理财 原创文集](https://blog.wenxuecity.com/myoverview/23244/)
+16. [李笑来](https://lixiaolai.com/)
+17. 阿里核心系统团队blog，值得阅读
+18. InfoQ关于腾讯技术内幕的文章
 
 ## Maths
 
@@ -51,13 +62,50 @@
 
 ## 区块链
 
-1. [OK Link](https://www.oklink.com/) 这个网站收录了一些龙头币的区块链浏览器
-2. [比特币布道者](http://btc.mom/) 这个网站收录了不少比特币相关的知名文章
-3. [mempool.space](https://mempool.space/) 非常不错的比特币区块链浏览器
+1. [比特币布道者](http://btc.mom/) 这个网站收录了不少比特币相关的知名文章
+2. [mempool.space](https://mempool.space/) 非常不错的比特币区块链浏览器
+3. [AHR999 BTC index](https://www.qkl123.com/data/ahr999/btc)
+4. [Bitcoin Guide](https://bitcoin.design/guide/)
+5. [Bitcoin Talk](https://bitcointalk.org/)
+6. [OK Link](https://www.oklink.com/) 这个网站收录了一些龙头币的区块链浏览器
+7. [碳链价值](https://www.ccvalue.cn/)
+8. [区块链技术与应用讲座](https://www.youtube.com/watch?v=UmVec9VHtpE&list=PLnTPdMjBRmAYehJkVbAXqxO-0cc9ALC6V) 北京大学计算机系肖臻
+9. [千锋教育「区块链」以太坊原理&智能合约和钱包开发](https://www.youtube.com/watch?v=zmkKdWebZmM&list=PLwDQt7s1o9J4l1LQ3x2vZ54TPhIh6UvMr)
+10. [区块链指南](https://yeasy.gitbook.io/blockchain_guide/)
+11. [廖雪峰的区块链教程](https://www.liaoxuefeng.com/wiki/1207298049439968)
+12. [币安学院](https://academy.binancezh.ch/zh)
+13. [白话区块链](https://www.hellobtc.com/)
+14. [State of the Dapps](https://www.stateofthedapps.com/zh)
+15. Blockchain explorer: [OKLink](https://www.oklink.com/), [Ether Scan](https://etherscan.io/), [BSC Scan](https://bscscan.com/), [Polygon Scan](https://polygonscan.com)
+16. [Coin Dollar Pay](https://coindollarpay.com/)
+17. [金色财经](https://www.jinse.com/)
+18. [Where does IPFS store all the data](https://stackoverflow.com/questions/47450007/where-does-ipfs-store-all-the-data) (from stackoverflow)
+19. [ETH Fans](https://ethfans.org/)
+20. [动物头像席卷加密市场，NFT 逐渐成为新型社交网络？](https://www.8btc.com/article/6672535)(区块律动BlockBeats发布在 链圈子 海盗号)
+21. [詣周](https://qw25892001.medium.com/)
+22. [Yield Farming Tools](https://yieldfarmingtools.com)
+23. DeFi Tools 
+    1. [My Coin Tool](https://mycointool.com/)
+    2. <https://zapper.fi/dashboard>
+    3. <https://app.zerion.io/>
+24. [一文彻底了解无常损失, by 虫蛋](https://zhuanlan.zhihu.com/p/268435169)
+25. [吳冠融 Roger Wu](https://medium.com/@rogerwutw)
+26. [XiXiHuang](https://superdcc.medium.com/)
 
 ## Books Online
 
 1. [未来世界的幸存者](https://www.ruanyifeng.com/survivor/index.html)
+2. [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
+3. [Coursera](https://www.coursera.org)
+4. [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
+5. [精通比特币](https://www.8btc.com/book/281955)
+6. [精通比特币](https://github.com/tianmingyun/MasterBitcoin2CN)
+7. [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
+8. [精通以太坊](https://www.8btc.com/books/834/ethereum-book)
+9. [1000份计算机paper](https://github.com/0voice/computer_expert_paper)
+10. [【腾讯文档】DeFi 之DAO——DeFi指南](https://docs.qq.com/doc/DVGJRRmJxUFhVc3Rv)
+11. [区块链圣经Beta版](https://shimo.im/docs/HPnEllk5Hl0RpsCb)
+12. [Programming Books, Salt Tiger](https://salttiger.com/)
 
 ## BBS List
 
