@@ -7,11 +7,8 @@
 5. [长桥](https://longbridgeapp.com/)
 6. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 7. [What's New](https://whats.new/shortcuts)
-9. [深度长文：地位即服务（SaaS），一种社交网络深度分析模型](https://www.36kr.com/p/1723332722689)
-10. [What is the Doppler Effect](https://cn.comsol.com/blogs/what-is-the-doppler-effect/)
-11. [通信学会科普频道](https://www.china-cic.cn/list/46/15)
-12. [某机构在51CTO上的网络学习资源发布平台](https://edu.51cto.com/partner/view/id-15.html)
-13. [WireShark Wiki](https://wiki.wireshark.org/FrontPage)
+8. [深度长文：地位即服务（SaaS），一种社交网络深度分析模型](https://zhuanlan.zhihu.com/p/58307165)
+9. [What is the Doppler Effect](https://cn.comsol.com/blogs/what-is-the-doppler-effect/)
 
 ## Cool Tools
 
@@ -19,9 +16,8 @@
 2. [Calendar](https://calendar-12.com/)
 3. [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
 4. [Table Convert](https://tableconvert.com/)
-5. [QR Code Gnerator 1](https://www.qr-code-generator.com/)
-6. [QR Code Gnerator 2](https://www.the-qrcode-generator.com/)
-7. [JSON Parser Online](https://jsonformatter.org/json-parser)
+5. [QR Code Gnerator 1](https://www.qr-code-generator.com/), [QR Code Gnerator 2](https://www.the-qrcode-generator.com/)
+6. [JSON Parser Online](https://jsonformatter.org/json-parser)
 
 ## Blog List
 
@@ -51,15 +47,17 @@
 ## Maths
 
 1. [马同学](https://www.matongxue.com/) 此站内容为工科本科阶段数学讲解
-1. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+2. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+3. [Eeasymath-wiki](https://easymath-wiki.org/)
+4. [OI Wiki](https://oi-wiki.org/)
 
 ## ChatGPT
 
 1. [Official Site](https://chat.openai.com/chat)
-1. 进入[CSDN这个页面](https://so.csdn.net/so/search)后再点击ChitGPT标签使用
-1. [POE](https://poe.com/)
-1. [PromptBoom](https://www.promptboom.com/)
-1. [AI导航](https://ai.nancheng.fun/)
+2. 进入[CSDN这个页面](https://so.csdn.net/so/search)后再点击ChitGPT标签使用
+3. [POE](https://poe.com/)
+4. [PromptBoom](https://www.promptboom.com/)
+5. [AI导航](https://ai.nancheng.fun/)
 
 ## 区块链
 
@@ -92,6 +90,13 @@
 24. [一文彻底了解无常损失, by 虫蛋](https://zhuanlan.zhihu.com/p/268435169)
 25. [吳冠融 Roger Wu](https://medium.com/@rogerwutw)
 26. [XiXiHuang](https://superdcc.medium.com/)
+
+## Network
+
+1. [通信学会科普频道](https://www.china-cic.cn/list/46/15)
+2. [拼客科技在51CTO上的网络学习资源发布平台](https://edu.51cto.com/partner/view/id-15.html)
+3. [WireShark Wiki](https://wiki.wireshark.org/FrontPage)
+4. [CTF Wiki](https://ctf-wiki.org/)
 
 ## Books Online
 
