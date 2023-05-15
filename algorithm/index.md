@@ -7,3 +7,4 @@
 5. [求 1-2+3-4+...](p1m2p3m4.md)
 6. [洗牌算法(Shuffle)](shuffle/Shuffle.md)
 7. [找出第二大的整数](find-the-second.md)
+8. [Fibonacci 问题](fibonacci/fibonacci.md)
