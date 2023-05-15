@@ -20,6 +20,7 @@ MathJax = {
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [一些三角公式](triangle_formulas.md)
 * [集合映射之单射满射双射](map_type.md)
+* [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 

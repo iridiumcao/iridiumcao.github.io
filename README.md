@@ -18,7 +18,6 @@
 ### 未归类
 
 * [How to Display Math Formulas in GitHub Pages](maths/gh_math_formula.md)
-* [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [浅尝二进制文件和文本文件](binary_text.md)
 * [Clean Local Git Repository](clean_local_git_repository.md)
 * [SSH Auto-Login Failed](ssh-failed.md)

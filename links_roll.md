@@ -1,6 +1,6 @@
 # Links Roll
 
-1. [故宫博物院藏品总目](linhttps://zm-digicol.dpm.org.cn/)
+1. [故宫博物院藏品总目](https://zm-digicol.dpm.org.cn/)
 1. [What Is Fair Use?](https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/)
 3. [The Smithsonian Institution](https://www.si.edu/)
 4. [极客元素](https://www.geekmeta.com/)
@@ -46,7 +46,7 @@
 1. [Official Site](https://chat.openai.com/chat)
 1. 进入[CSDN这个页面](https://so.csdn.net/so/search)后再点击ChitGPT标签使用
 1. [POE](https://poe.com/)
-1. [ChatGPT Free](https://www.promptboom.com/)
+1. [PromptBoom](https://www.promptboom.com/)
 1. [AI导航](https://ai.nancheng.fun/)
 
 ## 区块链
