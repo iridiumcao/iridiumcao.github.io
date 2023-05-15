@@ -40,12 +40,13 @@
 10. [机智的祺祺](http://my.oschina.net/yevgeny)
 11. [Etby's blog](https://blog.etby.org/)
 12. [大米时代第六期-丁成云, 踏雪无痕](https://blog.csdn.net/sundenskyqq)
-13. [编程随想](https://program-think.blogspot.com/) (not updated from 2022)
-14. [面向信仰编程](https://draveness.me/)
-15. [湾区理财 原创文集](https://blog.wenxuecity.com/myoverview/23244/)
-16. [李笑来](https://lixiaolai.com/)
-17. 阿里核心系统团队blog，值得阅读
-18. InfoQ关于腾讯技术内幕的文章
+13. [酷壳](https://coolshell.cn/)（博主已去于2023年去世）
+14. [编程随想](https://program-think.blogspot.com/) (not updated from 2022)
+15. [面向信仰编程](https://draveness.me/)
+16. [湾区理财 原创文集](https://blog.wenxuecity.com/myoverview/23244/)
+17. [李笑来](https://lixiaolai.com/)
+18. 阿里核心系统团队blog，值得阅读
+19. InfoQ关于腾讯技术内幕的文章
 
 ## Maths
 
