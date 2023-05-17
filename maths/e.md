@@ -11,6 +11,8 @@ MathJax = {
 
 # 自然常数$e$ Natural Constant
 
+[返回目录](index.md)
+
 自然常数来源于复利问题，假如本金为$a$, 年利率为$r$, 则一年后连本带利
 
 $$ amount = a(1+r) $$

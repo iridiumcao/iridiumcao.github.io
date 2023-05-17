@@ -1,5 +1,7 @@
 # 零为何不能做除数？
 
+[返回目录](index.md)
+
 按：这篇文章从[Google Sites](https://sites.google.com/site/iridiumsite/Home/others/mathematics/algebra/why-not-zero)转移而来，大约写于2019年上半年，算是一次对娃娃功课辅导的记录。
 
 前段时间儿子问了这个问题。儿子下学期上三年级，为了能让小学二年级刚毕业的儿子能理解这个问题，我想了一个说法，现在感觉很有意思，这里记一下。

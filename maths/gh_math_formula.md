@@ -1,5 +1,7 @@
 # How to Display Math Formulas in GitHub Pages
 
+[返回目录](index.md)
+
 If you have encountered a problem where the math formulas do not display when your site is published, despite being visible while editing in markdown, you can follow these steps to fix it.
 
 First, input the following math formulas in plaintext:

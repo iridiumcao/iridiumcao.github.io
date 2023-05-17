@@ -1,5 +1,7 @@
 # 希腊字母 Greek Alphabet
 
+[返回目录](index.md)
+
 | 序号 | 大写字母 | 小写字母 | 名称 | LaTeX | 发音 | 国际音标 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Α | α | Alpha | \alpha | ah-luh-fuh | ˈælfə |

@@ -11,6 +11,8 @@ MathJax = {
 
 # Probability Axioms 概率論公理
 
+[返回目录](index.md)
+
 ## 三条公理
 
 1. 任一事件的概率都可以用0到1区间上的一个实数来表示。

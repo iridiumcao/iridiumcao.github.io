@@ -11,6 +11,8 @@ MathJax = {
 
 # 素数的个数为什么是无限的
 
+[返回目录](index.md)
+
 本文曾于 2007-07-03 01:17:00 发布在[CSDN blog](https://blog.csdn.net/caoi/article/details/1676223)上
 
 按，并无新意，记录一下别人的想法而已。

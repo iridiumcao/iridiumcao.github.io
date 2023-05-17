@@ -11,6 +11,8 @@ MathJax = {
 
 # 平方和公式推导
 
+[返回目录](index.md)
+
 平方和(Square pyramidal numbers)公式有很多证明和推导的方法。如果只是证明这个公式，直接用数学归纳法即可，但这样就掩盖了公式的来源。本文借助排列组合相关的工具推导该公式。
 
 公式的排版参考了[这篇文章](https://blog.csdn.net/weixin_46233323/article/details/104538187)。

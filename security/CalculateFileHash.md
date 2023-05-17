@@ -1,5 +1,7 @@
 # Calculate File Hash
 
+[返回目录](index.md)
+
 To calculate MD5, SHA1 and SHA256 code.
 
 ## Linux or Git Bash

@@ -1,5 +1,7 @@
 # 探讨布尔运算的规律(Explore the Operation Properties of Boolean Algebra)
 
+[返回目录](index.md)
+
 本文探讨的布尔运算仅限`AND`与，`OR`或，`XOR`异或三种。本文探讨的运算规律仅限交换律，结合律，分配律三种。其中分配律会依据不同的运算组合展开。
 
 ## 1. 定义

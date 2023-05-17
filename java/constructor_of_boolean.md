@@ -1,5 +1,7 @@
 # Boolean 的构造器
 
+[返回目录](index.md)
+
 这是一个比较古怪的知识点，本身算不了什么。可能是这个构造器太过古怪，从 Java 9 开始，这个构造期已经标记为 `@Deprecated` 了，相应地，可以使用 `Boolean.parseBoolean(String s)` 来实现此功能，两个方法都支持 `null` 参数。
 
 ```java
