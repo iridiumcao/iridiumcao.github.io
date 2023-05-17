@@ -8,3 +8,4 @@
 6. [洗牌算法(Shuffle)](shuffle/Shuffle.md)
 7. [找出第二大的整数](find-the-second.md)
 8. [Fibonacci 问题](fibonacci/fibonacci.md)
+9. [递归，尾递归，循环(Recursion, Tail Recursion and Loop)](recursion_and_loop.md)
