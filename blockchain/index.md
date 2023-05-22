@@ -12,8 +12,6 @@
 ## Blockchain
 
 * [Ethereum](ethereum.md)
-* [Blockchain Training 提纲1](bloackchain_training.md)
-* [区块链课程提纲2](blockchain_training2.md)
 * [Blockchain 术语](blockchain_words.md)
 
 ## Others

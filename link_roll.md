@@ -62,23 +62,23 @@
 
 ## 区块链
 
-6. [OK Link](https://www.oklink.com/) 这个网站收录了一些龙头币的区块链浏览器
+1. [OK Link](https://www.oklink.com/) 这个网站收录了一些龙头币的区块链浏览器
 2. [mempool.space](https://mempool.space/) 非常不错的比特币区块链浏览器
-1. [比特币布道者](http://btc.mom/) 这个网站收录了不少比特币相关的知名文章
-3. [AHR999 BTC index](https://www.qkl123.com/data/ahr999/btc)
-4. [Bitcoin Guide](https://bitcoin.design/guide/)
-5. [Bitcoin Talk](https://bitcointalk.org/)
-8. [区块链技术与应用讲座](https://www.youtube.com/watch?v=UmVec9VHtpE&list=PLnTPdMjBRmAYehJkVbAXqxO-0cc9ALC6V) 北京大学计算机系肖臻
-9. [千锋教育「区块链」以太坊原理&智能合约和钱包开发](https://www.youtube.com/watch?v=zmkKdWebZmM&list=PLwDQt7s1o9J4l1LQ3x2vZ54TPhIh6UvMr)
-10. [区块链指南](https://yeasy.gitbook.io/blockchain_guide/)
-11. [廖雪峰的区块链教程](https://www.liaoxuefeng.com/wiki/1207298049439968)
-12. [币安学院](https://academy.binancezh.ch/zh)
-13. [白话区块链](https://www.hellobtc.com/)
-14. [State of the Dapps](https://www.stateofthedapps.com/zh)
-15. Blockchain explorer: [OKLink](https://www.oklink.com/), [Ether Scan](https://etherscan.io/), [BSC Scan](https://bscscan.com/), [Polygon Scan](https://polygonscan.com)
-16. [Coin Dollar Pay](https://coindollarpay.com/)
-17. [金色财经](https://www.jinse.com/)
-7. [碳链价值](https://www.ccvalue.cn/)
+3. [比特币布道者](http://btc.mom/) 这个网站收录了不少比特币相关的知名文章
+4. [AHR999 BTC index](https://www.qkl123.com/data/ahr999/btc)
+5. [Bitcoin Guide](https://bitcoin.design/guide/)
+6. [Bitcoin Talk](https://bitcointalk.org/)
+7. [区块链技术与应用讲座](http://zhenxiao.com/blockchain/), [Youtube](https://www.youtube.com/watch?v=UmVec9VHtpE&list=PLnTPdMjBRmAYehJkVbAXqxO-0cc9ALC6V) 北京大学计算机系肖臻
+8. [千锋教育「区块链」以太坊原理&智能合约和钱包开发](https://www.youtube.com/watch?v=zmkKdWebZmM&list=PLwDQt7s1o9J4l1LQ3x2vZ54TPhIh6UvMr)
+9. [区块链指南](https://yeasy.gitbook.io/blockchain_guide/)
+10. [廖雪峰的区块链教程](https://www.liaoxuefeng.com/wiki/1207298049439968)
+11. [币安学院](https://academy.binance.com/zh/courses) (not for USA)
+12. [白话区块链](https://www.hellobtc.com/)
+13. [State of the Dapps](https://www.stateofthedapps.com/zh)
+14. Blockchain explorer: [OKLink](https://www.oklink.com/), [Ether Scan](https://etherscan.io/), [BSC Scan](https://bscscan.com/), [Polygon Scan](https://polygonscan.com)
+15. [Coin Dollar Pay](https://coindollarpay.com/)
+16. [金色财经](https://www.jinse.com/)
+17. [碳链价值](https://www.ccvalue.cn/)
 18. [Where does IPFS store all the data](https://stackoverflow.com/questions/47450007/where-does-ipfs-store-all-the-data) (from stackoverflow)
 19. [ETH Fans](https://ethfans.org/)
 20. [动物头像席卷加密市场，NFT 逐渐成为新型社交网络？](https://www.8btc.com/article/6672535)(区块律动BlockBeats发布在 链圈子 海盗号)

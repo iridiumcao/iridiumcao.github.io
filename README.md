@@ -20,6 +20,7 @@
 * [How to Display Math Formulas in GitHub Pages](maths/gh_math_formula.md)
 * [浅尝二进制文件和文本文件](binary_text.md)
 * [Clean Local Git Repository](clean_local_git_repository.md)
+* [Git, submodule](git_submodule_test.md)
 * [SSH Auto-Login Failed](ssh-failed.md)
 * [Windows查找端口占用并关闭](Windows-search-close-port.md)
 * [Calculate File Hash](security/CalculateFileHash.md)
