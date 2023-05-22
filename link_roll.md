@@ -57,17 +57,17 @@
 2. 进入[CSDN这个页面](https://so.csdn.net/so/search)后再点击ChitGPT标签使用
 3. [POE](https://poe.com/)
 4. [PromptBoom](https://www.promptboom.com/)
-5. [AI导航](https://ai.nancheng.fun/)
+5. [AI导航1](https://ai.nancheng.fun/)
+6. [AI导航2](https://www.ainavpro.com/)
 
 ## 区块链
 
-1. [比特币布道者](http://btc.mom/) 这个网站收录了不少比特币相关的知名文章
+6. [OK Link](https://www.oklink.com/) 这个网站收录了一些龙头币的区块链浏览器
 2. [mempool.space](https://mempool.space/) 非常不错的比特币区块链浏览器
+1. [比特币布道者](http://btc.mom/) 这个网站收录了不少比特币相关的知名文章
 3. [AHR999 BTC index](https://www.qkl123.com/data/ahr999/btc)
 4. [Bitcoin Guide](https://bitcoin.design/guide/)
 5. [Bitcoin Talk](https://bitcointalk.org/)
-6. [OK Link](https://www.oklink.com/) 这个网站收录了一些龙头币的区块链浏览器
-7. [碳链价值](https://www.ccvalue.cn/)
 8. [区块链技术与应用讲座](https://www.youtube.com/watch?v=UmVec9VHtpE&list=PLnTPdMjBRmAYehJkVbAXqxO-0cc9ALC6V) 北京大学计算机系肖臻
 9. [千锋教育「区块链」以太坊原理&智能合约和钱包开发](https://www.youtube.com/watch?v=zmkKdWebZmM&list=PLwDQt7s1o9J4l1LQ3x2vZ54TPhIh6UvMr)
 10. [区块链指南](https://yeasy.gitbook.io/blockchain_guide/)
@@ -78,6 +78,7 @@
 15. Blockchain explorer: [OKLink](https://www.oklink.com/), [Ether Scan](https://etherscan.io/), [BSC Scan](https://bscscan.com/), [Polygon Scan](https://polygonscan.com)
 16. [Coin Dollar Pay](https://coindollarpay.com/)
 17. [金色财经](https://www.jinse.com/)
+7. [碳链价值](https://www.ccvalue.cn/)
 18. [Where does IPFS store all the data](https://stackoverflow.com/questions/47450007/where-does-ipfs-store-all-the-data) (from stackoverflow)
 19. [ETH Fans](https://ethfans.org/)
 20. [动物头像席卷加密市场，NFT 逐渐成为新型社交网络？](https://www.8btc.com/article/6672535)(区块律动BlockBeats发布在 链圈子 海盗号)
