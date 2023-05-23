@@ -24,6 +24,18 @@ MathJax = {
 * [余数详情](details_of_remainder.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
+* [复习泰勒公式](ReviewTaylorsFormula.md)
+* [导数 derivative](derivative.md)
+* [极值定理 Extreme Value Theorem](Extreme_Value_Theorem.md)
+* [拉格朗日中值定理 Lagrange's Mean Value Theorem](LagrangesMeanValueTheorem.md)
+* [泰勒公式 Taylor's Theorem](TaylorsTheorem.md)
+* [罗尔定理 Rolles's Theorem](RollesTheorem.md)
+* [费马定理 Fermat's Last Theorem](FermatsLastTheorem.md)
+* [函数光滑 Smoothness of a Function](Smoothness.md)
+* [Formula 和 Theorem 的区别](formula_and_theorem.md)
+* [邻域 Neighbourhood](Neighbourhood.md)
+* [函数的连续](continuous.md)
+* [微分 Differential](Differential.md)
 
 ## 概率和统计
 
