@@ -30,8 +30,8 @@
 * [简单问答](simple-ask-and-answer.md)
 * [Word List](word_list.md)
 * [每日复盘](daily_review.md)
-* [消失吧，你！(Without You)](without_you.md)
-* [文明用语转化表](workspace_phrase.md)
+* [文明用语转化表](workspace_phrase.md)(转贴)
+* [消失吧，你！(Without You)](without_you.md)(翻译)
 * [How to Lose Time and Money 时间和金钱是怎么失去的](how-to-lose-time-and-money.md)(翻译)
 
 ## The Third-Party Links

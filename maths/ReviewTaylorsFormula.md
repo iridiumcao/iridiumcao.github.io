@@ -15,7 +15,6 @@
         * [费马定理](FermatsLastTheorem.md)
           * [邻域](Neighbourhood.md)
           * [函数的光滑性](Smoothness.md)
-* [导数](derivative.md)
 
 上面的图，以"介绍泰勒公式并证明"为根，创建了一个关联的知识数，只需要从叶子点点一步一步往根节点学习即可最终理解泰勒公式。
 
