@@ -11,9 +11,9 @@ MathJax = {
 
 # 递归，尾递归，循环(Recursion, Tail Recursion and Loop)
 
-（2022.10）
-
 [返回目录](index.md)
+
+（2022.10）
 
 本文示例递归，尾递归和循环的等价写法，例子由浅入深——阶乘，阶和，汉诺塔，Fibbonaci Array, 文件遍历。所有示例用Java, Python, JavaScript, C++等四种语言表达。所有示例都是完整可运行的代码，均在本机测试过。
 

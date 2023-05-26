@@ -1,5 +1,7 @@
 # 区块链交易平台
 
+[Index](index.md)
+
 ## 数字货币
 
 1. [OKX](https://www.okx.com)

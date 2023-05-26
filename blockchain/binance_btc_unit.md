@@ -1,5 +1,7 @@
 # 给币安的一条产品建议
 
+[Index](index.md)
+
 内容如下：
 
 ```plaintext

@@ -1,5 +1,7 @@
 # Ethereum
 
+[Index](index.md)
+
 Official site: <https://ethereum.org/zh/>
 
 智能合约开发工具：

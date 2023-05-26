@@ -1,5 +1,7 @@
 # Blockchain 术语
 
+[Index](index.md)
+
 * altcoin, 山寨币
 * BCH, Bitcoin Cash, 比特现金
 * BCHA, Bitcoin Cash ABC

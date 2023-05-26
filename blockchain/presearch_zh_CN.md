@@ -1,5 +1,7 @@
 # Presearch助你探索未知并赚取奖励
 
+[Index](index.md)
+
 按：本文已发布到[Publish0x](https://www.publish0x.com/iridiumcao/presearchzhu-ni-tan-suo-wei-zhi-bing-zhuan-qu-jiang-li-xnqgzgq).
 
 推荐注册使用去中心化搜索引擎[Presearch](https://presearch.org/signup?rid=2341760)!

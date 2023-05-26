@@ -1,6 +1,6 @@
 # How to check if a git branch exists in the local/remote repository?
 
-[Home](index.md)
+[Index](index.md)
 
 How can one verify the existence of a git branch in a local or remote repository? The article presents two bash script functions that can be used for this purpose.
 

@@ -16,7 +16,7 @@
 
 ## Others
 
-* [数据加密](cryption/cryption.md)
+* [加解密简述](cryption/cryption.md)
 * [数字签名](cryption/digital_signature.md)
 * [全面的去中心化正在到来](decentralized_world_coming.md)
 * [加密货币和NFT交易平台](exchange_platform.md)

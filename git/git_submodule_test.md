@@ -1,6 +1,6 @@
 # Git Submodule Test
 
-[Home](index.md)
+[Index](index.md)
 
 Assume three repositories: repoa, repob, repoc
 

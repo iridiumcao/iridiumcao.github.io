@@ -1,5 +1,7 @@
 # 全面的去中心化正在到来
 
+[Index](index.md)
+
 (本文已发布到[Public0x](https://www.publish0x.com/iridiumcao/quan-mian-de-qu-zhong-xin-hua-zheng-zai-dao-lai-xpnkvoz))
 
 按：互联网诞生后，人类进入了一个新的纪元。区块链时代是这个纪元中的重要时代。比特币是这个世界的美元。一个更加繁荣的去中心化世界正在形成。

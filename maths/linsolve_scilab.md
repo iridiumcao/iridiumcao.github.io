@@ -11,6 +11,8 @@ MathJax = {
 
 # Scilab 求解线性方程组示例(linsolve)
 
+[Index](index.md)
+
 方程组：
 
 $$

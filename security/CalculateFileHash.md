@@ -1,6 +1,6 @@
 # Calculate File Hash
 
-[返回目录](index.md)
+[返回目录](../README.md)
 
 To calculate MD5, SHA1 and SHA256 code.
 

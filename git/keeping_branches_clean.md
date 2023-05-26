@@ -1,6 +1,6 @@
 # The Way to Keep Git Branches Clean
 
-[Home](index.md)
+[Index](index.md)
 
 ([Chinese](keeping_branches_clean_zh_CN.md))
 
