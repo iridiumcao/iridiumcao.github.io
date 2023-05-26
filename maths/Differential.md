@@ -74,10 +74,10 @@ $$\lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x} = f'(x_0)$$
 二元函数的微分指的是对函数在某一点处的局部线性近似。具体而言，假设有一个二元函数 $f(x,y)$，那么在点 $(x_0,y_0)$ 处，它的微分可以表示为：
 
 $$
-df = \frac{\partial f}{\partial x}\bigg|_{(x_0,y_0)}dx + \frac{\partial f}{\partial y}\bigg|_{(x_0,y_0)}dy
+df = \frac{\partial f}{\partial x}\bigg \vert_{(x_0,y_0)}dx + \frac{\partial f}{\partial y}\bigg \vert_{(x_0,y_0)}dy
 $$
 
-其中 $\frac{\partial f}{\partial x}\bigg|_{(x_0,y_0)}$ 和 $\frac{\partial f}{\partial y}\bigg|_{(x_0,y_0)}$ 分别表示函数 $f$ 在点 $(x_0,y_0)$ 处关于 $x$ 和 $y$ 的偏导数，$dx$ 和 $dy$ 则分别表示 $x$ 和 $y$ 的变化量。因此，$df$ 可以理解为函数 $f$ 在点 $(x_0,y_0)$ 的微小变化量。
+其中 $\frac{\partial f}{\partial x}\bigg \vert_{(x_0,y_0)}$ 和 $\frac{\partial f}{\partial y}\bigg \vert_{(x_0,y_0)}$ 分别表示函数 $f$ 在点 $(x_0,y_0)$ 处关于 $x$ 和 $y$ 的偏导数，$dx$ 和 $dy$ 则分别表示 $x$ 和 $y$ 的变化量。因此，$df$ 可以理解为函数 $f$ 在点 $(x_0,y_0)$ 的微小变化量。
 
 二元函数的微分在微积分中具有重要的应用，特别是在优化、最小二乘法等问题中。通过对函数进行微分，可以得到函数在某一点附近的线性近似，从而帮助我们更好地理解函数的行为及其变化规律。
 
@@ -86,9 +86,9 @@ $$
 三元函数的微分指的是对函数在某一点处的局部线性近似。具体而言，假设有一个三元函数 $f(x,y,z)$，那么在点 $(x_0,y_0,z_0)$ 处，它的微分可以表示为：
 
 $$
-df = \frac{\partial f}{\partial x}\bigg|_{(x_0,y_0,z_0)}dx + \frac{\partial f}{\partial y}\bigg|_{(x_0,y_0,z_0)}dy + \frac{\partial f}{\partial z}\bigg|_{(x_0,y_0,z_0)}dz
+df = \frac{\partial f}{\partial x}\bigg \vert_{(x_0,y_0,z_0)}dx + \frac{\partial f}{\partial y}\bigg \vert_{(x_0,y_0,z_0)}dy + \frac{\partial f}{\partial z}\bigg \vert_{(x_0,y_0,z_0)}dz
 $$
 
-其中 $\frac{\partial f}{\partial x}\bigg|_{(x_0,y_0,z_0)}$、$\frac{\partial f}{\partial y}\bigg|_{(x_0,y_0,z_0)}$ 和 $\frac{\partial f}{\partial z}\bigg|_{(x_0,y_0,z_0)}$ 分别表示函数 $f$ 在点 $(x_0,y_0,z_0)$ 处关于 $x$、$y$ 和 $z$ 的偏导数，$dx$、$dy$ 和 $dz$ 则分别表示 $x$、$y$ 和 $z$ 的变化量。因此，$df$ 可以理解为函数 $f$ 在点 $(x_0,y_0,z_0)$ 的微小变化量。
+其中 $\frac{\partial f}{\partial x}\bigg \vert_{(x_0,y_0,z_0)}$、$\frac{\partial f}{\partial y}\bigg \vert_{(x_0,y_0,z_0)}$ 和 $\frac{\partial f}{\partial z}\bigg \vert_{(x_0,y_0,z_0)}$ 分别表示函数 $f$ 在点 $(x_0,y_0,z_0)$ 处关于 $x$、$y$ 和 $z$ 的偏导数，$dx$、$dy$ 和 $dz$ 则分别表示 $x$、$y$ 和 $z$ 的变化量。因此，$df$ 可以理解为函数 $f$ 在点 $(x_0,y_0,z_0)$ 的微小变化量。
 
 类似二元函数的微分，在微积分中，三元函数的微分也具有重要的应用，特别是在优化、最小二乘法等问题中。通过对函数进行微分，可以得到函数在某一点附近的线性近似，从而帮助我们更好地理解函数的行为及其变化规律。

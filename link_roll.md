@@ -46,10 +46,11 @@
 
 ## Maths
 
-1. [马同学](https://www.matongxue.com/) 此站内容为工科本科阶段数学讲解
-2. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
-3. [Eeasymath-wiki](https://easymath-wiki.org/)
-4. [OI Wiki](https://oi-wiki.org/)
+1. [中文数学 Wiki](https://math.fandom.com/zh/) 此站十分神奇，因为主站是游戏内容
+2. [马同学](https://www.matongxue.com/) 此站内容为工科本科阶段数学讲解
+3. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+4. [Eeasymath-wiki](https://easymath-wiki.org/)
+5. [OI Wiki](https://oi-wiki.org/)
 
 ## ChatGPT
 
