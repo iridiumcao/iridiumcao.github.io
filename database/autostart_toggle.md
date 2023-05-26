@@ -1,37 +1,37 @@
-# Disable Autostart of MySQL or PostgreSQL Server on Ubuntu
+# Disabling Autostart of MySQL or PostgreSQL Server on Ubuntu
 
-OS: Ubuntu 19.04
+Operating System: Ubuntu 19.04
 
 ## MySQL
 
-When the MySQL server is installed, it automatically started with the OS. It slows the speed of OS loading. But the computer is for personal, not a DB server. I just want to start it when I need.
+By default, the MySQL server automatically starts with the operating system, which can slow down the OS loading process. However, if your computer is for personal use and not intended to be a database server, you may prefer to start MySQL only when needed.
 
-Check the MySQL server's status and stop it.
+To check the status of the MySQL server and stop it, use the following commands:
 
 ```
 $ service mysql status
 $ service mysql stop
 ```
 
-Disable autostart:
+To disable autostart of MySQL, execute the following command with sudo privileges:
 
 ```
 $ sudo systemctl disable mysql
 ```
 
-When you need it, it can be started by:
+When you need to start MySQL, you can do so using the following command:
 
 ```
 $ service mysql start
 ```
 
 References:
-- https://askubuntu.com/questions/57381/how-to-stop-mysql-from-running-at-boot-time
-- https://askubuntu.com/questions/833094/how-can-i-disable-autostart-of-mysql-server
+- [How to stop MySQL from running at boot time](https://askubuntu.com/questions/57381/how-to-stop-mysql-from-running-at-boot-time)
+- [How can I disable autostart of MySQL server?](https://askubuntu.com/questions/833094/how-can-i-disable-autostart-of-mysql-server)
 
 ## PostgreSQL
 
-It's similiar to PostgreSQL:
+The process is similar for PostgreSQL:
 
 ```
 $ service postgresql status
@@ -42,4 +42,4 @@ $ service postgresql start
 
 ---
 
-This artical was post to [OSC](https://my.oschina.net/iridium/blog/3041476) originally at 2019/04/23 20:11.
+This article was originally posted on [OSC](https://my.oschina.net/iridium/blog/3041476) on April 23, 2019, at 20:11.
