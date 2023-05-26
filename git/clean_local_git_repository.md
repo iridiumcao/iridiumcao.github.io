@@ -4,34 +4,34 @@ Keeping your local repository clean is helpful to development work.
 
 ## 0. Clean Work Directory if necessary
 
-```text
+```plaintext
 $ git stash
 $ git clean -df
 ```
 
 ## 1. Clean Rubbish
 
-```text
+```plaintext
 $ git gc
 $ git prune
 ```
 
 ## 2. Clean the branches that are no longer in the remote repository
 
-```text
+```plaintext
 $ git remote prune origin
 ```
 
 ## 3. Clean the tags that are no longer in the remote repository
 
-```text
+```plaintext
 $ git fetch origin --prune --prune-tags --force
 
 ```
 
 or
 
-```text
+```plaintext
 $ git tag -d $(git tag)
 $ git fetch --tags
 ```

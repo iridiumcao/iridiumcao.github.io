@@ -8,19 +8,18 @@
 
 ### 系列
 
-* [算法系列](algorithm/index.md)
-* [数据库系列](database/index.md)
-* [区块链系列](blockchain/index.md)
 * [Java系列](java/index.md)
 * [C++笔记](https://iridiumcao.github.io/cpp-note/)
+* [区块链系列](blockchain/index.md)
+* [数据库系列](database/index.md)
+* [算法系列](algorithm/index.md)
 * [数学系列](maths/index.md)
+* [Git](git/index.md)
 
 ### 未归类
 
 * [How to Display Math Formulas in GitHub Pages](maths/gh_math_formula.md)
 * [浅尝二进制文件和文本文件](binary_text.md)
-* [Clean Local Git Repository](clean_local_git_repository.md)
-* [Git, submodule](git_submodule_test.md)
 * [SSH Auto-Login Failed](ssh-failed.md)
 * [Windows查找端口占用并关闭](Windows-search-close-port.md)
 * [Calculate File Hash](security/CalculateFileHash.md)
