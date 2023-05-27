@@ -34,7 +34,11 @@
 
 因为还是早期市场，但长期趋势是向上的。
 
-## 9. 比特币网络资源
+## 9. 比特币支付放的地址就是他的公钥指纹吗？
+
+是。
+
+## 10. 比特币网络资源
 
 * 官网[https://bitcoin.org/](https://bitcoin.org/)
   * [Bitcoin for Individuals](https://bitcoin.org/en/bitcoin-for-individuals)
