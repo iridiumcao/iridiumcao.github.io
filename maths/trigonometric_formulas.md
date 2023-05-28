@@ -9,7 +9,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
-# 三角公式
+# 三角公式 Trigonometric Formulas
 
 [返回目录](index.md)
 
@@ -92,11 +92,23 @@ MathJax = {
 * $\tan^2{\dfrac{\theta}{2}} = \dfrac{1 - \cos \theta}{1 + \cos \theta} \Rightarrow \tan{\dfrac{\theta}{2}} = \plusmn \sqrt{\dfrac{1 - \cos \theta}{1 + \cos \theta}}$
 * $\tan{\dfrac{\theta}{2}} = \dfrac{\sin \theta}{1+\cos \theta} = \dfrac{1 - \cos \theta}{\sin \theta}$(注意定义域的变化）
 
-## 4. 和差化积 sum-to-product
+## 4. 积化和差 product-to-sum
 
+通常，我们提到的积化和差公式只涉及$\sin$和$\cos$相关的四个公式，它们都是从前面提到的和差恒等式推出的。
 
-## 5. 积化和差 product-to-sum
+* $\sin \alpha \sin \beta = -\dfrac{\cos(\alpha + \beta) - \cos(\alpha - \beta)}{2}$
+* $\sin \alpha \cos \beta = \dfrac{\sin(\alpha + \beta) + \sin(\alpha - \beta)}{2}$
+* $\cos \alpha \sin \beta = \dfrac{\sin(\alpha + \beta) - \sin(\alpha - \beta)}{2}$
+* $\cos \alpha \cos \beta = \dfrac{\cos(\alpha + \beta) + \cos(\alpha - \beta)}{2}$
 
+## 5. 和差化积 sum-to-product
+
+通常，这里也只是记录4个涉及$\sin$和$\cos$的公式，它们都可以通过上面积化和差的几个公式直接推出。
+
+* $\sin \alpha + \sin \beta = 2\sin(\dfrac{\alpha + \beta}{2})\cos(\dfrac{\alpha - \beta}{2})$
+* $\sin \alpha - \sin \beta = 2\cos(\dfrac{\alpha + \beta}{2})\sin(\dfrac{\alpha - \beta}{2})$
+* $\cos \alpha + \cos \beta = 2\cos(\dfrac{\alpha + \beta}{2})\cos(\dfrac{\alpha - \beta}{2})$
+* $\cos \alpha - \cos \beta = -2\sin(\dfrac{\alpha + \beta}{2})\sin(\dfrac{\alpha - \beta}{2})$
 
 Ref: 
 * [维基百科·三角恒等式](https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F)

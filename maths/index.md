@@ -18,7 +18,7 @@ MathJax = {
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [自然常数$e$ Natural Constant](e.md)
 * [平方和公式推导](square_pyramidal_numbers.md)
-* [一些三角公式](triangle_formulas.md)
+* [三角公式 Trigonometric Formulas](trigonometric_formulas.md)
 * [集合映射之单射满射双射](map_type.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
