@@ -30,19 +30,21 @@
 4. [Frank's Blog](https://blog.linshuang.info/) (not updated from 2017)
 5. [优哉·幽斋](http://liyaos.com/blog/) (not updated from 2017)
 6. [wzyboy’s blog](https://wzyboy.im/)
-7. [Chi's Journal](https://yuchi.me/)
-8. [Ali Developer](https://developer.aliyun.com/)
-9. [阿里巴巴云原生](https://my.oschina.net/u/3874284)
-10. [机智的祺祺](http://my.oschina.net/yevgeny)
-11. [Etby's blog](https://blog.etby.org/)
-12. [大米时代第六期-丁成云, 踏雪无痕](https://blog.csdn.net/sundenskyqq)
-13. [酷壳](https://coolshell.cn/)（博主已去于2023年去世）
-14. [编程随想](https://program-think.blogspot.com/) (not updated from 2022)
-15. [面向信仰编程](https://draveness.me/)
-16. [湾区理财 原创文集](https://blog.wenxuecity.com/myoverview/23244/)
-17. [李笑来](https://lixiaolai.com/)
-18. 阿里核心系统团队blog，值得阅读
-19. InfoQ关于腾讯技术内幕的文章
+7. [BMPI](https://www.bmpi.dev/)
+8. [Aaron-bird](https://aaron-bird.github.io/)
+9. [Chi's Journal](https://yuchi.me/)
+10. [Ali Developer](https://developer.aliyun.com/)
+11. [阿里巴巴云原生](https://my.oschina.net/u/3874284)
+12. [机智的祺祺](http://my.oschina.net/yevgeny)
+13. [Etby's blog](https://blog.etby.org/)
+14. [大米时代第六期-丁成云, 踏雪无痕](https://blog.csdn.net/sundenskyqq)
+15. [酷壳](https://coolshell.cn/)（博主已去于2023年去世）
+16. [编程随想](https://program-think.blogspot.com/) (not updated from 2022)
+17. [面向信仰编程](https://draveness.me/)
+18. [湾区理财 原创文集](https://blog.wenxuecity.com/myoverview/23244/)
+19. [李笑来](https://lixiaolai.com/)
+20. 阿里核心系统团队blog，值得阅读
+21. InfoQ关于腾讯技术内幕的文章
 
 ## Maths
 
