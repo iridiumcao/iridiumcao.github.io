@@ -87,9 +87,9 @@ MathJax = {
 
 半角公式（降幂公式）
 
-* $\sin^2{\dfrac{\theta}{2}} = \dfrac{1 - \cos \theta}{2} \Rightarrow \sin{\dfrac{\theta}{2}} = \plusmn \sqrt{\dfrac{1 - \cos \theta}{2}}$
-* $\cos^2{\dfrac{\theta}{2}} = \dfrac{1 + \cos \theta}{2} \Rightarrow \cos{\dfrac{\theta}{2}} = \plusmn \sqrt{\dfrac{1 + \cos \theta}{2}}$
-* $\tan^2{\dfrac{\theta}{2}} = \dfrac{1 - \cos \theta}{1 + \cos \theta} \Rightarrow \tan{\dfrac{\theta}{2}} = \plusmn \sqrt{\dfrac{1 - \cos \theta}{1 + \cos \theta}}$
+* $\sin^2{\dfrac{\theta}{2}} = \dfrac{1 - \cos \theta}{2} \Rightarrow \sin{\dfrac{\theta}{2}} = \pm \sqrt{\dfrac{1 - \cos \theta}{2}}$
+* $\cos^2{\dfrac{\theta}{2}} = \dfrac{1 + \cos \theta}{2} \Rightarrow \cos{\dfrac{\theta}{2}} = \pm \sqrt{\dfrac{1 + \cos \theta}{2}}$
+* $\tan^2{\dfrac{\theta}{2}} = \dfrac{1 - \cos \theta}{1 + \cos \theta} \Rightarrow \tan{\dfrac{\theta}{2}} = \pm \sqrt{\dfrac{1 - \cos \theta}{1 + \cos \theta}}$
 * $\tan{\dfrac{\theta}{2}} = \dfrac{\sin \theta}{1+\cos \theta} = \dfrac{1 - \cos \theta}{\sin \theta}$(注意定义域的变化）
 
 ## 4. 积化和差 product-to-sum
