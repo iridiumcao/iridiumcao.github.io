@@ -54,17 +54,29 @@ MathJax = {
 
 ## 1. 诱导公式 Induction Formula
 
-### 1.1 反射
+### 1.1 对称
 
-![](images/Screenshot%202023-05-27%20162245.png)
-
-TODO maths
+| 反射于$\theta=0$（负角）        | 反射于$\theta=\dfrac{\pi}{4}$（余角）        | 反射于$\theta=\dfrac{\pi}{2}$（补角）| 反射于$\theta=\dfrac{3\pi}{4}$            |
+|--------------------------------|--------------------------------------------|----------------------------------|----------------------------------------------|
+| $\sin(0-\theta) = -\sin\theta$ | $\sin(\dfrac{\pi}{2}-\theta) = \cos\theta$ | $\sin(\pi-\theta) = \sin\theta$  | $\sin(\dfrac{3\pi}{2}-\theta) = -\cos\theta$ |
+|  $\cos(0-\theta) = \cos\theta$ | $\cos(\dfrac{\pi}{2}-\theta) = \sin\theta$ | $\cos(\pi-\theta) = -\cos\theta$ | $\cos(\dfrac{3\pi}{2}-\theta) = -\sin\theta$ |
+| $\tan(0-\theta) = -\tan\theta$ | $\tan(\dfrac{\pi}{2}-\theta) = \cot\theta$ | $\tan(\pi-\theta) = -\tan\theta$ | $\tan(\dfrac{3\pi}{2}-\theta) = \cot\theta$  |
+| $\cot(0-\theta) = -\cot\theta$ | $\cot(\dfrac{\pi}{2}-\theta) = \tan\theta$ | $\cot(\pi-\theta) = -\cot\theta$ | $\cot(\dfrac{3\pi}{2}-\theta) = \tan\theta$  |
+|  $\sec(0-\theta) = \sec\theta$ | $\sec(\dfrac{\pi}{2}-\theta) = \csc\theta$ | $\sec(\pi-\theta) = -\sec\theta$ | $\sec(\dfrac{3\pi}{2}-\theta) = -\csc\theta$ |
+| $\csc(0-\theta) = -\csc\theta$ | $\csc(\dfrac{\pi}{2}-\theta) = \sec\theta$ | $\csc(\pi-\theta) = \csc\theta$  | $\csc(\dfrac{3\pi}{2}-\theta) = -\sec\theta$ |
 
 ### 1.2 位移和周期
 
-TODO maths
+| 位移$\dfrac{\pi}{2}$（增加π/2相位）          | 位移$\pi$（对角）                 | 位移$\dfrac{3\pi}{2}$                          | 位移$2\pi$ (终边相同的角)            |
+|---------------------------------------------|----------------------------------|------------------------------------------------|------------------------------------|
+| $\sin(\theta+\dfrac{\pi}{2}) = \cos\theta$  | $\sin(\theta+\pi) = -\sin\theta$ | $\sin(\theta + \dfrac{3\pi}{2}) = -\cos\theta$ | $\sin(\theta + 2\pi) = \sin\theta$ |
+| $\cos(\theta+\dfrac{\pi}{2}) = -\sin\theta$ | $\cos(\theta+\pi) = -\cos\theta$ | $\cos(\theta + \dfrac{3\pi}{2}) = \sin\theta$  | $\cos(\theta + 2\pi) = \cos\theta$ |
+| $\tan(\theta+\dfrac{\pi}{2}) = -\cot\theta$ | $\tan(\theta+\pi) = \tan\theta$  | $\tan(\theta + \dfrac{3\pi}{2}) = -\cot\theta$ | $\tan(\theta + 2\pi) = \tan\theta$ |
+| $\cot(\theta+\dfrac{\pi}{2}) = -\tan\theta$ | $\cot(\theta+\pi) = \cot\theta$  | $\cot(\theta + \dfrac{3\pi}{2}) = -\tan\theta$ | $\cot(\theta + 2\pi) = \cot\theta$ |
+| $\sec(\theta+\dfrac{\pi}{2}) = -\csc\theta$ | $\sec(\theta+\pi) = \sec\theta$  | $\sec(\theta + \dfrac{3\pi}{2}) = \csc\theta$  | $\sec(\theta + 2\pi) = \sec\theta$ |
+| $\csc(\theta+\dfrac{\pi}{2}) = \sec\theta$  | $\csc(\theta+\pi) = \csc\theta$  | $\csc(\theta + \dfrac{3\pi}{2}) = -\set\theta$ | $\csc(\theta + 2\pi) = \csc\theta$ |
 
-![](images/Screenshot%202023-05-27%20162319.png)
+> 这些公式有一句著名的口诀：奇变偶不变，符号看象限。“奇变偶不变”指的是，如果括号内增加π/2的奇数倍，改变函数名（如$\sin$变成$\cos$），偶数倍则不变；而“符号看象限”指的是，只需要假设$\theta$是第一象限的角（这样θ的三角函数必定为正），而观察公式变换后$\theta + \dfrac{n\pi}{2}$在对应象限的三角函数的符号，例如$\sin(\theta + \pi)$，θ转动π rad后到达第三象限，而第三象限的正弦是负数，所以$\sin$前加负号，$sin(θ+π)=−sinθ$。[Ref](https://easymath-wiki.org/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/02%E4%B8%89%E8%A7%92%E5%85%AC%E5%BC%8F/)
 
 ## 2. 六边形
 
@@ -152,7 +164,8 @@ TODO maths
 * $\cos \alpha = \dfrac{1-\tan^2{\dfrac{\alpha}{2}}}{1+\tan^2{\dfrac{\alpha}{2}}}$
 * $\tan \alpha = \dfrac{2\tan{\dfrac{\alpha}{2}}}{1-\tan^2{\dfrac{\alpha}{2}}}$
 
-Ref: 
+Ref:
+
 * [维基百科·三角恒等式](https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F)
 * [List of trigonometric identities](https://en.wikipedia.org/wiki/List_of_trigonometric_identities) (Wikipedia)
 * [三角公式](https://easymath-wiki.org/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/02%E4%B8%89%E8%A7%92%E5%85%AC%E5%BC%8F/) (Easymath-wiki)
