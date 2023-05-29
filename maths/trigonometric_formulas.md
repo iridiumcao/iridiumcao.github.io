@@ -30,7 +30,11 @@ MathJax = {
 
 ![](images/Screenshot%202023-05-27%20162245.png)
 
+TODO maths
+
 ### 1.2 位移和周期
+
+TODO maths
 
 ![](images/Screenshot%202023-05-27%20162319.png)
 
@@ -103,12 +107,22 @@ MathJax = {
 
 ## 5. 和差化积 sum-to-product
 
-通常，这里也只是记录4个涉及$\sin$和$\cos$的公式，它们都可以通过上面积化和差的几个公式直接推出。
+通常，这里也只是记录4个涉及$\sin$和$\cos$的公式，它们都可以通过上面积化和差的几个公式直接加减推出。
 
 * $\sin \alpha + \sin \beta = 2\sin(\dfrac{\alpha + \beta}{2})\cos(\dfrac{\alpha - \beta}{2})$
 * $\sin \alpha - \sin \beta = 2\cos(\dfrac{\alpha + \beta}{2})\sin(\dfrac{\alpha - \beta}{2})$
 * $\cos \alpha + \cos \beta = 2\cos(\dfrac{\alpha + \beta}{2})\cos(\dfrac{\alpha - \beta}{2})$
 * $\cos \alpha - \cos \beta = -2\sin(\dfrac{\alpha + \beta}{2})\sin(\dfrac{\alpha - \beta}{2})$
+
+这几个公式，也可以通过把$\alpha$看成$\dfrac{\alpha + \beta}{2} + \dfrac{\alpha - \beta}{2}$，把$\beta$看成$\dfrac{\alpha + \beta}{2} - \dfrac{\alpha - \beta}{2}$，然后通过前面提到的和差恒等式直接相加得出。
+
+## 6. 万能公式
+
+用 $\tan{\dfrac{\alpha}{2}}$ 表示 $\sin \alpha$, $\cos \alpha$, $\tan \alpha$
+
+* $\sin \alpha = \dfrac{2\tan{\dfrac{\alpha}{2}}}{1+\tan^2{\dfrac{\alpha}{2}}}$
+* $\cos \alpha = \dfrac{1-\tan^2{\dfrac{\alpha}{2}}}{1+\tan^2{\dfrac{\alpha}{2}}}$
+* $\tan \alpha = \dfrac{2\tan{\dfrac{\alpha}{2}}}{1-\tan^2{\dfrac{\alpha}{2}}}$
 
 Ref: 
 * [维基百科·三角恒等式](https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F)
