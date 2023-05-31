@@ -6,6 +6,7 @@
 * [Java 对零作为除数的处理](zero_devide.md)
 * [Java中的小数可以使用十六进制](hex-floating-point-literal.md)
 * [I'm not me? —— 多态的另一个例子](im_not_me.md)
+* [JVM options of JDK 11](JVM_options.md)
 
 ## Design Pattern
 
