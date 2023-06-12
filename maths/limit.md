@@ -29,14 +29,16 @@ MathJax = {
 
 ### 極限
 
-極限分為描述一个序列的下標愈來越大时的趋势（序列極限），或是描述函数的自变量接趨近某個值時的函数值的趋势（函數極限）([参](https://zh.wikipedia.org/wiki/%E6%9E%81%E9%99%90_(%E6%95%B0%E5%AD%A6)))
+> 極限分為描述一个序列的下標愈來越大时的趋势（序列極限），或是描述函数的自变量接趨近某個值時的函数值的趋势（函數極限）([参](https://zh.wikipedia.org/wiki/%E6%9E%81%E9%99%90_(%E6%95%B0%E5%AD%A6)))
 
-In mathematics, a limit is the value that a function (or sequence) approaches as the input (or index) approaches some value. ([Ref](https://en.wikipedia.org/wiki/Limit_(mathematics)))
+> In mathematics, a limit is the value that a function (or sequence) approaches as the input (or index) approaches some value. ([Ref](https://en.wikipedia.org/wiki/Limit_(mathematics)))
 
 ### 函数极限 Limit of a function
 
 函數極限描述函數在接近某一給定自變量時的特徵。
 函數$f$於$a$的極限為$L$，直觀上意為當$x$無限接近$a$時，$f(x)$便無限接近$L$。([参](https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B8%E6%A5%B5%E9%99%90))
+
+#### 某个确定点的极限
 
 (ε, δ)-definition of limit ([Ref](https://en.wikipedia.org/wiki/Limit_of_a_function#(%CE%B5,_%CE%B4)-definition_of_limit)) (这是在实数域上函数极限的严格定义)
 
@@ -53,6 +55,10 @@ if the following property holds: for every real $ε > 0$, there exists a real $�
 $$
 {\displaystyle (\forall \varepsilon >0)\,(\exists \delta >0)\,(\forall x\in \mathbb {R} )\,(0<\vert x-p \vert <\delta \implies \vert f(x)-L \vert <\varepsilon )}.
 $$
+
+#### 自变量趋向无穷时的极限
+
+参[wikibooks/微积分学/极限/极限的定义](https://zh.wikibooks.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6/%E6%9E%81%E9%99%90/%E6%9E%81%E9%99%90%E7%9A%84%E5%AE%9A%E4%B9%89)
 
 ### 极限 (数列)
 

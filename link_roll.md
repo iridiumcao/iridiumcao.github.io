@@ -2,13 +2,14 @@
 
 1. [故宫博物院藏品总目](https://zm-digicol.dpm.org.cn/)
 2. [What Is Fair Use?](https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/)
-3. [The Smithsonian Institution](https://www.si.edu/)
-4. [极客元素](https://www.geekmeta.com/)
-5. [长桥](https://longbridgeapp.com/)
-6. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-7. [What's New](https://whats.new/shortcuts)
-8. [深度长文：地位即服务（SaaS），一种社交网络深度分析模型](https://zhuanlan.zhihu.com/p/58307165)
-9. [What is the Doppler Effect](https://cn.comsol.com/blogs/what-is-the-doppler-effect/)
+3. [Wolfram Science World](https://scienceworld.wolfram.com/)
+4. [The Smithsonian Institution](https://www.si.edu/)
+5. [极客元素](https://www.geekmeta.com/)
+6. [长桥](https://longbridgeapp.com/)
+7. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+8. [What's New](https://whats.new/shortcuts)
+9. [深度长文：地位即服务（SaaS），一种社交网络深度分析模型](https://zhuanlan.zhihu.com/p/58307165)
+10. [What is the Doppler Effect](https://cn.comsol.com/blogs/what-is-the-doppler-effect/)
 
 ## Cool Tools
 
@@ -53,6 +54,8 @@
 3. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 4. [Eeasymath-wiki](https://easymath-wiki.org/)
 5. [OI Wiki](https://oi-wiki.org/)
+6. [Wolfram Math World](https://mathworld.wolfram.com/)
+7. [Wikipedia: 数学书架](https://zh.wikibooks.org/wiki/Template:%E6%95%B0%E5%AD%A6%E4%B9%A6%E6%9E%B6)
 
 ## ChatGPT
 

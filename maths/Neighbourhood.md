@@ -13,18 +13,18 @@ MathJax = {
 
 [返回目录](index.md)
 
-实数域上的领域。参[中文数学Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F)，设 $a \in \mathbb {R} , \delta > 0.$
+实数域上的邻域。参[中文数学Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F)，设 $a \in \mathbb {R} , \delta > 0.$
 
 * 点 $a$ 的 $\delta$ 邻域：$U(a;\delta )=(a-\delta , a+\delta )=\left\{x\mid \vert x-a \vert<\delta \right\}$，简记作：$U(a)$；
 * 点 $a$ 的 $\delta$ 去心邻域：$U^\circ (a;\delta)=\left\{x\mid 0< \vert x-a \vert<\delta \right\}$，简记作：$U^\circ (a)$，与邻域的区别在于不包含点 $a$；
 * 点 $a$ 的 $\delta$ 左邻域：$U_{-}(a;\delta) = (a-\delta ,a)$，简记作：$U_{-}(a)$；
 * 点 $a$ 的 $\delta$ 右邻域：$U_{+}(a;\delta) = (a,a+\delta )$，简记作：$U_{+}(a)$。
 
-另外还有度量空间和拓扑空间的领域，可以参考前面的连接。
+另外还有度量空间和拓扑空间的邻域，可以参考前面的连接。
 
 ## ChatGPT
 
-按：ChatGPT讲述不够完善，它只提到去心领域这一种，还有其他类型的领域，它没有提到，或认为不是邻域。具体内容，更建议参考[中文数学 Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F?variant=zh)。
+按：ChatGPT讲述得还不错，但不够完善，它没有提到去心邻域。具体内容，更建议参考[中文数学 Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F?variant=zh)。
 
 问：请介绍数学概念邻域
 

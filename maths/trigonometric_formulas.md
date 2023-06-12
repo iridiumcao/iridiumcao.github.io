@@ -13,6 +13,34 @@ MathJax = {
 
 [返回目录](index.md)
 
+## -1. 图像
+
+基本三角函数在直角坐标和极坐标下的图像。
+
+1. 正弦 sine
+
+![sine](images/basic_function_sine.png)
+
+2. 余弦 cosine
+
+![cosine](images/basic_function_cosine.png)
+
+3. 正切 tangent
+
+![tangent](images/basic_function_tangent.png)
+
+4. 余切 cotangent
+
+![cotangent](images/basic_function_cotangent.png)
+
+5. 正割 sec
+
+![正割 sec](images/basic_function_sec.png)
+
+6. 余割 csc
+
+![余割 csc](images/basic_function_csc.png)
+
 ## 0. 常见的特殊角的三角函数值
 
 |   | $0$ | $\frac{1}{6}\pi$ | $\frac{1}{4}\pi$ | $\frac{1}{3}\pi$ | $\frac{1}{2}\pi$ | $1\pi$ | $\frac{3}{2}\pi$ |
