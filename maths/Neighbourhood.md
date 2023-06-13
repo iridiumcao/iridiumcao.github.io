@@ -15,8 +15,8 @@ MathJax = {
 
 实数域上的邻域。参[中文数学Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F)，设 $a \in \mathbb {R} , \delta > 0.$
 
-* 点 $a$ 的 $\delta$ 邻域：$U(a;\delta )=(a-\delta , a+\delta )=\left\{x\mid \vert x-a \vert<\delta \right\}$，简记作：$U(a)$；
-* 点 $a$ 的 $\delta$ 去心邻域：$U^\circ (a;\delta)=\left\{x\mid 0< \vert x-a \vert<\delta \right\}$，简记作：$U^\circ (a)$，与邻域的区别在于不包含点 $a$；
+* 点 $a$ 的 $\delta$ 邻域：$U(a;\delta )=(a-\delta , a+\delta )=\left\lbrace x\mid \vert x-a \vert<\delta \right\}$，简记作：$U(a)$；
+* 点 $a$ 的 $\delta$ 去心邻域：$U^\circ (a;\delta)=\left\lbrace x\mid 0< \vert x-a \vert<\delta \right\}$，简记作：$U^\circ (a)$，与邻域的区别在于不包含点 $a$；
 * 点 $a$ 的 $\delta$ 左邻域：$U_{-}(a;\delta) = (a-\delta ,a)$，简记作：$U_{-}(a)$；
 * 点 $a$ 的 $\delta$ 右邻域：$U_{+}(a;\delta) = (a,a+\delta )$，简记作：$U_{+}(a)$。
 
