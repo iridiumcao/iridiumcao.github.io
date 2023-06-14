@@ -19,6 +19,7 @@
 ### 未归类
 
 * [How to Display Math Formulas in GitHub Pages](maths/gh_math_formula.md)
+* [Extracting Substrings in Bash Shell Scripts](bash_script_retrieve_substring.md)
 * [浅尝二进制文件和文本文件](binary_text.md)
 * [SSH Auto-Login Failed](ssh-failed.md)
 * [Windows查找端口占用并关闭](Windows-search-close-port.md)
