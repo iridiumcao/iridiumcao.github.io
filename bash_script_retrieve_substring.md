@@ -1,6 +1,6 @@
-# Retrieve Substring in Bash Shell Script
+# Extracting Substrings in Bash Shell Scripts
 
-Get the original string: ${var_name}.
+Obtain the original string: `${var_name}`.
 
 ```plaintext
 $ a='abc123'
@@ -8,17 +8,16 @@ $ echo $a
 abc123
 ```
 
-Replace a part of ${var_name}:
+Modify a section of `${var_name}`:
+
+Remove all digit characters and replace them with an empty string
 
 ```plaintext
-
-Removes all digit characters that are replaced with empty
-
 $ echo ${a//[0-9]/}
 abc
 ```
 
-Removes all non-digit characters that are replaced with empty
+Remove all non-digit characters and replace them with an empty string
 
 ```plaintext
 $ echo ${a//[!0-9]/}
@@ -32,12 +31,11 @@ $ echo ${a//[0-9]/dd}
 abcdddddd
 ```
 
-Ref: <https://stackoverflow.com/questions/13210880/replace-one-substring-for-another-string-in-shell-script>
+Reference: <https://stackoverflow.com/questions/13210880/replace-one-substring-for-another-string-in-shell-script>
 
+Another example. Extract digits at the end of a string. Assisted by ChatGPT.
 
-Another example. Retrieve digits at the end of string. Help from ChatGPT.
-
-Question. Can you please express the following commands and outputs.
+Question: Can you please explain the following commands and outputs?
 
 ```plaintext
 $ b='a2b23c234'
@@ -47,15 +45,20 @@ $ echo ${b##*[!0-9]}
 234
 ```
 
-Answer.
+Answer:
 
-The first command sets the variable `b` to the string `a2b23c234`
+The first command assigns the variable `b` the value `a2b23c234`
 
-The second command, `echo $b`, outputs the value of the variable `b`:`a2b23c234` 
+The second command, `echo $b`, displays the value of the variable `b`: `a2b23c234`
 
-The third command, `echo ${b##*[!0-9]}`, outputs the numeric characters at the end of the variable `b`, which is234
+The third command, `echo ${b##*[!0-9]}`, displays the numeric characters at the end of the variable `b`, which is 234
 
 Explanation of the third command:
+
 - `${b##*[!0-9]}` is a parameter expansion that removes the longest substring matching the pattern `*[!0-9]` from the beginning of the variable `b`.
 - The pattern `*[!0-9]` matches any sequence of characters that does not end with a numeric digit.
-- Therefore, the parameter expansion removes all non-numeric characters from the beginning of the string, leaving only the numeric characters at the end.
+- As a result, the parameter expansion removes all non-numeric characters from the beginning of the string, leaving only the numeric characters at the end.
+
+---
+
+This article has been rewritten using GPT-4. [Source](https://poe.com/s/pOKG6Tqe9rzmAHChxDmQ).
