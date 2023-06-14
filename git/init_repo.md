@@ -1,5 +1,7 @@
 # How to Create a New Repository
 
+[Index](index.md)
+
 To create a new repository, you can follow these steps:
 
 ## Bare Repository (on Server Host)
