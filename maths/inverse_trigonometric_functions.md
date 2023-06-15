@@ -21,8 +21,8 @@ MathJax = {
 
 * $\sin(\arcsin x) = x,\enspace x \in [-1, 1]$
 * $\cos(\arccos x) = x,\enspace x \in [-1, 1]$
-* $\tan(\arctan x) = x,\enspace x \in [-\infin, \infin]$
-* $\cot(\text{arccot}x) = x,\enspace x \in [-\infin, \infin]$
+* $\tan(\arctan x) = x,\enspace x \in [-\infty, \infty]$
+* $\cot(\text{arccot}x) = x,\enspace x \in [-\infty, \infty]$
 
 ### 1.2
 
