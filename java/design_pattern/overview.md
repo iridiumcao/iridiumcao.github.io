@@ -41,7 +41,7 @@
           <br />
         </b>
       </td>
-      <td>Factory Method(工厂方法)</td>
+      <td><a href="factory_method.html">Factory Method(工厂方法)</a></td>
       <td>
         Adapter(适配器 class)
       </td>
