@@ -20,6 +20,7 @@ MathJax = {
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [自然常数$e$ Natural Constant](e.md)
 * [平方和公式推导](square_pyramidal_numbers.md)
+* [Law of cosines 余弦定理](law_of_cosines.md)
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 * [集合映射之单射满射双射](map_type.md)
