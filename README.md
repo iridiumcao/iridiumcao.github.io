@@ -19,6 +19,7 @@
 ### 未归类
 
 * [OO 设计原则](oo-design-principle.md)
+* [如何描述一个 bug](how_to_describe_a_bug.md)
 * [Extracting Substrings in Bash Shell Scripts](bash_script_retrieve_substring.md)
 * [浅尝二进制文件和文本文件](binary_text.md)
 * [SSH Auto-Login Failed](ssh-failed.md)
