@@ -46,4 +46,6 @@ function is_in_remote() {
 
 ---
 
-This artical was post on [dev.to](https://dev.to/iridiumcao/how-to-check-if-a-git-branch-exists-in-the-local-remote-repository-3gkd) and [OSC](https://my.oschina.net/iridium/blog/3208407) as well.
+This artical was post on [dev.to](https://dev.to/iridiumcao/how-to-check-if-a-git-branch-exists-in-the-local-remote-repository-3gkd) and ~~[OSC](https://my.oschina.net/iridium/blog/3208407)~~ as well.
+
+![history on osc](images/history2023-06-16-062918.png)
