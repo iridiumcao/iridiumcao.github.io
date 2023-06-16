@@ -8,5 +8,6 @@
 6. [洗牌算法(Shuffle)](shuffle/Shuffle.md)
 7. [找出第二大的整数](find-the-second.md)
 8. [Fibonacci 问题](fibonacci/fibonacci.md)
-9. [递归，尾递归，循环(Recursion, Tail Recursion and Loop)](recursion_and_loop.md)
-10. [打印九九乘法表](99table.md)
+9. [河内塔 Hanoi Tower](hanoitower/hanoitower.md)
+10. [递归，尾递归，循环(Recursion, Tail Recursion and Loop)](recursion_and_loop.md)
+11. [打印九九乘法表](99table.md)
