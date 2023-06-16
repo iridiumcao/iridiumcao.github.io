@@ -45,3 +45,5 @@ $ service postgresql start
 ---
 
 This article was originally posted on [OSC](https://my.oschina.net/iridium/blog/3041476) on April 23, 2019, at 20:11.
+
+![history on OSC](images/history2023-06-16-222913.png)

@@ -54,3 +54,4 @@ PS: 刚刚写了个多态的[例子](https://my.oschina.net/iridium/blog/2960729
 ---
 
 这篇文章最初于2018.11.25 15:56发布在OSC上
+![history on OSC](images/history2023-06-16-210832.png)
