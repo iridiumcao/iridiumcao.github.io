@@ -27,8 +27,8 @@
 
 根据前面的定义，交换律显然对三种运算都满足。
 
-| -   | 交换律  | 
-| --- | ------ | 
+| -   | 交换律  |
+| --- | ------ |
 | AND | 满足    |
 | OR  | 满足    |
 | XOR | 满足    |
@@ -167,7 +167,6 @@ a AND b AND c = b AND a AND c
 | XOR, AND | 不成立  |                                           |
 | XOR, OR  | 不成立  |                                           |
 
-
 ## 结论
 
 `AND`与，`OR`或，`XOR`异或三种运算都满足交换律和结合律。但这几种运算的两两组合，只有一半满足分配律。
@@ -175,7 +174,10 @@ a AND b AND c = b AND a AND c
 ---
 
 资源链接：
+
 1. [【腾讯文档】布尔运算律真值表](https://docs.qq.com/sheet/DYll0SnZ6aERjRlJQ?tab=BB08J2)
 2. [【谷歌文档】布尔运算律真值表](https://docs.google.com/spreadsheets/d/11gWgjyvoM5-oqcboEzo-oHgfmd5Pbvk38Njt0JqtX8k/edit?usp=sharing)
 
-本文已发布到[CSDN blog](https://blog.csdn.net/caoi/article/details/127210876).
+本文曾经发布到[CSDN blog](https://blog.csdn.net/caoi/article/details/127210876).
+
+![history on CSDN](images/history2023-06-16-172925.png)
