@@ -4,6 +4,8 @@
 
 (本文已发布到[Public0x](https://www.publish0x.com/iridiumcao/quan-mian-de-qu-zhong-xin-hua-zheng-zai-dao-lai-xpnkvoz))
 
+![decentralized world is coming](images/2c0472bbe548356fb375c4e177e49fdc2646c76506992d0b11d55976253aec4c.jpg)
+
 按：互联网诞生后，人类进入了一个新的纪元。区块链时代是这个纪元中的重要时代。比特币是这个世界的美元。一个更加繁荣的去中心化世界正在形成。
 
 在区块链技术大热之前，创建于2001年的维基百科（Wikipedia）已经大获成功。维基百科是一个去中心化的知识库，有两百多种语言版本，上千万词条，以及来自全球各地的数亿次编辑。但是，维基百科的去中心化，仅仅体现在网站的用户群上，而网站的运维，仍然需要中心化的服务器运着。尽管如此，维基百科走出了去中心化的第一步。
