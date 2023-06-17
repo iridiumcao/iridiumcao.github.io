@@ -1,5 +1,7 @@
 # Windows查找端口占用并关闭
 
+[Index](index.md)
+
 2021-03-10 11:37:29 +08:00
 
 IntelliJ IDEA因license过期，30分钟强行关闭IDE，而此时tomcat正在运行。

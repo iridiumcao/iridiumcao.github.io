@@ -12,6 +12,7 @@
 * [C++笔记](https://iridiumcao.github.io/cpp-note/)
 * [区块链系列](blockchain/index.md)
 * [数据库系列](database/index.md)
+* [DevOps系列](devops/index.md)
 * [算法系列](algorithm/index.md)
 * [数学系列](maths/index.md)
 * [Git](git/index.md)
@@ -19,15 +20,6 @@
 ### 未归类
 
 * [OO 设计原则](oo-design-principle.md)
-* [如何描述一个 bug](how_to_describe_a_bug.md)
-* [Extracting Substrings in Bash Shell Scripts](bash_script_retrieve_substring.md)
-* [浅尝二进制文件和文本文件](binary_text.md)
-* [SSH Auto-Login Failed](ssh-failed.md)
-* [How to install Docker on CentOS8](how_to_install_docker_on_centos8.md)
-* [Windows查找端口占用并关闭](Windows-search-close-port.md)
-* [Tomcat 在 Ubuntu 上使用 80 和 443 端口](tomcat_ubuntu_port.md)
-* [Calculate File Hash](security/CalculateFileHash.md)
-* [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md)
 * [房价和房租的一点思考](house_price_rent.md)
 * [《道德经》入门该选哪个版本？](laozi-version.md)
 * [简单问答](simple-ask-and-answer.md)

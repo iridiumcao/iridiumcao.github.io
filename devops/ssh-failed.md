@@ -1,5 +1,7 @@
 # SSH Auto-Login Failed
 
+[Index](index.md)
+
 When SSH auto-login failed, the warning messages are different due to the OS.
 
 For Ubuntu, it shows the solution, but CentOS does not do so.

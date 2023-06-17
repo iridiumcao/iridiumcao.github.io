@@ -148,4 +148,6 @@ However, the block `[submodule]` is useless. Please ignore `[submodule]` in `.gi
 
 ---
 
-This is post to [CSDN](https://blog.csdn.net/caoi/article/details/127601327).
+This article was originally post to [CSDN](https://blog.csdn.net/caoi/article/details/127601327).
+
+![history on CSDN](images/history2023-06-16-234445.png)

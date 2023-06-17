@@ -1,5 +1,7 @@
 # 藏在著名软件系统中的两个彩蛋
 
+[Index](index.md)
+
 ## 1. Fancy Message from ``sudo``
 
 这个彩蛋应该在RedHat系列的Linux中都有的，但我只有CentOS上的经验。据说在openSUSE中也有这段有趣的话。
