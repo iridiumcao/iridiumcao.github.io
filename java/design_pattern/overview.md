@@ -91,8 +91,7 @@
         Flyweight
         (享元)
         <br />
-        Proxy
-        (代理)
+        <a href="proxy.html"> Proxy (代理) </a>
         <br />
       </td>
       <td>

@@ -13,3 +13,5 @@
 ## Design Pattern
 
 1. [设计模式简述](design_pattern/overview.md)
+2. [工厂方法 Factory Method](design_pattern/factory_method.md)
+3. [代理模式 Proxy Pattern](design_pattern/proxy.md)
