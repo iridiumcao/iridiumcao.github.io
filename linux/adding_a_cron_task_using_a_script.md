@@ -33,3 +33,32 @@ CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_\$(date +\%Y\%m\%d).txt 2
 ```
 
 Take note of how the Linux command is included within the crontask item above.
+
+To view the current cron task list, you can use the command:
+
+```plaintext
+$ crontab -l
+* * * * * echo "hello, world!" >> log_$(date +\%Y\%m\%d).txt 2>&1
+```
+
+## The Slash in Cron Task
+
+```bash
+CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_\$(date +\%Y\%m\%d).txt 2>&1"
+```
+
+Note that the slash before the dollar sign is essential in this command. If the slash is removed:
+
+```bash
+CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_$(date +\%Y\%m\%d).txt 2>&1"
+```
+
+The updated cron task list will appear as:
+
+```plaintext
+$ crontab -l
+* * * * * echo "hello, world!" >> log_20230711.txt 2>&1
+```
+
+The cron task list is crucial for scheduling and automating tasks on a system.
+It is important to ensure the correct syntax and formatting in the cron task list to ensure proper execution and logging of tasks.
