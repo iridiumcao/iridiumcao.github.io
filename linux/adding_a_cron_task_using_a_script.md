@@ -1,12 +1,11 @@
-# Add a crontask by Script
+# Adding a Cron Task Using a Script
 
-Add crontask item by script, we can use the following script:
+To add a cron task item using a script, you can utilize the following script:
 
 ```bash
 #!/bin/bash
 
 # Define the crontab entry
-
 CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_.txt 2>&1"
 
 # Write the crontab entry to a temporary file
@@ -19,18 +18,18 @@ crontab /tmp/my_cron
 rm /tmp/my_cron
 ```
 
-Note. The crontab list will be reset by the above script, all old items will be cleaned.
+Please note that running the above script will reset the crontab list, removing all previous items.
 
-If we want to create the log file by day, we can replace 
+If you wish to create a log file for each day, you can replace the line:
 
 ```bash
 CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_.txt 2>&1"
 ```
 
-by
+with:
 
 ```bash
 CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_\$(date +\%Y\%m\%d).txt 2>&1"
 ```
 
-Please note how to contain Linux command in the above crontask item.
+Take note of how the Linux command is included within the crontask item above.
