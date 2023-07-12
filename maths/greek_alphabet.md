@@ -29,9 +29,11 @@
 | 23 | Ψ | ψ | Psi | \psi | sigh | saɪ |
 | 24 | Ω | ω | Omega | \omega | oh-may-guh | oʊˈmeɪɡə |
 
----
-
 本文表格是用ChatGPT制作的，具体的指令是：
 
 1. 请整理一张希腊字母的表格，包含这些列： 序号，大写，小写，名称，Latex，发音
 2. 请在最右侧添一列：国际音标
+
+---
+
+本文是从[旧站](https://sites.google.com/site/iridiumsite/Home/others/mathematics/greek-alphabet)搬迁并改写的。
