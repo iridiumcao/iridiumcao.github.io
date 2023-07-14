@@ -1,20 +1,20 @@
-# Rotating Server System Updates Weekly
+# Weekly Updates for Rotating Server System
 
-There are 5 servers, s1, s2, s3, s4, and s5.
-One of them will be updated each Monday. They are updated rotately.
+In the current system, we have five servers, labeled as s1, s2, s3, s4, and s5.
+One server is scheduled for an update every Monday, following a rotational pattern.
 
-e.g., the updated sequence is as:
+Here is an example of the update sequence:
 
-* Monday, Week 1: s1
-* Monday, Week 2: s2
-* Monday, Week 3: s3
-* Monday, Week 4: s4
-* Monday, Week 5: s5
-* Monday, Week 6: s1
-* Monday, Week 7: s2
+* Week 1, Monday: s1
+* Week 2, Monday: s2
+* Week 3, Monday: s3
+* Week 4, Monday: s4
+* Week 5, Monday: s5
+* Week 6, Monday: s1
+* Week 7, Monday: s2
 * ...
 
-The servers hostname are:
+The hostnames assigned to the servers are as follows:
 
 * s1: Herbert
 * s2: Charles
@@ -22,9 +22,9 @@ The servers hostname are:
 * s4: Bob
 * s5: Hanmeimei
 
-## Analysis
+## Methodology
 
-We can create an array to take the list of servers and update them per its index.
+We can implement this by creating an array to store the list of servers and then update each one according to its index.
 
 ```bash
 #!/usr/bin/env bash
@@ -39,24 +39,24 @@ declare -a host_list=(
     "Hanmeimei"
 )
 
-# the number of hosts is the length of the list
+# The size of the host list corresponds to the number of hosts
 host_list_size=${#host_list[@]}
 
-# date +%s,  %s   seconds since 1970-01-01 00:00:00 UTC
-# 1 week = 60 * 60 * 24 * 7 seconds
-# $host_list_size, the number of hosts 
-# $(date +%s) % (60 * 60 * 24 * 7 * $host_list_size), the remainder that ...
-# $(date +%s) % (60 * 60 * 24 * 7 * $host_list_size) / (60 * 60 * 24 * 7), to get the week series of current time
+# Using date +%s to get the seconds since 1970-01-01 00:00:00 UTC
+# A week is equal to 60 * 60 * 24 * 7 seconds
+# $host_list_size is the number of hosts 
+# $(date +%s) % (60 * 60 * 24 * 7 * $host_list_size) gives the remainder that determines the week series of current time
 week_round=$(($(date +%s) % (60 * 60 * 24 * 7 * $host_list_size) / (60 * 60 * 24 * 7)))
 
-if [[ ${host_list[$week_round]} == $host_ip ]]; then
+if [[ ${host_list[$week_round]} == $hostname ]]; then
     test.sh &> /tmp/test_$(date +"%Y%m%d").log
 fi
 
 ```
 
-Set a crontak weekly on every host in the list:
+To ensure the script runs weekly on every host in the list, set a crontab as follows:
 
 ```plaintext
-0 14 * * 5 the_above_script.sh &>/dev/null
+0 14 * * 1 the_above_script.sh &>/dev/null
 ```
+Note that the '1' in the cron schedule represents Monday, ensuring the script runs at the start of every week.
