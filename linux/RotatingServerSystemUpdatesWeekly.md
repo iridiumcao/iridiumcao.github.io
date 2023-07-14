@@ -46,6 +46,8 @@ host_list_size=${#host_list[@]}
 # A week is equal to 60 * 60 * 24 * 7 seconds
 # $host_list_size is the number of hosts 
 # $(date +%s) % (60 * 60 * 24 * 7 * $host_list_size) gives the remainder that determines the week series of current time
+# .../ (60 * 60 * 24 * 7) divides the remainder by the number of seconds in a week, resulting in a number between 0 and `host_list_size - 1` that represents the current week series.
+# In summary, this expression is used to determine the current week series based on the number of hosts in a specified host list
 week_round=$(($(date +%s) % (60 * 60 * 24 * 7 * $host_list_size) / (60 * 60 * 24 * 7)))
 
 if [[ ${host_list[$week_round]} == $hostname ]]; then
@@ -59,4 +61,5 @@ To ensure the script runs weekly on every host in the list, set a crontab as fol
 ```plaintext
 0 14 * * 1 the_above_script.sh &>/dev/null
 ```
+
 Note that the '1' in the cron schedule represents Monday, ensuring the script runs at the start of every week.
