@@ -15,7 +15,7 @@ MathJax = {
 
 这个问题很经典，相关的讨论和研究也算是很成熟了。它是算法问题的典型素材，仍然非常值得在此记录和思考——即使是重复别人的思考。
 
-## 来源
+## 1. 来源
 
 传说 Fibonacci 研究过这个假定的兔子繁殖问题：
 
@@ -40,19 +40,59 @@ MathJax = {
 |  5          |  2          |  3          |  5        |
 |  6          |  3          |  5          |  8        |
 
+## 2. Java 实现1
+
 简单用代码实现求 f(n) 的代码如下：
 
 ```java
-    public int fibonnaci(int i) {
-        if (i < 0)
-            return 0;
-        if (i == 1 || i == 2)
-            return 1;
-        return fibonnaci(i - 1) + fibonnaci(i - 2);
-    }
+public int fibonnaci(int i) {
+    if (i < 0)
+        return 0;
+    if (i == 1 || i == 2)
+        return 1;
+    return fibonnaci(i - 1) + fibonnaci(i - 2);
+}
 ```
 
-完整的可运行的代码参[这里](TODO)。
+完整的可运行的代码参[这里](Fibonnaci1.java)。
+
+## 3. Java 实现2
+
+还可以利用Java Stream的功能实现一个Fibonacci数列生成器
+
+|         | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21 | 34 |
+|---------|---|---|---|---|---|---|----|----|----|
+| round 1 | i | j | k |   |   |   |    |    |    |
+| round 2 |   | i | j | k |   |   |    |    |    |
+| round 3 |   |   | i | j | k |   |    |    |    |
+|   ...   |   |   |   |   |   |   |    |    |    |
+
+```java
+class FibSupplier implements LongSupplier {
+    private long i = 1, j = 1;
+
+    public long getAsLong() {
+        long r = i;
+        long k = i + j;
+        i = j;
+        j = k;
+        return r;
+    }
+}
+```
+
+调用语句如下：
+
+```java
+LongStream fib = LongStream.generate(new FibSupplier());
+fib.limit(10).forEach(System.out::println);
+```
+
+完整的可运行的代码参[这里](Fibonnaci2.java)。
+
+这是[廖雪峰讲解Stream](https://www.liaoxuefeng.com/wiki/1252599548343744/1322655160467490)时提到的一种解法。
+
+---
 
 参考：
 
