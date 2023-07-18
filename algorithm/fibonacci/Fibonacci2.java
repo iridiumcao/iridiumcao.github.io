@@ -19,10 +19,9 @@ class FibSupplier implements LongSupplier {
     private long i = 1, j = 1;
 
     public long getAsLong() {
-        long r = i;
-        long k = i + j;
+        long k = i;
         i = j;
-        j = k;
-        return r;
+        j = k + j;
+        return k;
     }
 }

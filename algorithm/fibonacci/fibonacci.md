@@ -62,21 +62,22 @@ public int fibonnaci(int i) {
 
 |         | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21 | 34 |
 |---------|---|---|---|---|---|---|----|----|----|
-| round 1 | i | j | k |   |   |   |    |    |    |
-| round 2 |   | i | j | k |   |   |    |    |    |
-| round 3 |   |   | i | j | k |   |    |    |    |
+| round 1 | i | j |   |   |   |   |    |    |    |
+| round 2 |   | i | j |   |   |   |    |    |    |
+| round 3 |   |   | i | j |   |   |    |    |    |
 |   ...   |   |   |   |   |   |   |    |    |    |
+
+如上表，i的序列即是Fibonacci数列，
 
 ```java
 class FibSupplier implements LongSupplier {
     private long i = 1, j = 1;
 
     public long getAsLong() {
-        long r = i;
-        long k = i + j;
+        long k = i;
         i = j;
-        j = k;
-        return r;
+        j = k + j;
+        return k;
     }
 }
 ```
@@ -97,4 +98,4 @@ fib.limit(10).forEach(System.out::println);
 参考：
 
 * [维基百科·Fibonacci 数列](https://zh.wikipedia.org/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0)
-* 本文从[Google Sites](https://sites.google.com/site/iridiumsite/it/algorithms/fibonacci)迁移而来
+* 本文最初从[Google Sites](https://sites.google.com/site/iridiumsite/it/algorithms/fibonacci)迁移而来，后有修订。
