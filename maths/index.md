@@ -15,6 +15,8 @@ MathJax = {
 * [Formula 和 Theorem 的区别](formula_and_theorem.md)
 * [两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)
 * [面积最大的矩形](biggest_rectangle.md)
+* [燕尾模型](yanwei.md)
+* [Ceva定理](ceva.md)
 * [素数的个数为什么是无限的](the_number_of_prime_number.md)
 * [无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?](irrational_numbers_vs_rational_numbers.md)
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
