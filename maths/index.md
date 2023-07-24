@@ -20,6 +20,7 @@ MathJax = {
 * [圆周角和圆心角](circumference_and_radius_angle.md)
 * [正弦定理 Law of Sines](law_of_sines.md)
 * [大边对大角，大角对大边](bigger_side_bigger_angle.md)
+* [托勒密定理 Ptolemy's Theorem](Ptolemys_theorem.md)
 * [素数的个数为什么是无限的](the_number_of_prime_number.md)
 * [无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?](irrational_numbers_vs_rational_numbers.md)
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
