@@ -30,6 +30,7 @@ MathJax = {
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 * [集合映射之单射满射双射](map_type.md)
+* [计算集合中元素的个数](calc_cardinality.md)
 * [几个比较基础的逻辑运算概念](basic_logical_operations.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
