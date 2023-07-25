@@ -14,19 +14,11 @@ MathJax = {
 * [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
 * [Formula 和 Theorem 的区别](formula_and_theorem.md)
 * [两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)
-* [面积最大的矩形](biggest_rectangle.md)
-* [燕尾模型](yanwei.md)
-* [Ceva定理](ceva.md)
-* [圆周角和圆心角](circumference_and_radius_angle.md)
-* [正弦定理 Law of Sines](law_of_sines.md)
-* [大边对大角，大角对大边](bigger_side_bigger_angle.md)
-* [托勒密定理 Ptolemy's Theorem](Ptolemys_theorem.md)
 * [素数的个数为什么是无限的](the_number_of_prime_number.md)
 * [无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?](irrational_numbers_vs_rational_numbers.md)
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [自然常数$e$ Natural Constant](e.md)
 * [平方和公式推导](square_pyramidal_numbers.md)
-* [余弦定理 Law of cosines](law_of_cosines.md)
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 * [集合映射之单射满射双射](map_type.md)
@@ -39,6 +31,19 @@ MathJax = {
 * [希腊字母表](greek_alphabet.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
+
+## 几何 Geometry
+
+这部分内容主要是辅导Charles自学几何时的一些记录。
+
+* [面积最大的矩形](biggest_rectangle.md)
+* [燕尾模型](yanwei.md)
+* [Ceva定理](ceva.md)
+* [圆周角和圆心角](circumference_and_radius_angle.md)
+* [正弦定理 Law of Sines](law_of_sines.md)
+* [大边对大角，大角对大边](bigger_side_bigger_angle.md)
+* [托勒密定理 Ptolemy's Theorem](Ptolemys_theorem.md)
+* [余弦定理 Law of cosines](law_of_cosines.md)
 
 ## 微积分
 
