@@ -65,7 +65,7 @@ $\vert BC \vert \lt \vert DC \vert \lt \vert AC \vert$
 
 ### 2. 大边对大角
 
-不妨通过比较a和b来说明，当$a=b$时，$\angle A = \angle B$.
+不妨通过比较a和b来说明，当$a=b$时，$\angle A = \angle B$. (参[三角形等边对等角](same_length_same_angle.md))
 
 下面讨论$a \neq b$的情形，假设$a \lt b$
 

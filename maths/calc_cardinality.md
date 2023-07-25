@@ -74,5 +74,5 @@ Oracle 是支持集合运算的（参[《查询集的集合操作》](https://si
 
 参：
 
-* http://en.wikipedia.org/wiki/Cardinality
-* http://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle
+* <http://en.wikipedia.org/wiki/Cardinality>
+* <http://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle>
