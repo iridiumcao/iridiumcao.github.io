@@ -11,3 +11,4 @@
 9. [河内塔 Hanoi Tower](hanoitower/hanoitower.md)
 10. [递归，尾递归，循环(Recursion, Tail Recursion and Loop)](recursion_and_loop.md)
 11. [打印九九乘法表](99table.md)
+12. [石头有多重](weight_of_stone.md)
