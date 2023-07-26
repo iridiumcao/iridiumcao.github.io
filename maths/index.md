@@ -46,6 +46,7 @@ MathJax = {
 * [大边对大角，大角对大边](bigger_side_bigger_angle.md)
 * [托勒密定理 Ptolemy's Theorem](Ptolemys_theorem.md)
 * [余弦定理 Law of cosines](law_of_cosines.md)
+* [凭什么它才是公理？](axioms.md)
 
 ## 微积分
 

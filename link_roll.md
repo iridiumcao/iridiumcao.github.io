@@ -62,7 +62,7 @@
 1. [Official Site](https://chat.openai.com/chat)
 2. 进入[CSDN这个页面](https://so.csdn.net/so/search)后再点击ChitGPT标签使用
 3. [POE](https://poe.com/)
-4. [PromptBoom](https://www.promptboom.com/)
+4. [PowerChat](https://powerchat.top/)
 5. [AI导航1](https://ai.nancheng.fun/)
 6. [AI导航2](https://www.ainavpro.com/)
 
