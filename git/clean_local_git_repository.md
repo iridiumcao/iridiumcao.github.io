@@ -28,10 +28,11 @@ $ git remote prune origin
 
 ```plaintext
 $ git fetch origin --prune --prune-tags --force
-
 ```
 
-or
+(This command can remove both redundant branches and tags.)
+
+or delete all local tags and fetch again:
 
 ```plaintext
 $ git tag -d $(git tag)
@@ -39,5 +40,6 @@ $ git fetch --tags
 ```
 
 Ref:
+
 * [Remove local git tags that are no longer on the remote repository](https://stackoverflow.com/questions/1841341/remove-local-git-tags-that-are-no-longer-on-the-remote-repository)
-* This blog is also post to [CSDN](https://blog.csdn.net/caoi/article/details/124492563?spm=1001.2014.3001.5501).
+* This blog was also post to [CSDN](https://blog.csdn.net/caoi/article/details/124492563).

@@ -6,11 +6,11 @@
 
 ## 目标
 
-使工作分支 feature branch 始终包含 master branch 的最新代码，并保持 git 线索清晰。
+使 feature branch 始终包含 master branch 的最新代码，并保持 git 线索清晰。
 
 ## 问题
 
-要达成上述目标不难，每天不间断 merge 最新代码到 feature branch 就行了。但是，这样做的副作用就是 git history 线索混乱，feature branch 上自身的 commit 东一个西一个不能放在一块，不便 review，不便合并整理。
+要达成上述目标不难，每天不间断 merge 最新代码到 feature branch 就行了。但是，这样做的副作用就是 git history 线索混乱，从master合并过来的代码会不断插入到现有的代码线索中，feature branch 上自身的 commit 东一个西一个不能放在一块，不便 review，不便合并整理。
 
 ## 解决
 
@@ -75,3 +75,7 @@ $ git gc --prune=now
 (What’s a good practice to perform rebase)
 
 ![](images/git_threads.png)
+
+---
+
+注：本文最早大约是2016年初写给公司同事参考使用，考虑到无敏感性而有通用性，略作修改后在这里发布。

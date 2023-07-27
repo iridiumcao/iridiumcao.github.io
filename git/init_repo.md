@@ -39,3 +39,19 @@ git init
 ```
 
 By following these steps, you can create a new repository either on the server host or on your local machine.
+
+## Clone
+
+If you require to work with the existing code, you have the option to clone the current repository and proceed from there.
+
+1. Clone a repository as a mirror
+
+```bash
+git clone --mirror git@github.com:iridiumcao/iridiumcao.github.io.git
+```
+
+2. Clone a repository to workspace
+
+```bash
+git clone -git@github.com:iridiumcao/iridiumcao.github.io.git
+```

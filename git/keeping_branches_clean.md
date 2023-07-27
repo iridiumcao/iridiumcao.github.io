@@ -79,3 +79,7 @@ http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.egit.doc%2Fhelp%2FEG
 (What’s a good practice to perform rebase)
 
 ![](images/git_threads.png)
+
+---
+
+Note: This article was originally written for company colleagues for reference purposes around early 2016. Considering its lack of sensitivity and its general applicability, it has been moved to this website for publication.

@@ -6,4 +6,4 @@
 4. [Git Submodule Test](git_submodule_test.md)
 5. [How to check if a git branch exists in the local/remote repository?](verify_existence_git_branch.md)
 6. [Clean Files with a Long Path (Git)](clean_files_with_long_path.md)
-7. [Recommended Usage of Git](Recommended_Usage_of_Git.md), [Git 的推荐使用姿势](Recommended_Usage_of_Git_zh_CN.md)
+7. [Git 分支整洁之道](keeping_branches_clean_zh_CN.md), [The Way to Keep Git Branches Clean](keeping_branches_clean.md)

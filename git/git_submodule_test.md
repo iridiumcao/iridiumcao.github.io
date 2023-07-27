@@ -11,16 +11,20 @@ Assume three repositories: repoa, repob, repoc
 
 Add a repository as the current repository's submodule.
 
+```plaintext
+$ git submodule add <remote_url> <destination_folder>
+```
+
 e.g., change directory to repoa:
 
-```bash
-$ git submodule add ssh://cy@192.168.5.45/home/cy/repob
-$ git submodule add ssh://cy@192.168.5.45/home/cy/repoc
+```plaintext
+$ git submodule add ssh://cy@192.168.5.45/home/cy/repob repob
+$ git submodule add ssh://cy@192.168.5.45/home/cy/repoc repoc
 ```
 
 `.gitmodules` is as the following:
 
-```bash
+```plaintext
 $ cat .gitmodules
 [submodule "repob"]
         path = repob
@@ -34,7 +38,7 @@ $ cat .gitmodules
 
 e.g., Clone a repository with its submodules:
 
-```bash
+```plaintext
 $ git clone --recurse-submodules ssh://cy@192.168.5.45/home/cy/repoa
 ```
 
@@ -42,7 +46,7 @@ The above is a simple way. We can also clone supermodule and its submodules sepr
 
 e.g.,
 
-```bash
+```plaintext
 $ git clone ssh://cy@192.168.5.45/home/cy/repoa
 $ git submodule init
 $ git submodule update
@@ -50,7 +54,7 @@ $ git submodule update
 
 more details:
 
-```bash
+```plaintext
 $ git submodule init 
 Submodule 'repob' (ssh://cy@192.168.5.45/home/cy/repob) registered for path 'repob'
 Submodule 'repoc' (ssh://cy@192.168.5.45/home/cy/repoc) registered for path 'repoc'
@@ -75,7 +79,7 @@ e.g., when a submodule changed:
 
 When stepping into the submodule `repob`'s directory, it shows that its workspace is at commit `6443551`.
 
-```bash
+```plaintext
 cy@cy:~/sandbox/repoa$ ls
 hellogit  helloworld  repob  repoc
 cy@cy:~/sandbox/repoa$ cd repob
@@ -86,7 +90,7 @@ cy@cy:~/sandbox/repoa/repob$ git branch
 
 Switching to another branch to demonstrate changes on submodule. You can also make some changes on the current branch and commit.
 
-```bash
+```plaintext
 cy@cy:~/sandbox/repoa/repob$ git checkout master
 Previous HEAD position was 6443551 commit from branch another-b-branch
 Switched to branch 'master'
@@ -106,7 +110,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 In the supermode, it shows that the head commit of submodule is changed.
 
-```bash
+```plaintext
 cy@cy:~/sandbox/repoa$ git diff
 diff --git a/repob b/repob
 index 6443551..337ce9e 160000
@@ -118,10 +122,19 @@ index 6443551..337ce9e 160000
 
 ```
 
+To get the git link of submodules, we can use `git submodule status`
+
+```plaintext
+$ git submodule status
+ 644355143d331c0dd2b37e8e090f8fabba2031e3repob (...)
+```
+
+or we can use `git ls-tree {branch_name}`, which has more noisy.
+
 ## 4. Remove submodule
 
 e.g.
-```bash
+```plaintext
 $ git submodule rm hello/world
 $ git rm --cached hello/world
 ```
@@ -130,7 +143,7 @@ $ git rm --cached hello/world
 
 Per git's documents, we can set submodules branch. e.g.,
 
-```bash
+```plaintext
 $ git submodule set-branch --branch another-b-branch repob/
 ```
 
@@ -147,6 +160,10 @@ The submodule's branch is appended to file `.gitsubmodes`:
 However, the block `[submodule]` is useless. Please ignore `[submodule]` in `.gitsubmodes`.
 
 ---
+
+Ref:
+
+* [How To Add and Update Git Submodules](https://devconnected.com/how-to-add-and-update-git-submodules/)
 
 This article was originally post to [CSDN](https://blog.csdn.net/caoi/article/details/127601327).
 
