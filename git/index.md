@@ -32,4 +32,4 @@
 11. [Who are "us" and "them"?](us_them.md)
 12. [`pull`'s configuration](pull_setting.md)
 13. [Automating the Removal of Outdated and Merged Branches in Git Repositories](clean_outdated_merged_branches.md)
-14. [Update Git Branch/Tag Naming Conventions to Alphanumeric Characters and Dash/Underscore Only](hook_branch_tag_naming_conventions.md)
+14. [Work with Multiple Remote Repositories](work_with_multi_remote_repositories.md)
