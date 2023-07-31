@@ -2,7 +2,7 @@
 
 [返回目录](index.md)
 
-在 Java 里，同是零作为除数，没想到几个简单的运算都得到意料之外的结果，如何？
+在 Java 里，同是零作为除数，没想到几个简单的运算都得到意料之外的结果。
 
 具体代码是这样的（参截图）
 
@@ -27,4 +27,7 @@
 
 ---
 
-本文从[Google Sites](https://sites.google.com/site/iridiumsite/it/java/java-lang/zero-devide)转移而来。
+附：
+
+1. 本站相关页面: [零为何不能做除数](../maths/why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
+2. 本文从[Google Sites](https://sites.google.com/site/iridiumsite/it/java/java-lang/zero-devide)转移而来。

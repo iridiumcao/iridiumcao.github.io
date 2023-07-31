@@ -30,7 +30,7 @@ public class Item60Ext extends Item60 {
 }
 ```
 
-这样的代码是不会有什么问题的。但是，当我们把`Item60.sum(int, int)`的签名进行修改：
+这样的代码是不会有什么问题的。但是，当我们把`Item60Ext.sum(int, int)`的签名进行修改：
 
 ```java
 public class Item60Ext extends Item60 {
@@ -44,7 +44,7 @@ public class Item60Ext extends Item60 {
 
 值得一提的是，这种情况在「类」的级别是不存在的，如`Item60Ext`这个类的可见性定义为`protected`不会有什么问题。
 
-## Excepiton 范围问题
+## Exception 范围问题
 
 可以简单表述为：子类方法抛出的异常要小。
 
