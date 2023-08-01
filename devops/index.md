@@ -13,3 +13,5 @@
 * [SSH Auto-Login Failed](ssh-failed.md) (Ubuntu, CentOS)
 * [Windows查找端口占用并关闭](Windows-search-close-port.md)
 * [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md) (Redhat Linux, Python)
+* [Adding a Cron Task Using a Script](adding_a_cron_task_using_a_script.md)
+* [Rotating Server System Updates Weekly](RotatingServerSystemUpdatesWeekly.md)
