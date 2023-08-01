@@ -13,3 +13,5 @@
 11. [打印九九乘法表](99table.md)
 12. [石头有多重](weight_of_stone.md)
 13. [倒着遍历数组](desc-visit/content.md)
+14. [冒泡排序](bubble-sort/content.md)
+15. [选择排序](selection-sort/content.md)
