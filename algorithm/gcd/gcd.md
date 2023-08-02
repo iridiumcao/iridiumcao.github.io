@@ -1,18 +1,31 @@
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
 # 求最大公约数
 
 [返回目录](../index.md)
+
+本文的讨论都在整数范围内。
 
 ## 1. 定义
 
 * 约数(divisor)：如果一个整数可以表示为另外几个整数的积，则这几个整数就是原数的约数。
 * 公约数(common divisor)：几个整数共有的约数，叫做公约数。
-   * 性质：如果一个数能同时整除两个整数，则这个数就是这两个整数的公约数。
+  * 性质：如果一个数能同时整除两个整数，则这个数就是这两个整数的公约数。
 * 最大公约数(greatest common divisor, gcd)：公约数中的最大者。也称为最大公因數(highest common factor，hcf)。
 
-## 2. 举例解析
+## 2. 举例说明
 
 假设有两个正整数：20和30。
-``20 = 1 * 20``，所以1和20是20的约数，``20 = 2 * 10``，所以2和10是20的约数，等等。
+$20 = 1 \times 20$，所以1和20是20的约数，$20 = 2 \times 10$，所以2和10是20的约数，等等。
 
 * 20的约数有：1, 2, 4, 5, 10, 20
 * 30的约数有：1, 2, 3, 5, 6, 10, 30
@@ -26,7 +39,8 @@
 * 1的约数是1，除此之外，任何整数都有1和它本身两个约数。
 * 任何整数数都是0的约数。
 * 两个整数的公约数，等于其中较小的数和两数之差的公约数。
-* 两个整数的最大公约数是能够同时整除它们的最大的正整数。
+* 两个整数的公约数，等于其中 _较小的数_ 和 _大数除以小数的余数_ 的公约数。（辗转相除法的依据）
+* 两个整数的最大公约数是能够同时整除它们的最大的正整数，简单说就是公约数中最大的。
 
 ## 4. 公约数求解
 
@@ -43,11 +57,11 @@ Ref: 维基词条[最大公因數](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4
 
 #### 4.1.1 解法一，列举法
 
-略
+本文一开始的例子即是列举法
 
 #### 4.1.2 解法二，质因数分解
 
-```text
+```plaintext
 20 = 2 * 10 = 2 * 2 * 5
 30 = 2 * 15 = 2 * 3 * 5
 所以 gcd(20, 30) = 2 * 5 = 10
@@ -55,19 +69,23 @@ Ref: 维基词条[最大公因數](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%A4
 
 #### 4.1.3 解法三，短除法
 
-2 )<u>20    30 </u><br/>
-5 )<u>10    15 </u><br/>
-  )<u> 2     3 </u><br/>
+```plaintext
+2 | 20 30
+   -------
+5 | 10 15
+   -------
+     2  3
+```
 
 所以 gcd(20, 30) = 2 * 5 = 10
 
-TODO：数学内容的排版，需要用其他软件排好再截图在这里
-
 #### 4.1.4 解法四，辗转相除法
+
+本小节从辗转相减推导辗转相除，丝滑自然。辗转相除的证明可以[参本站的另一篇文章](gcd2.md)，它也给了相应的Java实现，和本文类似。
 
 假若x和y的最大公约数是a，且它们可表示为
 
-```text
+```plaintext
 x = a * b
 y = a * c
 令两者之差 z = x - y
@@ -80,7 +98,7 @@ y = a * c
 
 例如：
 
-```text
+```plaintext
 gcd(48, 18) = gcd(48-18, 18)
             = gcd(30, 18)
             = gcd(30-18, 18)
@@ -96,7 +114,7 @@ gcd(48, 18) = gcd(48-18, 18)
 
 上面这个过程，可以简化为大数除以小数，再求小数和余数的最大公约数，如此反复，过程如下：
 
-```text
+```plaintext
 gcd(48, 18) = gcd(48 mod 18, 18)
             = gcd(12, 18)
             = gcd(12, 18 mod 12)
@@ -110,7 +128,7 @@ gcd(48, 18) = gcd(48 mod 18, 18)
 
 如：
 
-```text
+```plaintext
 gcd(18, 48) = gcd(48, 18 mod 48)
             = gcd(48, 18) // 可见，这一步相当于交换了左右数
             = gcd(18, 48 mod 18)
@@ -126,13 +144,13 @@ gcd(18, 48) = gcd(48, 18 mod 48)
 
 这个方法容易通过编程实现，特别是改进后使用除法求余的方式是程序解答的通行方法。
 
-这里的两个示例来源于[](https://en.wikipedia.org/wiki/Greatest_common_divisor)
+这里的两个示例来源于[Createst Common Divisor (Wikipedia)](https://en.wikipedia.org/wiki/Greatest_common_divisor)
 
 ## 程序解答
 
 输入：两个正整数
 
-输出：两数的公约数
+输出：两数的最大公约数
 
 ### 代码实现
 
@@ -167,7 +185,6 @@ gcd(18, 48) = gcd(48, 18 mod 48)
 
         return calculateGcd(b, r);
     }
-
 ```
 
 以上的代码是可以运行的，但其实我们依据4.1.4的末尾提到的解法
@@ -175,7 +192,7 @@ gcd(18, 48) = gcd(48, 18 mod 48)
 * 比较 a == b 和 a == 0 是不必要的，可以删除
 * 交换操作是不必要的，可以删除交换(a, b)的代码
 
-简化为：
+可简化改进为：
 
 ```java
     public static long calculateGcd(long a, long b) {
@@ -196,7 +213,7 @@ gcd(18, 48) = gcd(48, 18 mod 48)
 
 完整的代码实现参[GreatestCommonDivisor.java](GreatestCommonDivisor.java)，运行记录
 
-```text
+```plaintext
 $ javac GreatestCommonDivisor.java
 $ java GreatestCommonDivisor
 gcd(18, 48) = 6
@@ -226,7 +243,7 @@ long calculateGcd(long a, long b)
 
 完整的代码实现参[gcd.c](gcd.c)，其中包含了一个非递归版本，但可读性不佳，运行记录
 
-```text
+```plaintext
 $ gcc gcd.c -o gcd
 $ ./gcd.exe
 gcd(18, 48) = 6
@@ -272,4 +289,6 @@ TODO
 
 后记，因为阅读[《算法·第4版》](https://book.douban.com/subject/19952400/)(Robert & Kevin)，书中第一章第一页提到最大公约数算法，故做了一点小小的研究，记录于此。
 
-[约数 和 因数 ——全中国都混乱的数学基本概念](http://blog.sina.com.cn/s/blog_6386b85d0100iar0.html)这篇文章中提到了约数概念在国内没有统一的定义，这点针对具体问题时，一定要明确。
+【参考】
+
+* [约数 和 因数 ——全中国都混乱的数学基本概念](http://blog.sina.com.cn/s/blog_6386b85d0100iar0.html)这篇文章中提到了约数概念在国内没有统一的定义，这点针对具体问题时，一定要明确。
