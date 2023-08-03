@@ -8,12 +8,13 @@
 6. [求 1-2+3-4+...](p1m2p3m4.md)
 7. [洗牌算法(Shuffle)](shuffle/Shuffle.md)
 8. [找出第二大的整数](find-the-second.md)
-9.  [Fibonacci 问题](fibonacci/fibonacci.md)
+9. [Fibonacci 问题](fibonacci/fibonacci.md)
 10. [河内塔 Hanoi Tower](hanoitower/hanoitower.md)
 11. [递归，尾递归，循环(Recursion, Tail Recursion and Loop)](recursion_and_loop.md)
 12. [打印九九乘法表](99table.md)
 13. [石头有多重](weight_of_stone.md)
-14. [倒着遍历数组](desc-visit/content.md)
+14. [哪个赛车最好](bestcar/content.md)
+15. [倒着遍历数组](desc-visit/content.md)
 
 ## 排序算法
 
