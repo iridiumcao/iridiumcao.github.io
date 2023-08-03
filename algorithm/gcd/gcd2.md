@@ -25,11 +25,11 @@ MathJax = {
 
 则存在某个整数 k, 有 m = kn + r
 
-则由 m - kn = r，假设 a 是 m 和 n 的公约数，即 a|m, a|n，进而得到 a|r，由 a|n 和 a|r 得出：a 也是 n 和 r 的公约数
+则由 m - kn = r，假设 a 是 m 和 n 的公约数，即 a$\vert$m, a$\vert$n，进而得到 a$\vert$r，由 a$\vert$n 和 a$\vert$r 得出：a 也是 n 和 r 的公约数
 
 即：如果 a 是 m 和 n 的公约数，则 a 也是 n 和 r 的公约数 -- 结论1
 
-再由 kn + r = m，假设 b 是 n 和 r 的公约数，即 b|n, b|r，进而得到 b|m，由 b|n 和 b|m 得出：b 也是 m 和 n 的公约数
+再由 kn + r = m，假设 b 是 n 和 r 的公约数，即 b$\vert$n, b$\vert$r，进而得到 b$\vert$m，由 b$\vert$n 和 b$\vert$m 得出：b 也是 m 和 n 的公约数
 
 即：如果 b 是 n 和 r 的公约数，则 b 也是 m 和 n 的公约数 -- 结论2
 
