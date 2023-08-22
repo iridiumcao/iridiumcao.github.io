@@ -7,9 +7,6 @@
 5. [极客元素](https://www.geekmeta.com/)
 6. [长桥](https://longbridgeapp.com/)
 7. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
-8. [What's New](https://whats.new/shortcuts)
-9. [深度长文：地位即服务（SaaS），一种社交网络深度分析模型](https://zhuanlan.zhihu.com/p/58307165)
-10. [What is the Doppler Effect](https://cn.comsol.com/blogs/what-is-the-doppler-effect/)
 
 ## Cool Tools
 
@@ -19,6 +16,8 @@
 4. [Table Convert](https://tableconvert.com/)
 5. [QR Code Gnerator 1](https://www.qr-code-generator.com/), [QR Code Gnerator 2](https://www.the-qrcode-generator.com/)
 6. [JSON Parser Online](https://jsonformatter.org/json-parser)
+7. [一次性信箱](https://temp-mail.org/)
+8. [What's New](https://whats.new/shortcuts)
 
 ## Blog List
 
@@ -49,13 +48,14 @@
 
 ## Maths
 
-1. [中文数学 Wiki](https://math.fandom.com/zh/) 此站十分神奇，因为主站是游戏内容
-2. [马同学](https://www.matongxue.com/) 此站内容为工科本科阶段数学讲解
-3. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
-4. [Eeasymath-wiki](https://easymath-wiki.org/)
-5. [OI Wiki](https://oi-wiki.org/)
-6. [Wolfram Math World](https://mathworld.wolfram.com/)
-7. [Wikipedia: 数学书架](https://zh.wikibooks.org/wiki/Template:%E6%95%B0%E5%AD%A6%E4%B9%A6%E6%9E%B6)
+1. [GeoGebra.org](https://www.geogebra.org/)
+2. [中文数学 Wiki](https://math.fandom.com/zh/) 此站十分神奇，因为主站是游戏内容
+3. [马同学](https://www.matongxue.com/) 此站内容为工科本科阶段数学讲解
+4. [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+5. [Eeasymath-wiki](https://easymath-wiki.org/)
+6. [OI Wiki](https://oi-wiki.org/)
+7. [Wolfram Math World](https://mathworld.wolfram.com/)
+8. [Wikipedia: 数学书架](https://zh.wikibooks.org/wiki/Template:%E6%95%B0%E5%AD%A6%E4%B9%A6%E6%9E%B6)
 
 ## ChatGPT
 
