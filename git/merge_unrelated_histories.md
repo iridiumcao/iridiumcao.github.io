@@ -28,13 +28,13 @@ bbb  git@github.com:your_account_id/bbb.git (fetch)
 bbb  git@github.com:your_account_id/bbb.git (push)
 ```
 
-## 2. 准备分支
+## 2. 准备工作
 
 两个仓库都有 `master` 分支，不能直接把 `bbb.git` 的 `master` 直接 pull 下来。
 
 这里可以考虑按如下顺序处理：
 
-1. 重命名本地的 `master`
+### a. 重命名本地的 `master`
 
 将 `aaa.git` 的 `master` 临时改名为 `master-aaa`
 
@@ -42,14 +42,14 @@ bbb  git@github.com:your_account_id/bbb.git (push)
 $ git branch --move master-aaa
 ```
 
-2. pull `bbb.git` 的 `master`
+### b. pull `bbb.git` 的 `master`
 
 ```plaintext
 $ git pull
 $ git checkout --track bbb/master
 ```
 
-3. 重命名 `master`
+### c. 重命名 `master`
 
 将 `bbb.git` 的 `master` 临时改名为 `master-bbb`, 将 `aaa.git` 的 `master-aaa` 改回 `master`
 

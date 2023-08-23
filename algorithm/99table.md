@@ -6,6 +6,7 @@
 今天的开发环境还不齐备，後面会继续整理一些其他语言的写法：
 
 Java 8:
+
 ``` java
 public class MultiTable {
     public static void main(String[] args) {
@@ -21,13 +22,16 @@ public class MultiTable {
     }
 }
 ```
+
 编译执行：
+
 ```
 $ javac MultiTable.java
 $ java MultiTable
 ```
 
 Java 10+:
+
 ``` java
 public class MultiTable2 {
     public static void main(String[] args) {
@@ -46,7 +50,8 @@ public class MultiTable2 {
 编译执行，同上。
 
 JavaScript (node.js):
-```
+
+```javascript
 let content = '';
 for (let i = 1; i <= 9; i++) {
     for (let j = 1; j <= i; j++) {
@@ -60,8 +65,10 @@ for (let i = 1; i <= 9; i++) {
 
 console.log(content);
 ```
+
 编译执行：
-```
+
+```plaintext
 $ node file_name.js
 ```
 
@@ -81,13 +88,16 @@ int main() {
     }
 }
 ```
+
 编译执行：
-```
+
+```plaintext
 $ gcc file_name.c -o file_name
 $ ./file_name
 ```
 
 C++:
+
 ``` cpp
 #include <iostream>
 
@@ -105,14 +115,18 @@ int main() {
     }
 }
 ```
+
 编译执行：
-```
+
+```plaintext
 $ g++ file_name.c -o file_name
 $ ./file_name
 ```
+
 注意这里使用 ``g++`` 而非 ``gcc``
 
 Python 2, Python 3
+
 ``` python
 # coding=utf-8
 from __future__ import print_function # 本行保留，代码可运行于 Python 2.7，注释掉即为 Python 3.7 版本
@@ -128,13 +142,17 @@ def print_multi_table():
 
 print_multi_table()
 ```
+
 编译执行：
 Python 2:
-```
+
+```plaintext
 $ python file_name.py
 ```
+
 Python 3:
-```
+
+```plaintext
 $ python3 file_name.py
 ```
 
