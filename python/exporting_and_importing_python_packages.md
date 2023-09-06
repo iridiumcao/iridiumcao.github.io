@@ -1,6 +1,6 @@
-# Export and Import Python Packages
+# Exporting and Importing Python Packages
 
-To rebuild Python enironment, we need to copy the python package dependences. Here's how.
+To rebuild a Python environment, we need to copy the Python package dependencies. Here's how.
 
 ## 1. Export Package List with `pip3 freeze`
 
@@ -11,9 +11,9 @@ pywin32==305
 vboxapi==1.0
 ```
 
-Save the above output to a plain text file, assumed it is `requirements.txt`, which will be used by `pip3 install`.
+Save the above output to a plain text file, assuming it is `requirements.txt`, which will be used by `pip3 install`.
 
-Remind. `pip3 list` shows packages too, but it can NOT be imported by `pip3 install`.
+Note that `pip3 list` shows packages too, but it cannot be imported by `pip3 install`.
 
 ## 2. Install the Package List
 
@@ -21,7 +21,7 @@ Remind. `pip3 list` shows packages too, but it can NOT be imported by `pip3 inst
 pip3 install -r requirements.txt
 ```
 
-## 3. Others
+## 3. Other Information
 
 ### 3.1. Help Document
 
