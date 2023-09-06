@@ -1,5 +1,7 @@
 # Python's Variable Type is Fixed
 
+[Index](index.md)
+
 In Python, when defining a variable, it's not necessary to set the data type. The type will be assigned implicitly as the same as its value.
 
 For example:

@@ -10,6 +10,7 @@
 
 * [Java系列](java/index.md)
 * [C++笔记](https://iridiumcao.github.io/cpp-note/)
+* [Python](python/index.md)
 * [区块链系列](blockchain/index.md)
 * [数据库系列](database/index.md)
 * [DevOps系列](devops/index.md)
