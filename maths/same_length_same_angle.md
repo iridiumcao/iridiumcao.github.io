@@ -25,7 +25,7 @@ MathJax = {
 
 $\because AB = AC, \angle BAC = \angle CAB, AC = AB$
 
-根据SAS判定规则，$\triangle BAC \simeq \triangle CAB$
+根据SAS判定规则，$\triangle BAC \cong \triangle CAB$
 
 $\therefore \angle ABC = \angle ACB$
 
