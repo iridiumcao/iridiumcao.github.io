@@ -178,6 +178,8 @@ IndexError: list index out of range
 [0, 2, 4, 6, 8]
 ```
 
+反向切片的内容参[Python 切片操作中 `step` 为负值如何理解？](slicing_with_negative_step.md)
+
 ## 2. `tuple`
 
 `tuple` 一般译作`元组`，它是一个固定列表，一旦定义即确定，并不可修改。因此它的元素只能被访问，但不能增删改，它可以通过元素的索引值访问。
