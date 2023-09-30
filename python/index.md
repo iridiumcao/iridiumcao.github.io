@@ -6,3 +6,5 @@
 * [Python's Variable's Type Fixed](python_data_type_fixed.md)
 * [Python 集合类型](python_list_tuple_dict_set.md)
 * [Python 切片操作中 `step` 为负值如何理解？](slicing_with_negative_step.md)
+* [`self` in Python](self.md)
+* [Python 类方法中的 self 参数不能省](class_method.md)
