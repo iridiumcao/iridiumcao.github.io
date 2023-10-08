@@ -8,6 +8,14 @@
 - [How to Lose Time and Money 时间和金钱是怎么失去的](how-to-lose-time-and-money.md)(翻译)
 - [Vocabulary](word_list.md)
 
+### New Concept English
+
+《新概念英语》虽然现在看来比较老旧，但本人也已经四十多岁了，二十多年前也是看的它，也就不顾老旧重温一下。现在的后生当然可以用更好的英语材料。高兴就好。
+
+#### III
+
+1. [Lesson 1, A puma at large](nce3_001.md)
+
 ## 汉语
 
 - [极易写错的汉字：延，考](yan_kao.md)
