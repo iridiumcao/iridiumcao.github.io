@@ -10,3 +10,4 @@
 * [Python 类方法中的 self 参数不能省](class_method.md)
 * [Windows 上没有 `uname`](replacement_of_uname_on_windows.md)
 * [Python 类的构造器支持重载吗？](function_overloading_not_supported.md)
+* [Python 和 Bash Shell 脚本相互调用](py_bs/py_bs.md)
