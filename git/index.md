@@ -8,3 +8,4 @@
 6. [Clean Files with a Long Path (Git)](clean_files_with_long_path.md)
 7. [Git 分支整洁之道](keeping_branches_clean_zh_CN.md), [The Way to Keep Git Branches Clean](keeping_branches_clean.md)
 8. [合并不同的仓库](merge_unrelated_histories.md)
+9. [git 的两种 tag 的平行对比实验](tag.md)
