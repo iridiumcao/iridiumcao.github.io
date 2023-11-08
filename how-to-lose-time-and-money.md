@@ -2,7 +2,7 @@
 
 原文 (Source): <http://paulgraham.com/selfindulgence.html>
 
-2020年07月 (July 2010)
+2010年07月 (July 2010)
 
 When we sold our startup in 1998 I suddenly got a lot of money. I now had to think about something I hadn't had to think about before: how not to lose it. I knew it was possible to go from rich to poor, just as it was possible to go from poor to rich. But while I'd spent a lot of the past several years studying the paths from poor to rich, I knew practically nothing about the paths from rich to poor. Now, in order to avoid them, I had to learn where they were.
 
@@ -34,7 +34,7 @@ And yet I've definitely had days when I might as well have sat in front of a TV 
 
 With time, as with money, avoiding pleasure is no longer enough to protect you. It probably was enough to protect hunter-gatherers, and perhaps all pre-industrial societies. So nature and nurture combine to make us avoid self-indulgence. But the world has gotten more complicated: the most dangerous traps now are new behaviors that bypass our alarms about self-indulgence by mimicking more virtuous types. And the worst thing is, they're not even fun.
 
-无论时间还是金钱，避免享乐不再足以保护你了。它可能足以保护猎人，甚至所有前工业化社会。因此，自然与养育相结合，使我们避免了自我放纵。但是，世界变得更加复杂：现在，最危险的陷阱是通过模仿更多有道德的人而绕过我们关于自我放纵的警报的新行为。最糟糕的是，它们甚至比较莫意思。 
+无论时间还是金钱，避免享乐不再足以保护你了。它可能足以保护猎人，甚至所有前工业化社会。因此，自然与养育相结合，使我们避免了自我放纵。但是，世界变得更加复杂：现在，最危险的陷阱是通过模仿更多有道德的人而绕过我们关于自我放纵的警报的新行为。最糟糕的是，它们甚至比较莫意思。
 
 Thanks to Sam Altman, Trevor Blackwell, Patrick Collison, Jessica Livingston, and Robert Morris for reading drafts of this.
 
