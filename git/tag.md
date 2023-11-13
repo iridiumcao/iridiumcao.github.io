@@ -76,8 +76,14 @@ $ git push origin test-only-annotated
 前面使用 `git tag` 可以查看本地的 tag，远端我们使用下面的方式：
 
 ```plaintext
+$ git ls-remote --tags ssh://git@192.168.5.67:2222/hello/world.git | grep "test-only"
+```
+
+如果执行命令的当前目录就是这个远程库对应的本地库，则远程库的地址可以省略，如下：
+
+```plaintext
 $ git ls-remote --tags | grep "test-only"
-From ssh://git@192.168.5.67:2222/etix/etix.git
+From ssh://git@192.168.5.67:2222/hello/world.git
 65aef7ff2efdfe73253238b388513da62ad8060b        refs/tags/test-only-annotated
 85084db2c79b1a18f5b3e836cc5656d97fa098c0        refs/tags/test-only-annotated^{}
 85084db2c79b1a18f5b3e836cc5656d97fa098c0        refs/tags/test-only-lightweight
