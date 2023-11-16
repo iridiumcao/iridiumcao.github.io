@@ -27,6 +27,14 @@ git 的 tag 分两种：
 
 ### 2. 查看 tag
 
+查看本地的全部 tag
+
+```plaintext
+$ git tag
+# or
+$ git tag --list
+```
+
 按 tag 名查找：
 
 ```plaintext
@@ -55,7 +63,7 @@ test tag: annotated
 
 ```
 
-但 `git show test-only-lightweight` 可以看出：没有和该 tag 有关的任何信息，这看起来符合前面提到的——tag 只是个别名而已。
+但 `git show test-only-lightweight` 可以看出：没有和该 tag 有关的任何信息，这看起来符合前面提到的——轻量 tag 只是个别名而已。
 
 ### 3. Push to Remote
 
