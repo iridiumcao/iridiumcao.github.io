@@ -10,3 +10,4 @@
 8. [合并不同的仓库](merge_unrelated_histories.md)
 9. [git 的两种 tag 的平行对比实验](tag.md)
 10. [Git Commit 中的时间记录](date_in_commit.md)
+11. [`core.ignorecase` 说明](core.ignorecase.md)
