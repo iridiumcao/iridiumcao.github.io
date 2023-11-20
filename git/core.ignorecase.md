@@ -5,7 +5,7 @@
 Mac 和 Windows 默认对文件名大小写不敏感，但 Linux 敏感。
 如果在 Linux 上创建只是大小写不相同的同名目录或文件，Mac 和 Windows 可能会无法正常使用。
 
-解决办法是，都明确设置对大小写不敏感，在 git repo 里执行下面依据即可：
+解决办法是，都明确设置对大小写不敏感，在 git repo 里执行下面语句即可：
 
 ```bash
 git config core.ignorecase true
@@ -31,8 +31,7 @@ git config --global core.ignorecase true
 
 此时对大小写是否敏感，是依赖操作系统的。
 
-我们通过 Client B 创建两个文件 *Hello* 和 *heLLO* 并 `push` 到 Host S。
-再在 Client A 上执行 `pull` 操作，自然不能同时得到 *Hello* 和 *heLLO*，这时，可能出现的情况是，git 提示 `pull` 成功，但文件只有一个，可能，再执行 `git status` 则发现文件有变化，这是因为 Windows 不支持只是大小写不同名的文件，那 `pull` 后得到的两个文件要放到工作区，只能用一个覆盖另一个，这就有了前面的情况。
+我们通过 Client B 创建两个文件 *Hello* 和 *heLLO* 并 `push` 到 Host S。再在 Client A 上执行 `pull` 操作，因为操作系统本身的限制，自然不能同时得到 *Hello* 和 *heLLO*，这时，可能出现的情况是，git 提示 `pull` 成功，但文件只有一个。再执行 `git status` 观察，发现有只有一个叫 *Hello* 或 *heLLO* 的文件，而且它有未提交的变化。这是因为 Windows 不支持只是大小写不同名的文件，那 `pull` 后得到的两个文件要放到工作区，只能用一个覆盖另一个，这就有了前面的情况。
 
 ### 2. 设置 `core.ignorecase true` 后
 
