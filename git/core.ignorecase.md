@@ -30,8 +30,8 @@ git config --global core.ignorecase true
 
 如果没有设置 `core.ignorecase true`，那么对大小写的敏感性将取决于操作系统。
 
-举个例子，我们通过 Client B 在 Linux 上创建了两个文件 *Hello* 和 *heLLO*，然后将它们 `push` 到 Host S。接着，在 Client A 上执行 `pull` 操作，由于 Windows 本身的限制，可能只能得到一个 *Hello* 或 *heLLO* 文件。在执行 `git status` 时，可能会发现只有一个文件，并且它有未提交的变化。这是因为 Windows 不支持只是大小写不同的文件名，所以在 `pull` 后，得到的两个文件只能用一个覆盖另一个。
+举个例子，我们通过 Client B 在 Linux 上创建了两个文件 *Hello* 和 *heLLO*，然后将它们 `push` 到 Host S。接着，在 Client A 上执行 `pull` 操作，由于 Windows 本身的限制，可能只能得到一个 *Hello* 或 *heLLO* 文件。在执行 `git status` 时，会发现只有一个文件，并且它有未提交的变化。这是因为 Windows 不支持只是大小写不同的文件名，所以在 `pull` 后，得到的两个文件只能用一个覆盖另一个。
 
 ### 2. 设置 `core.ignorecase true` 后
 
-经过设置，Linux 主机 B 对大小写也不敏感了，所有的开发用机都不会生成同名但大小写不一致的文件。问题得到了解决。
+经过设置，使用 Linux 的 Client B 对大小写也不敏感了，所有的开发用机都不会生成同名但大小写不一致的文件。问题得解。
