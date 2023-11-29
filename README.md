@@ -31,6 +31,7 @@
 * [消失吧，你！(Without You)](without_you.md)(翻译)
 * [How to Lose Time and Money 时间和金钱是怎么失去的](how-to-lose-time-and-money.md)(翻译)
 * [极易写错的汉字：延，考](yan_kao.md)
+* [Chat with AI](ai1ai2.md)
 
 ## The Third-Party Links
 
