@@ -12,3 +12,4 @@
 10. [Git Commit 中的时间记录](date_in_commit.md)
 11. [`core.ignorecase` 说明](core.ignorecase.md)
 12. [Who are "us" and "them"?](us_them.md)
+13. [`pull`'s configuration](pull_setting.md)
