@@ -19,6 +19,7 @@
 7. [一次性信箱](https://temp-mail.org/)
 8. [What's New](https://whats.new/shortcuts)
 9. [绘图工具](https://monodraw.helftone.com/)
+10. [打印版的日历](https://www.calendar-12.com/)
 
 ## Blog List
 
