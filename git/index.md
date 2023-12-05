@@ -8,6 +8,7 @@
 * [第二章 版本和版本管理](02.md)
 * [第三章 安装 git](03.md)
 * [第四章 Hello World](04.md)
+* [第五章 Git Repository 的目录结构](05.md)
 
 ## 其他文章
 
