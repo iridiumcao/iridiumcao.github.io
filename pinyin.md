@@ -209,12 +209,12 @@ j q x 和 u 相拼的音是存在的，但普通话里没有，ü 的两点写�
 
 只有声母没有韵母的音叫零韵母或者[空韵](https://zh.wikipedia.org/wiki/%E7%A9%BA%E9%9F%BB)，此时声调就只能打在辅音字母上了。
 
-例如：
+例如来自[汉典](https://www.zdic.net)的两个例子：
 
-* [汉典·嗯](https://www.zdic.net/hans/%E5%97%AF) ǹg, ńg, ňg, ǹ, ń, ň
-* [汉典·哼](https://www.zdic.net/hans/%E5%93%BC) hng
+* [嗯](https://www.zdic.net/hans/%E5%97%AF) en, ǹg, ńg, ňg, ǹ, ń, ň
+* [哼](https://www.zdic.net/hans/%E5%93%BC) hēng, hng
 
-这类字极少，但也算是高频用字。
+这类字极少，但也算是高频用字。有的字典不收录空韵。
 
 ## 后记
 
