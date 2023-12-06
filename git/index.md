@@ -2,7 +2,7 @@
 
 ## 📖 Git 保姆级实验教程
 
-本教程计划由浅入深，全面介绍 git 的方方面面，让初学者可以看懂，老鸟亦有收获。学习 git 的方法，是不断做实验，在实践中体会和学习。
+本教程计划由浅入深，全面介绍 git 的方方面面，让菜鸟可以学会，老鸟亦有收获。学习 git 的方法，是不断做实验，在实践中感悟。
 
 * [第一章 Git 的诞生](01.md)
 * [第二章 版本和版本管理](02.md)
@@ -19,8 +19,8 @@
 5. [How to check if a git branch exists in the local/remote repository?](verify_existence_git_branch.md)
 6. [Clean Files with a Long Path (Git)](clean_files_with_long_path.md)
 7. [Git 分支整洁之道](keeping_branches_clean_zh_CN.md), [The Way to Keep Git Branches Clean](keeping_branches_clean.md)
-8.  [合并不同的仓库](merge_unrelated_histories.md)
-9.  [git 的两种 tag 的平行对比实验](tag.md)
+8. [合并不同的仓库](merge_unrelated_histories.md)
+9. [git 的两种 tag 的平行对比实验](tag.md)
 10. [Git Commit 中的时间记录](date_in_commit.md)
 11. [`core.ignorecase` 说明](core.ignorecase.md)
 12. [Who are "us" and "them"?](us_them.md)
