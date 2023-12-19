@@ -29,3 +29,4 @@
 11. [`core.ignorecase` 说明](core.ignorecase.md)
 12. [Who are "us" and "them"?](us_them.md)
 13. [`pull`'s configuration](pull_setting.md)
+14. [Automating the Removal of Outdated and Merged Branches in Git Repositories](clean_outdated_merged_branches.md)
