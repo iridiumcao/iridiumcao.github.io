@@ -2,6 +2,19 @@
 
 [Index](index.md)
 
+---
+
+- [How to Create a New Repository](#how-to-create-a-new-repository)
+  - [Bare Repository (on Server Host)](#bare-repository-on-server-host)
+  - [Local Repository (as Client)](#local-repository-as-client)
+  - [Clone](#clone)
+    - [1. Clone a repository to workspace](#1-clone-a-repository-to-workspace)
+    - [2. Clone a bare repository](#2-clone-a-bare-repository)
+    - [3. Clone a repository as a mirror](#3-clone-a-repository-as-a-mirror)
+    - [4. Shallow clone](#4-shallow-clone)
+
+---
+
 To create a new Git repository, you have two options: starting from scratch or basing it on an existing repository.
 
 ## Bare Repository (on Server Host)
@@ -38,6 +51,8 @@ cd helloworld
 git init
 ```
 
+This repository links no remote repositories, it can be set with `git remote add {remote repo name} {remote repo URL}`.
+
 By following these steps, you can create a new repository either on the server host or on your local machine.
 
 ## Clone
@@ -49,13 +64,13 @@ If you require to work with the existing code, you have the option to clone the 
 This is the default way to clone.
 
 ```bash
-git clone -git@github.com:iridiumcao/iridiumcao.github.io.git
+git clone git@github.com:iridiumcao/iridiumcao.github.io.git
 ```
 
 or
 
 ```bash
-git clone -git@github.com:iridiumcao/iridiumcao.github.io.git another_dir
+git clone git@github.com:iridiumcao/iridiumcao.github.io.git another_dir
 ```
 
 ### 2. Clone a bare repository
@@ -82,7 +97,7 @@ git clone --mirror git@github.com:iridiumcao/iridiumcao.github.io.git
 >
 > [ref](https://www.git-scm.com/docs/git-clone)
 
-### 4. shallow clone
+### 4. Shallow clone
 
 In some cases, the entire history of a repository may not be necessary. In such situations, a user can opt for a shallow clone by specifying the clone depth.
 

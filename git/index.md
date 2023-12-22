@@ -6,7 +6,7 @@
 
 * [第一章 Git 的诞生](01.md)
 * [第二章 版本和版本管理](02.md)
-* [第三章 安装 git](03.md)
+* [第三章 安装 Git](03.md)
 * [第四章 Hello World](04.md)
 * [第五章 Git Repository 的目录结构](05.md)
 * [第六章 文档的版本操作](06.md)
@@ -16,6 +16,7 @@
 * [第十章 标签(Tag)](10.md)
 * [第十一章 清理仓库](11.md)
 * [第十二章 子模块(Submodule)](12.md)
+* [第十三章 创建和使用 Git 服务节点](13.md)
 
 ## 其他文章
 
@@ -31,5 +32,6 @@
 10. [`core.ignorecase` 说明](core.ignorecase.md)
 11. [Who are "us" and "them"?](us_them.md)
 12. [`pull`'s configuration](pull_setting.md)
-13. [Automating the Removal of Outdated and Merged Branches in Git Repositories](clean_outdated_merged_branches.md)
+13. [Automating the Removal of Outdated and Merged Branches](clean_outdated_merged_branches.md)
 14. [Work with Multiple Remote Repositories](work_with_multi_remote_repositories.md)
+14. [Update Git Branch/Tag Naming Conventions](hook_branch_tag_naming_conventions.md)

@@ -1,4 +1,4 @@
-# Update Git Branch/Tag Naming Conventions to Alphanumeric Characters and Dash/Underscore Only
+# Update Git Branch/Tag Naming Conventions
 
 [Index](index.md)
 
@@ -42,4 +42,4 @@ done
 exit 0
 ```
 
-In this updated script, the condition `[[ $newrev == "0000000000000000000000000000000000000000" ]]` checks if the new revision is all zeros, which is the case for branch or tag deletion. Condition `[[ $newrev =~ "000000000000000" ]]` can be an approximate replacement.
+In this script, the condition `[[ $newrev == "0000000000000000000000000000000000000000" ]]` checks if the new revision is all zeros, which is the case for branch or tag deletion. Condition `[[ $newrev =~ "000000000000000" ]]` can be an approximate replacement.
