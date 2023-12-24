@@ -17,8 +17,12 @@
 * [第十一章 清理仓库](11.md)
 * [第十二章 子模块(Submodule)](12.md)
 * [第十三章 创建和使用 Git 服务节点](13.md)
+* [第十四章 了解仓库状态](14.md)
+* [第十五章 Git 配置](15.md)
 
 ## 其他文章
+
+这里有的文章涉及的内容在上面的教程中也能找到，但单独成篇也有单独成篇的好处，比如主题突出，不用在教程中去苦苦寻找。
 
 1. [How to Create a New Repository](init_repo.md)
 2. [How to Retrieve the Email of a Commit's Author](retrieve_commit_author_email.md)
