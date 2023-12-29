@@ -1,4 +1,4 @@
-# git 的两种 tag 的平行对比实验
+# Git 的两种 Tag 的平行对比实验
 
 [Index](index.md)
 
@@ -79,9 +79,9 @@ $ git push origin test-only-lightweight
 $ git push origin test-only-annotated
 ```
 
-### 4. 查看远端的 tag
+### 4. 查看远程的 tag
 
-前面使用 `git tag` 可以查看本地的 tag，远端我们使用下面的方式：
+前面使用 `git tag` 可以查看本地的 tag，远程我们使用下面的方式：
 
 ```plaintext
 $ git ls-remote --tags ssh://git@192.168.5.67:2222/hello/world.git | grep "test-only"
@@ -102,9 +102,9 @@ From ssh://git@192.168.5.67:2222/hello/world.git
 1. 以 `^{}` 结尾的记录，和轻量 tag 等同，但无法通过 `git tag` 列出，默认对用户隐藏，不过可以通过 `git ls-remote --tags` 列出。
 2. 无特殊标记的记录，记录该标记 tag 的元信息，即：创建者，创建时间，说明等。
 
-我们通过观察 tag 在远端有几条记录来确认它是轻量 tag 还是标记 tag.
+我们通过观察 tag 在远程有几条记录来确认它是轻量 tag 还是标记 tag.
 
-### 5. 删除远端的 tag
+### 5. 删除远程的 tag
 
 可以使用完整的路径删除:
 

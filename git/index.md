@@ -4,6 +4,7 @@
 
 本教程计划由浅入深，全面介绍 git 的方方面面，让菜鸟可以学会，老鸟亦有收获。学习 git 的方法，是不断做实验，在实践中感悟。
 
+* [前言·阅读建议](preface.md)
 * [第一章 Git 的诞生](01.md)
 * [第二章 版本和版本管理](02.md)
 * [第三章 安装 Git](03.md)
@@ -19,6 +20,7 @@
 * [第十三章 创建和使用 Git 服务节点](13.md)
 * [第十四章 了解仓库状态](14.md)
 * [第十五章 Git 配置](15.md)
+* [第十六章 谈谈 GUI 客户端](16.md)
 
 ## 其他文章
 
@@ -26,16 +28,16 @@
 
 1. [How to Create a New Repository](init_repo.md)
 2. [How to Retrieve the Email of a Commit's Author](retrieve_commit_author_email.md)
-3. [Git Submodule Test](git_submodule_test.md)
-4. [How to check if a git branch exists in the local/remote repository?](verify_existence_git_branch.md)
-5. [Clean Files with a Long Path (Git)](clean_files_with_long_path.md)
-6. [Git 分支整洁之道](keeping_branches_clean_zh_CN.md), [The Way to Keep Git Branches Clean](keeping_branches_clean.md)
-7. [合并不同的仓库](merge_unrelated_histories.md)
-8. [git 的两种 tag 的平行对比实验](tag.md)
-9. [Git Commit 中的时间记录](date_in_commit.md)
-10. [`core.ignorecase` 说明](core.ignorecase.md)
-11. [Who are "us" and "them"?](us_them.md)
-12. [`pull`'s configuration](pull_setting.md)
+3. [Git Commit 中的时间记录](date_in_commit.md)
+4. [Git Submodule Test](git_submodule_test.md)
+5. [How to check if a git branch exists in the local/remote repository?](verify_existence_git_branch.md)
+6. [Clean Files with a Long Path (Git)](clean_files_with_long_path.md)
+7. [`core.ignoreCase` 说明](core.ignoreCase.md)
+8. [`pull`'s configuration](pull_setting.md)
+9. [Who are "us" and "them"?](us_them.md)
+10. [Git 分支整洁之道](keeping_branches_clean_zh_CN.md), [The Way to Keep Git Branches Clean](keeping_branches_clean.md)
+11. [合并不同的仓库](merge_unrelated_histories.md)
+12. [git 的两种 tag 的平行对比实验](tag.md)
 13. [Automating the Removal of Outdated and Merged Branches](clean_outdated_merged_branches.md)
 14. [Work with Multiple Remote Repositories](work_with_multi_remote_repositories.md)
-14. [Update Git Branch/Tag Naming Conventions](hook_branch_tag_naming_conventions.md)
+15. [Update Git Branch/Tag Naming Conventions](hook_branch_tag_naming_conventions.md)

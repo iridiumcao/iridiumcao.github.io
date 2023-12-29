@@ -7,7 +7,7 @@ git 本身作为一个代码版本管理工具，所有的提交记录都有相�
 一个 commit 可能作者(author)是张三，但 push 到远程仓库的人(committer)可能是李四。对应地，就涉及两个时间概念：
 
 * author date. 张三创建该 commit 的时间
-* commit date. 李四 push 代码到远程仓库的时间
+* committer date. 李四 push 代码到远程仓库的时间
 
 ## 查看时间
 
@@ -44,7 +44,7 @@ Tue Jan 4 11:49:27 2022 +0800
 
 ## 更新时间
 
-我们可以用如下命令修改时间，这些命令不能指定修改 Author date 或 Committer date, 它会把两个时间一并修改为当前时间。
+我们可以用如下命令修改时间，这些命令不能指定修改 author date 或 committer date, 它会把两个时间一并修改为当前时间。
 
 ```bash
 # Update the last git commit to current time
