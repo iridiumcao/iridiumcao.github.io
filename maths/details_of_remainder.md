@@ -23,22 +23,32 @@ MathJax = {
 假定 a ∈ R, d ∈ R, d ≠ 0,  那么余数 r 满足这样的关系：
 a = qd + r, q ∈ Z，且 0 ≤ |r| < |d|
 以上，按传统方式，a 可称为被除数，d 可称为除数，q 可称为商。
-按照以上定义，余数可以有一正一负两个，比如：
 ```
+
+按照以上定义，余数可以有一正一负两个，比如：
 
 除法式子 (-42) / (-5) 的可以表达为
 
-    -42 = 9×(-5) + 3  或   -42 = 8×(-5) + (-2)
+```plaintext
+-42 = 9×(-5) + 3  或  -42 = 8×(-5) + (-2)
+```
 
 即余数可能是3或-2。余数的这种不明确的特性，可能造成程序处理时的困惑，事实上，不同软件的处理确有不一样，参[Puzzle 01: Oddity](https://sites.google.com/site/iridiumsite/it/java/java-lang/book-java-puzzlers/puzzle-01-oddity)所附的表即可知。
 
 ## C, Java
 
-在 C 和 Java 中，求余运算符号都是 %，但在 C 中，求余运算的范围是整数，而在 Java 中，扩展到了实数。这点详情参 [JLS 的说明](https://docs.oracle.com/javase/specs/jls/se7/html/jls-15.html#jls-15.17.3)。（TODO 这里需要记录对 JLS 这部分的阅读笔记 以及 http://en.wikipedia.org/wiki/Modulo_operation）
+在 C 和 Java 中，求余运算符号都是 %.
+
+这点详情参 [JLS 的说明](https://docs.oracle.com/javase/specs/jls/se21/html/jls-15.html#jls-15.17.3):
+
+- 在 C/C++ 中，求余运算的范围是整数，而在 Java 中，扩展到了实数。
+- Java 中余数的正负性和被除数一致，即如果被除数是正数，余数只能取正的那个，如果被除数是负数，则余数只能取负的那个。
+
+---
 
 附
 
-* 维基百科中文版中关于普通整数和实数的部分是我在2009年1月翻译的（今天查看历史记录，吓了我一跳，原来是我自己翻的，时间过得太快了！）
-* [Puzzle 01: Oddity](https://sites.google.com/site/iridiumsite/it/java/java-lang/book-java-puzzlers/puzzle-01-oddity)
-* Modulo operation: <http://en.wikipedia.org/wiki/Modulo_operation>
-* 本文自[Google Sites](https://sites.google.com/site/iridiumsite/it/algorithms/details-of-remainder)转移而来
+- 维基百科中文版中关于普通整数和实数的部分是我在2009年1月翻译的（今天查看历史记录，吓了我一跳，原来是我自己翻的，时间过得太快了！）
+- [Puzzle 01: Oddity](https://sites.google.com/site/iridiumsite/it/java/java-lang/book-java-puzzlers/puzzle-01-oddity)
+- Modulo operation: <http://en.wikipedia.org/wiki/Modulo_operation>
+- 本文自[Google Sites](https://sites.google.com/site/iridiumsite/it/algorithms/details-of-remainder)转移而来
