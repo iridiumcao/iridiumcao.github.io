@@ -1,5 +1,7 @@
 # Adding a Cron Task Using a Script
 
+[Index](index.md)
+
 To add a cron task item using a script, you can utilize the following script:
 
 ```bash

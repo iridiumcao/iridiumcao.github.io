@@ -9,7 +9,7 @@ IntelliJ IDEA因license过期，30分钟强行关闭IDE，而此时tomcat正在�
 
 解决办法。查到占用1099的程序，再kill
 
-```text
+```plaintext
 C:\Users\iridi>netstat -aon | find "1099"
   TCP    0.0.0.0:1099           0.0.0.0:0              LISTENING       12068
   TCP    [::]:1099              [::]:0                 LISTENING       12068

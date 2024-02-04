@@ -1,5 +1,7 @@
 # Weekly Updates for Rotating Server System
 
+[Index](index.md)
+
 In the current system, we have five servers, labeled as s1, s2, s3, s4, and s5.
 One server is scheduled for an update every Monday, following a rotational pattern.
 

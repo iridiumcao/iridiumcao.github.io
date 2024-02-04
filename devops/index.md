@@ -16,3 +16,4 @@
 * [Adding a Cron Task Using a Script](adding_a_cron_task_using_a_script.md)
 * [Rotating Server System Updates Weekly](RotatingServerSystemUpdatesWeekly.md)
 * [Using Special Variables in Bash Scripts, $0, $1, $2, $#, $@, $$, $?](dollar_in_bash.md)
+* [Testing Network Accessibility in an Intranet with Bash Script](test_network_accessibility.md)

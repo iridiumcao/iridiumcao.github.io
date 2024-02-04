@@ -9,46 +9,54 @@
 0. 首先示范 Java 流工具和 Linux ``xxd`` 的使用：
 
 代码片段
-``` Java
-    FileOutputStream fos = new FileOutputStream("binary_output");
-    DataOutputStream dos = new DataOutputStream(fos);
 
-    dos.writeBoolean(false);
-    dos.close();
+``` Java
+FileOutputStream fos = new FileOutputStream("binary_output");
+DataOutputStream dos = new DataOutputStream(fos);
+
+dos.writeBoolean(false);
+dos.close();
 ```
+
 执行后，通过工具 ``xxd`` 查看：
+
 ``` bash
 $ xxd -b binary_output 
 00000000: 00000000                                     
 ```
+
 可见，布尔值 ``false`` 一个 byte (8 bits) 存储，所有位皆为0.
 
 1. 再考察 ``true`` 的存储形式：
 
 ``` Java
-        dos.writeBoolean(true);
+dos.writeBoolean(true);
 ```
+
 ``` bash
 $ xxd -b binary_output 
 00000000: 00000001        
-```          
+```
+
 很清楚地看到 ``true`` 也是以一个 byte 来存储的，最后一位为1.
 
 2. 继续考察其他：
 
+```java
+dos.write('\n');
 ```
-    dos.write('\n');
-```
-```
+
+```bash
 $ xxd -b binary_output 
 00000000: 00001010                                               .
 ```
+
 换行符号的 ASCII 码是10, 即二进制数1010. 换行符号也是用一个 byte 来存储的。
 
-3. ``int``
+1. ``int``
 
 ```java
-    dos.writeInt(3);
+dos.writeInt(3);
 ```
 
 ```bash
@@ -96,13 +104,14 @@ $ xxd -b binary_output
 $ xxd -b binary_output 
 00000000: 11111001                                               .
 ```
+
 (11111001)<sub>2</sub> = (F9)<sub>16</sub>
 这里不太理解，汉字``曹``的``UTF-8``编码是66F9，但这里只有後面两位，百思不得其解。TODO
 
 7. 英文字母
 
 ```java
-    dos.write('A');
+dos.write('A');
 ```
 
 ```bash
@@ -115,13 +124,13 @@ $ xxd -b binary_output
 8. 以上综合输出
 
 ```java
-    dos.writeBoolean(true);
-    dos.write('\n');
-    dos.writeInt(3);
-    dos.writeDouble(3.14);
-    dos.writeFloat(3.14f);
-    dos.write('曹');
-    dos.write('A');
+dos.writeBoolean(true);
+dos.write('\n');
+dos.writeInt(3);
+dos.writeDouble(3.14);
+dos.writeFloat(3.14f);
+dos.write('曹');
+dos.write('A');
 ```
 
 ```bash

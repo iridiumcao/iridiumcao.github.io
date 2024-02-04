@@ -8,8 +8,7 @@ For Ubuntu, it shows the solution, but CentOS does not do so.
 
 ## Ubuntu
 
-``` bash
-
+``` plaintext
 $ sftp caoyi@192.168.0.100
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
@@ -33,7 +32,7 @@ Connection closed
 
 ## CentOS
 
-``` bash
+```plaintext
 $ ssh root@192.168.0.222
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
