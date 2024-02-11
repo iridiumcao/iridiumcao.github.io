@@ -33,6 +33,7 @@ MathJax = {
 * [希腊字母表](greek_alphabet.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
+* [九宮格（河图洛书）](9gg.md)
 
 ## 几何 Geometry
 
