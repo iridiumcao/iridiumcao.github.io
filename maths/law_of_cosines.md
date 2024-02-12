@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # Law of Cosines 余弦定理
 
 [返回目录](index.md)
@@ -90,3 +79,14 @@ $=...\
 ---
 
 后记，我的证明过程，用到了三角函数，而且分了两种情况，显得太简洁，对知识量要求也比较高，刚上初中的娃娃应该不太容易看懂。这个网站也有一个[证明](https://www.mathopenref.com/lawofcosinesproof.html)，它只证了相当于我这里的第一种情况，证明过程中也用到三角函数，但要简单一些。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

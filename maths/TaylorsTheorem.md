@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 泰勒公式 Taylor's Theorem
 
 [返回目录](index.md)
@@ -80,3 +69,14 @@ $R_{n}(x)=\dfrac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}$
 ### 3. 余项
 
 余项是指在使用泰勒公式进行函数展开时，展开式和原函数之间的差值。余项的大小取决于展开式中使用的泰勒级数的阶数，以及展开点与所求点之间的距离。当使用泰勒级数展开时，余项通常用于估计所得近似值的误差范围。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

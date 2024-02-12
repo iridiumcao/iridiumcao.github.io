@@ -1,15 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
-
 # 代数数和超越数的区别和联系
 
 [返回目录](index.md)
@@ -53,3 +41,14 @@ In mathematics, a transcendental number is a number that is not algebraic—that
 点评：
 
 ChatGPT的回答很有问题，因为代数方程对应多项式的系数范围比有理数大，如此，整个说法就是错误的。重要的事情再说一遍，小众的专业问题，不能轻信ChatGPT。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

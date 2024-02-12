@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 反三角函数 Inverse Trigonometric Functions
 
 [返回目录](index.md)
@@ -39,3 +28,14 @@ MathJax = {
 * $\sin(\arccos x) = \sqrt{1 - x^2}$
 * $\cos(\arcsin x) = \sqrt{1 - x^2}$
 * $\sin(\arccos x) = \cos(\arcsin x)$
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

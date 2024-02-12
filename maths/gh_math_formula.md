@@ -26,7 +26,7 @@ However, you may see some unintelligible text:
 
 ## Solution
 
-To resolve this issue, add the following script to the head of the markdown, following the instructions on <https://docs.mathjax.org/en/latest/web/start.html>:
+To resolve this issue, add the following script to the head or append it the end of the markdown document, following the instructions on <https://docs.mathjax.org/en/latest/web/start.html>:
 
 ```html
 <script>

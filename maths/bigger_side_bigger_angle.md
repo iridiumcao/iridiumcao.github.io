@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 大边对大角，大角对大边
 
 [返回目录](index.md)
@@ -78,3 +67,15 @@ $\vert BC \vert \lt \vert DC \vert \lt \vert AC \vert$
 $\therefore \angle ABC \gt \angle DBC = \angle BDC \gt \angle A$
 
 即得 $\angle A \lt \angle B$
+
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

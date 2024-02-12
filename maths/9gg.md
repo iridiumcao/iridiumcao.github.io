@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 九宮格（河图洛书）
 
 [返回目录](index.md)
@@ -35,7 +24,7 @@ $$
 
 - 横行和：A + B + C = D + E + F = G + H + I
 - 纵列和：A + D + G = B + E + H = C + F + I
-- 斜向和：A + F + I = c + E + G
+- 斜向和：A + E + I = C + E + G
 - 横向和 = 纵列和 = 斜向和
 
 最简单的一个九宫格就是在九个格子中分别填上1~9的九个数字，数字的数量关系满足上面所述：
@@ -144,3 +133,14 @@ $A + C + 2E - s = s - B - E$
 今天下午 Charles 说有道题目很有意思，是关于九宫格的，我在解答过程中，使用上面提到的「直觉」，虽然题目解出来了，但总觉得不稳当—— $3E = s$ 还没证明，所以特地探索了一番，推演出来之后，就放心了。
 
 要证明 $3E = s$ 的主要思路是通过两种方式表达同一个格子的值，建立方程，正文内容是用 $H$ 格子，不过用其他格子也可以的，我最初演草时用的是 $F$ 格子。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

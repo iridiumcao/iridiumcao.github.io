@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 费马定理 Fermat's Last Theorem
 
 [返回目录](index.md)
@@ -60,3 +49,14 @@ $$\lim_{x \to x_0^-} \frac{f(x)-f(x_0)}{x-x_0} \le 0$$
 因此，如果$f(x)$在点$x_0$处取得极值，那么它在$x_0$处一定连续可导，并且$f'(x_0)=0$，即费马定理成立。
 
 因此，我们证明了费马定理的正确性。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

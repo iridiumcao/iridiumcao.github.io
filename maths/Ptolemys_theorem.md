@@ -1,15 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
-
 # 托勒密定理 Ptolemy's Theorem
 
 [返回目录](index.md)
@@ -55,3 +43,14 @@ $\therefore \vert AC \vert \cdot \vert DB \vert = \vert AB \vert \cdot \vert DC 
 【后记】
 
 上周六(2023.07.22)Charles重新发现了这个定理，但没有证明出来，我尝试用余弦定理证明，但计算量非常大，放弃。本文的证明过程是从[维基百科的相关词条](https://zh.wikipedia.org/zh-hans/%E6%89%98%E5%8B%92%E5%AF%86%E5%AE%9A%E7%90%86)学到的。还有其他很多证明方法，比如使用正弦定理、余弦定理、复数等工具，将来有时间再补上。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

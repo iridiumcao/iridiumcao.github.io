@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 自然常数$e$ Natural Constant
 
 [返回目录](index.md)
@@ -58,3 +47,14 @@ $$\lim_{n\to\infty} (1+\dfrac{1}{n})^{n}$$
 所以，回到前面提到的问题，假如本金为$a$, 年利率为$r$，则一年后连本带利最多可以得到的金额是
 
 $$ amount = a \cdot e^r$$
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

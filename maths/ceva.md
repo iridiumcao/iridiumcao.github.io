@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # Ceva 定理
 
 [返回目录](index.md)
@@ -35,3 +24,14 @@ $\therefore \dfrac{\vert AF \vert}{\vert FB \vert} \cdot \dfrac{\vert BD \vert}{
 ## 点评
 
 这个定理看起来很整齐，结论也很简单，但发现过程却不容易。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

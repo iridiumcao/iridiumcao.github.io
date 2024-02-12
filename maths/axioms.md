@@ -1,15 +1,3 @@
-
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 凭什么它才是公理 Axioms
 
 [返回目录](index.md)
@@ -72,3 +60,15 @@ MathJax = {
 
 * [初中数学十大公理](https://zhuanlan.zhihu.com/p/421187749)
 * [目前中学数学课本中的一个致命硬伤](https://zhuanlan.zhihu.com/p/80500905)
+
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

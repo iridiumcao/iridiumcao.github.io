@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 燕尾模型
 
 [返回目录](index.md)
@@ -66,3 +55,14 @@ $\dfrac{S_{\triangle AEB}}{S_{\triangle AEC}} = \dfrac{\vert EB \vert}{\vert EC 
 $\therefore \dfrac{\vert EB \vert}{\vert EC \vert} = \dfrac{S_{\triangle AEB}}{S_{\triangle AEC}}=\dfrac{S_{\triangle DEB}}{S_{\triangle DEC}}=\dfrac{S_{\triangle AEB} - S_{\triangle DEB}}{S_{\triangle AEC} - S_{\triangle DEC}}=\dfrac{S_{\triangle ADB}}{S_{\triangle ADC}}$ （倒数第二个式子的推导用到了前面证明过的比例性质）
 
 证毕。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

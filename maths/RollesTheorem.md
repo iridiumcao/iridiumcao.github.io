@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 罗尔定理 Rolles's Theorem
 
 [返回目录](index.md)
@@ -52,3 +41,14 @@ MathJax = {
 因此，对于任意的 $x_0\in (a,b)$，总存在某个点 $c$，使得 $f'(c)=0$。这就证明了罗尔定理。
 
 需要注意的是，罗尔定理的条件中要求 $f(a)=f(b)$，这是因为在 $[a,b]$ 上连续且可导的函数一定在 $a$ 和 $b$ 处有定义，如果这两个点的函数值不相等，那么不能保证在 $(a,b)$ 内存在某个 $\xi$ 使得 $f'(\xi)=0$。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

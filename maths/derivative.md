@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 导数
 
 [返回目录](index.md)
@@ -107,3 +96,14 @@ MathJax = {
 与二元函数的偏导数类似，求三元函数的偏导数也需要将函数对目标自变量求偏导数，而将其他自变量视为常数。多元函数的偏导数的意义可以通过多元微积分中的梯度、方向导数和泰勒公式等概念进行解释。
 
 需要注意的是，三元函数的导数同样具有正负之分，不能单纯地通过导数的正负判断函数的增减性。因此，在使用偏导数进行变化率分析时，还需要综合考虑其他相关的因素。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

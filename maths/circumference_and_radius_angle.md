@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 圆周角和圆心角
 
 [返回目录](index.md)
@@ -64,3 +53,14 @@ $\therefore \angle HOL = \angle HOK + \angle KOL = 2\angle OJH + 2\angle OJL=2(\
 同一段弧，对应无数圆周角，和同一个圆心角，这些圆周角都等于圆心角的一半，所以**同弧所对的圆周角都相等**。
 
 直径对应的圆周是半圆，对应的圆心角是$\pi$，所以直径所对的圆周角是$\dfrac{\pi}{2}$，即**直径所对的圆周角是直角**。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

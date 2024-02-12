@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # Fundamentals of Probability Theory and Mathematical Statistics, 概率论和数理统计基础
 
 [返回目录](index.md)
@@ -172,3 +161,14 @@ MathJax = {
 > $$\operatorname{Cov}(X,Y)=\operatorname{E}[(X-\operatorname{E}[X])(Y-\operatorname{E}[Y])]$$
 >
 > 其中，$\operatorname{E}$ 表示数学期望，$X$ 和 $Y$ 分别表示两个随机变量。协方差是一个对称的量，即 $\operatorname{Cov}(X,Y) = \operatorname{Cov}(Y,X)$。协方差的绝对值越大，说明两个变量之间的关系越强。但需要注意的是，协方差的大小与两个变量的量纲有关，因此通常会使用相关系数来消除这种影响。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

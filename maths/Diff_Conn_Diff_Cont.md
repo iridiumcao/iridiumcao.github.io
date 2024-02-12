@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 可微和可导的区别和联系(ChatGPT)
 
 [返回目录](index.md)
@@ -102,3 +91,14 @@ $$
 
 是的，如果一个函数在某个点可微，那么它在该点一定可导。因为可微性是比可导性更强的性质，它要求函数在该点不仅要有导数，而且该导数还必须是一个线性函数。因此，如果一个函数在某个点可微，那么它在该点的导数一定存在，并且是一个线性函数，也就是说，该函数在该点处可导。因此，可微性是导数存在的充分必要条件。
 (这个答案有些自相矛盾)
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

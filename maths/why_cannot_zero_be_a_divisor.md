@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 零为何不能做除数？
 
 [返回目录](index.md)
@@ -42,3 +31,14 @@ MathJax = {
 1. 本站相关页面: [Java 对零作为除数的处理](../java/zero_devide.md)
 2. 这篇文章从[Google Sites](https://sites.google.com/site/iridiumsite/Home/others/mathematics/algebra/why-not-zero)转移而来，大约写于2019年上半年，算是一次对娃娃功课辅导的记录。
 3. 知乎平台上这篇讲得更好：<https://www.zhihu.com/question/20785233>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

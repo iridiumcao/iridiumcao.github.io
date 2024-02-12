@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # Maths
 
 * [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
@@ -71,3 +60,14 @@ MathJax = {
 
 1. [概率论公理](Probability_axioms.md)
 2. [概率论和数理统计基础](Probability_and_Statistics_Fundamentals.md)
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

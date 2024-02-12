@@ -1,19 +1,21 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 三角公式 Trigonometric Formulas
 
 [返回目录](index.md)
 
-## -1. 图像
+- [三角公式 Trigonometric Formulas](#三角公式-trigonometric-formulas)
+  - [1. 图像](#1-图像)
+  - [2. 常见的特殊角的三角函数值](#2-常见的特殊角的三角函数值)
+  - [3. 诱导公式 Induction Formula](#3-诱导公式-induction-formula)
+    - [3.1 对称](#31-对称)
+    - [3.2 位移和周期](#32-位移和周期)
+  - [4. 六边形](#4-六边形)
+  - [5. 和差恒等式](#5-和差恒等式)
+  - [6. 积化和差 product-to-sum](#6-积化和差-product-to-sum)
+  - [7. 和差化积 sum-to-product](#7-和差化积-sum-to-product)
+  - [8. 万能公式](#8-万能公式)
+
+
+## 1. 图像
 
 基本三角函数在直角坐标和极坐标下的图像。
 
@@ -41,7 +43,7 @@ MathJax = {
 
 ![余割 csc](images/basic_function_csc.png)
 
-## 0. 常见的特殊角的三角函数值
+## 2. 常见的特殊角的三角函数值
 
 |   | $0$ | $\frac{1}{6}\pi$ | $\frac{1}{4}\pi$ | $\frac{1}{3}\pi$ | $\frac{1}{2}\pi$ | $1\pi$ | $\frac{3}{2}\pi$ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -52,9 +54,9 @@ MathJax = {
 | $\sec$ | $1$ | $\frac{2\sqrt{3}}{3}$ | $\sqrt{2}$ | $2$ | undefined | $-1$ | undefined |
 | $\csc$ | undefined | $2$ | $\sqrt{2}$ | $\frac{2\sqrt{3}}{3}$ | $1$ | undefined | $-1$ |
 
-## 1. 诱导公式 Induction Formula
+## 3. 诱导公式 Induction Formula
 
-### 1.1 对称
+### 3.1 对称
 
 | 反射于$\theta=0$（负角）        | 反射于$\theta=\dfrac{\pi}{4}$（余角）        | 反射于$\theta=\dfrac{\pi}{2}$（补角）| 反射于$\theta=\dfrac{3\pi}{4}$            |
 |--------------------------------|--------------------------------------------|----------------------------------|----------------------------------------------|
@@ -65,7 +67,7 @@ MathJax = {
 |  $\sec(0-\theta) = \sec\theta$ | $\sec(\dfrac{\pi}{2}-\theta) = \csc\theta$ | $\sec(\pi-\theta) = -\sec\theta$ | $\sec(\dfrac{3\pi}{2}-\theta) = -\csc\theta$ |
 | $\csc(0-\theta) = -\csc\theta$ | $\csc(\dfrac{\pi}{2}-\theta) = \sec\theta$ | $\csc(\pi-\theta) = \csc\theta$  | $\csc(\dfrac{3\pi}{2}-\theta) = -\sec\theta$ |
 
-### 1.2 位移和周期
+### 3.2 位移和周期
 
 | 位移$\dfrac{\pi}{2}$（增加π/2相位）          | 位移$\pi$（对角）                 | 位移$\dfrac{3\pi}{2}$                          | 位移$2\pi$ (终边相同的角)            |
 |---------------------------------------------|----------------------------------|------------------------------------------------|------------------------------------|
@@ -78,7 +80,7 @@ MathJax = {
 
 > 这些公式有一句著名的口诀：奇变偶不变，符号看象限。“奇变偶不变”指的是，如果括号内增加π/2的奇数倍，改变函数名（如$\sin$变成$\cos$），偶数倍则不变；而“符号看象限”指的是，只需要假设$\theta$是第一象限的角（这样θ的三角函数必定为正），而观察公式变换后$\theta + \dfrac{n\pi}{2}$在对应象限的三角函数的符号，例如$\sin(\theta + \pi)$，θ转动π rad后到达第三象限，而第三象限的正弦是负数，所以$\sin$前加负号，$sin(θ+π)=−sinθ$。[Ref](https://easymath-wiki.org/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/02%E4%B8%89%E8%A7%92%E5%85%AC%E5%BC%8F/)
 
-## 2. 六边形
+## 4. 六边形
 
 ![三角函数的关系](images/triangle_function_relation.png)
 
@@ -103,7 +105,7 @@ MathJax = {
 * $\csc\alpha = \dfrac{\sec\alpha}{\tan\alpha} \iff \sec\alpha = \csc\alpha \tan\alpha$
 * $\sec\alpha = \dfrac{\tan\alpha}{\sin\alpha} \iff \tan\alpha = \sec\alpha \sin\alpha$
 
-## 3. 和差恒等式
+## 5. 和差恒等式
 
 ![正弦和余弦函数的和差](images/800px-AngleAdditionDiagramSine.svg.png)
 
@@ -136,7 +138,7 @@ MathJax = {
 * $\tan^2{\dfrac{\theta}{2}} = \dfrac{1 - \cos \theta}{1 + \cos \theta} \Rightarrow \tan{\dfrac{\theta}{2}} = \pm \sqrt{\dfrac{1 - \cos \theta}{1 + \cos \theta}}$
 * $\tan{\dfrac{\theta}{2}} = \dfrac{\sin \theta}{1+\cos \theta} = \dfrac{1 - \cos \theta}{\sin \theta}$(注意定义域的变化）
 
-## 4. 积化和差 product-to-sum
+## 6. 积化和差 product-to-sum
 
 通常，我们提到的积化和差公式只涉及$\sin$和$\cos$相关的四个公式，它们都是从前面提到的和差恒等式推出的。
 
@@ -145,7 +147,7 @@ MathJax = {
 * $\cos \alpha \sin \beta = \dfrac{\sin(\alpha + \beta) - \sin(\alpha - \beta)}{2}$
 * $\cos \alpha \cos \beta = \dfrac{\cos(\alpha + \beta) + \cos(\alpha - \beta)}{2}$
 
-## 5. 和差化积 sum-to-product
+## 7. 和差化积 sum-to-product
 
 通常，这里也只是记录4个涉及$\sin$和$\cos$的公式，它们都可以通过上面积化和差的几个公式直接加减推出。
 
@@ -156,7 +158,7 @@ MathJax = {
 
 这几个公式，也可以通过把$\alpha$看成$\dfrac{\alpha + \beta}{2} + \dfrac{\alpha - \beta}{2}$，把$\beta$看成$\dfrac{\alpha + \beta}{2} - \dfrac{\alpha - \beta}{2}$，然后通过前面提到的和差恒等式直接相加得出。
 
-## 6. 万能公式
+## 8. 万能公式
 
 用 $\tan{\dfrac{\alpha}{2}}$ 表示 $\sin \alpha$, $\cos \alpha$, $\tan \alpha$
 
@@ -169,3 +171,14 @@ Ref:
 * [维基百科·三角恒等式](https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F)
 * [List of trigonometric identities](https://en.wikipedia.org/wiki/List_of_trigonometric_identities) (Wikipedia)
 * [三角公式](https://easymath-wiki.org/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/02%E4%B8%89%E8%A7%92%E5%85%AC%E5%BC%8F/) (Easymath-wiki)
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

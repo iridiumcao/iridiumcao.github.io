@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 极限 Limit
 
 [返回目录](index.md)
@@ -69,3 +58,14 @@ In mathematics, the limit of a sequence is the value that the terms of a sequenc
 ${\displaystyle \lim _{n\to \infty}a_n}$.
 
 ([Ref](https://en.wikipedia.org/wiki/Limit_of_a_sequence))
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

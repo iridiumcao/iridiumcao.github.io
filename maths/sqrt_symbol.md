@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # $\sqrt{}$的含义
 
 [返回目录](index.md)
@@ -42,3 +31,14 @@ MathJax = {
 $\sqrt{}$ 在形状上和字母`r`手写体接近，很可能$\sqrt{}$的就是来源于`r`的手写体。确实也是如此，参维基百科资料：
 
 > A symbol for square roots, written as an elaborate R, was invented by Regiomontanus (1436–1476). ([Ref](https://en.wikipedia.org/wiki/Square_root))
+>
+> <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

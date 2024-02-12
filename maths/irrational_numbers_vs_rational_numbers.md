@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?
 
 [返回目录](index.md)
@@ -65,3 +54,14 @@ $$\aleph_1 > \aleph_0$$
 如果轻信ChatGPT，可能会走入错误的深渊。
 
 ![无理数和有理数谁更多？](images/rational_vs_irrational_number.png)
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

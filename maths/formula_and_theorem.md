@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # Formula 和 Theorem 的区别
 
 [返回目录](index.md)
@@ -24,3 +13,14 @@ Formula是指数学公式，它是一种通用的表达方式，用于描述数�
 Theorem是指数学定理，它是一个被证明的、具有普遍意义的数学命题。定理通常是由一系列数学公式组成，用于证明某个结论的正确性或描述数学中的规律性。例如，费马大定理是数学中的一个著名定理，它描述了一个整数在三次方时无法分解成两个较小整数的乘积。
 
 因此，Formula和Theorem在数学中的使用是有所区别的。Formula通常用于描述数学中的具体关系和计算，Theorem则用于描述数学中的定律和规律性。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

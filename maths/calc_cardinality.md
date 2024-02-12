@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 计算集合中元素的个数
 
 [返回目录](index.md)
@@ -76,3 +65,14 @@ Oracle 是支持集合运算的（参[《查询集的集合操作》](https://si
 
 * <http://en.wikipedia.org/wiki/Cardinality>
 * <http://en.wikipedia.org/wiki/Inclusion%E2%80%93exclusion_principle>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

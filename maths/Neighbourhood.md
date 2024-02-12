@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 邻域 Neighbourhood
 
 [返回目录](index.md)
@@ -41,3 +30,14 @@ MathJax = {
 * [维基百科·邻域](https://zh.wikipedia.org/wiki/%E9%82%BB%E5%9F%9F)
 * [中文数学 Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F?variant=zh)
 * [Neighbourhood, Wikipedia](https://en.wikipedia.org/wiki/Neighbourhood_(mathematics))
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

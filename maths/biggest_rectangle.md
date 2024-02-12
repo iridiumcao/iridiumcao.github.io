@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 面积最大的矩形
 
 [返回目录](index.md)
@@ -84,3 +73,14 @@ $y=\cos{\theta}=\cos{\dfrac{\pi}{4}}=\dfrac{\sqrt{2}}{2}$
 ---
 
 后记：一开始，Charles还误以为虽然长宽比不一样，但长宽的和是一样，他还误打误撞提了一个猜想——[两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)，经过我的证明，是正确的。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

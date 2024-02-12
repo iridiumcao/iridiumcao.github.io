@@ -1,15 +1,4 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
-## Logarithm Change of Base Rule
+# Logarithm Change of Base Rule
 
 To prove
 
@@ -52,3 +41,14 @@ $\therefore \log_{c}{b}=\log_{a}{b}\log_{c}{a}$
 $\therefore \log_{a}{b} = \dfrac{\log_{c}{b}}{\log_{c}{a}}$
 
 Q.E.D.
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

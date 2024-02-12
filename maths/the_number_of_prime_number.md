@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 素数的个数为什么是无限的
 
 [返回目录](index.md)
@@ -41,3 +30,14 @@ MathJax = {
 
 本文曾于 2007-07-03 01:17:00 发布在[CSDN blog](https://blog.csdn.net/caoi/article/details/1676223)上
 ![history on CSDN](images/history2023-06-16-065353.png)
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

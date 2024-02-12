@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 余数详情 Details of Remainder
 
 [返回目录](index.md)
@@ -52,3 +41,14 @@ a = qd + r, q ∈ Z，且 0 ≤ |r| < |d|
 - [Puzzle 01: Oddity](https://sites.google.com/site/iridiumsite/it/java/java-lang/book-java-puzzlers/puzzle-01-oddity)
 - Modulo operation: <http://en.wikipedia.org/wiki/Modulo_operation>
 - 本文自[Google Sites](https://sites.google.com/site/iridiumsite/it/algorithms/details-of-remainder)转移而来
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

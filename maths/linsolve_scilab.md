@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # Scilab 求解线性方程组示例(linsolve)
 
 [Index](index.md)
@@ -16,12 +5,17 @@ MathJax = {
 方程组：
 
 $$
-\begin{cases}
-x_1-3x_2-2x_3-x_4=6 \\
-3x_1-8x_2+x_3+5x_4=0 \\
--2x_1+x_2-4x_3+x_4=12 \\
--x_1+4x_2-x_3-3x_4=-2 \\
-\end{cases}
+
+\left\{
+\begin{equation}
+  \begin{split}
+    x_1-3x_2-2x_3-x_4 &= 6 \nonumber \\
+    3x_1-8x_2+x_3+5x_4 &= 0 \\
+    -2x_1+x_2-4x_3+x_4 &= 12 \\
+    -x_1+4x_2-x_3-3x_4 &= -2
+  \end{split}
+\end{equation}
+\right.
 $$
   
 Scilab 求解代码：
@@ -71,3 +65,14 @@ Scilab 求解代码：
 本文从[旧站](https://sites.google.com/site/iridiumsite/Home/others/mathematics/algebra/scilab_linsolve)搬运而来。
 
 本文于2018.03.31 18:40发布在[OSC](https://my.oschina.net/iridium/blog/1787982).
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

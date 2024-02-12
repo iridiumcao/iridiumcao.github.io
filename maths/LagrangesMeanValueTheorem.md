@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 拉格朗日中值定理 Lagrange's Mean Value Theorem
 
 [返回目录](index.md)
@@ -58,3 +47,14 @@ $g'(c)=f'(c)-\frac{f(b)-f(a)}{b-a}=0$
 $f'(c)=\frac{f(b)-f(a)}{b-a}$
 
 这就是拉格朗日中值定理。证毕。
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>

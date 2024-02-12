@@ -1,14 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  }
-};
-</script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
 # 几个比较基础的逻辑运算概念
 
 [返回目录](index.md)
@@ -109,3 +98,15 @@ $P = \neg (AB + BC)$
 ---
 
 这篇文章是从[旧站](https://sites.google.com/site/iridiumsite/Home/others/mathematics/logic-oper)搬过来的。
+
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
