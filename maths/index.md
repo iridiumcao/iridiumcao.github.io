@@ -16,13 +16,17 @@
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
 * [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
-* [Scilab 求解线性方程组示例(linsolve)](linsolve_scilab.md)
 * [《给讨厌数学的人》阅读笔记](notes-of-antimath.md)
 * [$\sqrt{}$的含义](sqrt_symbol.md)
 * [希腊字母表](greek_alphabet.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 * [九宮格（河图洛书）](9gg.md)
+
+## 线性代数 Linear Algebra
+
+* [Scilab 求解线性方程组示例(linsolve)](linsolve_scilab.md)
+* [矩阵乘法的理解](matrix_multiplication.md)
 
 ## 几何 Geometry
 
