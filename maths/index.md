@@ -27,6 +27,7 @@
 
 * [Scilab 求解线性方程组示例(linsolve)](linsolve_scilab.md)
 * [矩阵乘法的理解](matrix_multiplication.md)
+* [矩阵的行秩等于列秩](row_col_rank.md)
 
 ## 几何 Geometry
 
