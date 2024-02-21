@@ -33,6 +33,21 @@ public class Matrix {
         return c;
     }
 
+    public static int[][] productV2(int[][] a, int[][] b) {
+        int rows = a.length;
+        int columns = b[0].length;
+        int[][] c = new int[rows][columns];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                for (int k = 0; k < b.length; k++) {
+                    c[i][j] += a[i][k] * b[k][j];
+                }
+            }
+        }
+        return c;
+    }
+
     public static void product(int[][] a, int[][] b, int[][] r) {
         int rows = a.length;
         int columns = b[0].length;
@@ -96,5 +111,9 @@ public class Matrix {
         int[][] r = new int[a.length][b[0].length];
         product(a, b, r);
         print(r);
+
+        System.out.println("-------------");
+
+        print(productV2(a, b));
     }
 }
