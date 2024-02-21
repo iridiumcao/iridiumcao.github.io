@@ -13,19 +13,19 @@ public class Matrix {
      * @param b, the right matrix B
      * @return AB
      */
-    public static int[][] product(int[][] a, int[][] b) {
+    public static double[][] product(double[][] a, double[][] b) {
         int rows = a.length;
         int columns = b[0].length;
-        int[][] c = new int[rows][columns];
-
+        double[][] c = new double[rows][columns];
+    
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                int[] row = a[i];
-                int[] col = new int[columns];
+                double[] row = a[i];
+                double[] col = new double[columns];
                 for (int k = 0; k < b.length; k++) {
                     col[k] = b[k][j];
                 }
-
+    
                 // c[i][j] = a[i][*] b[*][j]
                 c[i][j] = dotProduct(row, col);
             }
@@ -33,14 +33,29 @@ public class Matrix {
         return c;
     }
 
-    public static void product(int[][] a, int[][] b, int[][] r) {
+    public static double[][] productV2(double[][] a, double[][] b) {
+        int rows = a.length;
+        int columns = b[0].length;
+        double[][] c = new double[rows][columns];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < columns; j++) {
+                for (int k = 0; k < b.length; k++) {
+                    c[i][j] += a[i][k] * b[k][j];
+                }
+            }
+        }
+        return c;
+    }
+
+    public static void product(double[][] a, double[][] b, double[][] r) {
         int rows = a.length;
         int columns = b[0].length;
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
-                int[] row = a[i];
-                int[] col = new int[columns];
+                double[] row = a[i];
+                double[] col = new double[columns];
                 for (int k = 0; k < b.length; k++) {
                     col[k] = b[k][j];
                 }
@@ -51,15 +66,15 @@ public class Matrix {
         }
     }
 
-    public static int dotProduct(int[] a, int[] b) {
-        int dp = 0;
+    public static double dotProduct(double[] a, double[] b) {
+        double dp = 0.0;
         for (int i = 0; i < a.length; i++) {
             dp += a[i] * b[i];
         }
         return dp;
     }
 
-    public static void print(int[][] a) {
+    public static void print(double[][] a) {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[0].length; j++) {
                 System.out.print(a[i][j] + ", ");
@@ -74,14 +89,14 @@ public class Matrix {
         // 1 2
         // 3 4
         // 5 6
-        int[][] a = new int[][]{
+        double[][] a = new double[][]{
                 {1, 2}, {3, 4}, {5, 6}
         };
 
         // B:
         // 7, 8
         // 9, 10
-        int[][] b = new int[][]{
+        double[][] b = new double[][]{
                 {7, 8}, {9, 10}
         };
 
@@ -93,8 +108,12 @@ public class Matrix {
 
         System.out.println("-------------");
 
-        int[][] r = new int[a.length][b[0].length];
+        double[][] r = new double[a.length][b[0].length];
         product(a, b, r);
         print(r);
+
+        System.out.println("-------------");
+
+        print(productV2(a, b));
     }
 }
