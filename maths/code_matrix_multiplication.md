@@ -35,7 +35,7 @@ $$c_{ij} = a_{i1} b_{1j} + a_{i2} b_{2j} + \cdots + a_{in} b_{nj} = \sum_{k=1}^n
 
 for $i = 1, ..., m$ and $j = 1, ..., p$.
 
-That is, the entry $c_{ij}$ of the product is obtained by multiplying term-by-term the entries of the $i$th row of $\mathcal{A}$ and the $j$th column of $\mathcal{B}$, and summing these $n$ products. In other words, {{tmath|c_{ij} }} is the [[dot product]] of the $i$th row of $\mathcal{A}$ and the $j$th column of $\mathcal{B}$.
+That is, the entry $c_{ij}$ of the product is obtained by multiplying term-by-term the entries of the $i$th row of $\mathcal{A}$ and the $j$th column of $\mathcal{B}$, and summing these $n$ products. In other words, $c_{ij}$ is the [dot product](https://en.wikipedia.org/wiki/Dot_product) of the $i$th row of $\mathcal{A}$ and the $j$th column of $\mathcal{B}$.
 
 Therefore, $\mathcal{AB}$ can also be written as
 
@@ -47,13 +47,78 @@ $$\mathcal{C} = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-Thus the product $\mathcal{AB}$ is defined if and only if the number of columns in $\mathcal{A}$ equals the number of rows in $\mathcal{B}$, in this case $$''n''}}.
+Thus the product $\mathcal{AB}$ is defined if and only if the number of columns in $\mathcal{A}$ equals the number of rows in $\mathcal{B}$, in this case $n$.
 
 In most scenarios, the entries are numbers, but they may be any kind of [mathematical object](https://en.wikipedia.org/wiki/Mathematical_object)s for which an addition and a multiplication are defined, that are [associative](https://en.wikipedia.org/wiki/Associative_property), and such that the addition is [commutative](https://en.wikipedia.org/wiki/Commutative_property), and the multiplication is [distributive](https://en.wikipedia.org/wiki/Distributive_property) with respect to the addition. In particular, the entries may be matrices themselves (see [block matrix](https://en.wikipedia.org/wiki/Block_matrix)).
 
 ## Implementation
 
+According to the definition, we can implement it with a programming languange. A matrix can be presented by a two demensional array.
+
+- Input: matrix $\mathcal{A}$ and $\mathcal{B}$
+  - the number of columns in $\mathcal{A}$ equals the number of rows in $\mathcal{B}$
+- Output: $\mathcal{C}$
+  - $\mathcal{C} = \mathcal{AB}$
+
+## Pesdo Code
+
+```plaintext
+// Input:
+//     a: matrix A, m X n (rows: m, columns: n)
+//     b: matrix B, n X p (rows: n, columns: p)
+// Output:
+//     c: matrix C, C = AB (rows: m, columns: p)
+produce(a, b) {
+    check the numbers of input matrix;
+    if legal, continue, or return;
+    build c with n rows and p columns;
+    set every c[i][j]'s value {
+        get the i-th row of A -> c_row;
+        get the j-th column of B -> c_col;
+        calculate the dot product of c_row and c_col;
+        c[i][j] <- the dot product;
+    }
+    return c;
+}
+```
+
 ## Java
+
+It's easy to implement it in Java according to the pesudo code.
+
+```java
+public static double[][] product(double[][] a, double[][] b) {
+    int rows = a.length;
+    int columns = b[0].length;
+    double[][] c = new double[rows][columns];
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            double[] row = a[i];
+            double[] col = new double[columns];
+            for (int k = 0; k < b.length; k++) {
+                col[k] = b[k][j];
+            }
+
+            // c[i][j] = a[i][*] b[*][j]
+            c[i][j] = dotProduct(row, col);
+        }
+    }
+    return c;
+}
+
+public static double dotProduct(double[] a, double[] b) {
+    double dp = 0.0;
+    for (int i = 0; i < a.length; i++) {
+        dp += a[i] * b[i];
+    }
+    return dp;
+}
+```
+
+
+
+[Download Code in Java](code/Matrix.java)
 
 ## C
 
