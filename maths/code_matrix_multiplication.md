@@ -2,6 +2,20 @@
 
 [Index](index.md)
 
+---
+
+- [Implmenting Matrix Multiplication in Programming Code](#implmenting-matrix-multiplication-in-programming-code)
+  - [Definition](#definition)
+  - [Implementation](#implementation)
+    - [Pesdo Code](#pesdo-code)
+    - [Java](#java)
+    - [C](#c)
+    - [C++](#c-1)
+    - [JavaScript](#javascript)
+    - [Python](#python)
+
+---
+
 ## Definition
 
 (This part is copied from [Matrix multiplication, Wikipedia](https://en.wikipedia.org/wiki/Matrix_multiplication))
@@ -60,7 +74,7 @@ According to the definition, we can implement it with a programming languange. A
 - Output: $\mathcal{C}$
   - $\mathcal{C} = \mathcal{AB}$
 
-## Pesdo Code
+### Pesdo Code
 
 ```plaintext
 // Input:
@@ -82,7 +96,7 @@ produce(a, b) {
 }
 ```
 
-## Java
+### Java
 
 It's easy to implement it in Java according to the pesudo code.
 
@@ -116,18 +130,68 @@ public static double dotProduct(double[] a, double[] b) {
 }
 ```
 
+Yes, it works. However, it seems to be too verbose. We can consider to remove the method `docProduct(double[], double[])`, since it's too simple.
 
+```java
+public static double[][] product(double[][] a, double[][] b) {
+    int rows = a.length;
+    int columns = b[0].length;
+    double[][] c = new double[rows][columns];
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            double[] row = a[i];
+            double[] col = new double[columns];
+            for (int k = 0; k < b.length; k++) {
+                col[k] = b[k][j];
+            }
+
+            // c[i][j] = a[i][*] b[*][j]
+            for (int p = 0; p < rows; p++) {
+                c[i][j] += row[p] * col[p];
+            }
+        }
+    }
+    return c;
+}
+```
+
+Since
+
+```java
+double[] row = a[i];
+double[] col = new double[columns];
+```
+
+Continue to simplify it, removing the definition of `row` and `col`:
+
+```java
+public static double[][] productV2(double[][] a, double[][] b) {
+    int rows = a.length;
+    int columns = b[0].length;
+    double[][] c = new double[rows][columns];
+
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < columns; j++) {
+            for (int k = 0; k < b.length; k++) {
+                c[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+    return c;
+}
+```
 
 [Download Code in Java](code/Matrix.java)
 
-## C
+### C
 
-## C++
+### C++
 
-## JavaScript
+### JavaScript
 
 (run in nodejs)
 
-## Python
+### Python
 
 More details of the definition refs to [Understanding Matrix Multiplication](matrix_multiplication.md) (in Chinese).
