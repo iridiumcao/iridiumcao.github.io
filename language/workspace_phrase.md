@@ -1,5 +1,7 @@
 # 文明用语转化表
 
+[Index](index.md)
+
 注：早先偶然在网上看到一篇据信是来自美国空军(Department of the Air Force, XXX Security Forces Squadron)的一份工作语言建议，非常有意思，录入部分内容如下。
 
 ## Head

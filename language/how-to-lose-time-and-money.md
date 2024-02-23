@@ -1,5 +1,7 @@
 # How to Lose Time and Money 时间和金钱是怎么失去的
 
+[Index](index.md)
+
 原文 (Source): <http://paulgraham.com/selfindulgence.html>
 
 2010年07月 (July 2010)

@@ -1,5 +1,7 @@
 # 《道德经》入门该选哪个版本？
 
+[Index](index.md)
+
 先说我的答案：马王堆帛书版。
 
 以下简单补充一些背景和细节。
@@ -18,6 +20,7 @@
 帛书版《老子》是目前众版本中，保存最完整，理解最容易的版本。
 
 Ref:
+
 * [老子河上公章句](https://zh.wikipedia.org/wiki/%E8%80%81%E5%AD%90%E6%B2%B3%E4%B8%8A%E5%85%AC%E7%AB%A0%E5%8F%A5)
 * [马王堆帛书](https://zh.wikipedia.org/wiki/%E9%A9%AC%E7%8E%8B%E5%A0%86%E5%B8%9B%E4%B9%A6)
 * 本站[道德经笔记](TaoTeChing/index.md)

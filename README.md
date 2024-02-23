@@ -17,22 +17,15 @@
 * [算法系列](algorithm/index.md)
 * [数学系列](maths/index.md)
 * [Git](git/index.md)
+* [语言文字](language/index.md)
 
 ### 未归类
 
 * [OO 设计原则](oo-design-principle.md)
 * [房价和房租的一点思考](house_price_rent.md)
-* [《道德经》入门该选哪个版本？](laozi-version.md)
 * [简单问答](simple-ask-and-answer.md)
-* [Word List](word_list.md)
 * [每日复盘](daily_review.md)
-* [兩岸三地譯名不同錄](translation_cn_tw_hk.md)
-* [文明用语转化表](workspace_phrase.md)(转贴)
-* [消失吧，你！(Without You)](without_you.md)(翻译)
-* [How to Lose Time and Money 时间和金钱是怎么失去的](how-to-lose-time-and-money.md)(翻译)
-* [极易写错的汉字：延，考](yan_kao.md)
 * [Chat with AI](ai1ai2.md)
-* [拼音学习辅助资料——韵母和整体认读](pinyin.md)
 
 ## The Third-Party Links
 
