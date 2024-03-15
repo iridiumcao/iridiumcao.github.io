@@ -9,6 +9,7 @@
 * [比特币书单](bitcoin/books_for_bitcoin.md)
 * [Bitcoin Value](bitcoin/bitcoin_value.md)
 * [比特币的总数为何是两千一百万(21000000)个？](bitcoin/why21million.md)
+* [Create a Watch-Only Wallet with Bitcoin Core](bitcoin/watch-only-wallet.md)
 
 ## Blockchain
 
