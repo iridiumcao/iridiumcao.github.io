@@ -8,6 +8,7 @@
 * [为什么比特币是更好的货币](bitcoin/why_bitcoin_is_the_better_currency.md)
 * [比特币书单](bitcoin/books_for_bitcoin.md)
 * [Bitcoin Value](bitcoin/bitcoin_value.md)
+* [比特币的总数为何是两千一百万(21000000)个？](bitcoin/why21million.md)
 
 ## Blockchain
 
