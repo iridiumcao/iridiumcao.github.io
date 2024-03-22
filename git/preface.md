@@ -64,16 +64,9 @@
 * Issues: <https://github.com/iridiumcao/iridiumcao.github.io/issues>
 * 或直接提交 PR
 
-每一个采用的反馈将奖励1.00元，给你 +1s. 如果你觉得这些文档有帮助，也可以打赏0.99元，帮我 +1s。
+## 免费声明
 
-![](../images/wechat_code.png) ![](../images/alipay_code.jpg)
-
-## 致谢名单
-
-| 名称 |    事由    | 金额         |
-|:----:|:------------:|-----------------|
-| you  | link to revision | 打赏, +0.99元 |
-| you  | link to revision | 支付, -1.00元 |
+本文档免费，因为 git 本身开源免费。向 BitKeeper 和 Linus Torvalds 致敬。
 
 ## License
 
