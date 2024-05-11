@@ -98,7 +98,7 @@ Can we conclude the following?
 
 > Assume the argument is $n$ ($n \ge 0, n \in \mathbb{Z}$) and the return value is $r$ ($r \in \mathbb{Z}$), then $0 \le r \lt n$.
 >
-> $0 \le r \lt n \lrArr 0 \le r \le n$
+> $0 \le r \lt n \Leftrightarrow 0 \le r \le n$
 >
 > $\therefore 0 \le rand(n) \le n-1$
 > 
