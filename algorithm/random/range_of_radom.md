@@ -9,7 +9,6 @@
   - [Test 2, Using an Integer Range as Argument](#test-2-using-an-integer-range-as-argument)
   - [Guess](#guess)
   - [Official Reference](#official-reference)
-  - [Range of Bitcoin Private Keys](#range-of-bitcoin-private-keys)
   - [PS](#ps)
 
 ---
@@ -131,37 +130,6 @@ prng.rand(5...9)     # => one of [5, 6, 7, 8]
 ```
 
 According to the documentation, the observations from our tests are accurate.
-
-## Range of Bitcoin Private Keys
-
-In Bitcoin, a private key is a 256-bit number ([Ref](https://en.bitcoin.it/wiki/Private_key)), allowing for a vast range of possible values from $0$ to $2^{256} - 1$.
-
-However, $2^{256}$ cannot be a valid Bitcoin private key due to its 257-bit size, which exceeds the maximum 256-bit limit.
-
-To illustrate this concept further, let's consider a smaller scenario with a 3-bit number. Here's the full list of 3-bit numbers along with their decimal equivalents:
-
-| Binary | Decimal |            |
-|--------|---------|------------|
-| 0      |       0 |            |
-| 1      |       1 |            |
-| 10     |       2 |            |
-| 11     |       3 |            |
-| 100    |       4 |            |
-| 101    |       5 |            |
-| 110    |       6 |            |
-| 111    |       7 | ($=2^3 - 1$) |
-
-In this example, $2^3 = 8$, represented as $1000_{b}$, which requires 4 bits.
-
-To generate a random Bitcoin private key in Ruby, we can use the following code:
-
-```ruby
-rand(115792089237316195423570985008687907853269984665640564039457584007913129639935)
-# or
-rand(0..115792089237316195423570985008687907853269984665640564039457584007913129639935)
-# or
-rand(0...115792089237316195423570985008687907853269984665640564039457584007913129639936)
-```
 
 ## PS
 
