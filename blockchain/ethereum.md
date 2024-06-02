@@ -4,14 +4,15 @@
 
 Official site: <https://ethereum.org/zh/>
 
-智能合约开发工具：
+## Smart Contract
+
+智能合约开发工具 Remix
 
 * 在线版本：
   * <https://remix.ethereum.org/>
   * <https://github.com/ethereum/remix-project>
 * 本地版本：<https://github.com/ethereum/remix-desktop/releases>
-
-## Dev enironment
+* 教程：<https://docs.soliditylang.org/en/>
 
 ### NPM & Node.js
 

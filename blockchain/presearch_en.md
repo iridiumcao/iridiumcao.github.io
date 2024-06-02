@@ -29,3 +29,7 @@ Once a user has accumulated 1000 PRE, they can withdraw it to their own wallet a
 Registration instructions: By registering through [my invitation link](https://presearch.org/signup?rid=2341760), users can receive an additional 25 PRE reward. If you use Presearch normally for 30 days, I can also receive an additional 25 PRE reward.
 
 Exploring the unknown and earning rewards are both wonderful things. Start using [Presearch](https://presearch.org/signup?rid=2341760) now, and explore the unknown while earning rewards!
+
+---
+
+Update (2024.06.03): The reward for each search is currently only 0.01 PRE, far less generous than it used to be. However, the engine itself is still quite useful.

@@ -46,3 +46,4 @@
 * 论坛[https://bitcointalk.org/](https://bitcointalk.org/)
 * [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 * [Reddit](https://www.reddit.com/r/Bitcoin)
+* 目前已知的最好的技术教程: [learn me a bitcoin](https://learnmeabitcoin.com/)

@@ -7,17 +7,16 @@
 * altcoin, 山寨币
 * ASIC, Application Specific Integrated Circuit, 特殊应用的集成芯片
 * asymmetric encryption algorithm
-* BCH, Bitcoin Cash, 比特现金
-* BCHA, Bitcoin Cash ABC
-* BCHSV, BCH SV, Bitcoin Cash SV, Bitcoin Cash Satoshi Version
+* BCH, Bitcoin Cash, 比特现金 // 山寨，不能买
+* BCHA, Bitcoin Cash ABC // 山寨，不能买
+* BCHSV, BCH SV, Bitcoin Cash SV, Bitcoin Cash Satoshi Version // 山寨，不能买
 * bitcoin, 比特币
 * block, 区块
 * blockchain, 区块链
 * block reward, 区块奖励
 * Brute-force attack, 蛮力攻击
-* BSV, Bitcoin Satoshi Version
-* BTC, 比特币的计量单位
-* BTC, bitcoin, 比特币
+* BSV, Bitcoin Satoshi Version // 山寨，不能买
+* BTC, 1. 比特币的计量单位 2. bitcoin, 比特币
 * BTF, Byzantine Fault Tolerant, 拜占庭容错
 * Capital Gains Tax, 资本利得税
 * CBDC, 中央银行数字货币
@@ -39,7 +38,7 @@
 * EIP, 太坊升级提案
 * ETH, Ethereum, 以太坊
 * Ethash, 为以太坊专门设计的hash算法
-* ETC, Ethereum Classic, 以太坊经典
+* ETC, Ethereum Classic, 以太坊经典 // 已沦为山寨，不能买
 * EVM, Ethereum Virtual Machine, 以太坊虚拟机
 * externally owned account, 以太坊的外部账户
 * FIL, filecoin.
@@ -64,14 +63,14 @@
 * Node, 节点
 * nonce, ETH中的交易计数器
 * orphan block, 孤儿块
-* P2P， Peer to Peer
+* P2P, Peer to Peer
 * PoA, proof-of-authority, 权威证明 // 另外一个说法是 Proof of Assignment，待考
 * PoS, proof-of-stake, Proof of Stake, 权益证明, 股权证明
 * PoW, proof-of-work, Proof of Work, 工作量证明
 * Prooof of Spacetime, 时空证明
 * puzzle friendly
 * replay attack, 重放攻击
-* SHA， Secure Hash Algorithm
+* SHA, Secure Hash Algorithm
 * smart contract, 智能合约
 * smart contract account, ETH的合约账户
 * STO
