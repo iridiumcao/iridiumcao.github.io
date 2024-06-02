@@ -1,5 +1,7 @@
 # 语言文字
 
+* [希腊字母表](greek_alphabet.md)
+
 ## English
 
 - [兩岸三地譯名不同錄](translation_cn_tw_hk.md)
