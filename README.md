@@ -30,3 +30,7 @@
 ## The Third-Party Links
 
 * [Link Roll](link_roll.md)
+
+---
+
+[[赞助本站(Donote)]](donation.md)
