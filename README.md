@@ -20,7 +20,7 @@ Record & Share \| 记录和分享
 * [房价、房租和利率的一点思考](house_price_rent.md)
 * [Chat with AI](ai1ai2.md)
 * [简单问答](simple-ask-and-answer.md)
-* [Link Roll](link_roll.md)
+* [Third-Party Links](3rd_party_links.md)
 
 ---
 
