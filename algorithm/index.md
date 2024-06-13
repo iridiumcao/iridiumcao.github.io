@@ -1,4 +1,4 @@
-# Index of Algorithm
+# Algorithm
 
 1. [求最大公约数之一(详细)](gcd/gcd.md)
 2. [求最大公约数之二(Java, 辗转相除法)](gcd/gcd2.md)
@@ -14,9 +14,9 @@
 12. [打印九九乘法表](99table.md)
 13. [石头有多重](weight_of_stone.md)
 14. [哪个赛车最好](bestcar/content.md)
-15. [倒着遍历数组](desc-visit/content.md)
-16. [Range of Ruby's Random Functions in Integer](random/range_of_radom.md)
-17. [谁是小偷](chief/content.md)
+15. [谁是小偷](chief/content.md)
+16. [倒着遍历数组](desc-visit/content.md)
+17. [Range of Ruby's Random Functions in Integer](random/range_of_radom.md)
 
 ## 排序算法
 
