@@ -24,5 +24,5 @@
 * [全面的去中心化正在到来](decentralized_world_coming.md)
 * [量化交易参考资料](quant_ref.md)
 * [给币安的一条产品建议](binance_btc_unit.md)
-* [Filecoin 的价格简要分析](filecoin_value.md)
+* [山寨币的价格估计](filecoin_value.md)
 * [Presearch助你探索未知并赚取奖励](presearch_zh_CN.md), [Please Use Presearch to Get Money](presearch_en.md)
