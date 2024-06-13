@@ -23,7 +23,7 @@
 * [数字签名](cryption/digital_signature.md)
 * [用 IPFS 发布静态站点](ipfs/static_site.md)
 * [全面的去中心化正在到来](decentralized_world_coming.md)
+* [如何大致判断一个币的价格是否合理？](altercoin_price.md)
 * [量化交易参考资料](quant_ref.md)
 * [给币安的一条产品建议](binance_btc_unit.md)
-* [Filecoin 的价格简要分析](filecoin_value.md)
 * [Presearch助你探索未知并赚取奖励](presearch_zh_CN.md), [Please Use Presearch to Get Money](presearch_en.md)
