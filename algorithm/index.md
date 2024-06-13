@@ -16,6 +16,7 @@
 14. [哪个赛车最好](bestcar/content.md)
 15. [倒着遍历数组](desc-visit/content.md)
 16. [Range of Ruby's Random Functions in Integer](random/range_of_radom.md)
+17. [谁是小偷](chief/content.md)
 
 ## 排序算法
 

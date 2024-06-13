@@ -10,7 +10,7 @@
  * 
  * 那个赛车最好？
  * 
- * Ref: https://sites.google.com/site/iridiumsite/it/algorithms/bestcar
+ * Ref: https://iridiumcao.github.io/algorithm/bestcar/content.html
  * 这是 BestCar 的一个简化版本
  */
 public class BestCar2 {

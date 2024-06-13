@@ -32,13 +32,13 @@ D = !B = !4
 
 由此可列真值表如下：
 
-|                  | if 1 best | if 2 best | if 3 best | if 4 best |
-|------------------|-----------|-----------|-----------|-----------|
-| A(2 is true)     | F         | T         | F         | F         |
-| B(4 is true)     | F         | F         | F         | T         |
-| C(3 is not true) | ?         | ?         | F         | ?         |
-| D(4 is not true) | ?         | ?         | ?         | F         |
-| count(T)         | 2?        | 3?        | 1?        | 2?        |
+|                 | if 1 best | if 2 best | if 3 best | if 4 best |
+|-----------------|-----------|-----------|-----------|-----------|
+| A (best: 2)     | F         | T         | F         | F         |
+| B (best: 4)     | F         | F         | F         | T         |
+| C (best: not 3) | T         | T         | F         | T         |
+| D (best: not 4) | T         | T         | T         | F         |
+| count(T)        | 2         | 3         | 1         | 2         |
 
 由上表，count(T) == 1时，为合乎条件的解：3号车最好，D说的对的。
 
@@ -65,18 +65,18 @@ int count = 0; // 所有人说对话的总数
 for (int i : first) {
     for (int j : second) {
         for (int k : third) {
-            for (int l : forth) {
-                if (i + j + k + l == 1) {//只有一个车是最好的
+            for (int m : forth) {
+                if (i + j + k + m == 1) {//只有一个车是最好的
                     count = 0;
                     count += ((j == 1) ? 1 : 0);// 2号赛车是最好的
-                    count += ((l == 1) ? 1 : 0);// 4号赛车是最好的
+                    count += ((m == 1) ? 1 : 0);// 4号赛车是最好的
                     count += ((k != 1) ? 1 : 0);// 3号赛车不是最好的
-                    count += ((l != 1) ? 1 : 0);// 4号赛车不是最好的
+                    count += ((m != 1) ? 1 : 0);// 4号赛车不是最好的
                     if (count == 1) {//只有一个人说的对的
                         System.out.println("1号车：" + ((i == 1) ? "最好" : "不是最好"));
                         System.out.println("2号车：" + ((j == 1) ? "最好" : "不是最好"));
                         System.out.println("3号车：" + ((k == 1) ? "最好" : "不是最好"));
-                        System.out.println("4号车：" + ((l == 1) ? "最好" : "不是最好"));
+                        System.out.println("4号车：" + ((m == 1) ? "最好" : "不是最好"));
                     }
                 }
             }
@@ -85,7 +85,7 @@ for (int i : first) {
 }
 ```
 
-注意：多重循环中，不要使用 contine 和 break，更不要和标签结合使用，前面在第一重循环外加了个标签，从最里层的循环体中跳出，出现莫名其妙的结果。这里不多表。完整可运行的代码在[这里](BestCar.java)。
+注意：多重循环中，不要使用 `contine` 和 `break`，更不要和标签结合使用，我之前在第一重循环外加了个标签，从最里层的循环体中跳出，出现莫名其妙的结果，这里不多表。完整可运行的代码在[这里](BestCar.java)。
 
 以上的代码很直观，但多重循环看得真是愁杀人，其实考虑到只有一个车是最好的，将车的编号用来循环一次，代入到各人说的话中可以得到如下简化的 Java 代码：
 
@@ -116,23 +116,35 @@ for (int i = 1; i <= 4; i++) {
 
 完整的可执行代码在[这里](BestCar2.java)。
 
-如果用 C 语言，则可以得到更为简单的代码（参[这里](https://zhidao.baidu.com/question/75477496.html)）：
+如果用 C 语言，利用它用整型1表示布尔值 `true` 的特性，则可以得到更为简单的代码（参[这里(by Kenvisa, zhidao.baidu.com)](https://zhidao.baidu.com/question/75477496.html)）：
 
 ```c
-int m;
-for(m=1;m<5;m++)
-   if(!(m-2)+!(m-4)+!!(m-3)+!!(m-4)==1)
-       printf("第%d赛车是最好的",m);
+int m; // 赛车的编号
+for (m = 1; m < 5; m++)
+{
+    if (!(m - 2) + !(m - 4) + !!(m - 3) + !!(m - 4) == 1)
+    {
+        printf("第%d赛车是最好的", m);
+    }
+}
 ```
+
+完整的可执行代码在[这里](best_car.c)。
 
 或
 
 ```c
-int m;
-for(m=1;m<5;m++)
-   if(((m==2)+(m==4)+(m!=3)+(m!=4))==1)
-        printf("第%d赛车是最好的",m);
+    int m; // 赛车的编号
+    for (m = 1; m < 5; m++)
+    {
+        if (((m == 2) + (m == 4) + (m != 3) + (m != 4)) == 1)
+        {
+            printf("第%d赛车是最好的", m);
+        }
+    }
 ```
+
+完整的可执行代码在[这里](best_car2.c)。
 
 ---
 
