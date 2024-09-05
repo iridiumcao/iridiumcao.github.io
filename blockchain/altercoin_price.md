@@ -29,9 +29,9 @@
 ## Filecoin
 
 Filecoin (FIL) 的发行量是20亿，且有使用领域限制：存储。
-相对Bitcoin (BTC) 的2100万，它的发行量约是其100倍。
+相对Bitcoin (BTC) 的2100万，它的发行量约是其100倍。相对比特币的领域，Filecoin 有很大局限。
 
-$price_{FIL} < \dfrac{}{}$
+$price_{FIL} = \dfrac{value_{FIL}}{supply_{FIL}} <  \dfrac{value_{BTC}}{supply_{FIL}} = \dfrac{21,000,000BTC}{2,000,000,000} = 0.0105BTC = 7010.9235USD = 50969.41385CNY$
 
 但FIL的单价，应该到不了BTC的1/100，也就是3500~4000元人民币。
 
