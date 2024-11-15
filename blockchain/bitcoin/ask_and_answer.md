@@ -38,7 +38,15 @@
 
 是。
 
-## 10. 比特币网络资源
+## 10. 比特币会一直涨吗？
+
+短期不一定，长期肯定会。
+
+## 11. 比特币价格能到100万美元？
+
+会，但不确定是哪天。
+
+## 12. 比特币网络资源
 
 * 官网[https://bitcoin.org/](https://bitcoin.org/)
   * [Bitcoin for Individuals](https://bitcoin.org/en/bitcoin-for-individuals)

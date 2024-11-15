@@ -33,6 +33,17 @@ Ref:
 * [央行黄金储备月度统计数据](https://www.gold.org/cn/goldhub/data/monthly-central-bank-statistics)
 * [千克到盎司转换器](https://www.metric-conversions.org/zh-hans/weight/kilograms-to-ounces.htm)
 
+更新。
+
+依据[2023年的统计](https://china.gold.org/goldhub/research/market-primer/2023/04/27/18210)，但当时计价，截至2022年底，地上黄金总量价值约12万亿美元。
+依据[2024年的报道](https://www.sohu.com/a/811952155_121976698), 全球黄金的总市值首次突破了20万亿美元。黄金的开采量没有明显增加，但总市值增加如此之多，法币的通货膨胀可见一斑。
+
+假如现在(2024.11)的黄金总市值是20万亿，比特币的总量是2000万，再假如比特币的总市值达到黄金的总市值，则比特币的价格是100万美元。
+
+川普(Donald Jonh Trump)再度当选为美国总统后，将推进比特币战略储备计划，届时比特币会取代一部分黄金，我个人估计等川普下台时，比特币的价格能到50万美元左右。
+
+2024.11.15 比特币价格：89762.58 USD/BTC.
+
 ## 3. 全球现金
 
 首先要注意一点，全球各地对M0, M1, M2, M3等的定义，各有出入。另外Quora上的问题也提到，有的地方可能无法统计。
