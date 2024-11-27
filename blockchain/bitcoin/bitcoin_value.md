@@ -16,7 +16,7 @@ Ref:
 
 * [Bitcoin 单价](https://coinmarketcap.com/currencies/bitcoin/)
 * [Total BTC in Existence](https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/)
-* [加密货币的市值怎么算？有什么参考价值？| 白话区块链入门144](https://www.hellobtc.com/kp/kc/06/1883.html)
+* [加密货币的市值怎么算？有什么参考价值？(白话区块链入门144)](https://www.hellobtc.com/kp/kc/06/1883.html)
 
 ## 2. 黄金储备
 
