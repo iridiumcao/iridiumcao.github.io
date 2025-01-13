@@ -60,4 +60,4 @@ Parameter: arg3
 Exit status: 1
 ```
 
-This script demonstrates the use of special variables in Bash, such as `$$`, `$0`, `$#`, `$1`, `$2`, `$@`, and `$*`. These variables contain useful information about the script itself and the arguments that are passed to it.
+This script demonstrates the use of special variables in Bash, such as `$$`, `$0`, `$#`, `$1`, `$2`, `$@`, and `$?`. These variables contain useful information about the script itself and the arguments that are passed to it.

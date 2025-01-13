@@ -67,7 +67,7 @@ cadba0413c6b66fd13b42e8be43a1f73ae123df35157844adbd12f9797f71b9b
 CertUtil: -hashfile 命令成功完成。
 ```
 
-Ref: 
+Ref:
 
 - [Get-FileHash Documentation](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.4)
 - [How to Create SHA256SUM](https://help.ubuntu.com/community/HowToSHA256SUM)
