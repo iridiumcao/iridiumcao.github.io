@@ -11,6 +11,8 @@
 * [Tomcat 在 Ubuntu 上使用 80 和 443 端口](tomcat_ubuntu_port.md)
 * [How to install Docker on CentOS8](how_to_install_docker_on_centos8.md)
 * [SSH Auto-Login Failed](ssh-failed.md) (Ubuntu, CentOS)
+* [SSH Server/Client 安装和连接](ssh_server_client.md)
+* [SSH X Forwarding](ssh_x_forwarding.md)
 * [Windows查找端口占用并关闭](Windows-search-close-port.md)
 * [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md) (Redhat Linux, Python)
 * [Adding a Cron Task Using a Script](adding_a_cron_task_using_a_script.md)
