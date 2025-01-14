@@ -9,6 +9,8 @@
 - [Windows 查找端口占用并关闭](Windows-search-close-port.md)
 - [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md) (Redhat Linux, Python)
 - [Rotating Server System Updates Weekly](RotatingServerSystemUpdatesWeekly.md)
+- [vi 笔记](vi.md)
+- [vim 笔记](vim.md)
 
 ## SSH
 
