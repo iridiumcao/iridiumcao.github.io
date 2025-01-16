@@ -6,7 +6,7 @@
 
 VIM 是 [VI](vi.md) 的改进版，即 Vi IMproved. 这里记录一些自己在使用过程中碰到的情况。
 
-在当前的的一些常用 Linux 发行版，如 CentOS, 在 Shell 中键入 `vi` 启动的编辑器，仍然是 VIM, 这点可以在编辑器启动后使用 `:help` 查看到。
+在当前的的一些常用 Linux 发行版，如 CentOS, 在 Shell 中键入 `vi` 启动的编辑器仍然是 VIM, 这点可以在编辑器启动后使用 `:help` 查看到。在 Windows 的 Bash Shell 中也集成了 vim，可以通过指令 `vi` 或 `vim` 打开。
 
 ## VIM 的列编辑
 
