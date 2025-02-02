@@ -2,7 +2,7 @@
 
 ## 📖 Git 保姆级实验教程
 
-本教程计划由浅入深，全面介绍 git 的方方面面，让菜鸟可以学会，老鸟亦有收获。学习 git 的方法，是不断做实验，在实践中感悟。
+本教程计划由浅入深，全面介绍 git 的方方面面，让菜鸟可以学会，老鸟亦有收获。学习 git 的方法，是不断做实验，在实践中感悟。本教程也发布在 [Read the Docs](https://anothergittutorial.readthedocs.io/zh-cn/latest/).
 
 * [前言·阅读建议](preface.md)
 * [第一章 Git 的诞生](01.md)
