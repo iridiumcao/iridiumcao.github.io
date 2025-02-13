@@ -7,6 +7,7 @@
 * [无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?](irrational_numbers_vs_rational_numbers.md)
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [自然常数$e$ Natural Constant](e.md)
+* [按月等额还款下的实际年利率计算方法](year_rate.md)
 * [平方和公式推导](square_pyramidal_numbers.md)
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
