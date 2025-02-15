@@ -8,29 +8,29 @@ $$ amount = a(1+r) $$
 
 假如存款人和银行修改约定为一年结算2次，即半年结算一次，利息也减半为$\dfrac{r}{2}$，则一年后连本带利
 
-$$ amount = a(1+\dfrac{r}{2})^2 $$
+$$ amount = a\left(1+\dfrac{r}{2}\right)^2 $$
 
 更进一步，假如存款人和银行修改约定为一年结算$n$次，即$\dfrac{1}{n}$年结算一次，利息也减少为$\dfrac{r}{n}$，则一年后连本带利
 
-$$ amount = a(1+\dfrac{r}{n})^n $$
+$$ amount = a\left(1+\dfrac{r}{n}\right)^n $$
 
 是不是$n$越大，最后得到的金额$amount$也越大呢？我们可以通过求$amount$的极限来验证
 
 $$
 amount 
-= \lim_{n\to\infty} a(1+\dfrac{r}{n})^n 
-= a\lim_{n\to\infty} (1+\dfrac{1}{\dfrac{n}{r}})^{\tfrac{n}{r}r}
-= a[\lim_{\tfrac{n}{r}\to\infty} (1+\dfrac{1}{\dfrac{n}{r}})^{\tfrac{n}{r}}]^r
-= a[\lim_{n\to\infty} (1+\dfrac{1}{n})^{n}]^r
+= \lim_{n\to\infty} a\left(1+\dfrac{r}{n}\right)^n 
+= a\lim_{n\to\infty} \left(1+\dfrac{1}{\dfrac{n}{r}}\right)^{\tfrac{n}{r}r}
+= a\left[\lim_{\tfrac{n}{r}\to\infty} \left(1+\dfrac{1}{\dfrac{n}{r}}\right)^{\tfrac{n}{r}}\right]^r
+= a\left[\lim_{n\to\infty} \left(1+\dfrac{1}{n}\right)^{n}\right]^r
 $$
 
-上式中$a$和$r$都是常数，我们只要计算$(1+\dfrac{1}{n})^{n}$的极限值就行：
+上式中$a$和$r$都是常数，我们只要计算$\left(1+\dfrac{1}{n}\right)^{n}$的极限值就行：
 
-$$\lim_{n\to\infty} (1+\dfrac{1}{n})^{n}$$
+$$\lim_{n\to\infty} \left(1+\dfrac{1}{n}\right)^{n}$$
 
-参下表，当$n$值在不断增加时，$(1+\dfrac{1}{n})^n$越来越稳定，趋近于$2.7182820\ldots$，这就是我们要得到的极限值，一般用$e$来表示，近似于2.718
+参下表，当$n$值在不断增加时，$\left(1+\dfrac{1}{n}\right)^n$越来越稳定，趋近于$2.7182820\ldots$，这就是我们要得到的极限值，一般用$e$来表示，近似于2.718
 
-| $n$           | $(1+\dfrac{1}{n})^n$   |
+| $n$           | $\left(1+\dfrac{1}{n}\right)^n$   |
 |-------------|-------------|
 |           1 |           2 |
 |          10 |  2.59374246 |
