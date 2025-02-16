@@ -22,7 +22,7 @@
 
 > 公设5：同平面内一条直线和另外两条直线相交,若在某一侧的两个内角和小于二直角的和,则这二直线经无限延长后在这一侧相交。([Ref](https://zhuanlan.zhihu.com/p/578643694))
 
-这一条一般称为平行公理（公设）([Ref](https://zh.wikipedia.org/zh-hans/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95#%E5%85%AC%E7%90%86%E6%8F%8F%E8%BF%B0))和“同旁外角互补”接近。
+这一条一般称为平行公理（公设）([Ref](https://zh.wikipedia.org/zh-hans/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95#%E5%85%AC%E7%90%86%E6%8F%8F%E8%BF%B0))和“同旁内角互补”接近。
 
 ### 2. 全等三角形
 
@@ -40,7 +40,7 @@
 
 在[希尔伯特公理](https://zh.wikipedia.org/zh-hans/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9%E5%85%AC%E7%90%86)提到
 
-> 若在三角形 ABC 与 A'B'C' 中有 AB ≅ A'B'、AC ≅ A'C'、∠BAC ≅ ∠B'A'C'，那么可以得到 ∠ABC ≅ ∠A'B'C'（替换字母即可知 ∠ACB ≅ ∠A'C'B' 亦成立）。
+> 若在$\triangle ABC$与 $\triangle A'B'C'$ 中有 AB ≅ A'B'、AC ≅ A'C'、∠BAC ≅ ∠B'A'C'，那么可以得到 ∠ABC ≅ ∠A'B'C'（替换字母即可知 ∠ACB ≅ ∠A'C'B' 亦成立）。
 
 这一条和SAS比较相关。
 

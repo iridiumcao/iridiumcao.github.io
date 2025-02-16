@@ -11,8 +11,8 @@ There are two tools available to move files and directories between Git reposito
 
 ## Demo
 
-- Source Repository: source.git:/hello/world
-- Target Repository: target.git:/hello/world
+- Source: `source.git:/hello/world`
+- Target: `target.git:/hello/world`
 
 In this demo, we will move the directory `hello/world` from `source.git` to `target.git` while preserving its commit history.
 
@@ -87,6 +87,8 @@ git push origin main
 git filter-repo --path <file-or-directory-path> --invert-paths
 ```
 
+It will only remove `<file-or-directory-path>` and preserve all the other files/directories.
+
 ## Conclusion
 
-Using `git filter-repo`, we can effectively move specific files or directories between repositories whil preserving their history. This method allows for flexible, clean history management with including unnecessary files.
+Using `git filter-repo`, we can effectively move specific files or directories between repositories while preserving their history. This method allows for flexible, clean history management with including unnecessary files.

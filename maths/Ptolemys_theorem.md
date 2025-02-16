@@ -12,7 +12,7 @@ A, B, C, D四点共圆，则 $\vert AC \vert \cdot \vert BD \vert = \vert AB \ve
 
 【证明】
 
-过B点作BE于AC相交于E点，且$\angle ABE = \angle DBC$.
+过B点作BE于AC相交于E点，使$\angle ABE = \angle DBC$.
 
 又 $\because \angle CDB = \angle CAB$
 
