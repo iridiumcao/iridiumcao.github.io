@@ -66,7 +66,7 @@
 
 即 $a=m\left[\dfrac{1}{1+r} + \dfrac{1}{(1+r)^2} + ... + \dfrac{1}{(1+r)^n}\right]$
 
-使用等比数列求和公示得 $a=m\cdot\dfrac{1 - \dfrac{1}{(1+r)^{n+1}}}{1-\dfrac{1}{1+r}}$
+使用[等比数列求和公式](Sum_formula_for_a_geometric_series.md)得 $a=m\cdot\dfrac{1 - \dfrac{1}{(1+r)^{n+1}}}{1-\dfrac{1}{1+r}}$
 
 即 $a=m\cdot\dfrac{(1+r)^{n+1} -1}{(1+r)^{n+1} -(1+r)^{n}}$
 

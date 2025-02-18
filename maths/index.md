@@ -9,6 +9,7 @@
 * [自然常数$e$ Natural Constant](e.md)
 * [按月等额还款下的实际年利率计算方法](year_rate.md)
 * [平方和公式推导](square_pyramidal_numbers.md)
+* [等比数列的求和公式](Sum_formula_for_a_geometric_series.md)
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 * [集合映射之单射满射双射](map_type.md)
