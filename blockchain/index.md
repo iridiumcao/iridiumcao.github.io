@@ -10,7 +10,7 @@
 * [Bitcoin Value](bitcoin/bitcoin_value.md)
 * [比特币的总数为何是两千一百万(21000000)个？](bitcoin/why21million.md)
 * [Create a Watch-Only Wallet with Bitcoin Core](bitcoin/watch-only-wallet.md)
-* [比特币什么时候挖完？](bitcoin/dig_all_in_2140.md)
+* [比特币挖矿终结之日：2140年？](bitcoin/dig_all_in_2140.md)
 
 ## Blockchain
 
