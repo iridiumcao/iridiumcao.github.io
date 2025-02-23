@@ -1,10 +1,10 @@
-# PostgreSQL 开发环境搭建
+# PostgreSQL 的安装和网络配置
 
 [返回目录](index.md)
 
 ---
 
-- [PostgreSQL 开发环境搭建](#postgresql-开发环境搭建)
+- [PostgreSQL 的安装和网络配置](#postgresql-的安装和网络配置)
   - [1. Windows](#1-windows)
     - [1.1 安装 PostgreSQL](#11-安装-postgresql)
       - [第01步 选择目录](#第01步-选择目录)
@@ -51,16 +51,12 @@ PostgreSQL 诞生于1996年，是一个功能丰富的免费开源的数据库�
 
 这步弹出了4个组件共选择：
 
-- PostgreSQL Server
-  - 数据库服务器，本书中博客系统的数据就是由它管理的，必须安装
-- pgAdmin 4
-  - 客户端管理工具，也在本书中使用，建议安装，不过你可以使用其他你喜欢的客户端工具。
-- Stack Builder
-  - 方便使用 PostgreSQL 模块和插件用的。(TODO, 还没经验)
-- Command Line Tools
-  - 这部分功能全部包含在 pgAdmin 4 中。
+- PostgreSQL Server, 数据库服务器
+- pgAdmin 4, 客户端管理工具，如果不用它，也可以用其他客户端工具。
+- Stack Builder, 方便使用 PostgreSQL 模块和插件用的。(TODO, 还没经验)
+- Command Line Tools, 这部分功能全部包含在 pgAdmin 4 中。
 
-为了方便，建议把4个全部选中。
+我这里把4个全部选中。
 
 ![](images/postgresql/2.select_components.png)
 
@@ -72,7 +68,7 @@ PostgreSQL 诞生于1996年，是一个功能丰富的免费开源的数据库�
 
 #### 第04步 设置密码
 
-这步是为默认的超级用户`postgres`设置密码 (TODO, 发布时需要删除：我这里设置的是 Abc-1234)
+这步是为默认的超级用户`postgres`设置密码。
 
 先记下这个密码，安装后的验证还需要用到它。
 
@@ -130,7 +126,7 @@ Installation Log: C:\Users\iridi\AppData\Local\Temp\install-postgresql.log
 
 PostgreSQL 安装好后，服务自动启动。我们可以通过 pgAdmin 使用默认账号 `postgres` 登录验证。
 
-首先打开 pgAdmin 设置，展开左侧对象栏里的 Server -> PostgreSQL 17，输入之前设置的密码。
+首先打开 pgAdmin 设置，展开左侧对象栏里的 Server → PostgreSQL 17，输入之前设置的密码。
 
 ![](images/postgresql/19.pgAdmin.png)
 
@@ -138,9 +134,8 @@ PostgreSQL 安装好后，服务自动启动。我们可以通过 pgAdmin 使用
 
 ![](images/postgresql/20.pgAdmin.png)
 
-数据库服务可以通过 Windows 的服务控制台(快捷键：Win + R -> services.msc)开启和关闭。
+数据库服务可以通过 Windows 的服务控制台(快捷键：Win + R → services.msc)开启和关闭。
 ![](images/postgresql/16.start_service.png)
-
 
 至此，PostgreSQL 就在 Windows 上成功安装了。
 
@@ -164,13 +159,12 @@ PostgreSQL 默认只允许本机访问，如果想要局域网的其他机器也
 
 设置防火墙设置，允许外部主机通过端口5432访问本机：
 
-1. Open the “Control Panel” and go to “System and Security” > “Windows Firewall”.
-2. 打开「控制面板」-> 「系统与安全」-> 「Windows Defender 防火墙」，「高级设置」，「入站规则」
-3. 点击「新建规则...」
-4. 选择「端口」，点击「下一页(N)」
-5. 选择「TCP」，特定本地端口(S)填 5432
-6. 点击「下一页(N)」，选「允许连接(A)」,进入下一步，设置以下域(D)，专用(P)，公用(U)
-7. 给新建规则顺便起个名字，结束。
+1. 打开「控制面板(Control Panel)」→ 「系统与安全(System and Security)」→ 「Windows Defender 防火墙(Windows Firewall)」，「高级设置」，「入站规则」
+2. 点击「新建规则...」
+3. 选择「端口」，点击「下一页(N)」
+4. 选择「TCP」，特定本地端口(S)填 5432
+5. 点击「下一页(N)」，选「允许连接(A)」,进入下一步，设置以下域(D)，专用(P)，公用(U)
+6. 给新建规则顺便起个名字，结束。
 
 参[How to Configure PostgreSQL on Windows for Remote Access](https://masterdaweb.com/en/blog/how-to-configure-postgresql-on-windows-for-remote-access/) by Lucas, July 12, 2024
 
@@ -199,7 +193,7 @@ $ sudo apt install postgresql
 
 详细内容参[这里](https://www.postgresql.org/download/linux/ubuntu/)
 
-不过，默认的版本不是最新版，是16，但对于本书来说，也是完全够用的。
+不过，默认的版本不是最新版，是16，但对于一般使用场景来说，也是完全够用的。
 
 ```bash
 $ psql --version
@@ -326,6 +320,3 @@ postgres=#
 
 请参 <https://www.postgresql.org/download/linux/redhat>
 
----
-
-[⇦前言](preface.md) - [总目录📚](index.md) - [本章首页📖](01.md) - [下一章⇨](02.md)
