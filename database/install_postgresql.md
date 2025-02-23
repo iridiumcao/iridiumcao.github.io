@@ -1,10 +1,10 @@
-# PostgreSQL 的安装和网络配置
+# PostgreSQL 安装指南（Windows, Ubuntu）
 
 [返回目录](index.md)
 
 ---
 
-- [PostgreSQL 的安装和网络配置](#postgresql-的安装和网络配置)
+- [PostgreSQL 安装指南（Windows, Ubuntu）](#postgresql-安装指南windows-ubuntu)
   - [1. Windows](#1-windows)
     - [1.1 安装 PostgreSQL](#11-安装-postgresql)
       - [第01步 选择目录](#第01步-选择目录)
@@ -28,6 +28,8 @@ PostgreSQL 诞生于1996年，是一个功能丰富的免费开源的数据库�
 
 - 官网链接：<https://www.postgresql.org/>
 - 维基百科词条链接：<https://zh.wikipedia.org/zh/PostgreSQL>
+
+本文介绍如何在 Windows 和 Ubuntu 上安装 PostgreSQL 并进行初步的网络配置。
 
 ## 1. Windows
 
@@ -203,7 +205,7 @@ psql (PostgreSQL) 16.6 (Ubuntu 16.6-0ubuntu0.24.04.1)
 正常情况下，安装好后数据库服务会自动启动。我们用下面的方法检查服务状态：
 
 ```bash
-$  sudo systemctl status postgresql
+$ sudo systemctl status postgresql
 ● postgresql.service - PostgreSQL RDBMS
      Loaded: loaded (/usr/lib/systemd/system/postgresql.service; enabled; preset: enabled)
      Active: active (exited) since Sun 2024-12-15 13:18:11 CST; 14min ago
@@ -214,7 +216,19 @@ $  sudo systemctl status postgresql
 12月 15 13:18:11 caoyipc systemd[1]: Finished postgresql.service - PostgreSQL RDBMS.
 ```
 
-以用户 `postgres` 的身份执行 psql
+如果没有启动，可以用下面的指令启动：
+
+```bash
+$ sudo systemctl start postgresql
+```
+
+如果需要设置开机自动启动，可以执行下面的指令：
+
+```bash
+$ sudo systemctl enable postgresql
+```
+
+在确认数据库正常运行后，以用户 `postgres` 的身份执行 psql
 
 ```bash
 $ sudo -u postgres psql
@@ -258,7 +272,7 @@ PostgreSQL 默认只允许本机访问，如果想要局域网的其他机器也
 
 编辑 `/etc/postgresql/16/main/postgresql.conf`
 
-将 `#listen_addresses = 'localhost'` 的注释取消，并改成：`listen_addresses = '*' `
+将 `#listen_addresses = 'localhost'` 的注释取消，并改成：`listen_addresses = '*' `，允许外部连接
 
 编辑 `/etc/postgresql/16/main/pg_hba.conf`
 
