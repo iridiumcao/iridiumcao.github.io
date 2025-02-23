@@ -11,7 +11,6 @@ Official site: <https://ethereum.org/zh/>
 * 在线版本：
   * <https://remix.ethereum.org/>
   * <https://github.com/ethereum/remix-project>
-* 本地版本：<https://github.com/ethereum/remix-desktop/releases>
 * 教程：<https://docs.soliditylang.org/en/>
 
 ### NPM & Node.js
