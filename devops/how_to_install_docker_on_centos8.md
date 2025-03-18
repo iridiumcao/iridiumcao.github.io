@@ -1,6 +1,14 @@
-# How to install Docker on CentOS8
+# Archival Note
+
+*The following guide was written on May 26, 2020, for installing Docker on CentOS 8. Since CentOS 8 is no longer supported (EOL: December 31, 2021), this article is preserved as an archive and may not reflect current best practices or software versions. Users are encouraged to consult up-to-date resources for modern Linux distributions.*
+
+---
+
+# How to Install Docker on CentOS8
 
 [Index](index.md)
+
+(2020.05.26)
 
 ## Step 1, Prepare
 
@@ -40,9 +48,9 @@ Ref:  https://www.cnblogs.com/zbseoag/p/11736006.html
 
 Ref:  https://docs.docker.com/engine/install/centos/
 
-## Step 4, Add user to docker group
+## Step 4, Add user to `docker` group
 
-The user to user docker needs to add in the docker group.
+The user who will use Docker needs to be added to the `docker` group.
 
 ```plaintext
 # gpasswd -a root docker
@@ -68,6 +76,6 @@ OK, it's done.
 
 ---
 
-This artical was originally published to OSC, but I don't know why it was in censorship.
+This article was originally published to OSC, but I don't know why it was in censorship.
 
 ![history on OSC](images/history2023-06-16-224005.png)
