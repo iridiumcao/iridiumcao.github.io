@@ -42,4 +42,6 @@
 14. [`core.ignoreCase` 说明](core.ignoreCase.md)
 15. [`pull`'s configuration](pull_setting.md)
 16. [git 的两种 tag 的平行对比实验](tag.md)
-17. [Move Files Between Git Repositories While Preserving History](move_files_with_history.md)
+17. `git filter-repo`
+    * [Move Files Between Git Repositories While Preserving History](move_files_with_history.md)
+    * [How to Remove Large Files from Git History](remove_large_files.md)
