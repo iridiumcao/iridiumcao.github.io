@@ -81,7 +81,7 @@ su
 
 #### 修改默认端口
 
-对Ubuntu，编辑文件 /ect/ssh/ssh_config 即可，对 Fedora，编辑 /ect/ssh/sshd_config。
+对Ubuntu，编辑文件 `/ect/ssh/ssh_config` 即可，对 Fedora，编辑 `/ect/ssh/sshd_config`。
 找到行：
 
 ```plaintext
