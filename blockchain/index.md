@@ -21,6 +21,7 @@
 
 * [加解密简述](cryption/cryption.md)
 * [数字签名](cryption/digital_signature.md)
+* [用 IPFS 发布静态站点](ipfs/static_site.md)
 * [全面的去中心化正在到来](decentralized_world_coming.md)
 * [量化交易参考资料](quant_ref.md)
 * [给币安的一条产品建议](binance_btc_unit.md)
