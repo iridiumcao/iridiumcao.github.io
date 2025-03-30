@@ -5,6 +5,7 @@
 - [Calculate File Hash](CalculateFileHash.md)
 - [Tomcat 在 Ubuntu 上使用 80 和 443 端口](tomcat_ubuntu_port.md)
 - [东大拯救 NPM 指南之代理设置](npm_proxy.md)
+- [东大网络环境下安装 Electron 的解决方案](install_npm_electron.md)
 - [Windows 查找端口占用并关闭](Windows-search-close-port.md)
 - [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md) (Redhat Linux, Python)
 - [Rotating Server System Updates Weekly](RotatingServerSystemUpdatesWeekly.md)

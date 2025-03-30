@@ -1,0 +1,70 @@
+375 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 25ms
+376 silly audit bulk request failed [object Object]
+377 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/audits/quick 52ms
+378 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/audits/quick - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+378 verbose audit error     at C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+378 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+378 verbose audit error     at async [getReport] (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:336:21)
+378 verbose audit error     at async AuditReport.run (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:106:19) {
+378 verbose audit error   headers: [Object: null prototype] {
+378 verbose audit error     server: [ 'Tengine' ],
+378 verbose audit error     date: [ 'Sat, 29 Mar 2025 23:39:35 GMT' ],
+378 verbose audit error     'content-type': [ 'application/json' ],
+378 verbose audit error     'transfer-encoding': [ 'chunked' ],
+378 verbose audit error     connection: [ 'keep-alive' ],
+378 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+378 verbose audit error     via: [ 'kunlun3.cn6339[,404666]' ],
+378 verbose audit error     'timing-allow-origin': [ '*' ],
+378 verbose audit error     eagleid: [ '76700a1717432915754935930e' ],
+378 verbose audit error     'x-fetch-attempts': [ '1' ]
+378 verbose audit error   },
+378 verbose audit error   statusCode: 404,
+378 verbose audit error   code: 'E404',
+378 verbose audit error   method: 'POST',
+378 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/audits/quick',
+378 verbose audit error   body: {
+378 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+378 verbose audit error   },
+378 verbose audit error   pkgid: undefined
+378 verbose audit error }
+379 silly audit error [object Object]
+380 silly audit report null
+381 warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+382 info run electron@35.1.2 postinstall node_modules/electron node install.js
+383 info run electron@35.1.2 postinstall { code: 3221225786, signal: null }
+384 warn cleanup Failed to remove some directories [
+384 warn cleanup   [
+384 warn cleanup     '\\\\?\\C:\\Users\\tom\\test\\hello\\node_modules',
+384 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\tom\test\hello\node_modules\@szmarczak\http-timer'] {
+384 warn cleanup       errno: -4048,
+384 warn cleanup       code: 'EPERM',
+384 warn cleanup       syscall: 'rmdir',
+384 warn cleanup       path: 'C:\\Users\\tom\\test\\hello\\node_modules\\@szmarczak\\http-timer'
+384 warn cleanup     }
+384 warn cleanup   ],
+384 warn cleanup   [
+384 warn cleanup     '\\\\?\\C:\\Users\\tom\\test\\hello\\node_modules\\got',
+384 warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\tom\test\hello\node_modules\got\dist\source\core'] {
+384 warn cleanup       errno: -4048,
+384 warn cleanup       code: 'EPERM',
+384 warn cleanup       syscall: 'rmdir',
+384 warn cleanup       path: 'C:\\Users\\tom\\test\\hello\\node_modules\\got\\dist\\source\\core'
+384 warn cleanup     }
+384 warn cleanup   ]
+384 warn cleanup ]
+385 verbose stack Error: command failed
+385 verbose stack     at promiseSpawn (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:22:22)
+385 verbose stack     at spawnWithShell (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:124:10)
+385 verbose stack     at promiseSpawn (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:12:12)
+385 verbose stack     at runScriptPkg (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script-pkg.js:77:13)
+385 verbose stack     at runScript (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\run-script.js:9:12)
+385 verbose stack     at C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\rebuild.js:329:17
+385 verbose stack     at run (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:67:22)
+385 verbose stack     at C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:84:9
+385 verbose stack     at new Promise (<anonymous>)
+385 verbose stack     at callLimit (C:\Users\tom\AppData\Roaming\npm\node_modules\npm\node_modules\promise-call-limit\dist\commonjs\index.js:35:69)
+386 verbose pkgid electron@35.1.2
+387 error code 3221225786
+388 error path C:\Users\tom\test\hello\node_modules\electron
+389 error command failed
+390 error command C:\WINDOWS\system32\cmd.exe /d /s /c node install.js
