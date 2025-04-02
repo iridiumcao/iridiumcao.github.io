@@ -23,6 +23,7 @@
 - [SSH Server/Client 安装和连接](ssh_server_client.md)
 - [SSH 免密登录设置](ssh_passwordless.md)
 - [SSH Auto-Login Failed](ssh-failed.md) (Ubuntu, CentOS)
+- [Using SSH Tunneling to Share a VPN Connection to AWS](ssh_tunnel_share_vpn_connection.md)
 - [SSH X Forwarding](ssh_x_forwarding.md)
 
 ## Bash Shell Script
