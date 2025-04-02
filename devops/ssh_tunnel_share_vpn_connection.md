@@ -6,7 +6,12 @@ We connect to AWS using VPN accounts, but the number of VPN accounts is limited.
 
 Luckily, we discovered SSH tunneling, which can act as a proxy for all of us. With just one VPN connection on a jump server, everyone can connect to AWS through it.
 
-```mermaid
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
+<div class="mermaid">
 graph TD
     C[Client 1] -->|SSH| B["Jump Server (Host A)"]
     D[Client 2] -->|SSH| B
@@ -14,7 +19,7 @@ graph TD
     F[...] -->|SSH| B
     G[Client 20] -->|SSH| B
     B -->|VPN| A[AWS Cloud]
-```
+</div>
 
 I'll explain the process below.
 

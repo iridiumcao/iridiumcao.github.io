@@ -45,11 +45,16 @@ fi
 
 /etc/bashrc -> ~/.bashrc -> ~/.bash_profile
 
-```mermaid
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
+<div class="mermaid">
 graph LR
     etc_bashrc[/etc/bashrc/] --invoke--> user_bashrc[~/.bashrc]
     user_bashrc[~/.bashrc] --invoke--> user_bash_profile[~/.bash_profile]
-```
+</div>
 
 不过 /etc/bashrc 的内容可能是几个配置文件中最多的。
 
