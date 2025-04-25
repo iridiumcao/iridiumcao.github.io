@@ -21,7 +21,6 @@
     - [远程访问设置](#远程访问设置)
   - [3. Rocky Linux](#3-rocky-linux)
 
-
 ---
 
 PostgreSQL 诞生于1996年，是一个功能丰富的免费开源的数据库管理系统，并且支持多种操作系统。更详细的介绍可以参考：
@@ -145,7 +144,7 @@ PostgreSQL 安装好后，服务自动启动。我们可以通过 pgAdmin 使用
 
 PostgreSQL 默认只允许本机访问，如果想要局域网的其他机器也能访问到，需要编辑两个文件
 
-编辑 ``C:\Program Files\PostgreSQL\17\data\postgresql.conf`
+编辑 `C:\Program Files\PostgreSQL\17\data\postgresql.conf`
 
 确保 `listen_addresses = '*' `，这个在17版里默认就是如此
 
@@ -174,7 +173,7 @@ PostgreSQL 默认只允许本机访问，如果想要局域网的其他机器也
 
 在另一台机器上通过 psql 访问数据库的效果如下：
 
-```
+```plaintext
 $ psql -h 192.168.0.110 -U postgres
 Password for user postgres:
 psql (16.6 (Ubuntu 16.6-0ubuntu0.24.04.1), server 17.2)
@@ -284,7 +283,6 @@ PostgreSQL 默认只允许本机访问，如果想要局域网的其他机器也
 
 `host    all             all             192.168.0.0/24            scram-sha-256`
 
-
 设置防火墙并重启数据库服务
 
 ```plaintext
@@ -333,4 +331,3 @@ postgres=#
 ## 3. Rocky Linux
 
 请参 <https://www.postgresql.org/download/linux/redhat>
-
