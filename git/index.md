@@ -45,3 +45,4 @@
 17. `git filter-repo`
     * [Move Files Between Git Repositories While Preserving History](move_files_with_history.md)
     * [How to Remove Large Files from Git History](remove_large_files.md)
+18. [Finding Commits Before a Merge Point in Git](finding_commits_before_a_merge_point.md)
