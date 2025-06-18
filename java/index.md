@@ -7,8 +7,9 @@
 - [Java 的运算符](operators.md)
 - [Java 继承中需要注意的几个问题](inheriting_issues.md)
 - [Java 对零作为除数的处理](zero_devide.md)
-- [Java中的小数可以使用十六进制](hex-floating-point-literal.md)
+- [Java 中的小数可以使用十六进制](hex-floating-point-literal.md)
 - [I'm not me? —— 多态的另一个例子](im_not_me.md)
+- [Java 中的日期处理](date.md)
 
 ## JDK
 
