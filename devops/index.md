@@ -18,6 +18,7 @@
 
 - [Tomcat 在 Ubuntu 上使用 80 和 443 端口](tomcat_ubuntu_port.md)
 - [Tomcat 支持 HTTPS 的配置](tomcat_https.md)
+- [用 Tomcat 部署 Webapp 的两种方式](deploy_app_with_tomcat.md)
 
 ## Docker
 
