@@ -14,11 +14,6 @@
 - [东大拯救 NPM 指南之代理设置](npm_proxy.md)
 - [东大网络环境下安装 Electron 的解决方案](install_npm_electron.md)
 
-## Tomcat
-
-- [Tomcat 在 Ubuntu 上使用 80 和 443 端口](tomcat_ubuntu_port.md)
-- [Tomcat 支持 HTTPS 的配置](tomcat_https.md)
-
 ## Docker
 
 - [How to Install Docker on Ubuntu](install_docker_on_ubuntu.md)
