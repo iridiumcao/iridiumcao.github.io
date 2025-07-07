@@ -42,6 +42,14 @@ $\therefore \log_{a}{b} = \dfrac{\log_{c}{b}}{\log_{c}{a}}$
 
 Q.E.D.
 
+## Proof IV
+
+$\because \log_{c}{b}=\log_{c}{a^{\log_{a}{b}}}=\log_{a}{b}\log_{c}{a}$
+
+$\therefore \log_{a}{b} = \dfrac{\log_{c}{b}}{\log_{c}{a}}$
+
+Q.E.D.
+
 <script>
 MathJax = {
   tex: {
