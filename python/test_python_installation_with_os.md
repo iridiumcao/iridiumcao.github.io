@@ -28,22 +28,16 @@ Python 3.8.6
 
 ### Windows
 
-We can use ``py`` instead of ``python`` or ``python3`` with Git Bash, Power Shell or CMD on Windows.
-
-The following is using Git Bash.
-
 If Python is not installed:
 
 ``` plaintext
-$ py hello.py
+$ python --version
 Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Manage App Execution Aliases.
 ```
 
 When ``Python`` is installed, it shows:
 
 ``` plaintext
-$ py --version
+$ python --version
 Python 3.8.5
 ```
-
-If the script contains ``#!/usr/bin/env python``, it should be at the top of the script. It works with Windows too.
