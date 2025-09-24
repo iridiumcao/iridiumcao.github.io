@@ -24,7 +24,7 @@ Tomcat 支持两种方式部署 webapp，详述如下。
 
 ### 2.1 创建单独的配置文件
 
-在 `{tomcat home}/conf/Catalina/localhost/` 目录下创建一个 XML 文件，文件名称决定应用的虚拟路径（如 `helloworld.xml` 对应 `/helloworld`），内容如下：
+在 `{tomcat home}/conf/Catalina/localhost/` 目录下创建一个 XML 文件，文件名称需要和应用的虚拟路径一致（如 `helloworld.xml` 对应 `/helloworld`），内容如下：
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
@@ -35,7 +35,7 @@ Tomcat 支持两种方式部署 webapp，详述如下。
 
 ### 2.2 使用软连接
 
-还有一个更简单的方法，就是通过软连接把外部目录 link 到 `tomcat/webapps` 下的子目录。**主要在 Linux 上使用**，Windows 系统需启用符号链接并设置 allowLinking='true' (实验结果表明 Tomcat 11 on Linux 默认支持)
+还有一个更简单的方法，就是通过软连接把外部目录 link 到 `tomcat/webapps` 下的子目录。**主要在 Linux 上使用**，Windows 系统需启用符号链接并设置 `allowLinking='true'` (实验结果表明 Tomcat 11 on Linux 默认支持)
 
 ```bash
 cd tomcat/webapps
@@ -46,7 +46,7 @@ ln -s /home/iridium/deploy/helloworld demo
 
 ## 3. 其他
 
-再举一个例子：
+再举一个用于 Windows 平台的例子：
 
 ```xml
 <Context displayName="CMVideo System"
