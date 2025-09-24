@@ -23,3 +23,5 @@ uname_result(system='Windows', node='DESKTOP-ABC123', release='10', version='10.
 ```
 
 `platform.uname()` 返回的是一个命名元组，可以通过属性访问各个字段的值。
+
+从跨平台的角度，用 `platform.uname()` 更好，因为 Linux 和 Windows 都支持。
