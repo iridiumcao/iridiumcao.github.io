@@ -2,7 +2,7 @@
 
 I decide to write a blog system today, this series will record the whole process.
 
-## MVP
+## MVP (Minimum Viable Product)
 
 Version NO.: 0.001
 
