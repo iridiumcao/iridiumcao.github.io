@@ -8,7 +8,7 @@
 class Hello(object):
     pass
 
-def hi(self):
+def hi():
     print("hi, word!")
 
 Hello.hi = hi
