@@ -17,7 +17,7 @@ s2 = Hello()
 s2.hi()
 ```
 
-代码中缺少了一个self参数，需要在调用`Hello.hi`时传入`self`参数。修改后的代码如下所示：
+代码中缺少了一个`self`参数，需要在调用`Hello.hi`时传入`self`参数。修改后的代码如下所示：
 
 ```python
 class Hello(object):
