@@ -68,3 +68,20 @@ s2.hi()  # 注意这里需要调用s2.hi()，而不是Hello.hi()
 ```
 
 这样运行就不会报错了。之前出错的原因是`hi`函数定义时缺少了`self`参数，而在Python中调用类方法时，Python会自动将调用该方法的实例作为第一个参数传递给方法，所以需要在`hi`函数的定义中添加`self`参数。
+
+## Name
+
+In Python, functions defined within a class are called methods. They are associated with class instances and can access instance-specific data (via self) or class data (via cls for class methods). For example:python
+
+```python
+class MyClass:
+    def my_method(self, arg):  # This is a method
+        return f"Hello, {arg}!"
+
+obj = MyClass()
+result = obj.my_method("world")  # Called on an instance
+```
+
+This aligns with OOP conventions, similar to Java's "methods," though C++ often refers to them as "member functions" rather than just "functions."
+
+
