@@ -16,3 +16,4 @@
 
 - [Python 类简介](class/introduce.md)
 - [Python 类的方法(实例方法，类方法，静态方法)](class/method.md)
+- [猴子补丁(Monkey Patching)：在类之外定义方法](class/monkey_patching.md)
