@@ -51,7 +51,7 @@ MVP should be a quick version to publish
 
 There are too many technologies can be used to implement this system and I will choose mine.
 
-- Java 21?
+- Java 25
 - React
 - Tomcat
 - PostgreSQL
