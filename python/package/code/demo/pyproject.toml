@@ -1,0 +1,17 @@
+[project]
+name = "iridiumcao"
+version = "3.14.0"
+description = "This is a demo"
+authors = [
+    {name = "Cao Yi",email = "iridiumcao@google.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+packages = [{ include = "iridiumcao", from = "src" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

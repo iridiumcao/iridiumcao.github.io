@@ -17,6 +17,7 @@
 
 ## Others
 
+- [创建和分发 Python 模块(包)](package/write_and_distribute_packages.md)
 - [Merging Two Directories](merge_two_directories.md)
 - [Testing Python Installation with OS](test_python_installation_with_os.md)
 - [Exporting and Importing Python Packages](exporting_and_importing_python_packages.md)
