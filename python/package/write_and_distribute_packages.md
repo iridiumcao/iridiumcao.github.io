@@ -203,3 +203,11 @@ pip list
 - [Grok: 如何编写和分发Python模块（包）](https://x.com/i/grok?conversation=1983059022765789550)
 - [Grok: Python 中类似 Maven 的工具推荐](https://x.com/i/grok/share/NIpKWFj749a3lrXjrg6RJiQ00)
 - [ChatGPT: 命名冲突的诊断与解决](https://chatgpt.com/s/t_6901d3a4cc108191af4053fdc79c1c32)
+
+<script src="https://utteranc.es/client.js"
+        repo="iridiumcao/iridiumcao.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
