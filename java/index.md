@@ -33,3 +33,4 @@
 ## Spring Boot
 
 - [Quickly Check If Your Environment Supports Spring Boot](spring/verify_env.md)
+- [在 Spring Boot 中使用 QQ 邮箱发送邮件](spring/qqmail.md)
