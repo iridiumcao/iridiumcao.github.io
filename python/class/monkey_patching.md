@@ -105,3 +105,19 @@ h.static_hi()      # 输出: hello from static method!
 - 实例方法：直接赋值函数即可(函数需接受 `self` 作为第一个参数)。当通过实例访问时，Python 会自动将其绑定到该实例上。
 - 类方法：函数需接受 `cls`(类本身)作为第一个参数，然后用 `classmethod()` 包装后赋值。调用时，可以通过类或实例访问。
 - 静态方法：函数不需要 `self` 或 `cls`，直接用 `staticmethod()` 包装后赋值。调用时，也可通过类或实例访问。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

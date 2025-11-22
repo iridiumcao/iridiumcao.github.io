@@ -58,3 +58,19 @@ print(bob.hello())       # Output: "Hello from Bob!"
 1. 确认本机已安装 Python 环境，推荐 Python 3.x 版本
 2. 下载代码 [Source](code/person.py)
 3. 在代码目录打开 Terminal 执行指令：`python person.py`
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

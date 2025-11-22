@@ -424,3 +424,19 @@ range(0, 20)
 * [使用list和tuple](https://www.liaoxuefeng.com/wiki/1016959663602400/1017092876846880) (廖雪峰)
 * [使用dict和set](https://www.liaoxuefeng.com/wiki/1016959663602400/1017104324028448) (廖雪峰)
 * [5. Data Structures](https://docs.python.org/3/tutorial/datastructures.html) (Python.org)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
