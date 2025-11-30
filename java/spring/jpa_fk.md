@@ -1,3 +1,8 @@
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 # Spring Boot JPA 关联关系演示
 
 [Index](../index.md)
@@ -24,7 +29,7 @@
 - 1-n (One-to-Many): 用户 (`User`) 和 文章 (`Post`)。一个用户可以写多篇文章。
 - n-m (Many-to-Many): 文章 (`Post`) 和 标签 (`Tag`)。一篇文章有多个标签，一个标签也可以属于多篇文章。
 
-```mermaid
+<div class="mermaid">
 erDiagram
     %% 1. 用户表
     t_user {
@@ -72,7 +77,7 @@ erDiagram
     %% 在物理数据库中，这表现为两个 1对多 指向中间表
     t_post ||--|{ t_post_tag : "被标记"
     t_tag  ||--|{ t_post_tag : "归类"
-```
+</div>
 
 ## 1. 准备数据库(MySQL)
 
@@ -178,7 +183,7 @@ spring.jpa.properties.hibernate.format_sql=true
     private List<Post> posts;
 ```
 
-完整代码参[io.github.iridiumcao.jpademo.entity.User](src/main/java/io/github/iridiumcao/jpademo/entity/User.java)
+完整代码参[io.github.iridiumcao.jpademo.entity.User](https://github.com/iridiumcao/spring-boot-jpa-relationships-demo/blob/master/src/main/java/io/github/iridiumcao/jpademo/entity/User.java)
 
 **Detail**
 
@@ -192,7 +197,7 @@ spring.jpa.properties.hibernate.format_sql=true
     private User user;
 ```
 
-完整代码参 [io.github.iridiumcao.jpademo.entity.Detail](src/main/java/io/github/iridiumcao/jpademo/entity/Detail.java)
+完整代码参 [io.github.iridiumcao.jpademo.entity.Detail](https://github.com/iridiumcao/spring-boot-jpa-relationships-demo/blob/master/src/main/java/io/github/iridiumcao/jpademo/entity/Detail.java)
 
 **Post**
 
@@ -214,7 +219,7 @@ spring.jpa.properties.hibernate.format_sql=true
     )
     private List<Tag> tags = new ArrayList<>();
 ```
-完整代码参[io.github.iridiumcao.jpademo.entity.Post](src/main/java/io/github/iridiumcao/jpademo/entity/Post.java)
+完整代码参[io.github.iridiumcao.jpademo.entity.Post](https://github.com/iridiumcao/spring-boot-jpa-relationships-demo/blob/master/src/main/java/io/github/iridiumcao/jpademo/entity/Post.java)
 
 **Tag**
 
@@ -226,11 +231,11 @@ spring.jpa.properties.hibernate.format_sql=true
     @ManyToMany(mappedBy = "tags")
     private List<Post> posts;
 ```
-完整代码参 [io.github.iridiumcao.jpademo.entity.Tag](src/main/java/io/github/iridiumcao/jpademo/entity/Tag.java)
+完整代码参 [io.github.iridiumcao.jpademo.entity.Tag](https://github.com/iridiumcao/spring-boot-jpa-relationships-demo/blob/master/src/main/java/io/github/iridiumcao/jpademo/entity/Tag.java)
 
 ### 2.4 编译运行项目
 
-项目仓库：<git@github.com:iridiumcao/spring-boot-jpa-relationships-demo.git>
+项目仓库：git@github.com:iridiumcao/spring-boot-jpa-relationships-demo.git
 
 编译运行项目的指令如下：
 
@@ -319,3 +324,19 @@ Hibernate:
     values
         (?, ?)
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
