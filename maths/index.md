@@ -10,19 +10,26 @@
 * [按月等额还款下的实际年利率计算方法](year_rate.md)
 * [平方和公式推导](square_pyramidal_numbers.md)
 * [等比数列的求和公式](Sum_formula_for_a_geometric_series.md)
-* [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
-* [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 * [集合映射之单射满射双射](map_type.md)
 * [容斥原理的应用——计算集合中元素的个数](calc_cardinality.md)
 * [几个比较基础的逻辑运算概念](basic_logical_operations.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
-* [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
 * [《给讨厌数学的人》阅读笔记](notes-of-antimath.md)
 * [$\sqrt{}$的含义](sqrt_symbol.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 * [九宮格（河图洛书）](9gg.md)
+
+## 三角
+
+* [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
+* [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
+
+## 对数 Logarithm
+
+* [对数的三个基本运算性质](Logarithm_Properties_and_Proofs.md)
+* [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
 
 ## 线性代数 Linear Algebra
 
