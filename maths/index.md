@@ -56,8 +56,8 @@
 
 * [邻域 Neighbourhood](Neighbourhood.md)
 * [极限 Limit](limit.md)
-* [连续函数](Continuous_function.md)
-* [导数 derivative](derivative.md)
+* [连续函数 Continuous Function](Continuous_function.md)
+* [导数 Derivative](derivative.md)
 * [微分 Differential](Differential.md)
 * [可微和可导的区别和联系(ChatGPT)](Diff_Conn_Diff_Cont.md)
 * [函数光滑 Smoothness of a Function](Smoothness.md)

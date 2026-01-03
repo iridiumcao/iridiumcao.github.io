@@ -2,9 +2,19 @@
 
 [返回目录](index.md)
 
+本文仅限于一元函数的情况。
+
+如果函数在某个点的左极限和右极限都相等，并且函数在这个点有定义，则函数在这个点连续。如果一个函数在某个区间的所有点都连续，则称这个函数在这个区间上连续。对于有限开区间的函数，不用考虑边界点的连续性，因为函数在那里没定义。对于有限闭区间的函数，对于边界点，只要单侧极限等于边界点上的函数值则函数在边界点上连续。
+
+现在是2026年01月01日，下面这些内容是两年前（2023年05月23日）问 ChatGPT 得到的，它说的很有道理，我仍然收录如下，但补上自己的点评。
+
+AI 是很好的帮手，但不能尽信，必须检验。
+
 ## ChatGPT
 
 ### 1. 请解释“函数的连续”这个概念
+
+（点评：这个解释我个人感觉比较完美，不过它重点是函数在某点的连续性，没有提到函数在某个区间的连续性。它还提到了复合函数的连续性。）
 
 函数连续是一个重要的数学概念，指的是函数在一定范围内没有突变、断层或跳跃的现象，它在数学分析、微积分、数学物理等领域中都有广泛的应用。
 
@@ -18,7 +28,9 @@
 
 ### 2. 如何判定函数在某点是否连续？
 
-要判断一个函数在某点是否连续，需要检查该点左右两侧的函数值是否存在极大差异。如果左右两侧的函数值非常接近或者相等，那么函数在该点就是连续的；如果左右两侧的函数值存在较大差异，那么函数在该点就是不连续的。
+（点评：这个回答表述错误，判断函数在某点是否连续，需要判断函数在此点的左右极限是否相等，而不是函数值是否相等，函数在某点的函数值只有一个，当然相等了，和连续不连续都没关系。我已经删掉了它的错误表述，不过它的判断步骤写的基本上是对的，虽然很啰嗦，虽然也没有考虑边界情况。）
+
+~~要判断一个函数在某点是否连续，需要检查该点左右两侧的函数值是否存在极大差异。如果左右两侧的函数值非常接近或者相等，那么函数在该点就是连续的；如果左右两侧的函数值存在较大差异，那么函数在该点就是不连续的。~~
 
 具体的判断步骤如下：
 
@@ -44,4 +56,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

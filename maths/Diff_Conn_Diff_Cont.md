@@ -6,7 +6,7 @@
 
 ## 1. 请简单解释“可导”和“可微”两个概念，并比较。
 
-（这个回答看起来不错）
+（这个回答看起来不错，不过它提到了“光滑”的概念，“光滑”的函数当然可导或可微，因为[可导或可微只是光滑的特例](Smoothness.md)。这个答案最后一段没说错，但感觉有点怪怪的。）
 
 "可导"和"可微"都是数学中的概念，用于描述函数在某个点的变化情况。它们很相似，但又有细微差别。
 
@@ -18,7 +18,7 @@
 
 ## 2. 函数在某个点可导，那它在这个点一定可微吗？
 
-（这个回答看起来不错）
+（这个回答看起来不错，不过它也没能讲述清楚。可导和可微对于一元函数是等价概念，对多元函数才有区别。它的回答其实有一些矛盾的地方，比如说它提到“可导函数不一定是可微函数”，接下来它又说“一个函数在某个点可微的充分必要条件是它在该点处可导”。）
 
 不一定。函数在某个点可导只是说明函数在该点处的导数存在，也就是说函数在该点处的变化率有限。而函数在某个点可微则是说明函数在该点处的变化可以用一个线性函数来近似代替。虽然可微函数必然是可导函数，但可导函数不一定是可微函数。
 
@@ -56,7 +56,7 @@ $$\lim_{x\to x_{0}^-} \frac{f(x) - f(x_{0})}{x - x_{0}} = \lim_{x\to x_{0}^+} \f
 
 ## 5. 对一元函数，导数和微分是否可以认为是等同的？
 
-评：这个回答也有错误
+（注意：这个回答也有问题）
 
 在一元函数的情况下，导数和微分是可以认为是等同的。它们都是描述函数在某一点的局部变化率。
 
@@ -66,7 +66,7 @@ $$
 df = f'(x_0)dx
 $$
 
-其中，$dx$ 表示自变量 $x$ 在 $x_0$ 处的微小变化量，即函数 $f$ 在 $x_0$ 处的一阶导数。因此，函数在 $x_0$ 处微分 $df$ 和函数在 $x_0$ 处的导数 $f'(x_0)$ 是等价的，都可以用来描述函数在该点的局部变化率。
+其中，$dx$ 表示自变量 $x$ 在 $x_0$ 处的微小变化量，~~即函数 $f$ 在 $x_0$ 处的一阶导数~~。因此，函数在 $x_0$ 处微分 $df$ 和函数在 $x_0$ 处的导数 $f'(x_0)$ 是等价的，都可以用来描述函数在该点的局部变化率。
 
 需要注意的是，导数和微分虽然在一元函数中是等价的，但在多元函数中却不一定相同。在多元函数中，导数和微分有着不同的含义和计算方式。
 
@@ -77,7 +77,6 @@ $$
 对ChatGPT的态度应该是，用，但不信任，每次验证。
 
 ![ChatGPT incorrection](images/chatgpt_wrong_diff_deri.png)
-
 
 ## 函数在某个点可导，那它在这个点一定可微吗？
 
@@ -101,4 +100,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>
