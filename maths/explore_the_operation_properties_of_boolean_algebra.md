@@ -59,7 +59,9 @@
 = a AND (c AND b) // 交换律
 = a AND c AND b // 结合律
 ```
+
 类似可以证明其他所有组合：
+
 ```text
 a AND b AND c = c AND b AND a
 a AND b AND c = b AND a AND c
