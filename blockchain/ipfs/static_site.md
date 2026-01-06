@@ -22,7 +22,6 @@
     - [5.1. 节点在线](#51-节点在线)
     - [5.2. IPNS 延迟](#52-ipns-延迟)
     - [5.3. 内容可用性](#53-内容可用性)
-    - [5.3. 内容可用性](#53-内容可用性-1)
 
 ---
 
@@ -113,7 +112,7 @@ my-website/
 </html>
 ```
 
--  script.js
+- script.js
 
 ```javascript
 function sayHello() {
@@ -207,7 +206,6 @@ ipfs name publish /ipfs/QmSwT81FFFZhRbXLtBKEsVh9ZWjJ3VLQaTQ98hmwmEcjxZ
 
 每次修改后重复 `ipfs add` 和 `ipfs name publish`，IPNS 地址不变，但指向最新内容。
 
-
 ## 5. 注意事项
 
 ### 5.1. 节点在线
@@ -220,12 +218,24 @@ ipfs name publish /ipfs/QmSwT81FFFZhRbXLtBKEsVh9ZWjJ3VLQaTQ98hmwmEcjxZ
 
 ### 5.3. 内容可用性
 
-如果你的节点下线，靠公共网关或他人缓存访问，建议固定(`ipfs pin`)内容。
-
-### 5.3. 内容可用性
-
 如果你的节点下线，网站内容依赖公共网关或他人缓存访问，建议固定（`ipfs pin`）内容。可以用以下命令检查哪些节点提供了该内容：
 
 ```bash
 ipfs routing findprovs <CID>
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
