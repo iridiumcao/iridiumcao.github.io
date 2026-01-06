@@ -24,6 +24,7 @@
 ## 三角
 
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
+  * [证明 $\sin(\theta) = \cos(\dfrac{\pi}{2} - \theta)$](sin-cos-pi-per-2.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 
 ## 对数 Logarithm
@@ -83,4 +84,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

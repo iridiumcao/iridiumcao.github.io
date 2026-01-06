@@ -67,6 +67,8 @@
 |  $\sec(0-\theta) = \sec\theta$ | $\sec(\dfrac{\pi}{2}-\theta) = \csc\theta$ | $\sec(\pi-\theta) = -\sec\theta$ | $\sec(\dfrac{3\pi}{2}-\theta) = -\csc\theta$ |
 | $\csc(0-\theta) = -\csc\theta$ | $\csc(\dfrac{\pi}{2}-\theta) = \sec\theta$ | $\csc(\pi-\theta) = \csc\theta$  | $\csc(\dfrac{3\pi}{2}-\theta) = -\sec\theta$ |
 
+注：$\sin \theta = \cos(\dfrac{\pi}{2} - \theta)$ 的证明在[这里](sin-cos-pi-per-2.md)。
+
 ### 3.2 位移和周期
 
 | 位移$\dfrac{\pi}{2}$（增加π/2相位）          | 位移$\pi$（对角）                 | 位移$\dfrac{3\pi}{2}$                          | 位移$2\pi$ (终边相同的角)            |
@@ -181,4 +183,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>
