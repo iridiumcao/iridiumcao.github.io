@@ -25,6 +25,7 @@
 
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
   * [证明 $\sin(\theta) = \cos(\dfrac{\pi}{2} - \theta)$](sin-cos-pi-per-2.md)
+  * [证明 $\cos(\alpha - \beta)=\cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)$](cos-alpha-beta.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
 
 ## 对数 Logarithm

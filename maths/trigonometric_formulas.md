@@ -113,10 +113,10 @@
 
 ![正切函数的和差](images/800px-AngleAdditionDiagramTangent.svg.png)
 
-这里的两个图形证明非常不错，想当年我的老师可能也是不晓得的。时间飞快，这一晚，就是二十多年。
+这里的两个图形证明虽然只展示了比较特殊的情况，但也非常不错，想当年我的老师可能因为这图并非完整证明而没有介绍给我们，不过也可能是他真的不晓得的，毕竟当年没有互联网，查点资料还是比较麻烦的。时间飞快，这一晚，就是二十多年。
 
 * 正弦 $\sin(\alpha \pm \beta )=\sin \alpha \cos \beta \pm \cos \alpha \sin \beta$
-* 余弦 $\cos(\alpha \pm \beta )=\cos \alpha \cos \beta \mp \sin \alpha \sin \beta$
+* 余弦 $\cos(\alpha \pm \beta )=\cos \alpha \cos \beta \mp \sin \alpha \sin \beta$ （[证明在此](cos-alpha-beta.md)）
 * 正切 $\tan(\alpha \pm \beta )={\dfrac  {\tan \alpha \pm \tan \beta }{1\mp \tan \alpha \tan \beta}}$
 * 余切 $\cot(\alpha \pm \beta )={\dfrac  {\cot \alpha \cot \beta \mp 1}{\cot \beta \pm \cot \alpha }}$
 * 正割 $\sec(\alpha \pm \beta )={\dfrac  {\sec \alpha \sec \beta }{1\mp \tan \alpha \tan \beta }}$
