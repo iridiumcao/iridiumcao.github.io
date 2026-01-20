@@ -15,11 +15,13 @@
 * [几个比较基础的逻辑运算概念](basic_logical_operations.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
+* [伯努利不等式](Bernoullis_inequality.md)
 * [《给讨厌数学的人》阅读笔记](notes-of-antimath.md)
 * [$\sqrt{}$的含义](sqrt_symbol.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 * [九宮格（河图洛书）](9gg.md)
+* [费马定理 Fermat's Last Theorem](FermatsLastTheorem.md)
 
 ## 三角
 
@@ -63,7 +65,6 @@
 * [微分 Differential](Differential.md)
 * [可微和可导的区别和联系(ChatGPT)](Diff_Conn_Diff_Cont.md)
 * [函数光滑 Smoothness of a Function](Smoothness.md)
-* [费马定理 Fermat's Last Theorem](FermatsLastTheorem.md)
 * [极值定理 Extreme Value Theorem](Extreme_Value_Theorem.md)
 * [罗尔定理 Rolles's Theorem](RollesTheorem.md)
 * [拉格朗日中值定理 Lagrange's Mean Value Theorem](LagrangesMeanValueTheorem.md)
