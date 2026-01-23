@@ -17,16 +17,39 @@ $$ amount = a\left(1+\dfrac{r}{n}\right)^n $$
 是不是$n$越大，最后得到的金额$amount$也越大呢？我们可以通过求$amount$的极限来验证
 
 $$
-amount 
-= \lim_{n\to\infty} a\left(1+\dfrac{r}{n}\right)^n 
-= a\lim_{n\to\infty} \left(1+\dfrac{1}{\dfrac{n}{r}}\right)^{\tfrac{n}{r}r}
-= a\left[\lim_{\tfrac{n}{r}\to\infty} \left(1+\dfrac{1}{\dfrac{n}{r}}\right)^{\tfrac{n}{r}}\right]^r
-= a\left[\lim_{n\to\infty} \left(1+\dfrac{1}{n}\right)^{n}\right]^r
+\begin{aligned}
+  amount 
+&= \lim_{n\to\infty} 
+    a\left(1+\dfrac{r}{n}\right)^n \\
+&= a\lim_{n\to\infty} 
+  \left(
+    1+\dfrac{1}{\dfrac{n}{r}}
+  \right)^{
+    \tfrac{n}{r}r
+  } \\
+&= a\left[
+      \lim_{\tfrac{n}{r} \to \infty}
+        \left(
+          1+\dfrac{1}{\dfrac{n}{r}}
+        \right)^{\tfrac{n}{r}}
+    \right]^r \\
+&= a\left[
+      \lim_{n\to\infty} 
+        \left(
+          1+\dfrac{1}{n}
+        \right)^{n}
+    \right]^r
+\end{aligned}
 $$
 
 上式中$a$和$r$都是常数，我们只要计算$\left(1+\dfrac{1}{n}\right)^{n}$的极限值就行：
 
-$$\lim_{n\to\infty} \left(1+\dfrac{1}{n}\right)^{n}$$
+$$
+\lim_{n\to\infty} 
+  \left(
+    1+\dfrac{1}{n}
+  \right)^{n}
+$$
 
 参下表，当$n$值在不断增加时，$\left(1+\dfrac{1}{n}\right)^n$越来越稳定，趋近于$2.7182820\ldots$，这就是我们要得到的极限值，一般用$e$来表示，近似于2.718
 
