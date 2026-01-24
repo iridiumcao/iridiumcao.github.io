@@ -2,7 +2,7 @@
 
 [返回目录](index.md)
 
-上周(2023.07第五周)在辅导 Charles 自学时，碰到一个有意义的小问题，这里记一下。
+上周(2023.07第五周)在辅导 [Charles](https://charlestsaur.github.io/) 自学时，碰到一个有意义的小问题，这里记一下。
 
 人教版数学7下里讲开方运算，从开平方讲起，引入符号$\sqrt{}$，有个题目问$\sqrt{4}$等于多少，Charles 的答案是 $\sqrt{4} = \pm 2$
 
@@ -31,8 +31,8 @@
 $\sqrt{}$ 在形状上和字母`r`手写体接近，很可能$\sqrt{}$的就是来源于`r`的手写体。确实也是如此，参维基百科资料：
 
 > A symbol for square roots, written as an elaborate R, was invented by Regiomontanus (1436–1476). ([Ref](https://en.wikipedia.org/wiki/Square_root))
->
-> <script>
+
+<script>
 MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']]
@@ -41,4 +41,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

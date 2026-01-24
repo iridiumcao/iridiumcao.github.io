@@ -7,7 +7,7 @@
 如上图，O是$\triangle ABC$中任意一点，直线AO, BO, CO分别和三角形的边相交于D, E, F, 则
 $\dfrac{\vert AF \vert}{\vert FB \vert} \cdot \dfrac{\vert BD \vert}{\vert DC \vert} \cdot \dfrac{\vert CE \vert}{\vert EA \vert} = 1$
 
-据[维基百科资料](https://en.wikipedia.org/wiki/Ceva%27s_theorem)，这个定理是Giovanni Ceva在1678发表的，昨天(2023.07.21)被Charles重新发现了一次。
+据[维基百科资料](https://en.wikipedia.org/wiki/Ceva%27s_theorem)，这个定理是Giovanni Ceva在1678发表的，昨天(2023.07.21)被[Charles](https://charlestsaur.github.io/)重新发现了一次。
 
 > The theorem is often attributed to Giovanni Ceva, who published it in his 1678 work De lineis rectis. But it was proven much earlier by Yusuf Al-Mu'taman ibn Hűd, an eleventh-century king of Zaragoza.
 
@@ -34,4 +34,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

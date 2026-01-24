@@ -2,7 +2,7 @@
 
 [返回目录](index.md)
 
-星期六(2023.07.16)在和Charles讨论某个问题时，他产生了一个猜想，经过我的证明，它是成立的。此文即记录此猜想和证明。
+星期六(2023.07.16)在和[Charles](https://charlestsaur.github.io/)讨论某个问题时，他产生了一个猜想，经过我的证明，它是成立的。此文即记录此猜想和证明。
 
 猜想：如果两数之和为某数的两倍，则这两数之积不大于某数的平方。
 
@@ -43,4 +43,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

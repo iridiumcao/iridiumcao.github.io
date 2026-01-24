@@ -2,7 +2,7 @@
 
 [返回目录](index.md)
 
-昨天(2023.07.15)和Charles讨论课本上介绍长度单位的文章，其中提到了英寸(inch)。我们想到电子产品的屏幕是按英寸来算的，但是屏幕的长宽比有4:3, 16:9等等不同的比例，那同样是23英寸的屏幕，长宽比不同，面积相同吗？
+昨天(2023.07.15)和[Charles](https://charlestsaur.github.io/)讨论课本上介绍长度单位的文章，其中提到了英寸(inch)。我们想到电子产品的屏幕是按英寸来算的，但是屏幕的长宽比有4:3, 16:9等等不同的比例，那同样是23英寸的屏幕，长宽比不同，面积相同吗？
 
 我们进一步讨论了这个问题，并把问题抽象为：如果一个矩形的对角线是一定的，那这个矩形在怎样的情形下面积最大？
 
@@ -72,7 +72,7 @@ $y=\cos{\theta}=\cos{\dfrac{\pi}{4}}=\dfrac{\sqrt{2}}{2}$
 
 ---
 
-后记：一开始，Charles还误以为虽然长宽比不一样，但长宽的和是一样，他还误打误撞提了一个猜想——[两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)，经过我的证明，是正确的。
+后记：一开始，[Charles](https://charlestsaur.github.io/)还误以为虽然长宽比不一样，但长宽的和是一样，他还误打误撞提了一个猜想——[两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)，经过我的证明，是正确的。
 
 <script>
 MathJax = {
@@ -83,4 +83,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

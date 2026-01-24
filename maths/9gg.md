@@ -130,7 +130,7 @@ $A + C + 2E - s = s - B - E$
 
 ## 后记
 
-今天下午 Charles 说有道题目很有意思，是关于九宫格的，我在解答过程中，使用上面提到的「直觉」，虽然题目解出来了，但总觉得不稳当—— $3E = s$ 还没证明，所以特地探索了一番，推演出来之后，就放心了。
+今天下午 [Charles](https://charlestsaur.github.io/) 说有道题目很有意思，是关于九宫格的，我在解答过程中，使用上面提到的「直觉」，虽然题目解出来了，但总觉得不稳当—— $3E = s$ 还没证明，所以特地探索了一番，推演出来之后，就放心了。
 
 要证明 $3E = s$ 的主要思路是通过两种方式表达同一个格子的值，建立方程，正文内容是用 $H$ 格子，不过用其他格子也可以的，我最初演草时用的是 $F$ 格子。
 
@@ -143,4 +143,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

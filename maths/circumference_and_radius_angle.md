@@ -2,7 +2,7 @@
 
 [返回目录](index.md)
 
-这是初中平面几何里的基础内容，最近Charles聊到相关的问题，记录一下。
+这是初中平面几何里的基础内容，最近[Charles](https://charlestsaur.github.io/)聊到相关的问题，记录一下。
 
 ## 1. 圆心角 Radius Angle
 
@@ -63,4 +63,20 @@ MathJax = {
 </script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
 </script>

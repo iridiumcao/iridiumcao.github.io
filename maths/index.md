@@ -42,7 +42,7 @@
 
 ## 几何 Geometry
 
-这部分内容主要是辅导Charles自学几何时的一些记录。
+这部分内容主要是辅导[Charles](https://charlestsaur.github.io/)自学几何时的一些记录。
 
 * [面积最大的矩形](biggest_rectangle.md)
 * [燕尾模型](yanwei.md)
