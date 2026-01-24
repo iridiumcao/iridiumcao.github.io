@@ -21,7 +21,6 @@
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 * [汉声数学图画书目录](young_math_books.md)(儿童读物)
 * [九宮格（河图洛书）](9gg.md)
-* [费马定理 Fermat's Last Theorem](FermatsLastTheorem.md)
 
 ## 三角
 
@@ -65,6 +64,7 @@
 * [微分 Differential](Differential.md)
 * [可微和可导的区别和联系(ChatGPT)](Diff_Conn_Diff_Cont.md)
 * [函数光滑 Smoothness of a Function](Smoothness.md)
+* [费马引理 Fermat's Theorem](interior_extremum_theorem.md)
 * [极值定理 Extreme Value Theorem](Extreme_Value_Theorem.md)
 * [罗尔定理 Rolles's Theorem](RollesTheorem.md)
 * [拉格朗日中值定理 Lagrange's Mean Value Theorem](LagrangesMeanValueTheorem.md)
