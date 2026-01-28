@@ -132,3 +132,19 @@ hello.show();
 * 泛型除了可以向下限制，您也可以向上限制，只要使用 `super` 關鍵字
 * 如果沒有調用超類的構造函數，也沒有將自己的構造函數作爲構造函數的首條可執行語句，那麽在新的構造函數的任何語句執行之前，超類不帶自變量的構造函數就會被自動調用。也就是說，你的構造函數被看做 `super()` 為首條語句。如果超類沒有不帶自變量的構造函數，那麽你必須顯式地調用另一個構造函數。
 * 可以把接口看成是特殊的抽象类，因为在接口中所有的方法都是抽象方法，只有声明但没有实现。一个类在继承（extends）一个父类后，还可以同时实现（implements）多个接口，这样便具备了和多重继承同样强大的能力，却比多重继承的结构更加清晰。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

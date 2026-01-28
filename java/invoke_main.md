@@ -66,3 +66,19 @@ Hello from World II
 Ref: 
 * [反射，廖雪峰](https://www.liaoxuefeng.com/wiki/1252599548343744/1255945147512512)
 * [用反射方式执行某个类中的main方法](https://blog.csdn.net/BruceLeeNumberOne/article/details/80905522)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

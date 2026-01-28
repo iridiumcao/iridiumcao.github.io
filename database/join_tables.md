@@ -74,3 +74,19 @@ select distinct t1.kname
 * Wikipedia: [English](https://en.wikipedia.org/wiki/Join_%28SQL%29), [中文版](https://zh.wikipedia.org/wiki/%E8%BF%9E%E6%8E%A5)
 * 在关系型数据库中使用连接运算 (invalid link)
 * 关于Oracle外连接的若干问题(by anly) (invalid link)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -5,7 +5,7 @@
 
 # Finding Commits Before a Merge Point in Git
 
-[Index](index.md)
+[Index](index_en.md)
 
 This guide explains how to use Git's relative reference syntax to locate commits before a merge point in a branch's history.
 
@@ -181,3 +181,19 @@ gitGraph BT:
 </div>
 
 By combining `^` and `~` with parent indices, you can precisely navigate to any commit in the history relative to the current HEAD.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

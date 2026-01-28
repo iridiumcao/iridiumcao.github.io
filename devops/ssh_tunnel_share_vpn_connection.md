@@ -1,6 +1,6 @@
 # Using SSH Tunneling to Share a VPN Connection to AWS
 
-[Index](index.md)
+[Index](index_en.md)
 
 We connect to AWS using VPN accounts, but the number of VPN accounts is limited. Sometimes we have to wait for others to release their connections.
 
@@ -97,3 +97,19 @@ Test the result:
 ## Summary
 
 SSH tunneling provides a simple and secure way to share a single VPN connection, reducing the need for multiple AWS VPN accounts. Whether using local forwarding for specific services or dynamic forwarding for broader access, it’s a flexible solution for teams. If you encounter issues, check the jump server’s connectivity to AWS or the client’s SSH configuration.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

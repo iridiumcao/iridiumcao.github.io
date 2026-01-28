@@ -1,6 +1,6 @@
 # Python Decorator Demo
 
-[Index](../index.md)
+[Index](../index_en.md)
 
 We have scheduled some automated tasks that run regularly. They work well under normal circumstances. However, we realized that during Chinese public holidays, we don’t need to execute some of these tasks.
 
@@ -134,3 +134,19 @@ This will:
 | Use Case   | Skipping task execution on non-workdays based on the Chinese calendar. |
 
 (Edit with ChatGPT)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

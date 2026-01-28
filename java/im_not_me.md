@@ -55,3 +55,19 @@ PS: 刚刚写了个多态的[例子](https://my.oschina.net/iridium/blog/2960729
 
 这篇文章最初于2018.11.25 15:56发布在OSC上
 ![history on OSC](images/history2023-06-16-210832.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

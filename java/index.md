@@ -1,5 +1,8 @@
 # Java
 
+[**中文** \| [English](index_en.md)]
+
+* [OO 设计原则](oo-design-principle.md)
 - [Java 中的变量](variable.md)
 - [用反射的方式调用 `main` 方法](invoke_main.md)
 - [String 不能被继承](string_cannot_be_extended.md)
@@ -13,9 +16,7 @@
 
 ## JDK
 
-- [Install JDK 21](install_jdk.md)
-- [JVM options of JDK 11](JVM_options.md)
-- [Java Keytool Guide](keytool.md)
+- [安装 JDK 21](install_jdk.md)
 
 ## Design Pattern
 
@@ -27,11 +28,25 @@
 
 - [Tomcat 在 Ubuntu 上使用 80 和 443 端口](tomcat_ubuntu_port.md)
 - [Tomcat 支持 HTTPS 的配置](tomcat_https.md)
-- [Tomcat 10 HTTP/2 Configuration](tomcat_http2.md)
 - [用 Tomcat 部署 Webapp 的一些说明](deploy_app_with_tomcat.md)
 
 ## Spring Boot
 
-- [Quickly Check If Your Environment Supports Spring Boot](spring/verify_env.md)
 - [在 Spring Boot 中使用 QQ 邮箱发送邮件](spring/qqmail.md)
 - [ Spring Boot JPA 关联关系演示 ](spring/jpa_fk.md)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

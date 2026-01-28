@@ -127,3 +127,19 @@ sequenceDiagram
 非对称加密是[数字签名](digital_signature.md)的技术基础。数字签名利用非对称加密技术，确保消息的完整性和发送者的身份可信。
 
 在实际应用中，对称加密和非对称加密常结合使用。例如，HTTPS 协议利用非对称加密安全协商一个临时的对称密钥，再用对称加密进行高效的数据传输。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

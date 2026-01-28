@@ -1,6 +1,6 @@
 # How to Remove Large Files from Git History
 
-[Index](index.md)
+[Index](index_en.md)
 
 In a Git repository, large files, including those deleted from the workspace, continue to occupy disk space because they remain in the history. Sometimes, we may want to remove them to free up disk space and reduce network usage.
 
@@ -101,3 +101,19 @@ For example, if the original repository was 3 GB and is now 27 MB, the large fil
 By following these steps, you can free up disk space, reduce bandwidth usage, and improve repository performance. Remember to back up your repository and coordinate with your team, as rewriting history can impact collaboration.
 
 To avoid large files in the future, consider using Git LFS (Large File Storage) to store them outside the main repository.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

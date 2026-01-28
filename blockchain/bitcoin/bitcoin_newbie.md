@@ -97,3 +97,19 @@
 
 这篇文章最初于2017-06-03 08:59发布于[OSC的blog](https://my.oschina.net/iridium/blog/913611)里。
 ![Screenshot of the blog](../images/2021-11-27-07-55-25-OSC-blog-btc.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,6 +1,6 @@
 # Using Special Variables in Bash Scripts
 
-[Index](index.md)
+[Index](index_en.md)
 
 Here is an example of how Bash scripts utilize certain special variables:
 

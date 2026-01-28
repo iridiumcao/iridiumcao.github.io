@@ -204,10 +204,18 @@ pip list
 - [Grok: Python 中类似 Maven 的工具推荐](https://x.com/i/grok/share/NIpKWFj749a3lrXjrg6RJiQ00)
 - [ChatGPT: 命名冲突的诊断与解决](https://chatgpt.com/s/t_6901d3a4cc108191af4053fdc79c1c32)
 
-<script src="https://utteranc.es/client.js"
-        repo="iridiumcao/iridiumcao.github.io"
-        issue-term="pathname"
-        theme="github-light"
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
         crossorigin="anonymous"
         async>
 </script>

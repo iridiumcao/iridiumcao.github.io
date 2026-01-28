@@ -1,6 +1,6 @@
 # Automating the Removal of Outdated and Merged Branches in Git Repositories
 
-[Index](index.md)
+[Index](index_en.md)
 
 As software developers, we often work with branches in our Git repositories. Once a branch has been successfully merged into the main branch (commonly referred to as 'main' or 'master'), it is generally considered best practice to remove the original branch. However, it's easy to forget about these merged branches, leading to clutter and potential confusion in the repository.
 
@@ -93,3 +93,19 @@ Cleaning up outdated and merged branches is an essential maintenance task in Git
 Remember to exercise caution when deleting branches, as this action is irreversible. Always double-check and verify before removing any branches from your remote repository.
 
 Happy coding!
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

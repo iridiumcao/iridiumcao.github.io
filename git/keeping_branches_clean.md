@@ -1,6 +1,6 @@
 # The Way to Keep Git Branches Clean
 
-[Index](index.md)
+[Index](index_en.md)
 
 ([Chinese](keeping_branches_clean_zh_CN.md))
 
@@ -83,3 +83,19 @@ http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.egit.doc%2Fhelp%2FEG
 ---
 
 Note: This article was originally written for company colleagues for reference purposes around early 2016. Considering its lack of sensitivity and its general applicability, it has been moved to this website for publication.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

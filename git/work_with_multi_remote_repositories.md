@@ -1,6 +1,6 @@
 # Work with Multiple Remote Repositories
 
-[Index](index.md)
+[Index](index_en.md)
 
 Usually, a local git repository tracks a default remote repository named _origin_. However, we also needs to work with multiple remote repositories in some cases.
 
@@ -50,3 +50,19 @@ or list one:
 
 * for 1.8: `git config --get remote.origin.url`
 * for 2.X: `git remote get-url origin`
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

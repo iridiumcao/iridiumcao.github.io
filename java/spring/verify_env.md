@@ -1,6 +1,6 @@
 # Quickly Check If Your Environment Supports Spring Boot
 
-[Index](../index.md)
+[Index](../index_en.md)
 
 The easiest way to verify if your local setup supports Spring Boot development and deployment is to build and run a simple demo app. It won't do anything fancy, but that's the point—it's just enough to confirm everything works.
 
@@ -108,3 +108,19 @@ If successful, you'll see the Spring Boot banner and startup logs like this—no
 ```
 
 Now you’ve confirmed your environment is ready for Spring Boot development.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

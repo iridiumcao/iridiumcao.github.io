@@ -25,3 +25,19 @@ uname_result(system='Windows', node='DESKTOP-ABC123', release='10', version='10.
 `platform.uname()` 返回的是一个命名元组，可以通过属性访问各个字段的值。
 
 从跨平台的角度，用 `platform.uname()` 更好，因为 Linux 和 Windows 都支持。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

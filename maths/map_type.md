@@ -13,3 +13,19 @@
 参看从[维基百科](https://zh.wikipedia.org/wiki/%E5%8D%95%E5%B0%84%E3%80%81%E6%BB%A1%E5%B0%84%E4%B8%8E%E5%8F%8C%E5%B0%84)下载的截图：
 
 ![](images/GeLeiMappings.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

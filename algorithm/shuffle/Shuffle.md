@@ -42,3 +42,19 @@
 http://git.oschina.net/iridiumcao/iridiumonline/blob/master/helloalgorithm/src/main/java/info/iridiumcao/algorithm/shuffle/Shuffle.java
 
 注：在 Java 集合 API 中也有现成的 Shuffle 工具了，比如：[Collections.shuffle(...)](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#shuffle-java.util.List-)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

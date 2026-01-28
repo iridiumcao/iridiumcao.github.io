@@ -103,3 +103,19 @@ keytool -import -alias tomcat -keystore keystore.jks -file yourcertificate.crt
 在浏览器中访问 `https://localhost:8443`（根据你的端口配置调整）。如果是自签名证书，浏览器可能会提示“不安全”，需要手动信任。
 
 ![](images/UtfJYpbiVK.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

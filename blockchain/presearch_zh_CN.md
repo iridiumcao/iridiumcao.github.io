@@ -36,3 +36,19 @@ Presearch是一款**去中心化**的搜索引擎，它不但有自己的搜索�
 ---
 
 更新(2024.06.03): 每次搜索奖励目前只有0.01PRE了，早已不复当年的慷慨，不过这个引擎本身还是好用的。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

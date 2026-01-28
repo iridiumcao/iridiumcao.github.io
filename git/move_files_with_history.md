@@ -1,6 +1,6 @@
 # Move Files Between Git Repositories While Preserving History
 
-[Index](index.md)
+[Index](index_en.md)
 
 There are two tools available to move files and directories between Git repositories while presering history:
 
@@ -92,3 +92,19 @@ It will only remove `<file-or-directory-path>` and preserve all the other files/
 ## Conclusion
 
 Using `git filter-repo`, we can effectively move specific files or directories between repositories while preserving their history. This method allows for flexible, clean history management with including unnecessary files.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

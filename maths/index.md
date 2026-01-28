@@ -1,6 +1,7 @@
 # Maths
 
-* [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
+[**中文** \| [English](index_en.md)]
+
 * [Formula 和 Theorem 的区别](formula_and_theorem.md)
 * [两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)
 * [素数的个数为什么是无限的](the_number_of_prime_number.md)
@@ -32,7 +33,6 @@
 ## 对数 Logarithm
 
 * [对数的三个基本运算性质](Logarithm_Properties_and_Proofs.md)
-* [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
 
 ## 线性代数 Linear Algebra
 

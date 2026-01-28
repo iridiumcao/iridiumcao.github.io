@@ -292,3 +292,19 @@ TODO
 【参考】
 
 * [约数 和 因数 ——全中国都混乱的数学基本概念](http://blog.sina.com.cn/s/blog_6386b85d0100iar0.html)这篇文章中提到了约数概念在国内没有统一的定义，这点针对具体问题时，一定要明确。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

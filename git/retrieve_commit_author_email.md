@@ -1,6 +1,6 @@
 # How to Retrieve the Email of a Commit's Author
 
-[Index](index.md)
+[Index](index_en.md)
 
 To retrieve the email of a commit's author in Git, there are a few commands that you can use:
 
@@ -53,3 +53,19 @@ or
 $ git show -s --format=%ae 6efd100a8004191ddfd9
 hello@world.hi
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

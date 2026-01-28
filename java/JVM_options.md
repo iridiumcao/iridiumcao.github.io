@@ -1,6 +1,6 @@
 # JVM Options of JDK 11
 
-[Index](index.md)
+[Index](index_en.md)
 
 2023-06-15
 
@@ -64,3 +64,19 @@ Tidy the JVM options as follows:
 > Starting from Java 9, the default garbage collector (GC) was changed from Parallel GC to G1 (see JEP 248). [Ref](https://docs.gigaspaces.com/rn/java11-guidelines.html)
 
 Another Reference. [Best practice for JVM Tuning with G1 GC](https://backstage.forgerock.com/knowledge/kb/article/a75965340)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

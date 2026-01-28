@@ -1,6 +1,6 @@
 # How to Display Math Formulas in GitHub Pages
 
-[返回目录](index.md)
+[Index](index_en.md)
 
 If you have encountered a problem where the math formulas do not display when your site is published, despite being visible while editing in markdown, you can follow these steps to fix it.
 
@@ -28,6 +28,10 @@ However, you may see some unintelligible text:
 
 To resolve this issue, add the following script to the head or append it the end of the markdown document, following the instructions on <https://docs.mathjax.org/en/latest/web/start.html>:
 
+---
+
+This version is edited by ChatGPT. It's better than [my original version](https://github.com/iridiumcao/iridiumcao.github.io/commit/75f59bc941e08461394d8bb701542f83f52cb9b6).
+
 ```html
 <script>
 MathJax = {
@@ -41,6 +45,18 @@ MathJax = {
 </script>
 ```
 
----
-
-This version is edited by ChatGPT. It's better than [my original version](https://github.com/iridiumcao/iridiumcao.github.io/commit/75f59bc941e08461394d8bb701542f83f52cb9b6).
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

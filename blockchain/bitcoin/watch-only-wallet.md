@@ -1,6 +1,6 @@
 # Create a Watch-Only Wallet with Bitcoin Core
 
-[Index](../index.md)
+[Index](../index_en.md)
 
 > A watch-only wallet is a type of cryptocurrency wallet that allows users to monitor their balances and transactions without having the ability to spend or move the funds. This type of wallet is useful for individuals who want to keep track of their cryptocurrency holdings without exposing their private keys to potential security risks. Without the private key associated with the wallet, you can never make any withdrawals from the wallet. You will be restricted to viewing only, making deposits, but NOT withdrawing.
 > 
@@ -61,3 +61,19 @@ Its transactions can be viewed from the Overview tab:
 The details of transactions can be found via Transactions tab. The address can be set a tag via Windos -> Receiving Addresses.
 
 Ref: <https://bitcoin.stackexchange.com/questions/114722/how-to-use-a-watch-only-wallet-in-bitcoin-core>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

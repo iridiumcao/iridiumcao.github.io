@@ -17,3 +17,19 @@
 2013年，以太坊诞生。以太坊通过引入智能和约，逐渐形成了一个以以太坊为根基的生态系统，今天，这个生态系统已经非常繁荣。DeFi（去中心化金融），NTF借助以太坊进一步将现实世界接入区块链，接入去中心化的世界中去了。DeFi是未来的金融，它会引发银行，保险，等行业的巨大变化。
 
 目前，星际文件系统IPFS正在成为区块链中的基础设施，而Presearch作为搜索引擎，也有机会成为下一个Google。我们可以看到，越来越多的行业通过区块链，都在去中心化，一个新的世界正在到来。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

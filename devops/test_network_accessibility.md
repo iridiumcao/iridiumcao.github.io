@@ -1,6 +1,6 @@
 # Testing Network Accessibility in an Intranet with Bash Script
 
-[Index](index.md)
+[Index](index_en.md)
 
 there are two hosts in the same intranet:
 
@@ -55,3 +55,19 @@ echo $? # echoes 1
 ```
 
 Quoted from <https://stackoverflow.com/questions/7248031/meaning-of-dollar-question-mark-in-shell-scripts>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

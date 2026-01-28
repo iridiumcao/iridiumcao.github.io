@@ -1,6 +1,6 @@
 # Calculate File Hash
 
-[Index](index.md)
+[Index](index_en.md)
 
 This article introduces how to calculate a file's MD5, SHA1, and SHA256 hashes.
 
@@ -77,3 +77,19 @@ Ref:
 * This blog post was originally published to [CSDN](https://blog.csdn.net/caoi/article/details/124983043).
 
 ![CSDN](images/history2023-06-16-234940.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

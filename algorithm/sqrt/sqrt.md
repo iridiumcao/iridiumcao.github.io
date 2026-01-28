@@ -84,3 +84,20 @@ public static double sqrt(double c) {
 1. [牛顿迭代法求平方根原理](https://blog.csdn.net/chenrenxiang/article/details/78286599), chenrenxiang
 1. [Newton's method](https://en.wikipedia.org/wiki/Newton%27s_method)
 1. [C语言牛顿迭代法求平方根的过程](https://blog.csdn.net/tmddss/article/details/2029190)
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

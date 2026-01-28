@@ -1,6 +1,6 @@
 # Adding a Cron Task Using a Script
 
-[Index](index.md)
+[Index](index_en.md)
 
 To add a cron task item using a script, you can utilize the following script:
 
@@ -64,3 +64,19 @@ $ crontab -l
 
 The cron task list is crucial for scheduling and automating tasks on a system.
 It is important to ensure the correct syntax and formatting in the cron task list to ensure proper execution and logging of tasks.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

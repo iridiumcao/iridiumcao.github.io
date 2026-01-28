@@ -62,3 +62,19 @@ Ref
 * [How can one change the timestamp of an old commit in Git?](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git) (stackoverflow.com)
 * [Update git commit author date when amending](https://stackoverflow.com/questions/9110310/update-git-commit-author-date-when-amending) (stackoverflow.com)
 * [Git commit date](https://stackoverflow.com/questions/3814926/git-commit-date) (stackoverflow.com)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -1,6 +1,6 @@
 # Weekly Updates for Rotating Server System
 
-[Index](index.md)
+[Index](index_en.md)
 
 In the current system, we have five servers, labeled as s1, s2, s3, s4, and s5.
 One server is scheduled for an update every Monday, following a rotational pattern.
@@ -65,3 +65,19 @@ To ensure the script runs weekly on every host in the list, set a crontab as fol
 ```
 
 Note that the '1' in the cron schedule represents Monday, ensuring the script runs at the start of every week.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

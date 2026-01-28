@@ -1,6 +1,6 @@
 # Java Keytool Guide
 
-[Index](index.md)
+[Index](index_en.md)
 
 The Java `keytool` is a command-line utility bundled with the Java Development Kit (JDK) for managing cryptographic keys and certificates. It is located in `{JAVA_HOME}/bin/`. While it doesn’t manage SSH certificates directly (SSH uses a different mechanism), it is commonly used to handle Java keystores, such as the default `cacerts` file located at `{JAVA_HOME}/lib/security/cacerts`. This guide covers common `keytool` operations like listing, importing, exporting, and deleting certificates.
 
@@ -76,3 +76,19 @@ keytool --help
 # Get help for a specific command (e.g., exportcert)
 keytool -exportcert --help
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

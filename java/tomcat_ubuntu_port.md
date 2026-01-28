@@ -20,3 +20,19 @@ sudo iptables -t nat -I OUTPUT -p tcp -d localhost --dport 443 -j REDIRECT --to-
 
 本文最早发布在OSC上，现在搬运过来，原文已删除。
 ![history on OSC](images/history2023-06-16-212823.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

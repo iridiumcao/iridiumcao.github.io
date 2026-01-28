@@ -1,6 +1,6 @@
 # Exporting and Importing Python Packages
 
-[Index](index.md)
+[Index](index_en.md)
 
 To rebuild a Python environment, we need to copy the Python package dependencies. Here's how.
 

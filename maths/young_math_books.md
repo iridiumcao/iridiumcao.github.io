@@ -54,3 +54,19 @@
 * [图书清单（英文）](http://www.belovedbooks.net/Articles/Young-Math-Books.html)
 * [图书清单带封面（英文）](https://www.goodreads.com/series/164944-crowell-young-math-books)
 * [京东购买链接](https://item.jd.com/56959654712.html)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

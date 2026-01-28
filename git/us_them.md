@@ -346,3 +346,19 @@ $ git cherry-pick --abort
 > The reason is that Git uses the same merge-engine for rebase, and it's actually cherry-picking your stuff into the upstream branch. *us* = into, *them* = from.
 >
 > <https://stackoverflow.com/questions/21025314/who-is-us-and-who-is-them-according-to-git/21025695#21025695>
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

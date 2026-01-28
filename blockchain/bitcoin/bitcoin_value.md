@@ -71,3 +71,19 @@ Ref:
 
 * [WTO：2020年全球贸易跌13-32%，电子、汽车贸易或急剧下降](https://www.yicai.com/news/100584976.html)
 * [Trade set to plunge as COVID-19 pandemic upends global economy](https://www.wto.org/english/news_e/pres20_e/pr855_e.htm) (The value of commercial services exports rose 2% to US$ 6.03 trillion in 2019.)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

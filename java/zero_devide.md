@@ -31,3 +31,19 @@
 
 1. 本站相关页面: [零为何不能做除数](../maths/why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
 2. 本文从[Google Sites](https://sites.google.com/site/iridiumsite/it/java/java-lang/zero-devide)转移而来。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

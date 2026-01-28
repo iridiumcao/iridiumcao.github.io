@@ -64,3 +64,19 @@ ln -s /home/iridium/deploy/helloworld demo
 | `workDir` |工作目录，默认位置是 `{tomcat home}/work/Catalina/localhost/{appName}`, 一般也不用怎么设置的，就默认的好了。|
 | `allowLinking="true"` | 软连接的开关。启用符号链接，设为 `true` 时支持软连接（默认 `false`）|
 | `reloadable` | 热部署开关。是指更新 Java class 文件後，是否自动加载。这个功能只对放在 `WEB-INF/classes` 或 `lib` 下的资源有效，不会自动重新加载 JSP、静态文件。Tomcat 对热部署支持很差，会大大增加服务器的开销。**在生产环境中，用 Tomcat，应该放弃热部署**，也就是将 `reloadable` 设置为 `false`。|
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

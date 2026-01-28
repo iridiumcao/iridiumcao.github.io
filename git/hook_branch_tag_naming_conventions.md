@@ -1,6 +1,6 @@
 # Update Git Branch/Tag Naming Conventions
 
-[Index](index.md)
+[Index](index_en.md)
 
 > Note. This issue is from today's work (2023.12.22).
 
@@ -43,3 +43,19 @@ exit 0
 ```
 
 In this script, the condition `[[ $newrev == "0000000000000000000000000000000000000000" ]]` checks if the new revision is all zeros, which is the case for branch or tag deletion. Condition `[[ $newrev =~ "000000000000000" ]]` can be an approximate replacement.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

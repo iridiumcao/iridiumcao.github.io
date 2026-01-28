@@ -1,6 +1,8 @@
 Record & Share \| 记录和分享
 
-## Subjects
+[**中文** \| [English](index_en.md)]
+
+## 主题
 
 * [Git](git/index.md)
 * [Blockchain](blockchain/index.md)
@@ -13,15 +15,14 @@ Record & Share \| 记录和分享
 * [Maths](maths/index.md)
 * [Language](language/index.md)
 
-## Others
+## 其他
 
-* [OO 设计原则](oo-design-principle.md)
 * [每日复盘](daily_review.md)
 * [房价、房租和利率的一点思考](house_price_rent.md)
-* [Chat with AI](ai1ai2.md)
+* [AI 有人类的情感吗？](ai1ai2.md)
 * [简单问答](simple-ask-and-answer.md)
-* [Third-Party Links](3rd_party_links.md)
+* [第三方工具](3rd_party_links.md)
 
 ---
 
-[[About](about.md)]
+[[关于](about.md)]

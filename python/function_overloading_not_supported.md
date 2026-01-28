@@ -99,3 +99,19 @@ Bob
 在上面的代码中，`Person` 类只定义了一个构造器 `__init__()`，它接受两个参数 `name` 和 `age`. `age` 参数设置了默认值为 `None`，这样在创建对象时可以选择是否传递 `age` 参数。
 
 通过这种方式，我们就可以在创建对象时选择性地传递参数，从而实现类似于多个构造方法的功能。如果不传递 `age` 参数，则 `age` 属性会被初始化为 `None`.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

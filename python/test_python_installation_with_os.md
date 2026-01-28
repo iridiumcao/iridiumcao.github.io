@@ -1,6 +1,6 @@
 # Testing Python Installation with OS
 
-[Index](index.md)
+[Index](index_en.md)
 
 Note: This article was written in 2021 and edited in 2023, so some version values are very old.
 
@@ -41,3 +41,19 @@ When ``Python`` is installed, it shows:
 $ python --version
 Python 3.8.5
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

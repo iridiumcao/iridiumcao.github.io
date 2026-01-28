@@ -37,3 +37,19 @@ a ^= b;
 1. [代码](http://git.oschina.net/iridiumcao/iridiumonline/blob/master/helloalgorithm/src/main/java/org/iridium/algorithm/basic/ExchangeTwoValues.java)
 2. [如何交換兩個變數，而不動用第三個變數? (C/C++) (C) (.NET) (C#) ](http://www.cnblogs.com/oomusou/archive/2007/09/09/887337.html)
 3. [经典算法——不用第三变量交换两数](http://blog.sina.com.cn/s/blog_438414c901009pwc.html)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

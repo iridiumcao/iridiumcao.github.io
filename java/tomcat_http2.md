@@ -1,6 +1,6 @@
 # Tomcat 10 HTTP/2 Configuration
 
-[Index](index.md)
+[Index](index_en.md)
 
 ## Configuring HTTP/2 in Tomcat 10
 
@@ -40,3 +40,19 @@ To retrieve the equivalent information, use `request.getServerName() + ":" + req
 ### Reason
 
 In HTTP/2, the `:authority` pseudo-header replaces the HTTP/1.1 `Host` header, causing `request.getHeader("host")` to return `null` in JSP code. The `:authority` pseudo-header includes the authority portion of the target URI ([RFC 7540, Section 8.1.2.3](https://datatracker.ietf.org/doc/html/rfc7540#section-8.1.2.3)), used in place of the HTTP/1.1 `Host` header ([RFC 7540](https://datatracker.ietf.org/doc/html/rfc7540)).
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

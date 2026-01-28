@@ -1,6 +1,6 @@
 # Git Submodule Test
 
-[Index](index.md)
+[Index](index_en.md)
 
 Assume three repositories: repoa, repob, repoc
 
@@ -168,3 +168,19 @@ Ref:
 This article was originally post to [CSDN](https://blog.csdn.net/caoi/article/details/127601327).
 
 ![history on CSDN](images/history2023-06-16-234445.png)
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

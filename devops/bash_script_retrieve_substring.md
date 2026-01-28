@@ -1,6 +1,6 @@
 # Extracting Substrings in Bash Shell Scripts
 
-[Index](index.md)
+[Index](index_en.md)
 
 Obtain the original string: `${var_name}`.
 
@@ -64,3 +64,19 @@ Explanation of the third command:
 ---
 
 This article has been rewritten using GPT-4. [Source](https://poe.com/s/pOKG6Tqe9rzmAHChxDmQ).
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

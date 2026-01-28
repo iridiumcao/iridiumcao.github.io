@@ -1,6 +1,6 @@
 # Presearch: A Decentralized Search Engine for Exploring the Unknown and Earning Rewards
 
-[Index](index.md)
+[Index](index_en.md)
 
 2023-06-14
 
@@ -33,3 +33,19 @@ Exploring the unknown and earning rewards are both wonderful things. Start using
 ---
 
 Update (2024.06.03): The reward for each search is currently only 0.01 PRE, far less generous than it used to be. However, the engine itself is still quite useful.
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>

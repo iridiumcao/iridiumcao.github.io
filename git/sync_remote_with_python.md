@@ -1,6 +1,6 @@
 # Synchronizing a Remote Repository to Local Using Python
 
-[Index](index.md)
+[Index](index_en.md)
 
 The remote Git repository has undergone significant changes. To ensure that the local code aligns with the remote repository, we can employ a script for synchronizing the remote changes to the local repository. This synchronization process ensures that the code in the local repository matches that of the remote repository.
 
@@ -59,3 +59,19 @@ repo_path = "/path/to/your/repository"
 repo = git.Repo(repo_path)
 sync_local_repo(repo)
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
