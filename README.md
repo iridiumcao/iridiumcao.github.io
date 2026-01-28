@@ -5,15 +5,15 @@ Record & Share \| 记录和分享
 ## 主题
 
 * [Git](git/index.md)
-* [Blockchain](blockchain/index.md)
+* [区块链 Blockchain](blockchain/index.md)
 * [Java](java/index.md)
 * [C++](https://iridiumcao.github.io/cpp-note/)
 * [Python](python/index.md)
-* [Database](database/index.md)
+* [数据库 Database](database/index.md)
 * [DevOps](devops/index.md)
-* [Algorithm](algorithm/index.md)
-* [Maths](maths/index.md)
-* [Language](language/index.md)
+* [算法 Algorithm](algorithm/index.md)
+* [数学 Maths](maths/index.md)
+* [语言 Language](language/index.md)
 
 ## 其他
 
