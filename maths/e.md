@@ -1,4 +1,4 @@
-# 自然常数$e$ Natural Constant
+# 自然常数$e$ (Natural Constant)
 
 [返回目录](index.md)
 
@@ -47,6 +47,41 @@ $$\lim_{n\to\infty} \left(1+\dfrac{1}{n}\right)^{n}$$
 所以，回到前面提到的问题，假如本金为$a$, 年利率为$r$，则一年后连本带利最多可以得到的金额是
 
 $$ amount = a \cdot e^r$$
+
+## 证明 $\left(1+\dfrac{1}{x}\right)^x$ 是收敛的
+
+> 函数单调且有上界，则这个函数是收敛的。
+
+先证函数 $f(x) = \left(1+\dfrac{1}{x}\right)^x$ 是递增的，比较 $f(n)$ 和 $f(n+1)$ 的大小即可。
+
+$$
+\begin{aligned}
+  f(n) &= \left(1+\dfrac{1}{n}\right)^n \\
+       &= \sum_{k=0}^n\binom{n}{k}\dfrac{1}{n^k} \\
+       &= 1 + 1 + \dfrac{1}{2!}\left(1-\dfrac{1}{n} \right) + + \dfrac{1}{3!}\left(1-\dfrac{1}{n} \right)\left(1-\dfrac{2}{n} \right) + \cdots \\
+
+  f(n+1) &= \left(1+\dfrac{1}{n+1}\right)^{n+1} \\
+       &= \sum_{k=0}^{n+1}\binom{n+1}{k}\dfrac{1}{(n+1)^k} \\
+       &= 1 + 1 + \dfrac{1}{2!}\left(1-\dfrac{1}{n+1} \right) + + \dfrac{1}{3!}\left(1-\dfrac{1}{n+1} \right)\left(1-\dfrac{2}{n+1} \right) + \cdots
+\end{aligned}
+$$
+
+对  $f(n)$ 和 $f(n+1)$ 的展开式逐项比较，可知 $f(n) < f(n+1)$.
+
+再证明 $f(x)$ 有上界：
+
+$$
+\begin{align}
+  f(n) &= 1 + 1 + \dfrac{1}{2!}\left(1-\dfrac{1}{n} \right) + \dfrac{1}{3!}\left(1-\dfrac{1}{n} \right)\left(1-\dfrac{2}{n} \right) + \cdots \\
+       &< 1 + 1 + \dfrac{1}{2!} + \dfrac{1}{3!} + \cdots \\
+       &< 1 + 1 + \dfrac{1}{2} + \dfrac{1}{4} + \cdots \\
+       &= 3
+\end{align}
+$$
+
+以上(2)到(3)的比较中用到了 $k!=1⋅2⋅3⋯k≥1⋅2⋅2⋯2=2^{k−1}$ 这个不等式。
+
+这里至少说明3是它的上界，虽然离2.7有点远，但确实是个上界。这个证明不算多严谨，不过比较形象好懂。
 
 <script>
 MathJax = {
