@@ -6,6 +6,7 @@
 
 * [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
 * [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
+* [Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions](trig_inverse_trig_int_ref/trig_inverse_trig_int_ref.md)
 
 <script>
 MathJax = {
