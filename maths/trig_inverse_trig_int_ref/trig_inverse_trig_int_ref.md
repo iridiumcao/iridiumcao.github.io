@@ -9,11 +9,11 @@ This document compiles indefinite integrals for powers of the six basic trigonom
 
 ## Powers of Trig Functions ($trig^n(x)$)
 
-|   | sin                          | cos                          | tan                          | cot                          | sec                          | csc                          |
-|---|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
+|   | sin                                    | cos                                    | tan                                    | cot                                    | sec                                    | csc                                    |
+|---|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
 | 1 | [$\int \sin(x) \mathrm{d}x$](a1_b1.md) | [$\int \cos(x) \mathrm{d}x$](a1_b1.md) | [$\int \tan(x) \mathrm{d}x$](a1_b1.md) | [$\int \cot(x) \mathrm{d}x$](a1_b1.md) | [$\int \sec(x) \mathrm{d}x$](a1_b1.md) | [$\int \csc(x) \mathrm{d}x$](a1_b1.md) |
 | 2 | [$\int \sin^2(x) \mathrm{d}x$](a2.md)  | [$\int \cos^2(x) \mathrm{d}x$](a2.md)  | [$\int \tan^2(x) \mathrm{d}x$](a2.md)  | [$\int \cot^2(x) \mathrm{d}x$](a2.md)  | [$\int \sec^2(x) \mathrm{d}x$](a2.md)  | [$\int \csc^2(x) \mathrm{d}x$](a2.md)  |
-| 3 | $\int \sin^3(x) \mathrm{d}x$ | $\int \cos^3(x) \mathrm{d}x$ | $\int \tan^3(x) \mathrm{d}x$ | $\int \cot^3(x) \mathrm{d}x$ | $\int \sec^3(x) \mathrm{d}x$ | $\int \csc^3(x) \mathrm{d}x$ |
+| 3 | [$\int \sin^3(x) \mathrm{d}x$](a3.md)  | [$\int \cos^3(x) \mathrm{d}x$](a3.md)  | [$\int \tan^3(x) \mathrm{d}x$](a3.md)  | [$\int \cot^3(x) \mathrm{d}x$](a3.md)  | [$\int \sec^3(x) \mathrm{d}x$](a3.md)  | [$\int \csc^3(x) \mathrm{d}x$](a3.md)  |
 | 4 | $\int \sin^4(x) \mathrm{d}x$ | $\int \cos^4(x) \mathrm{d}x$ | $\int \tan^4(x) \mathrm{d}x$ | $\int \cot^4(x) \mathrm{d}x$ | $\int \sec^4(x) \mathrm{d}x$ | $\int \csc^4(x) \mathrm{d}x$ |
 | 5 | $\int \sin^5(x) \mathrm{d}x$ | $\int \cos^5(x) \mathrm{d}x$ | $\int \tan^5(x) \mathrm{d}x$ | $\int \cot^5(x) \mathrm{d}x$ | $\int \sec^5(x) \mathrm{d}x$ | $\int \csc^5(x) \mathrm{d}x$ |
 | 6 | $\int \sin^6(x) \mathrm{d}x$ | $\int \cos^6(x) \mathrm{d}x$ | $\int \tan^6(x) \mathrm{d}x$ | $\int \cot^6(x) \mathrm{d}x$ | $\int \sec^6(x) \mathrm{d}x$ | $\int \csc^6(x) \mathrm{d}x$ |
