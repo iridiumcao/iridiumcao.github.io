@@ -13,7 +13,7 @@
 
 ## ChatGPT
 
-按：ChatGPT讲述得还不错，但不够完善，它没有提到去心邻域，最后一段的表述也很奇怪。具体内容，更建议参考[中文数学 Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F?variant=zh)。
+> 按：ChatGPT讲述得还不错，但不够完善，它没有提到去心邻域，最后一段的表述也很奇怪。具体内容，更建议参考[中文数学 Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F?variant=zh)。
 
 问：请介绍数学概念邻域
 

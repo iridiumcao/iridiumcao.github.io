@@ -3,9 +3,8 @@
 [**中文** \| [English](index_en.md)]
 
 * [Formula 和 Theorem 的区别](formula_and_theorem.md)
-* [两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)
 * [素数的个数为什么是无限的](the_number_of_prime_number.md)
-* [无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?](irrational_numbers_vs_rational_numbers.md)
+* [无理数和有理数谁更多](irrational_numbers_vs_rational_numbers.md)
 * [代数数和超越数](algebraic_and_transcendental_numbers.md)
 * [自然常数$e$ Natural Constant](e.md)
 * [按月等额还款下的实际年利率计算方法](year_rate.md)
@@ -16,23 +15,18 @@
 * [几个比较基础的逻辑运算概念](basic_logical_operations.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
+* [两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)
 * [伯努利不等式](Bernoullis_inequality.md)
-* [《给讨厌数学的人》阅读笔记](notes-of-antimath.md)
 * [$\sqrt{}$的含义](sqrt_symbol.md)
 * [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
-* [汉声数学图画书目录](young_math_books.md)(儿童读物)
-* [九宮格（河图洛书）](9gg.md)
-
-## 三角
-
+* [对数的三个基本运算性质](Logarithm_Properties_and_Proofs.md)
 * [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
   * [证明 $\sin(\theta) = \cos(\dfrac{\pi}{2} - \theta)$](sin-cos-pi-per-2.md)
   * [证明 $\cos(\alpha - \beta)=\cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)$](cos-alpha-beta.md)
 * [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
-
-## 对数 Logarithm
-
-* [对数的三个基本运算性质](Logarithm_Properties_and_Proofs.md)
+* [《给讨厌数学的人》阅读笔记](notes-of-antimath.md)
+* [九宮格（河图洛书）](9gg.md)
+* [汉声数学图画书目录](young_math_books.md)(儿童读物)
 
 ## 线性代数 Linear Algebra
 
@@ -55,7 +49,7 @@
 * [余弦定理 Law of cosines](law_of_cosines.md)
 * [凭什么它才是公理？](axioms.md)
 
-## 微积分
+## 微积分 Calculus
 
 * [邻域 Neighbourhood](Neighbourhood.md)
 * [极限 Limit](limit.md)

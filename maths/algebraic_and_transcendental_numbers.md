@@ -2,7 +2,7 @@
 
 [返回目录](index.md)
 
-按：维基百科是很好的参考资料，但最好中英文版都看，它们往往有一些细微的差别，很能帮助理解。ChatGPT是很好的工具，但对专业问题回答不是很好，可能是话题小众，材料不够，再加上中文材料本来就少。凡是用ChatGPT，一定要小心它看似一本正经的错误答案。
+> 按：维基百科是很好的参考资料，但最好中英文版都看，它们往往有一些细微的差别，很能帮助理解。ChatGPT是很好的工具，但对专业问题回答不是很好，可能是话题小众，材料不够，再加上中文材料本来就少。凡是用ChatGPT，一定要小心它看似一本正经的错误答案。
 
 ## 定义
 
@@ -14,7 +14,7 @@
 
 An algebraic number is a number that is a root of a non-zero polynomial in one variable with integer (or, equivalently, rational) coefficients. （摘录自[维基百科英文版](https://en.wikipedia.org/wiki/Algebraic_number)）
 
-以上来自维基百科的内容，已经讲清楚了。整数系数的根就是代数数。英文版里补充说明等价的实数系数也行，这防止有的人耍小聪明，硬说$0.1x$的系数不是整数，所以它的根不是代数数。
+以上来自维基百科的内容，已经讲清楚了。整数系数的多项式的根就是代数数。英文版里补充说明等价的实数系数也行，这防止有的人耍小聪明，硬说$0.1x$的系数不是整数，所以它的根不是代数数。
 
 【超越数】
 
@@ -26,7 +26,7 @@ In mathematics, a transcendental number is a number that is not algebraic—that
 
 ## ChatGPT
 
-神器ChatGPT在对小众专业问题的回答上，表现不佳，特别是中文内容更要注意。
+> 神器ChatGPT在对小众专业问题的回答上，表现不佳，特别是中文内容更要注意。
 
 问：请简单讲一下代数数和超越数的区别和联系
 

@@ -1,6 +1,8 @@
-# 无理数和有理数谁更多 Which is more abundant: Irrational numbers or Rational numbers?
+# 无理数和有理数谁更多
 
 [返回目录](index.md)
+
+Which is more abundant: Irrational numbers or Rational numbers?
 
 ## 1. 相关定义
 
