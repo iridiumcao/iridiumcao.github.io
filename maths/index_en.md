@@ -4,10 +4,12 @@
 
 [Index](../index_en.md)
 
-* [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
-* [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
-* [Pythagorean Trigonometric Identities — beyond sin² + cos² = 1](pti.md)
-* [Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions](trig_inverse_trig_int_ref/trig_inverse_trig_int_ref.md)
+- [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
+- [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
+- [Pythagorean Trigonometric Identities — beyond sin² + cos² = 1](pti.md)
+- [Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions](trig_inverse_trig_int_ref/trig_inverse_trig_int_ref.md)
+- [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](trig_inverse_trig_int_ref/sincosna.md)
+
 
 <script>
 MathJax = {

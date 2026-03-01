@@ -20,6 +20,10 @@ This document compiles indefinite integrals for powers of the six basic trigonom
 
 (Table A)
 
+References:
+
+- [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](sincosna.md)
+
 ## Trig of Polynomial Arguments ($trig(x^n)$)
 
 |   | sin                          | cos                          | tan                          | cot                          | sec                          | csc                          |
