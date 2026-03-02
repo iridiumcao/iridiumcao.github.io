@@ -74,7 +74,7 @@ $$
 
 For $\cos^n(x)$
 
-$$       
+$$
 \begin{aligned}
     \int \cos^n(x) \,\mathrm{d}x &= \int \cos^{2m+1}(x) \,\mathrm{d}x \\
                                  &= \int \cos^{2m}(x)\cos(x) \,\mathrm{d}x \\

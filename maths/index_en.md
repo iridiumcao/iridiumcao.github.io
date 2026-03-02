@@ -8,7 +8,9 @@
 - [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
 - [Pythagorean Trigonometric Identities — beyond sin² + cos² = 1](pti.md)
 - [Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions](trig_inverse_trig_int_ref/trig_inverse_trig_int_ref.md)
-- [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](trig_inverse_trig_int_ref/sincosna.md)
+  - [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](trig_inverse_trig_int_ref/a_n_sin_cos.md)
+  - [Indefinite Integrals of $tan^n(x)$ and $cot^n(x)$](trig_inverse_trig_int_ref/a_n_tan_cot.md)
+  - [Indefinite Integrals of $sec^n(x)$ and $csc^n(x)$](trig_inverse_trig_int_ref/a_n_sec_csc.md)
 
 
 <script>
