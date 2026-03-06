@@ -17,12 +17,14 @@ This document compiles indefinite integrals for powers of the six basic trigonom
 | 4 | [$\int \sin^4(x) \mathrm{d}x$](a4.md)  | [$\int \cos^4(x) \mathrm{d}x$](a4.md)  | [$\int \tan^4(x) \mathrm{d}x$](a4.md)  | [$\int \cot^4(x) \mathrm{d}x$](a4.md)  | [$\int \sec^4(x) \mathrm{d}x$](a4.md)  | [$\int \csc^4(x) \mathrm{d}x$](a4.md)  |
 | 5 | [$\int \sin^5(x) \mathrm{d}x$](a5.md)  | [$\int \cos^5(x) \mathrm{d}x$](a5.md)  | [$\int \tan^5(x) \mathrm{d}x$](a5.md)  | [$\int \cot^5(x) \mathrm{d}x$](a5.md)  | [$\int \sec^5(x) \mathrm{d}x$](a5.md)  | [$\int \csc^5(x) \mathrm{d}x$](a5.md)  |
 | 6 | $\int \sin^6(x) \mathrm{d}x$ | $\int \cos^6(x) \mathrm{d}x$ | $\int \tan^6(x) \mathrm{d}x$ | $\int \cot^6(x) \mathrm{d}x$ | $\int \sec^6(x) \mathrm{d}x$ | $\int \csc^6(x) \mathrm{d}x$ |
+| $\cdots$ | $\cdots$ | $\cdots$ | $\cdots$ | $\cdots$ | $\cdots$ | $\cdots$ |
+| n | [$\int \sin^n(x) \mathrm{d}x$](a_n_sin_cos.md) | [$\int \cos^n(x) \mathrm{d}x$](a_n_sin_cos.md) | [$\int \tan^n(x) \mathrm{d}x$](a_n_tan_cot.md) | [$\int \cot^n(x) \mathrm{d}x$](a_n_tan_cot.md) | [$\int \sec^n(x) \mathrm{d}x$](a_n_sec_csc.md) | [$\int \csc^n(x) \mathrm{d}x$](a_n_sec_csc.md) |
 
 (Table A)
 
 References:
 
-- [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](sincosna.md)
+- [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](a_n_sin_cos.md)
 
 ## Trig of Polynomial Arguments ($trig(x^n)$)
 

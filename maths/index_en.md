@@ -8,7 +8,10 @@
 - [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
 - [Pythagorean Trigonometric Identities — beyond sin² + cos² = 1](pti.md)
 - [Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions](trig_inverse_trig_int_ref/trig_inverse_trig_int_ref.md)
-- [Indefinite Integrals of $sin^n(x)$ and $cos^n(x)$](trig_inverse_trig_int_ref/sincosna.md)
+- [Reduction Formulas for $\int trig^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/reduction_formulas.md)
+  - [For $\int \sin^n(x) \,\mathrm{d}x$ and $\int \cos^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_sin_cos.md)
+  - [For $\int \tan^n(x) \,\mathrm{d}x$ and $\int \cot^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_tan_cot.md)
+  - [For $\int \sec^n(x) \,\mathrm{d}x$ and $\int \csc^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_sec_csc.md)
 
 
 <script>
