@@ -2,7 +2,7 @@
 
 [Index](../index_en.md)
 
-This article summarizes **reduction formulas** for the indefinite integrals of powers of trigonometric functions. All formulas are valid for **integer powers** $n \geq 0$ (or $n \geq 1$ for the reduction formulas), with $I_0$ and $I_1$ as base cases.
+This article summarizes **reduction formulas** for the indefinite integrals of powers of trigonometric functions. All formulas are valid for **integer powers** $n \geq 0$ (or $n \geq 1$ for the reduction formulas), with $I_0$ and $I_1$ as base cases. Some examples using these formulas can be found [here](a6.md).
 
 ## sin
 
@@ -20,7 +20,7 @@ Base cases:
 
 $$
 \begin{aligned}
-    I_0 &= \int \,\mathrm{d}x = x + C \\
+    I_0 &= x + C \\
     I_1 &=  \int \sin(x) \,\mathrm{d}x = -\cos(x) + C
 \end{aligned}
 $$
@@ -43,7 +43,7 @@ Base cases:
 
 $$
 \begin{aligned}
-    I_0 &= \int \,\mathrm{d}x = x + C \\
+    I_0 &= x + C \\
     I_1 &=  \int \cos(x) \,\mathrm{d}x = \sin(x) + C
 \end{aligned}
 $$
@@ -66,7 +66,7 @@ Base cases:
 
 $$
 \begin{aligned}
-    I_0 &= \int \,\mathrm{d}x = x + C \\
+    I_0 &= x + C \\
     I_1 &= \int \tan(x) \,\mathrm{d}x = -\ln(\vert \cos(x) \vert) + C = \ln(\vert \sec(x) \vert) + C
 \end{aligned}
 $$
@@ -89,7 +89,7 @@ Base cases:
 
 $$
 \begin{aligned}
-    I_0 &= \int \,\mathrm{d}x = x + C \\
+    I_0 &= x + C \\
     I_1 &= \int \cot(x) \,\mathrm{d}x = \ln(\vert \sin(x) \vert) + C =  -\ln(\vert \csc(x) \vert) + C
 \end{aligned}
 $$
@@ -112,7 +112,7 @@ Base cases:
 
 $$
 \begin{aligned}
-    I_0 &= \int \,\mathrm{d}x = x + C \\
+    I_0 &= x + C \\
     I_1 &=  \int \sec(x) \,\mathrm{d}x = \ln(\vert \sec(x)+\tan(x) \vert) + C = - \ln(\vert \sec(x)-\tan(x) \vert) + C
 \end{aligned}
 $$
@@ -135,7 +135,7 @@ Base cases:
 
 $$
 \begin{aligned}
-    I_0 &= \int \,\mathrm{d}x = x + C \\
+    I_0 &= x + C \\
     I_1 &=   \int \csc(x) \,\mathrm{d}x = -\ln(\vert \csc(x)+\cot(x) \vert) + C = \ln(\vert \csc(x)-\cot(x) \vert) + C
 \end{aligned}
 $$
