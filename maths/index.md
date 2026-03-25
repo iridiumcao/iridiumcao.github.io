@@ -54,15 +54,8 @@
 * [邻域 Neighbourhood](Neighbourhood.md)
 * [极限 Limit](limit.md)
 * [连续函数 Continuous Function](Continuous_function.md)
-* [导数 Derivative](derivative.md)
-* [微分 Differential](Differential.md)
-* [可微和可导的区别和联系(ChatGPT)](Diff_Conn_Diff_Cont.md)
 * [函数光滑 Smoothness of a Function](Smoothness.md)
 * [费马引理 Fermat's Theorem](interior_extremum_theorem.md)
-* [极值定理 Extreme Value Theorem](Extreme_Value_Theorem.md)
-* [罗尔定理 Rolles's Theorem](RollesTheorem.md)
-* [拉格朗日中值定理 Lagrange's Mean Value Theorem](LagrangesMeanValueTheorem.md)
-* [泰勒公式 Taylor's Theorem](TaylorsTheorem.md), [复习泰勒公式记](ReviewTaylorsFormula.md)
 
 ## 概率和统计
 
