@@ -1,5 +1,7 @@
 # 房价、房租和利率的一点思考
 
+[返回目录](index.md)
+
 定期利息可以视为用现金做任何事的最低机会成本。
 假定定期存款有4%的利息，150万的话，每年则有6万的利息收入，每月是5千。
 
@@ -22,3 +24,19 @@
 通常，租售比 t/m 在 200~300 时，也认为房价是合理的。
 租售比低适合买房，高适合租房。
 越低越适合买，越高越适合租。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

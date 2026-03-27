@@ -1,5 +1,7 @@
 # 每日复盘
 
+[返回目录](index.md)
+
 偶然刷到一个视频，讲每日复盘的学习方法。
 
 1. 列出所有今天做的事情
@@ -17,3 +19,19 @@
 4. 工作结束后复盘
 
 这个方法的好处，就是几乎不会遗漏工作事项。
+
+<script src="https://giscus.app/client.js"
+        data-repo="iridiumcao/iridiumcao.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyOTUwNTIyODQ="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOEZYj_M4Cxfqj"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

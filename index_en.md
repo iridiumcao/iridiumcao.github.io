@@ -12,10 +12,7 @@ Record & Share \| 记录和分享
 * [DevOps](devops/index_en.md)
 * [Algorithm](algorithm/index_en.md)
 * [Maths](maths/index_en.md)
-
-## Others
-
-* [Third-Party Links](3rd_party_links.md)
+* [Others](other/index_en.md)
 
 ---
 

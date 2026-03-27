@@ -14,14 +14,7 @@ Record & Share \| 记录和分享
 * [算法 Algorithm](algorithm/index.md)
 * [数学 Maths](maths/index.md)
 * [语言 Language](language/index.md)
-
-## 其他
-
-* [每日复盘](daily_review.md)
-* [房价、房租和利率的一点思考](house_price_rent.md)
-* [AI 有人类的情感吗？](ai1ai2.md)
-* [简单问答](simple-ask-and-answer.md)
-* [第三方工具](3rd_party_links.md)
+* [其他 Others](other/index.md)
 
 ---
 
