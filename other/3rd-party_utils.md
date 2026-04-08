@@ -8,6 +8,7 @@
 
 - [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
 - [JSON Parser Online](https://jsonformatter.org/json-parser)
+- [Export Mermaid](https://mermaid.live/)
 - [Print Calendar](https://calendar-12.com/)
 - AI
   - [Gemini by Google](https://gemini.google.com/)
