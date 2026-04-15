@@ -1,4 +1,4 @@
-# The First Time I Used AI to Solve a Real Work Problem
+# My First Time Solving a Complex Problem with AI
 
 [Index](../other/index_en.md)
 
@@ -228,7 +228,7 @@ If we use AI as a tool to sharpen our thinking, it becomes incredibly powerful.
 
 ---
 
-(This article was edited using ChatGPT. The original draft can be found [here](1st_ai_4_complex_problem_draft.md).)
+(This article was edited using ChatGPT. The original draft can be found [here](first-time-ai-complex-problem_draft.md).)
 
 
 <script src="https://giscus.app/client.js"

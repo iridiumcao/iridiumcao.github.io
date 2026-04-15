@@ -2,7 +2,7 @@
 
 [Index](../other/index_en.md)
 
-([Edited with ChatGPT](1st_ai_4_complex_problem.md))
+([Edited with ChatGPT and Grok](first-time-ai-complex-problem.md))
 
 The QA team had wanted an auto-task tool for a long time.
 
