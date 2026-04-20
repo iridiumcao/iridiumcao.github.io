@@ -6,6 +6,7 @@
 
 ## Basic
 
+- [Hello World in Python](helloworld.md)
 - [Python's Variable's Type Fixed](python_data_type_fixed.md)
 - [Python Decorator Demo](decorator/decorator_demo.md)
 
