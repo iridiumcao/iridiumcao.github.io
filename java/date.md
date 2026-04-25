@@ -1,6 +1,6 @@
 # Java 中的日期处理
 
-[Index](index.md)
+[Index](index_zh.md)
 
 _按：这篇文章是从旧站（Google Sites）上转过来的，已经十多年了。将来有时间再更新。_
 

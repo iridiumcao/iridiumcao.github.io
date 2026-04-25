@@ -1,6 +1,6 @@
 # Extracting Substrings in Bash Shell Scripts
 
-[Index](index_en.md)
+[Index](index.md)
 
 Obtain the original string: `${var_name}`.
 

@@ -1,6 +1,6 @@
 # 三角公式 Trigonometric Formulas
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 - [三角公式 Trigonometric Formulas](#三角公式-trigonometric-formulas)
   - [1. 图像](#1-图像)

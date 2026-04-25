@@ -1,6 +1,6 @@
 # Indefinite Integrals of $\tan^n(x)$ and $\cot^n(x)$
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 In this article, we derive the reduction formulas for $\int \tan^n(x) \,\mathrm{d}x$ and $\int \cot^n(x) \,\mathrm{d}x$.
 

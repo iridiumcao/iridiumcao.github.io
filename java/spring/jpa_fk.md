@@ -5,7 +5,7 @@
 
 # Spring Boot JPA 关联关系演示
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 ---
 

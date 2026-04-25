@@ -1,6 +1,6 @@
 # 在 Spring Boot 中使用 QQ 邮箱发送邮件
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 本文演示如何在 Spring Boot 项目中使用 QQ 邮箱发送邮件。
 

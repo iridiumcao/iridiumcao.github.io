@@ -1,6 +1,6 @@
 # PostgreSQL 安装指南（Windows, Ubuntu）
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 ---
 

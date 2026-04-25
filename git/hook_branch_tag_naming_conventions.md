@@ -1,6 +1,6 @@
 # Update Git Branch/Tag Naming Conventions
 
-[Index](index_en.md)
+[Index](index.md)
 
 > Note. This issue is from today's work (2023.12.22).
 

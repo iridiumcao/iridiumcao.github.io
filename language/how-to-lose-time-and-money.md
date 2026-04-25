@@ -1,6 +1,6 @@
 # How to Lose Time and Money 时间和金钱是怎么失去的
 
-[Index](index.md)
+[Index](index_zh.md)
 
 原文 (Source): <http://paulgraham.com/selfindulgence.html>
 

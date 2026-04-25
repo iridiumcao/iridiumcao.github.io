@@ -11,7 +11,7 @@ MathJax = {
 
 # 对数的三个基本运算性质
 
-[Index](index.md)
+[Index](index_zh.md)
 
 假设 $a \in \mathbb{R}, M \in \mathbb{R}, N \in \mathbb{R}, n \in \mathbb{R}, a > 0, a \neq 1, M > 0, N > 0$,
 以下三个等式恒成立：

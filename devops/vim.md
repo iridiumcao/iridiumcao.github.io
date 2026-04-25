@@ -1,6 +1,6 @@
 # VIM 笔记
 
-[Index](index.md)
+[Index](index_zh.md)
 
 按：这篇文章是很早之前发布在个人 Google Site 上的，已经不知具体时间了。在转移到本地时，有少许更新。
 

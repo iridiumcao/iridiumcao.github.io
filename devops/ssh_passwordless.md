@@ -1,6 +1,6 @@
 # SSH 免密登录
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ---
 

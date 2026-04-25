@@ -1,6 +1,6 @@
 # My First Time Solving a Complex Problem with AI
 
-[Index](../other/index_en.md)
+[Index](../other/index.md)
 
 > AI helped me implement a complex feature—but the hardest part wasn’t writing the code. It was proving the code was correct.
 

@@ -1,6 +1,6 @@
 # Java 的运算符
 
-[Index](index.md)
+[Index](index_zh.md)
 
 Sure, here is the updated table with a column for original content in either Chinese or English:
 

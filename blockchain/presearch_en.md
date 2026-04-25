@@ -1,6 +1,6 @@
 # Presearch: A Decentralized Search Engine for Exploring the Unknown and Earning Rewards
 
-[Index](index_en.md)
+[Index](index.md)
 
 2023-06-14
 

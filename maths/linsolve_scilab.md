@@ -1,6 +1,6 @@
 # Scilab 求解线性方程组示例(linsolve)
 
-[Index](index.md)
+[Index](index_zh.md)
 
 方程组：
 

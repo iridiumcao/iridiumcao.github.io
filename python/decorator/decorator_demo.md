@@ -1,6 +1,6 @@
 # Python Decorator Demo
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 We have scheduled some automated tasks that run regularly. They work well under normal circumstances. However, we realized that during Chinese public holidays, we don’t need to execute some of these tasks.
 

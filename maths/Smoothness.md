@@ -1,6 +1,6 @@
 # 函数光滑 Smoothness of a Function
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 ChatGPT 的回答质量从2023到2025突飞猛进。我在2026.01.03问了同样的问题，回答让我相当满意。以下附上两次问答的具体内容。
 

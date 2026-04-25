@@ -1,6 +1,6 @@
 # 找出第二大的整数
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 问题来源于 pongba 邮件列表的一个[帖子](https://groups.google.com/g/pongba/c/k6OPRN5RqHs)。
 

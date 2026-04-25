@@ -1,6 +1,6 @@
 # HelloWorld of Bash Shell
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 ---
 

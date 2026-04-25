@@ -1,6 +1,6 @@
 # 藏在著名软件系统中的两个彩蛋
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ## 1. Fancy Message from ``sudo``
 

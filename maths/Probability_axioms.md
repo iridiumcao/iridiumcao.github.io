@@ -1,6 +1,6 @@
 # Probability Axioms 概率論公理
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 ## 三条公理
 

@@ -1,6 +1,6 @@
 # Calculate File Hash
 
-[Index](index_en.md)
+[Index](index.md)
 
 This article introduces how to calculate a file's MD5, SHA1, and SHA256 hashes.
 

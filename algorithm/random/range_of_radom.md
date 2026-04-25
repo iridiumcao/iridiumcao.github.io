@@ -1,6 +1,6 @@
 # Range of Ruby's Random Functions in Integer
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Math in Python
 
-[Index](index_en.md)
+[Index](index.md)
 
 Python has excellent built-in support for mathematics, from simple arithmetic to advanced functions via the `math` module.
 

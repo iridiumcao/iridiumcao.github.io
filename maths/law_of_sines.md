@@ -1,6 +1,6 @@
 # 正弦定理 Law of Sines
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 设$\triangle ABC$的三个角$\angle A$, $\angle B$和$\angle C$对应的三条边是a, b和c, R是三角形的外接圆的半径，则
 

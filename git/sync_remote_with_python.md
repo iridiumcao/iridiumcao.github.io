@@ -1,6 +1,6 @@
 # Synchronizing a Remote Repository to Local Using Python
 
-[Index](index_en.md)
+[Index](index.md)
 
 The remote Git repository has undergone significant changes. To ensure that the local code aligns with the remote repository, we can employ a script for synchronizing the remote changes to the local repository. This synchronization process ensures that the code in the local repository matches that of the remote repository.
 

@@ -1,6 +1,6 @@
 # Fundamentals of Probability Theory and Mathematical Statistics, 概率论和数理统计基础
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 ## 概率 Probability
 

@@ -1,6 +1,6 @@
 # Java Keytool Guide
 
-[Index](index_en.md)
+[Index](index.md)
 
 The Java `keytool` is a command-line utility bundled with the Java Development Kit (JDK) for managing cryptographic keys and certificates. It is located in `{JAVA_HOME}/bin/`. While it doesn’t manage SSH certificates directly (SSH uses a different mechanism), it is commonly used to handle Java keystores, such as the default `cacerts` file located at `{JAVA_HOME}/lib/security/cacerts`. This guide covers common `keytool` operations like listing, importing, exporting, and deleting certificates.
 

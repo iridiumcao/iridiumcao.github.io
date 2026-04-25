@@ -1,5 +1,7 @@
 # 语言文字
 
+[Index](../index_zh.md)
+
 * [希腊字母表](greek_alphabet.md)
 
 ## English

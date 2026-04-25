@@ -1,6 +1,6 @@
 # Clean Files with a Long Path (Git)
 
-[Index](index_en.md)
+[Index](index.md)
 
 It's failed to clean files in the git repository
 

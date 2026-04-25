@@ -1,6 +1,6 @@
 # Python 类的构造器支持重载吗？
 
-[Index](index.md)
+[Index](index_zh.md)
 
 简答：否。
 

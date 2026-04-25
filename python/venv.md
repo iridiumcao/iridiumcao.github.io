@@ -1,6 +1,6 @@
 # Python 虚拟环境(Virtual Environment)
 
-[Index](index.md)
+[Index](index_zh.md)
 
 有时我们在同一台机器上使用多个 Python 项目时可能会遇到依赖冲突问题。比如项目 A 需要 `Django 2.2`，而项目 B 需要 `Django 3.2`，直接安装会导致冲突。所有项目都用同样的 Python 环境在某些时候并不可行。
 

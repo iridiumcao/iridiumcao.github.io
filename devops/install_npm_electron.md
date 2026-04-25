@@ -1,6 +1,6 @@
 # 东大网络环境下安装 Electron 的解决方案
 
-[Index](index.md)
+[Index](index_zh.md)
 
 前些天我写了[东大拯救 NPM 指南之代理设置](npm_proxy.md)以为只要设置了代理，就能顺利使用 npm 安装使用一切 node package 了，昨天装 Electron 时却被狠狠打了脸。本篇不使用代理，因为使用代理解决不了问题。本篇使用国内阿里云的 npm 镜像。
 

@@ -11,7 +11,7 @@ MathJax = {
 
 # IPv4, IPv6, IPv9能表示多少IP地址？
 
-[Index](index.md)
+[Index](index_zh.md)
 
 |   | IPv4 | IPv6 | IPv9 |
 |---|------|------|------|

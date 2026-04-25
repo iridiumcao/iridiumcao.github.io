@@ -1,6 +1,6 @@
 # 工厂模式 Factory Method
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 按：本文从[旧站](https://sites.google.com/site/iridiumsite/it/software-engineering/design-pattern/Factory-Method)转移而来。
 

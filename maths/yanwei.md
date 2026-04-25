@@ -1,6 +1,6 @@
 # 燕尾模型
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 ![本图片来源于网络](images/hd.webp)
 

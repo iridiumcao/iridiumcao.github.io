@@ -1,6 +1,6 @@
 # Windows 上没有 `uname`
 
-[Index](index.md)
+[Index](index_zh.md)
 
 在 Windows 的 Python 环境下如果想得到操作系统的详细信息，用 `uname` 是不行的，如下：
 

@@ -1,6 +1,6 @@
 # Python 集合类型
 
-[Index](index.md)
+[Index](index_zh.md)
 
 Python 的集合类型主要有 `list`, `tuple`, `dict` 和 `set`, 其中 `dict` 相当于 Java 中的 `Map`.
 

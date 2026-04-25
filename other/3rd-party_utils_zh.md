@@ -1,6 +1,6 @@
 # 超好用的第三方工具
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 [**中文** \| [English](3rd-party_utils.md)]
 

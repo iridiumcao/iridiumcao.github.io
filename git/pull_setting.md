@@ -1,6 +1,6 @@
 # `git pull` 的参数
 
-[Index](index.md)
+[Index](index_zh.md)
 
 如果 git 不设置 pull 参数，可能出现的状况是什么？
 

@@ -1,6 +1,6 @@
 # How to Install Docker on Ubuntu
 
-[Index](index_en.md)
+[Index](index.md)
 
 (2025.03.18)
 

@@ -1,6 +1,6 @@
 # 道德經
 
-[Index](../language/index.md)
+[Index](../language/index_zh.md)
 
 《老子》又稱《道德經》，這裡根據[《帛書老子校注》](https://book.douban.com/subject/1032341/)（高明，中華書局，ISBN 978-7-101-14384-3）整理，重新編寫章節號，對高明書中的三個版本進行取捨，衹呈現整理後的版本。
 

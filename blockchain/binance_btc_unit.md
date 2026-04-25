@@ -1,6 +1,6 @@
 # 给币安的一条产品建议
 
-[Index](index.md)
+[Index](index_zh.md)
 
 内容如下：
 

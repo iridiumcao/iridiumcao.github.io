@@ -1,6 +1,6 @@
 # 如何大致判断一个币的价格是否合理？
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # Blockchain 术语
 
-[Index](index.md)
+[Index](index_zh.md)
 
 * 51% attack
 * a good source of randomness, 好的随机源

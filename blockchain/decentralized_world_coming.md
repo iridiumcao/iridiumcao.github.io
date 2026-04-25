@@ -1,6 +1,6 @@
 # 全面的去中心化正在到来
 
-[Index](index.md)
+[Index](index_zh.md)
 
 (本文已发布到[Public0x](https://www.publish0x.com/iridiumcao/quan-mian-de-qu-zhong-xin-hua-zheng-zai-dao-lai-xpnkvoz))
 

@@ -1,6 +1,6 @@
 # Automating the Removal of Outdated and Merged Branches in Git Repositories
 
-[Index](index_en.md)
+[Index](index.md)
 
 As software developers, we often work with branches in our Git repositories. Once a branch has been successfully merged into the main branch (commonly referred to as 'main' or 'master'), it is generally considered best practice to remove the original branch. However, it's easy to forget about these merged branches, leading to clutter and potential confusion in the repository.
 

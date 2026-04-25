@@ -1,6 +1,6 @@
 # SSH Server/Client 安装和连接
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ---
 

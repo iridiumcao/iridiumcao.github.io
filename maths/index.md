@@ -1,68 +1,18 @@
 # Maths
 
-[**中文** \| [English](index_en.md)]
+[**English** \| [中文](index_zh.md)]
 
-* [Formula 和 Theorem 的区别](formula_and_theorem.md)
-* [素数的个数为什么是无限的](the_number_of_prime_number.md)
-* [无理数和有理数谁更多](irrational_numbers_vs_rational_numbers.md)
-* [代数数和超越数](algebraic_and_transcendental_numbers.md)
-* [自然常数$e$ Natural Constant](e.md)
-* [按月等额还款下的实际年利率计算方法](year_rate.md)
-* [平方和公式推导](square_pyramidal_numbers.md)
-* [等比数列的求和公式](Sum_formula_for_a_geometric_series.md)
-* [集合映射之单射满射双射](map_type.md)
-* [容斥原理的应用——计算集合中元素的个数](calc_cardinality.md)
-* [几个比较基础的逻辑运算概念](basic_logical_operations.md)
-* [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
-* [余数详情](details_of_remainder.md)
-* [两数之积不大于两数之和一半的平方](product_bound_halfsum_square.md)
-* [伯努利不等式](Bernoullis_inequality.md)
-* [$\sqrt{}$的含义](sqrt_symbol.md)
-* [零为何不能做除数](why_cannot_zero_be_a_divisor.md)(二年级小学生视角)
-* [对数的三个基本运算性质](Logarithm_Properties_and_Proofs.md)
-* [三角函数公式 Trigonometric Formulas](trigonometric_formulas.md)
-  * [证明 $\sin(\theta) = \cos(\dfrac{\pi}{2} - \theta)$](sin-cos-pi-per-2.md)
-  * [证明 $\cos(\alpha - \beta)=\cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)$](cos-alpha-beta.md)
-* [反三角函数 Inverse Trigonometric](inverse_trigonometric_functions.md)
-* [《给讨厌数学的人》阅读笔记](notes-of-antimath.md)
-* [九宮格（河图洛书）](9gg.md)
-* [汉声数学图画书目录](young_math_books.md)(儿童读物)
+[Index](../index.md)
 
-## 线性代数 Linear Algebra
+- [How to Display Math Formulas in GitHub Pages](gh_math_formula.md)
+- [Logarithm Change of Base Rule](logarithm_change_of_base_rule.md)
+- [Pythagorean Trigonometric Identities — beyond sin² + cos² = 1](pti.md)
+- [Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions](trig_inverse_trig_int_ref/trig_inverse_trig_int_ref.md)
+- [Reduction Formulas for $\int trig^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/reduction_formulas.md)
+  - [For $\int \sin^n(x) \,\mathrm{d}x$ and $\int \cos^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_sin_cos.md)
+  - [For $\int \tan^n(x) \,\mathrm{d}x$ and $\int \cot^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_tan_cot.md)
+  - [For $\int \sec^n(x) \,\mathrm{d}x$ and $\int \csc^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_sec_csc.md)
 
-* [Scilab 求解线性方程组示例(linsolve)](linsolve_scilab.md)
-* [矩阵乘法的理解](matrix_multiplication.md)
-* [矩阵的行秩等于列秩](row_col_rank.md)
-
-## 几何 Geometry
-
-这部分内容主要是辅导[Charles](https://charlestsaur.github.io/)自学几何时的一些记录。
-
-* [面积最大的矩形](biggest_rectangle.md)
-* [燕尾模型](yanwei.md)
-* [Ceva定理](ceva.md)
-* [圆周角和圆心角](circumference_and_radius_angle.md)
-* [正弦定理 Law of Sines](law_of_sines.md)
-* [三角形等边对等角](same_length_same_angle.md)
-* [大边对大角，大角对大边](bigger_side_bigger_angle.md)
-* [托勒密定理 Ptolemy's Theorem](Ptolemys_theorem.md)
-* [余弦定理 Law of cosines](law_of_cosines.md)
-* [凭什么它才是公理？](axioms.md)
-
-## 微积分 Calculus
-
-* [邻域 Neighbourhood](Neighbourhood.md)
-* [极限 Limit](limit.md)
-* [连续函数 Continuous Function](Continuous_function.md)
-* [函数光滑 Smoothness of a Function](Smoothness.md)
-* [费马引理 Fermat's Theorem](interior_extremum_theorem.md)
-
-## 概率和统计
-
-这部分内容最初是为了读懂[比特币白皮书的第11章](../blockchain/bitcoin/wp11.md)的公式。
-
-1. [概率论公理](Probability_axioms.md)
-2. [概率论和数理统计基础](Probability_and_Statistics_Fundamentals.md)
 
 <script>
 MathJax = {
@@ -86,7 +36,7 @@ MathJax = {
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
+        data-lang="en"
         crossorigin="anonymous"
         async>
 </script>

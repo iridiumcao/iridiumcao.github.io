@@ -1,6 +1,6 @@
 # 几个比较基础的逻辑运算概念
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 The basic concepts of several logical operations
 

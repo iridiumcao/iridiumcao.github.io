@@ -1,6 +1,6 @@
 # PostgreSQL 序列（翻译）
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 按：今天在查关于 PostgreSQL 序列的资料时，看到一篇特别好的文章 [PostgreSQL Sequences, NEON](https://neon.tech/postgresql/postgresql-tutorial/postgresql-sequences)，特此编译如下。
    

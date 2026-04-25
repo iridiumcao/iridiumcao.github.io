@@ -1,6 +1,6 @@
 # Presearch：探索未知并赚取奖励的去中心化搜索引擎
 
-[Index](index.md)
+[Index](index_zh.md)
 
 2021-04-02
 

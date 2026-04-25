@@ -1,6 +1,6 @@
 # Python 切片操作中 `step` 为负值如何理解？
 
-[Index](index.md)
+[Index](index_zh.md)
 
 切片操作是Python中对序列对象（如字符串、列表等）进行切片的一种操作方式。它的基本语法是 `[start:stop:step]`，其中 `start` 表示起始位置（默认为0），`stop` 表示结束位置（默认为序列的长度），`step` 表示步长（默认为1）。
 

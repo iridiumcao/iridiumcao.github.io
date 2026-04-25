@@ -1,6 +1,6 @@
 # 本地 Windows 开发机器配置 MySQL 免安装版
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ---
 

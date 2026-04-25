@@ -1,6 +1,6 @@
 # Indefinite Integrals of $\sec^n(x)$ and $\csc^n(x)$
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 In this article, we derive the reduction formulas for $\int \sec^n(x) \,\mathrm{d}x$ and $\int \csc^n(x) \,\mathrm{d}x$.
 

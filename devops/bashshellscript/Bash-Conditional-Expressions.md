@@ -1,6 +1,6 @@
 # Bash 条件表达式（Bash Conditional Expressions）
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 ---
 

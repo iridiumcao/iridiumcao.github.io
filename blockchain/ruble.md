@@ -1,6 +1,6 @@
 # 卢布去零简史
 
-[Index](index.md)
+[Index](index_zh.md)
 
 2025.05.19
 

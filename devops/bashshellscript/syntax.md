@@ -1,6 +1,6 @@
 # Bash Shell Script Syntax
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 ---
 

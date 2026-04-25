@@ -1,6 +1,6 @@
 # 费马引理
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 费马引理（Fermat's theorem on stationary points / Interior extremum theorem）是微积分中的一个基本结论：
 

@@ -1,6 +1,6 @@
 # Python 和 Bash Shell 脚本相互调用
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 Python 和 Bash Shell 脚本相互调用都是以调用系统命令的方式，如果要接受和处理调用的输出，都是以字符串形式接受再处理。
 

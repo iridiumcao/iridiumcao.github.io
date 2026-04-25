@@ -5,7 +5,7 @@
 
 # Finding Commits Before a Merge Point in Git
 
-[Index](index_en.md)
+[Index](index.md)
 
 This guide explains how to use Git's relative reference syntax to locate commits before a merge point in a branch's history.
 

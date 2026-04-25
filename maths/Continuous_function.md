@@ -1,6 +1,6 @@
 # 连续函数 Continuous Function
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 本文仅限于一元函数的情况。
 

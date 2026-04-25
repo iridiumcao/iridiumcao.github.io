@@ -1,6 +1,6 @@
 # Python 类中的方法
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 ---
 

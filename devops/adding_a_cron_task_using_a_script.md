@@ -1,6 +1,6 @@
 # Adding a Cron Task Using a Script
 
-[Index](index_en.md)
+[Index](index.md)
 
 To add a cron task item using a script, you can utilize the following script:
 

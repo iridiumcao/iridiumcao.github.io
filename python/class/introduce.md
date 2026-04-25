@@ -1,6 +1,6 @@
 # Python 类简介
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 Python 是一种灵活的语言，它可以是面向过程的，也可以是面向对象(OOP)的。
 

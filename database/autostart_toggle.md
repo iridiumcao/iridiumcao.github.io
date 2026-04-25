@@ -1,6 +1,6 @@
 # Disabling Autostart of MySQL or PostgreSQL Server on Ubuntu
 
-[Index](index_en.md)
+[Index](index.md)
 
 Operating System: Ubuntu 19.04
 

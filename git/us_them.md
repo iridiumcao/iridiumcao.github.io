@@ -1,6 +1,6 @@
 # Who are *us* and *them*?
 
-[Index](index.md)
+[Index](index_zh.md)
 
 *按：可以简单查看第一句的结论即可，如果要查看简明示例，可以看 Examples 部分即可，详细的实验过程记录在最后一部分，比较繁琐，有兴趣可以慢慢看。*
 

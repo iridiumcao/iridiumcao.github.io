@@ -1,6 +1,6 @@
 # Git Submodule Test
 
-[Index](index_en.md)
+[Index](index.md)
 
 Assume three repositories: repoa, repob, repoc
 

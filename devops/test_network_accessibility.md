@@ -1,6 +1,6 @@
 # Testing Network Accessibility in an Intranet with Bash Script
 
-[Index](index_en.md)
+[Index](index.md)
 
 there are two hosts in the same intranet:
 

@@ -1,6 +1,6 @@
 # Using SSH Tunneling to Share a VPN Connection to AWS
 
-[Index](index_en.md)
+[Index](index.md)
 
 We connect to AWS using VPN accounts, but the number of VPN accounts is limited. Sometimes we have to wait for others to release their connections.
 

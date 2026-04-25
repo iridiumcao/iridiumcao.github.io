@@ -1,6 +1,6 @@
 # How to Create a New Repository
 
-[Index](index_en.md)
+[Index](index.md)
 
 ---
 

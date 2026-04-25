@@ -2,7 +2,7 @@
 
 2026.04.06
 
-[Index](../other/index.md)
+[Index](../other/index_zh.md)
 
 这个清明，我用 AI 写了一个工具软件「[环境变量管理器(EnvVar)](https://github.com/iridiumcao/EnvVar)」。最初是 Charles 抱怨说编辑环境变量麻烦，所以我打算自己写这个小工具。
 

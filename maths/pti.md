@@ -1,6 +1,6 @@
 # Pythagorean Trigonometric Identities — beyond sin² + cos² = 1
 
-[Index](index_en.md)
+[Index](index.md)
 
 Everyone knows the identity:
 

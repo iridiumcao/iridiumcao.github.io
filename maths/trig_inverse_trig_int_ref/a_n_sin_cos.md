@@ -1,6 +1,6 @@
 # Indefinite Integrals of $\sin^n(x)$ and $\cos^n(x)$
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 We begin with several basic cases:
 

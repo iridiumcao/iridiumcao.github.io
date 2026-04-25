@@ -1,6 +1,6 @@
 # Ethereum
 
-[Index](index.md)
+[Index](index_zh.md)
 
 Official site: <https://ethereum.org/zh/>
 

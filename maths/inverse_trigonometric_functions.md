@@ -1,6 +1,6 @@
 # 反三角函数 Inverse Trigonometric Functions
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 因为时间关系，这里仅仅列出很少几个公式，既不全面，也不系统。更多内容，不妨移步[维基百科·反三角函数](https://zh.wikipedia.org/wiki/%E5%8F%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0)。
 

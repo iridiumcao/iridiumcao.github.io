@@ -1,6 +1,6 @@
 # Reduction Formulas for Powers of Trigonometric Functions $trig^n(x)$
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 This article summarizes **reduction formulas** for the indefinite integrals of powers of trigonometric functions. All formulas are valid for **integer powers** $n \geq 0$ (or $n \geq 1$ for the reduction formulas), with $I_0$ and $I_1$ as base cases. Some examples using these formulas can be found [here](a6.md).
 

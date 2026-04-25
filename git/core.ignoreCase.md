@@ -1,6 +1,6 @@
 # core.ignoreCase
 
-[Index](index.md)
+[Index](index_zh.md)
 
 默认情况下，Mac 和 Windows 对文件名的大小写不敏感，而 Linux 则是敏感的。这意味着，如果在 Linux 上创建了只是大小写不同的同名目录或文件，那么在 Mac 和 Windows 上使用时可能会出现问题。
 

@@ -1,6 +1,6 @@
 # Java中的变量, Notes of Variable in Java
 
-[Index](index.md)
+[Index](index_zh.md)
 
 1. Java中没有全局变量，只有方法变量、实例变量（类中的非静态变量）、类变量（类中的静态变量）。
 1. 方法中的变量不能够有访问修饰符。所以访问修饰符表（[链接](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)）仅针对于在类中定义的变量。

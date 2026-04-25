@@ -1,6 +1,6 @@
 # 📖 Git 保姆级实验教程——前言
 
-[首页🏠](index.md) - [下一章⇨](01.md)
+[首页🏠](index_zh.md) - [下一章⇨](01.md)
 
 ---
 
@@ -74,7 +74,7 @@
 
 ---
 
-[首页🏠](index.md) - [下一章⇨](01.md)
+[首页🏠](index_zh.md) - [下一章⇨](01.md)
 
 <script src="https://giscus.app/client.js"
         data-repo="iridiumcao/iridiumcao.github.io"

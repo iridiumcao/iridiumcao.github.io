@@ -1,6 +1,6 @@
 # Testing Python Installation with OS
 
-[Index](index_en.md)
+[Index](index.md)
 
 Note: This article was written in 2021 and edited in 2023, so some version values are very old.
 

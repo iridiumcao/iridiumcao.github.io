@@ -1,6 +1,6 @@
 # Merging Two Directories
 
-[Index](index_en.md)
+[Index](index.md)
 
 There's a requirment from work today: merge two directories, all files, including directories should be reserved, if files in same name exist in the two directories, save one of them. In short, it uses one directory to override the other.
 

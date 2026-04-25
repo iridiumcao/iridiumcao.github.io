@@ -1,6 +1,6 @@
 # $\sqrt{}$的含义
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 上周(2023.07第五周)在辅导 [Charles](https://charlestsaur.github.io/) 自学时，碰到一个有意义的小问题，这里记一下。
 

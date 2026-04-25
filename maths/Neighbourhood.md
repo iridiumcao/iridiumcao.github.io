@@ -1,6 +1,6 @@
 # 邻域 Neighbourhood
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 实数域上的邻域。参[中文数学Wiki·邻域](https://math.fandom.com/zh/wiki/%E9%82%BB%E5%9F%9F)，设 $a \in \mathbb {R} , \delta > 0.$
 

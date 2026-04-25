@@ -1,6 +1,6 @@
 # Quickly Check If Your Environment Supports Spring Boot
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 The easiest way to verify if your local setup supports Spring Boot development and deployment is to build and run a simple demo app. It won't do anything fancy, but that's the point—it's just enough to confirm everything works.
 

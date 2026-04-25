@@ -1,6 +1,6 @@
 # 创建和分发 Python 模块(包)
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 本文档演示如何从零创建并分发一个 Python 模块。本文面向具备 Python 基础知识、希望学习如何发布自定义模块的开发者。
 

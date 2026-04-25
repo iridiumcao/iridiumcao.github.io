@@ -1,6 +1,6 @@
 # 合并不同的仓库
 
-[Index](index.md)
+[Index](index_zh.md)
 
 将两个独立的仓库合并成一个仓库并保留两个库的历史。
 

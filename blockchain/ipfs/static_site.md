@@ -1,6 +1,6 @@
 # 用 IPFS 发布静态站点
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 ---
 

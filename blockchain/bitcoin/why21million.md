@@ -1,6 +1,6 @@
 # 比特币的总数为何是两千一百万(21000000)个？
 
-[返回目录](../index.md)
+[返回目录](../index_zh.md)
 
 比特币系统有一些预置规则([Ref](https://en.bitcoin.it/wiki/Protocol_rules))：
 

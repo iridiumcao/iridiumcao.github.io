@@ -1,6 +1,6 @@
 # 证明 $\sin(\theta) = \cos(\dfrac{\pi}{2} - \theta)$
 
-[Index](index.md)
+[Index](index_zh.md)
 
 2026.01.08
 

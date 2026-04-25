@@ -1,6 +1,6 @@
 # 伯努利不等式(Bernoulli's inequality)
 
-[Index](index.md)
+[Index](index_zh.md)
 
 伯努利不等式是一个非常著名的不等式，在证明 $e$ 的收敛性中也有用到。
 

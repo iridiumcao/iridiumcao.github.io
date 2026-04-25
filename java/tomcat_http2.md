@@ -1,6 +1,6 @@
 # Tomcat 10 HTTP/2 Configuration
 
-[Index](index_en.md)
+[Index](index.md)
 
 ## Configuring HTTP/2 in Tomcat 10
 

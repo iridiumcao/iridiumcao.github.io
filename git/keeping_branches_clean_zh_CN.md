@@ -1,6 +1,6 @@
 # Git 分支整洁之道
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ([English](keeping_branches_clean.md))
 

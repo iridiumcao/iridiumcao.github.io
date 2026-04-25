@@ -1,6 +1,6 @@
 # Indefinite Integrals of Trigonometric and Inverse Trigonometric Functions
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 This document compiles indefinite integrals for powers of the six basic trigonometric functions (sin, cos, tan, cot, sec, csc) and their inverses (arcsin, arccos, arctan, arccot, arcsec, arccsc), in two forms: 
 

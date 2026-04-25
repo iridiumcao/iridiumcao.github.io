@@ -1,6 +1,6 @@
 # PostgreSQL in Docker
 
-[Index](index_en.md)
+[Index](index.md)
 
 Official image: https://hub.docker.com/_/postgres
 

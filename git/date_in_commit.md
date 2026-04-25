@@ -1,6 +1,6 @@
 # Git Commit 中的时间记录
 
-[Index](index.md)
+[Index](index_zh.md)
 
 git 本身作为一个代码版本管理工具，所有的提交记录都有相应的时间，这是自然，也是必须。
 

@@ -1,6 +1,6 @@
 # Logarithm Change of Base Rule
 
-[Index](index_en.md)
+[Index](index.md)
 
 To prove
 

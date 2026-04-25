@@ -1,6 +1,6 @@
 # String不能被继承
 
-[Index](index.md)
+[Index](index_zh.md)
 
 2023-06-16
 

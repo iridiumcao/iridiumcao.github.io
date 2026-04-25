@@ -1,6 +1,6 @@
 # Work with Multiple Remote Repositories
 
-[Index](index_en.md)
+[Index](index.md)
 
 Usually, a local git repository tracks a default remote repository named _origin_. However, we also needs to work with multiple remote repositories in some cases.
 

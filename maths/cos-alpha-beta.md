@@ -1,6 +1,6 @@
 # 证明 $\cos(\alpha - \beta)=\cos(\alpha)\cos(\beta)+\sin(\alpha)\sin(\beta)$
 
-[Index](index.md)
+[Index](index_zh.md)
 
 2026.01.09
 

@@ -1,6 +1,6 @@
 # The First Time I Used AI to Resolve Work Issues (Draft)
 
-[Index](../other/index_en.md)
+[Index](../other/index.md)
 
 ([Edited with ChatGPT and Grok](first-time-ai-complex-problem.md))
 

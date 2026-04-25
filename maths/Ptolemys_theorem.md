@@ -1,6 +1,6 @@
 # 托勒密定理 Ptolemy's Theorem
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 圆的内接四边形，对边之积的和于对角线之积相等。
 

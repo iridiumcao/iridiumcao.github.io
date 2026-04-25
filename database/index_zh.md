@@ -1,16 +1,19 @@
-# Blockchain Series
+# 数据库系列
 
-[**English** \| [中文](index.md)]
+[[English](index.md) \| **中文**]
 
-[Index](../index_en.md)
+[Index](../index_zh.md)
 
-## Bitcoin
+* [表的连接](join_tables.md)
 
-* [Create a Watch-Only Wallet with Bitcoin Core](bitcoin/watch-only-wallet.md)
+## PostgreSQL
 
-## Others
+* [PostgreSQL 序列（翻译）](postgresql_sequence.md)
+* [PostgreSQL 的安装和网络配置](install_postgresql.md)
 
-* [Please Use Presearch to Get Money](presearch_en.md)
+## MySQL
+
+* [本地 Windows 开发机器安装 MySQL](MySQL-8.4.7-Windows-Zip-Setup-Guide.md)
 
 <script src="https://giscus.app/client.js"
         data-repo="iridiumcao/iridiumcao.github.io"
@@ -23,7 +26,7 @@
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="preferred_color_scheme"
-        data-lang="en"
+        data-lang="zh-CN"
         crossorigin="anonymous"
         async>
 </script>

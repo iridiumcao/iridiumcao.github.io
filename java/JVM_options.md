@@ -1,6 +1,6 @@
 # JVM Options of JDK 11
 
-[Index](index_en.md)
+[Index](index.md)
 
 2023-06-15
 

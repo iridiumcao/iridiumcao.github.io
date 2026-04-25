@@ -1,6 +1,6 @@
 # 圆周角和圆心角
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 这是初中平面几何里的基础内容，最近[Charles](https://charlestsaur.github.io/)聊到相关的问题，记录一下。
 

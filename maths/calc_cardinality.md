@@ -1,6 +1,6 @@
 # 计算集合中元素的个数
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 按：本文从Google Sites的旧站搬迁而来。
 

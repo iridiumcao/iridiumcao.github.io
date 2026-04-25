@@ -1,6 +1,6 @@
 # 量化交易参考资料
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ## 火币
 

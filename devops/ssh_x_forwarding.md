@@ -1,6 +1,6 @@
 # SSH X Forwarding
 
-[Index](index.md)
+[Index](index_zh.md)
 
 ---
 

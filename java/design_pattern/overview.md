@@ -1,6 +1,6 @@
 # 设计模式简述
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 模式，套路也。设计模式(Design Pattern)是开发实践中总结出的一些编程范式，Java中的设计模式可以按下表方式呈现：
 

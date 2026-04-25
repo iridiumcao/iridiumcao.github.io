@@ -5,7 +5,7 @@
 
 # 数字签名
 
-[Index](../index.md)
+[Index](../index_zh.md)
 
 数字签名（Digital Signature，也称“數位簽章”或“公鑰數位簽章”）是一种基于密码学技术的身份验证和数据完整性保障机制。
 

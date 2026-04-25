@@ -1,6 +1,6 @@
 # Hello World in Python
 
-[Index](index_en.md)
+[Index](index.md)
 
 Python is one of the most popular programming languages.
 In this guide, we’ll walk through the simplest possible example: printing **“Hello, world!”**.

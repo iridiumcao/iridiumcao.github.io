@@ -6,7 +6,7 @@
 
 # How to Install Docker on CentOS8
 
-[Index](index_en.md)
+[Index](index.md)
 
 (2020.05.26)
 

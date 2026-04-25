@@ -1,6 +1,6 @@
 # Formula 和 Theorem 的区别
 
-[返回目录](index.md)
+[返回目录](index_zh.md)
 
 ## ChatGPT
 

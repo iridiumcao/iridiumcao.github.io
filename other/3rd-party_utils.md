@@ -1,6 +1,6 @@
 # Third-party Utilities
 
-[Index](index_en.md)
+[Index](index.md)
 
 [**English** \| [中文](3rd-party_utils_zh.md)]
 

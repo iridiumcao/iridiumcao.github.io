@@ -1,6 +1,6 @@
 # How to Remove Large Files from Git History
 
-[Index](index_en.md)
+[Index](index.md)
 
 In a Git repository, large files, including those deleted from the workspace, continue to occupy disk space because they remain in the history. Sometimes, we may want to remove them to free up disk space and reduce network usage.
 

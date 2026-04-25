@@ -1,6 +1,6 @@
 # Create a Watch-Only Wallet with Bitcoin Core
 
-[Index](../index_en.md)
+[Index](../index.md)
 
 > A watch-only wallet is a type of cryptocurrency wallet that allows users to monitor their balances and transactions without having the ability to spend or move the funds. This type of wallet is useful for individuals who want to keep track of their cryptocurrency holdings without exposing their private keys to potential security risks. Without the private key associated with the wallet, you can never make any withdrawals from the wallet. You will be restricted to viewing only, making deposits, but NOT withdrawing.
 > 

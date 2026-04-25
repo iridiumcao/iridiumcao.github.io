@@ -1,6 +1,6 @@
 # How to Retrieve the Email of a Commit's Author
 
-[Index](index_en.md)
+[Index](index.md)
 
 To retrieve the email of a commit's author in Git, there are a few commands that you can use:
 

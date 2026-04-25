@@ -1,6 +1,6 @@
 # 如何描述一个 bug
 
-[Index](index.md)
+[Index](index_zh.md)
 
 反馈软件中的 bug, 将问题描述清楚是非常重要的.
 

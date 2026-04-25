@@ -1,6 +1,6 @@
 # Move Files Between Git Repositories While Preserving History
 
-[Index](index_en.md)
+[Index](index.md)
 
 There are two tools available to move files and directories between Git repositories while presering history:
 
