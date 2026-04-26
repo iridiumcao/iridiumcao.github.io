@@ -22,6 +22,7 @@ The content recorded here does not cover all aspects of Bash; it serves only as 
 
 - [Using Special Variables in Bash Scripts, $0, $1, $2, $#, $@, $$, $?](dollar_in_bash.md)
 - [Extracting Substrings in Bash Shell Scripts](bash_script_retrieve_substring.md)
+- [Find and Replace a String in a Directory (Recursive)](find_and_replace_string.md)
 - [Testing Network Accessibility in an Intranet with Bash Script](test_network_accessibility.md)
 - [Adding a Cron Task Using a Script](adding_a_cron_task_using_a_script.md)
 - [Rotating Server System Updates Weekly](RotatingServerSystemUpdatesWeekly.md)
