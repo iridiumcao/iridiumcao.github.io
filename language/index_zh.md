@@ -2,7 +2,7 @@
 
 [Index](../index_zh.md)
 
-* [希腊字母表](greek_alphabet.md)
+- [希腊字母表](greek_alphabet.md)
 
 ## English
 
@@ -17,3 +17,7 @@
 - [极易写错的汉字：延，考，象](yan_kao_xiang_mistakes.md)
 - [拼音学习辅助资料——韵母和整体认读](pinyin.md)
 - [《道德经》入门该选哪个版本？](laozi-version.md)
+
+## 小说
+
+- [王虹邓煜穿越后的人生](wanghongdengyu.md)
