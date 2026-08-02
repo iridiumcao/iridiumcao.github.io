@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 int isPrime(long n)
 {
@@ -9,8 +8,7 @@ int isPrime(long n)
         return 0;
     }
 
-    long limit = sqrt(n);
-    for (long i = 2; i <= limit; i++) // 2 ~ sqrt(n)
+    for (long i = 2; i <= n / i; i++)
     {
         if (n % i == 0)
         {
@@ -34,7 +32,5 @@ int main()
     return 0;
 }
 
-// Notice:
-// as this program includes <math.h>, it should use "-lm" when compiling in Linux
-// $ gcc prime.c -o prime -lm
-// Ref: https://stackoverflow.com/questions/10409032/why-am-i-getting-undefined-reference-to-sqrt-error-even-though-i-include-math
+// Note:
+// $ gcc prime2.c -o prime2
