@@ -14,6 +14,7 @@
 * [等比数列的求和公式](Sum_formula_for_a_geometric_series.md)
 * [集合映射之单射满射双射](map_type.md)
 * [容斥原理的应用——计算集合中元素的个数](calc_cardinality.md)
+* [排列组合](permutation_and_combination.md)
 * [几个比较基础的逻辑运算概念](basic_logical_operations.md)
 * [探讨布尔运算的规律 Explore the Operation Properties of Boolean Algebra](explore_the_operation_properties_of_boolean_algebra.md)
 * [余数详情](details_of_remainder.md)
