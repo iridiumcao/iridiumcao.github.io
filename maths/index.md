@@ -12,7 +12,7 @@
   - [For $\int \sin^n(x) \,\mathrm{d}x$ and $\int \cos^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_sin_cos.md)
   - [For $\int \tan^n(x) \,\mathrm{d}x$ and $\int \cot^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_tan_cot.md)
   - [For $\int \sec^n(x) \,\mathrm{d}x$ and $\int \csc^n(x) \,\mathrm{d}x$](trig_inverse_trig_int_ref/a_n_sec_csc.md)
-
+- [Answers of _Introduction to Linear Algebra (6th, Gilbert Strang)_](gilbert_itla/index.md)
 
 <script>
 MathJax = {
