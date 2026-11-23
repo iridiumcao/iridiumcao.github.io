@@ -6,7 +6,7 @@ Official image: https://hub.docker.com/_/postgres
 
 There are also help documents on the above page.
 
-Dowonload the image:
+Download the image:
 
 ``$ docker pull postgres:latest``
 
@@ -14,7 +14,7 @@ Dowonload the image:
 
 ## 1. Simplest Test
 
-Start a postgres instace
+Start a postgres instance
 
 ``$ docker run --name some-postgres -e POSTGRES_PASSWORD=helloworld -d postgres``
 
@@ -87,9 +87,9 @@ We can also run `\h` to get help, and we can create database, tables here.
 
 ## 2. Another Test with Client
 
-The above sample is too simple to use in a network. As it mentioned, the postgres service is not avaliable for other hosts.
+The above sample is too simple to use in a network. As noted above, the PostgreSQL service is not available for other hosts.
 
-We can start a postgreSQL with more parameters.
+We can start PostgreSQL with more parameters.
 
 e.g.,
 
@@ -133,11 +133,11 @@ docker run -p 9999:80 -p 9443:443 \
 ```
 
 1. Login the web portal. We can access http://localhost:9999/browser/ with "iridiumcao@gmail.com / Abc-12345" which are set by `PGADMIN_DEFAULT_EMAIL` and `PGADMIN_DEFAULT_PASSWORD`
-2. Connect to the database. The paramters are set by creating the container.
+2. Connect to the database. The parameters are set by creating the container.
    * Host name/address: 192.168.1.123
       * IP should NOT be `localhost` or `127.0.0.1`, should be the host IP, like `192.168.1.123` even when the Postgres docker is running on local host.
    * Port: 12345
-   * Mainenance databgase: mydb001
+   * Maintenance database: mydb001
    * Username: testuser
    * Password: helloworld
 

@@ -8,7 +8,7 @@ GitHub: <https://github.com/huobiapi>
 
 ## 币安
 
-GiHub: <https://github.com/binance/binance-spot-api-docs>
+GitHub: <https://github.com/binance/binance-spot-api-docs>
 
 ---
 

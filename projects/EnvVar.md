@@ -15,7 +15,7 @@
 
 不过一般情况更可能是半途而废。但这几天，我借助这些 AI：
 
-- Github Copilot
+- GitHub Copilot
   - Claude Opus 4.6
   - Claude Sonnet 4.6
   - GPT-5.4

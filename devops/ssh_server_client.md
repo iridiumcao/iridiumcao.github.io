@@ -33,7 +33,7 @@ sudo apt-get install openssh-server
 
 （文件很小，安装很快）
 
-安装好后，SSH 服务就自动启动了，端口默认是22，也可以通过修改 /ect/ssh/ssh_config 的 Port 值来改变。默认情况是：它开机自动启动，可以用 chkconfig 调节。
+安装好后，SSH 服务就自动启动了，端口默认是22，也可以通过修改 /etc/ssh/sshd_config 的 Port 值来改变。默认情况是：它开机自动启动，可以用 chkconfig 调节。
 
 手动启动/关闭 SSH 服务：
 
@@ -53,7 +53,7 @@ sudo /etc/init.d/ssh start
 yum install openssh-server
 ```
 
-这步可能碰到一个很奇怪的问题，提示我 Dropbox 没安装对，导致 ssh 也不能安装，真实太奇怪了，这两个软件有什么关系？！后来删除了 /etc/yum.repos.d/dropbox.repo 再度安装才成功。万恶的 GFW，导致我的 Dropbox 没能安装成功！
+这步可能碰到一个很奇怪的问题，提示我 Dropbox 没安装对，导致 ssh 也不能安装，真是太奇怪了，这两个软件有什么关系？！后来删除了 /etc/yum.repos.d/dropbox.repo 再度安装才成功。万恶的 GFW，导致我的 Dropbox 没能安装成功！
 
 启动/关闭 SSH (以下指令须在 root 帐号执行):
 
@@ -81,7 +81,7 @@ su
 
 #### 修改默认端口
 
-对Ubuntu，编辑文件 `/ect/ssh/ssh_config` 即可，对 Fedora，编辑 `/ect/ssh/sshd_config`。
+对Ubuntu，编辑文件 `/etc/ssh/sshd_config` 即可，对 Fedora，编辑 `/etc/ssh/sshd_config`。
 找到行：
 
 ```plaintext
@@ -103,14 +103,14 @@ su
 
 1. Windows PowerShell
 2. Git Bash Shell
-3. Putty，支持中文，可设置编码，中文无乱码
+3. PuTTY，支持中文，可设置编码，中文无乱码
 4. [Bitvise SSH Client](https://bitvise.com/ssh-client-download), 这个工具上传和下载文件也很方便。用了它，FTP, Samba 的必要性似乎下降不少了。中文支持不知如何。
 5. WinSCP，下载很方便，可设置编码，中文无乱码
-6. XMing，和 putty 配合使用，远程连接和操作 Linux 的桌面，相当于 Windows 版本的 ssh -X. 具体使用方法参[《SSH X11 Forwarding》](ssh_x_forwarding.md)。
+6. Xming，和 PuTTY 配合使用，远程连接和操作 Linux 的桌面，相当于 Windows 版本的 ssh -X. 具体使用方法参[《SSH X11 Forwarding》](ssh_x_forwarding.md)。
 
 ### Linux Client
 
-在 Linux 中通过 SSH 连接其他其他 Linux server，非常方便，在 Shell 中输入命令 `ssh username@host` 即可，如：
+在 Linux 中通过 SSH 连接其他 Linux server，非常方便，在 Shell 中输入命令 `ssh username@host` 即可，如：
 
 ```shell
 ssh root@192.168.8.85

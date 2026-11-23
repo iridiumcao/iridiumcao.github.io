@@ -218,7 +218,7 @@ $$
 
 因为行向量也是矩阵，所以前面提到的行向量和矩阵相乘，算是矩阵相乘的特殊形式：行数为1的矩阵和普通矩阵相乘。这里将推广到两个一般矩阵相乘，还是从行向量的线性组合的视角来解释。
 
-假设有两个矩阵 $\mathcal{K}$, $\mathcal{A}$，不妨把 $\mathcal{K}$ 称为称为变换规则矩阵，简称规则矩阵，把 $\mathcal{A}$ 称为目标矩阵，$\mathcal{K}$ 的每一行都是一条变换规则。$\mathcal{K}$ 和 $\mathcal{A}$ 相乘，就是把 $\mathcal{A}$ 按 $\mathcal{K}$ 提供的规则变化为一个新的矩阵，假若这个新矩阵是 $\mathcal{B}$.
+假设有两个矩阵 $\mathcal{K}$, $\mathcal{A}$，不妨把 $\mathcal{K}$ 称为变换规则矩阵，简称规则矩阵，把 $\mathcal{A}$ 称为目标矩阵，$\mathcal{K}$ 的每一行都是一条变换规则。$\mathcal{K}$ 和 $\mathcal{A}$ 相乘，就是把 $\mathcal{A}$ 按 $\mathcal{K}$ 提供的规则变化为一个新的矩阵，假若这个新矩阵是 $\mathcal{B}$.
 
 $\mathcal{K}\mathcal{A} = \mathcal{B}$ 即 $\mathcal{A} \xrightarrow{\mathcal{K}} \mathcal{B}$
 
@@ -622,7 +622,7 @@ $$
 
 - 从行运算看：矩阵$\mathcal{A}$和$\mathcal{B}$相乘，用左边的矩阵$\mathcal{A}$的各行为规则对右边的矩阵$\mathcal{B}$按行做线性变换。
 - 从列运算看：矩阵$\mathcal{A}$和$\mathcal{B}$相乘，用右边的矩阵$\mathcal{B}$的各列为规则对左边的矩阵$\mathcal{A}$按列做线性变换。
-- 从点积运算看：$\mathcal{A}\mathcal{B}$的的某个位置的元素 $c_{ij} = a_{i\ast}b_{\ast j}$
+- 从点积运算看：$\mathcal{A}\mathcal{B}$的某个位置的元素 $c_{ij} = a_{i\ast}b_{\ast j}$
 
 ## 9. 后记
 

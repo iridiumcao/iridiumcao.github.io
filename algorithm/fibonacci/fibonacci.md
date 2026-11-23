@@ -45,16 +45,16 @@ MathJax = {
 简单用代码实现求 f(n) 的代码如下：
 
 ```java
-public int fibonnaci(int i) {
+public int fibonacci(int i) {
     if (i < 0)
         return 0;
     if (i == 1 || i == 2)
         return 1;
-    return fibonnaci(i - 1) + fibonnaci(i - 2);
+    return fibonacci(i - 1) + fibonacci(i - 2);
 }
 ```
 
-完整的可运行的代码参[这里](Fibonnaci1.java)。
+完整的可运行的代码参[这里](Fibonacci1.java)。
 
 ## 3. Java 实现2
 
@@ -89,7 +89,7 @@ LongStream fib = LongStream.generate(new FibSupplier());
 fib.limit(10).forEach(System.out::println);
 ```
 
-完整的可运行的代码参[这里](Fibonnaci2.java)。
+完整的可运行的代码参[这里](Fibonacci2.java)。
 
 这是[廖雪峰讲解Stream](https://www.liaoxuefeng.com/wiki/1252599548343744/1322655160467490)时提到的一种解法。
 

@@ -7,7 +7,7 @@ Doc: [创建和分发 Python 模块(包)](../../write_and_distribute_packages.md
 ## Installation
 
 ```powershell
-peotry install
+poetry install
 ```
 
 ## Usage

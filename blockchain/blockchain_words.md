@@ -52,7 +52,7 @@
 * IPFS, the Inter-Planetary File System
 * IPNS, [the InterPlanetary Name System](https://docs.ipfs.io/concepts/ipns/)
 * liquidity mining, 流动性挖矿
-* litcoin, 莱特币，一种模仿比特币的山寨币
+* Litecoin, 莱特币，一种模仿比特币的山寨币
 * Longest valid chain, 最长合法链
 * KYC, know your customer, 了解你的客户
 * Merkle Tree, 相比 binary tree, MT 用哈希指针代替了普通指针。
@@ -67,7 +67,7 @@
 * PoA, proof-of-authority, 权威证明 // 另外一个说法是 Proof of Assignment，待考
 * PoS, proof-of-stake, Proof of Stake, 权益证明, 股权证明
 * PoW, proof-of-work, Proof of Work, 工作量证明
-* Prooof of Spacetime, 时空证明
+* Proof of Spacetime, 时空证明
 * puzzle friendly
 * replay attack, 重放攻击
 * SHA, Secure Hash Algorithm

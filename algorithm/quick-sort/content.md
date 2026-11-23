@@ -23,7 +23,7 @@ public class QuickSort3 {
     private static Scanner scanner;
 
     public static void main(String[] args) {
-        System.out.println("Please input integers split by comma (do not input blank): ");
+        System.out.println("Enter integers separated by commas, with no spaces: ");
         scanner = new Scanner(System.in);
         String sc = scanner.next();
         String[] ints = sc.split(",");

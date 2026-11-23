@@ -7,7 +7,7 @@
 - [如何描述一个 bug](how_to_describe_a_bug.md)
 - [浅尝二进制文件和文本文件](binary_text.md)
 - [Windows 查找端口占用并关闭](Windows-search-close-port.md)
-- [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md) (Redhat Linux, Python)
+- [藏在著名软件系统中的两个彩蛋](easter_egg_hidden_in_famous_softwares.md) (Red Hat Linux, Python)
 - [vi 笔记](vi.md)
 - [vim 笔记](vim.md)
 - [IPv4, IPv6, IPv9能表示多少IP地址？](addr_cnt_of_ipvn.md)

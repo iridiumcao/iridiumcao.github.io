@@ -4,7 +4,7 @@
 
 How can one verify the existence of a git branch in a local or remote repository? The article presents two bash script functions that can be used for this purpose.
 
-Source code can be downalod from [gist.github.com](https://gist.github.com/iridiumcao/714d3d0a9137ce614c26e4e10d185291).
+Source code can be downloaded from [gist.github.com](https://gist.github.com/iridiumcao/714d3d0a9137ce614c26e4e10d185291).
 
 ## 1. To check if the branch in the local repository
 
@@ -46,7 +46,7 @@ function is_in_remote() {
 
 ---
 
-This artical was post on [dev.to](https://dev.to/iridiumcao/how-to-check-if-a-git-branch-exists-in-the-local-remote-repository-3gkd) and ~~[OSC](https://my.oschina.net/iridium/blog/3208407)~~ as well.
+This article was posted on [dev.to](https://dev.to/iridiumcao/how-to-check-if-a-git-branch-exists-in-the-local-remote-repository-3gkd) and ~~[OSC](https://my.oschina.net/iridium/blog/3208407)~~ as well.
 
 ![history on osc](images/history2023-06-16-062918.png)
 

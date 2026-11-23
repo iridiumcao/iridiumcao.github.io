@@ -32,7 +32,7 @@
 
 本教程托管在 GitHub，点击每个页面右下角的 "Improve this page" 即可进入 GitHub 修改编辑。
 
-本教程的版本管理使用 git, GUI 工具是[Git Extentions](16.md).
+本教程的版本管理使用 git, GUI 工具是[Git Extensions](16.md).
 
 ### 术语说明
 

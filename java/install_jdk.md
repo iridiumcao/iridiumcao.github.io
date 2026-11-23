@@ -21,7 +21,7 @@
 
 Java 项目的开发环境必须安装 JDK，但项目运行只需 JRE 即可，所以生产环境安装 JRE 即可。
 
-为了避免 license 限制，本文选用统统选用开源免费的 OpenJDK. OpenJDK 也有好些版本， 本文的 Windows 部分介绍的 Temurin JDK 和 Linux 部分的 OpenJDK 略有区别，但一般场景使用下，几乎不用考虑。
+为了避免 license 限制，本文选用开源免费的 OpenJDK. OpenJDK 也有好些版本， 本文的 Windows 部分介绍的 Temurin JDK 和 Linux 部分的 OpenJDK 略有区别，但一般场景使用下，几乎不用考虑。
 
 本文选用的是 JDK 21，安装其他版本多有类似。
 

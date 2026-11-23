@@ -20,7 +20,7 @@ Yes, the wallet is generated
 
 ![](images/blank_watch_only.png)
 
-However, it's a blank wallet with no Bitcoin adreeses.
+However, it's a blank wallet with no Bitcoin addresses.
 
 ## Import Addresses for Watching
 
@@ -58,7 +58,7 @@ Its transactions can be viewed from the Overview tab:
 
 ![](images/transaction_overview.png)
 
-The details of transactions can be found via Transactions tab. The address can be set a tag via Windos -> Receiving Addresses.
+The details of transactions can be found via Transactions tab. You can label the address under Window → Receiving Addresses.
 
 Ref: <https://bitcoin.stackexchange.com/questions/114722/how-to-use-a-watch-only-wallet-in-bitcoin-core>
 

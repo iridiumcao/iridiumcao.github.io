@@ -37,7 +37,7 @@ public class SelectionSort {
     private static Scanner scanner;
 
     public static void main(String[] args) {
-        System.out.println("Please input 5 integers splited by comma (do not input blank): ");
+        System.out.println("Enter 5 integers separated by commas, with no spaces: ");
         scanner = new Scanner(System.in);
         String sc = scanner.next();
         String[] ints = sc.split(",");
@@ -69,7 +69,7 @@ public class SelectionSort {
 }
 ```
 
-以上粗体部分即选择算法的具体步骤，j 的起点是 i+1，这点很重要，在前面的配图中也也可以看到。算法中的交换两数的方式，是 C 语言中最经典的交换方式。程序中的双重循环是该算法的核心。
+以上粗体部分即选择算法的具体步骤，j 的起点是 i+1，这点很重要，在前面的配图中也可以看到。算法中的交换两数的方式，是 C 语言中最经典的交换方式。程序中的双重循环是该算法的核心。
 
 【复杂度】
 

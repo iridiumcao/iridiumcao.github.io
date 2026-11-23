@@ -14,7 +14,7 @@
 
 An algebraic number is a number that is a root of a non-zero polynomial in one variable with integer (or, equivalently, rational) coefficients. （摘录自[维基百科英文版](https://en.wikipedia.org/wiki/Algebraic_number)）
 
-以上来自维基百科的内容，已经讲清楚了。整数系数的多项式的根就是代数数。英文版里补充说明等价的实数系数也行，这防止有的人耍小聪明，硬说$0.1x$的系数不是整数，所以它的根不是代数数。
+以上来自维基百科的内容，已经讲清楚了。整数系数的多项式的根就是代数数。英文版补充说明，使用有理数系数也是等价的。例如，$0.1x$ 的系数虽然不是整数，但乘以 10 就得到具有相同根的整系数多项式 $x$。
 
 【超越数】
 
@@ -22,7 +22,7 @@ An algebraic number is a number that is a root of a non-zero polynomial in one v
 
 In mathematics, a transcendental number is a number that is not algebraic—that is, not the root of a non-zero polynomial of finite degree with rational coefficients. The best known transcendental numbers are π and e. （摘录自[维基百科英文版](https://en.wikipedia.org/wiki/Transcendental_number)）
 
-这个概念的中英文解释都差不多，中文版大概是从英文版翻译过去的吧。这里提到的多项式系数的范围的是有理数，比之前定义代数数上更简洁。
+这个概念的中英文解释都差不多，中文版大概是从英文版翻译过去的吧。这里提到的多项式系数的范围是有理数，比之前定义代数数上更简洁。
 
 ## ChatGPT
 

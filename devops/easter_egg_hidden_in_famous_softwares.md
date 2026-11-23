@@ -4,7 +4,7 @@
 
 ## 1. Fancy Message from ``sudo``
 
-这个彩蛋应该在RedHat系列的Linux中都有的，但我只有CentOS上的经验。据说在openSUSE中也有这段有趣的话。
+这个彩蛋应该在Red Hat 系列的Linux中都有的，但我只有CentOS上的经验。据说在openSUSE中也有这段有趣的话。
 
 当你第一次使用``sudo``时，系统会显示三句劝喻：
 

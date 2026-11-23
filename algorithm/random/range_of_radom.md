@@ -13,9 +13,9 @@
 
 ---
 
-There are two functions for genrating random numbers in Ruby, `rand()` and `SecureRandom.random_number()`. This article focuses specifically non-negegative integer.
+There are two functions for generating random numbers in Ruby, `rand()` and `SecureRandom.random_number()`. This article focuses on non-negative integers.
 
-Both functions accept either a non-negative integer or an integer range as argements.
+Both functions accept either a non-negative integer or an integer range as arguments.
 
 When providing an argument `n` ($n \ge 0, n \in \mathbb{Z}$), what values do these functions return?
 
@@ -97,7 +97,7 @@ Can we conclude the following?
 
 > Assume the argument is $n$ ($n \ge 0, n \in \mathbb{Z}$) and the return value is $r$ ($r \in \mathbb{Z}$), then $0 \le r \lt n$.
 >
-> $0 \le r \lt n \Leftrightarrow 0 \le r \le n$
+> $0 \le r \lt n \Leftrightarrow 0 \le r \le n-1$
 >
 > $\therefore 0 \le rand(n) \le n-1$
 > 

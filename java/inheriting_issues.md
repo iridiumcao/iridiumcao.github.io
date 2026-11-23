@@ -104,7 +104,7 @@ public class HelloWorldC {
 }
 
 public class HelloWorldD extends HelloWorldC {
-    static void show(){} // 不能通过编译，Eclipse 报错 the satic method cannot hide the instance method from HelloWorldC
+    static void show(){} // 不能通过编译，Eclipse 报错 the static method cannot hide the instance method from HelloWorldC
 }
 ```
 

@@ -24,7 +24,7 @@ $$
 
 其中，$c_{1}, c_{2}, ..., c_{k}$ 是 $n$ 维行向量，$C$ 是一个 $r \times n$ 矩阵。
 
-$\mathcal{A}$ 的所有行向量都可以用 $C$ 线性表出，存在存在一个 $m \times r$ 矩阵 $R$，使
+$\mathcal{A}$ 的所有行向量都可以用 $C$ 线性表出，存在一个 $m \times r$ 矩阵 $R$，使
 
 $$\mathcal{A}_{m \times n} = \mathcal{R}_{m \times r}\mathcal{C}_{r \times n}$$
 

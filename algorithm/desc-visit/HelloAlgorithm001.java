@@ -1,4 +1,4 @@
-public class HelloAlgrithm001 {
+public class HelloAlgorithm001 {
 
 	public static void main(String[] args) {
 		int[] a = { 3, 7, 8, 9, 10 };
@@ -27,7 +27,7 @@ public class HelloAlgrithm001 {
 		return b;
 	}
 
-	public static void genNewArrray(int[] a) {
+	public static void divideInPlace(int[] a) {
 		if (a[0] != 0) {
 			for (int i = a.length - 1; i >= 0; i--) {
 				a[i] /= a[0];

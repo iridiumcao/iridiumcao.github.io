@@ -114,7 +114,7 @@ PS ...> .\prime2.exe
 
 后记，因为阅读[《算法·第4版》](https://book.douban.com/subject/19952400/)(Robert & Kevin)，书中第一章第13页提到求素数的算法，故做了一点小小的研究，记录于此。
 
-还有[Eratosthenes 筛法](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes_)效率更高。
+还有[Eratosthenes 筛法](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)效率更高。
 
 <script>
 MathJax = {

@@ -5,7 +5,7 @@ public class BubbleSort {
     private static Scanner scanner;
 
     public static void main(String[] args) {
-        System.out.println("Please input 5 integers splited by comma (do not input blank): ");
+        System.out.println("Enter 5 integers separated by commas, with no spaces: ");
         scanner = new Scanner(System.in);
         String sc = scanner.next();
         String[] ints = sc.split(",");

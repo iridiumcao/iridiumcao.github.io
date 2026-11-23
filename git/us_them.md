@@ -271,7 +271,7 @@ $ git rebase --abort
 * main: 891235b67dbc4b359a9591729858e45aac1ff17c
 * test: bca2c0fcd6679b03a941944f1bbe3aaedb298f7f
 
-先在 branch main 上 cherr-pick test 的最后一个 commit:
+先在 branch main 上 cherry-pick test 的最后一个 commit:
 
 ```plaintext
 $ git checkout main
@@ -301,7 +301,7 @@ $ git cherry-pick --abort
 
 这里提到 *us* 删除了 hello.txt。我们知道当前 branch 是 main，并且是 main 删除了文件，说明在 `cherry-pick` 时，*us* 指当前 branch.
 
-再在 branch test 上 cherr-pick main 的最后一个 commit:
+再在 branch test 上 cherry-pick main 的最后一个 commit:
 
 ```plaintext
 $ git checkout test

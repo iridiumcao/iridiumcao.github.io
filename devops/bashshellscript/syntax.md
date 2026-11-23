@@ -294,16 +294,16 @@ Bash 的局部变量以 local 关键字标识，例如：
 i=3 # this is global
 function hello() {
    local i=9 # this is local
-   echo "in funcition $i"
+   echo "inside the function $i"
 }
 
-echo "out function $i"
-echo "revoke function: $(hello)"
+echo "outside the function $i"
+echo "call the function: $(hello)"
 ```
 
 输出：
 
 ```plaintext
-out function 3
-revoke function: in funcition 9
+outside the function 3
+call the function: inside the function 9
 ```

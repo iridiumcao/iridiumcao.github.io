@@ -2,12 +2,12 @@
 
 [Index](index.md)
 
-There are two tools available to move files and directories between Git repositories while presering history:
+There are two tools available to move files and directories between Git repositories while preserving history:
 
 - `filter-branch`
 - `filter-repo` ([official site](https://github.com/newren/git-filter-repo))
 
-`filter-branch` is an older built-in tool, but Git no longer recommends using it. It's slow and prone to errors. In this article, we will use `filter-repo`, a modern and effient tool for the task.
+`filter-branch` is an older built-in tool, but Git no longer recommends using it. It's slow and prone to errors. In this article, we will use `filter-repo`, a modern and efficient tool for the task.
 
 ## Demo
 
@@ -79,7 +79,7 @@ If there are conflicts, resolve them, then push the changes:
 git push origin main
 ```
 
-## Addditional Notes
+## Additional Notes
 
 `--invert-paths`: Invert the selection of files from the specified --path-{match,glob,regex} options below, i.e. only select files matching none of those options.
 

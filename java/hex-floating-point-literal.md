@@ -49,7 +49,7 @@ public class What022 {
 参考：
 
 * [Download code for this issue](code/What022.java)
-* [我在在JW@TW上的提问](http://www.javaworld.com.tw/jute/post/view?bid=29&id=234053&sty=1#234053)(已失效)
+* [我在JW@TW上的提问](http://www.javaworld.com.tw/jute/post/view?bid=29&id=234053&sty=1#234053)(已失效)
 * [Five Favorite Features from 5.0](http://www.onjava.com/pub/a/onjava/2005/04/20/javaIAN5.html)中的Hexadecimal Floating Point Literals部分。(已失效)
 
 ---

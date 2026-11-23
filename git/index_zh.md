@@ -31,7 +31,7 @@
 这里有的文章涉及的内容在上面的教程中也能找到，但单独成篇也有单独成篇的好处，比如主题突出，不用在教程中去苦苦寻找。
 
 - [Git 分支整洁之道](keeping_branches_clean_zh_CN.md)
-- ["us" 和 "them" 都是是谁和谁?](us_them.md)
+- ["us" 和 "them" 都是谁和谁?](us_them.md)
 - [Git Commit 中的时间记录](date_in_commit.md)
 - [合并不同的仓库](merge_unrelated_histories.md)
 - [`core.ignoreCase` 说明](core.ignoreCase.md)

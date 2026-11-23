@@ -18,7 +18,7 @@
       </td>
       <td>
         <b>
-          结构型 Structual
+          结构型 Structural
           <br />
         </b>
       </td>

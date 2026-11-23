@@ -42,7 +42,7 @@ e.g., Clone a repository with its submodules:
 $ git clone --recurse-submodules ssh://cy@192.168.5.45/home/cy/repoa
 ```
 
-The above is a simple way. We can also clone supermodule and its submodules seprated, without parameter `--recurse-submodules`.
+The above is a simple way. We can also clone the superproject and its submodules separately, without the option `--recurse-submodules`.
 
 e.g.,
 

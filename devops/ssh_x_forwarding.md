@@ -15,7 +15,7 @@
 
 按：这篇文章是很早之前发布在个人 Google Site 上的，已经不知具体时间了。在转移到本地时，有少许更新。
 
-在[《SSH Server/Client 安装和连接》](ssh_server_client.md)中已经提到 `SSH -X`，通过它可以在在本地桌面系统上使用远程的 Linux Server 上的 GUI 程序，远程系统有无 X 环境都无关紧要。
+在[《SSH Server/Client 安装和连接》](ssh_server_client.md)中已经提到 `ssh -X`，通过它可以在本地桌面系统上使用远程的 Linux Server 上的 GUI 程序，远程系统有无 X 环境都无关紧要。
 
 Linux 的 X 环境，运行 GUI 程序，分为两个部分，X Server 和 X Client。X Server 负责 GUI 展示，它管理显示器、键盘和鼠标。X Client 负责程序逻辑，在需要 GUI 界面时，则向 X Server 发送请求。X Client 和 X Server 是分开的，可以运行在相同或不同的机器上。
 
@@ -54,10 +54,10 @@ Linux 对程序员真是太友好了，下面是 Windows 的方式，就比较�
 
 ### 2. Windows
 
-可以结合 [XMing](https://sourceforge.net/projects/xming/) 和 [putty](https://www.putty.org/) 实现在 Windows 中操作远程 Linux Server 的 GUI 程序。
+可以结合 [Xming](https://sourceforge.net/projects/xming/) 和 [PuTTY](https://www.putty.org/) 实现在 Windows 中操作远程 Linux Server 的 GUI 程序。
 
-1. 安装 XMing 后，开启 Ming 的服务。开启了就不用管它了。
-2. 设置并开启 putty。打开 putty，选中登录的 session，点 Load, 选 Connection -> SSH -> X11
+1. 安装 Xming 后，启动 Xming。开启了就不用管它了。
+2. 设置并开启 PuTTY。打开 PuTTY，选中登录的 session，点 Load, 选 Connection -> SSH -> X11
 
 ![](images/putty01.png)
 
@@ -65,7 +65,7 @@ Linux 对程序员真是太友好了，下面是 Windows 的方式，就比较�
 
 ![](images/putty02.png)
 
-再返回 Session 界面，点击 Open 登录即可。执行 GUI 程序时，本地 XMing 的 X Server 就会启动。
+再返回 Session 界面，点击 Open 登录即可。执行 GUI 程序时，本地 Xming 的 X Server 就会启动。
 
 ## -X 的传递性
 
@@ -73,7 +73,7 @@ ssh -X 是可以传递的。A 通过 ssh -X 登录 B，再以 ssh -X 登录 C，
 
 实验如下：
 
-- 我在家使用的主机是 hostHome, Windows 7, 安装有 XMing 和 pttuy
+- 我在家使用的主机是 hostHome, Windows 7, 安装有 Xming 和 PuTTY
 - 公司服务器的主机是 hostCompany, Ubuntu Server, 无 GUI 支持
 - 我在公司的工作用主机是 hostWork， Ubuntu Kylin，有 GUI 支持
 

@@ -11,7 +11,7 @@ public class QuickSort {
 
 	public static void main(String[] args) {
 		System.out
-				.println("Please input integers splited by comma (do not input blank): ");
+				.println("Enter integers separated by commas, with no spaces: ");
 		scanner = new Scanner(System.in);
 		String sc = scanner.next();
 		String[] ints = sc.split(",");

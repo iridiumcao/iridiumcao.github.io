@@ -40,7 +40,7 @@ D = !B = !4
 | D (best: not 4) | T         | T         | T         | F         |
 | count(T)        | 2         | 3         | 1         | 2         |
 
-由上表，count(T) == 1时，为合乎条件的解：3号车最好，D说的对的。
+由上表，count(T) == 1时，为合乎条件的解：3号车最好，D说得对。
 
 【程序表达】
 
@@ -60,19 +60,19 @@ D = !B = !4
 int[] first = { 0, 1 };// 1号车, 0表示不是最好，1表示为最好
 int[] second = { 0, 1 };// 2号车,
 int[] third = { 0, 1 };// 3号车，
-int[] forth = { 0, 1 };// 4号车
-int count = 0; // 所有人说对话的总数
+int[] fourth = { 0, 1 };// 4号车
+int count = 0; // 说对的人数
 for (int i : first) {
     for (int j : second) {
         for (int k : third) {
-            for (int m : forth) {
+            for (int m : fourth) {
                 if (i + j + k + m == 1) {//只有一个车是最好的
                     count = 0;
                     count += ((j == 1) ? 1 : 0);// 2号赛车是最好的
                     count += ((m == 1) ? 1 : 0);// 4号赛车是最好的
                     count += ((k != 1) ? 1 : 0);// 3号赛车不是最好的
                     count += ((m != 1) ? 1 : 0);// 4号赛车不是最好的
-                    if (count == 1) {//只有一个人说的对的
+                    if (count == 1) {//只有一个人说得对
                         System.out.println("1号车：" + ((i == 1) ? "最好" : "不是最好"));
                         System.out.println("2号车：" + ((j == 1) ? "最好" : "不是最好"));
                         System.out.println("3号车：" + ((k == 1) ? "最好" : "不是最好"));
@@ -85,30 +85,30 @@ for (int i : first) {
 }
 ```
 
-注意：多重循环中，不要使用 `contine` 和 `break`，更不要和标签结合使用，我之前在第一重循环外加了个标签，从最里层的循环体中跳出，出现莫名其妙的结果，这里不多表。完整可运行的代码在[这里](BestCar.java)。
+注意：多重循环中，不要使用 `continue` 和 `break`，更不要和标签结合使用，我之前在第一重循环外加了个标签，从最里层的循环体中跳出，出现莫名其妙的结果，这里不多表。完整可运行的代码在[这里](BestCar.java)。
 
 以上的代码很直观，但多重循环看得真是愁杀人，其实考虑到只有一个车是最好的，将车的编号用来循环一次，代入到各人说的话中可以得到如下简化的 Java 代码：
 
 ```java
 for (int i = 1; i <= 4; i++) {
-    int count = 0; // 所有人说对话的总数
+    int count = 0; // 说对的人数
     count += ((i == 2) ? 1 : 0);// 2号赛车是最好的
     count += ((i == 4) ? 1 : 0);// 4号赛车是最好的
     count += ((i != 3) ? 1 : 0);// 3号赛车不是最好的
     count += ((i != 4) ? 1 : 0);// 4号赛车不是最好的
-    if (count == 1) {// 只有一个人说的对的
+    if (count == 1) {// 只有一个人说得对
         System.out.println(i + "号车是最好的");
         if (i == 2) {
-            System.out.println("A说的对");
+            System.out.println("A说得对");
         }
         if (i == 4) {
-            System.out.println("B说的对");
+            System.out.println("B说得对");
         }
         if (i != 3) {
-            System.out.println("C说的对");
+            System.out.println("C说得对");
         }
         if (i != 4) {
-            System.out.println("D说的对");
+            System.out.println("D说得对");
         }
     }
 }

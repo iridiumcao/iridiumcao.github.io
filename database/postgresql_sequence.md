@@ -94,7 +94,7 @@ SELECT nextval('mysequence');
 
 ![](images/postgresql_seq_01.png)
 
-如果你再次执行上面的的语句，你将得到序列的下一个值：
+如果你再次执行上面的语句，你将得到序列的下一个值：
 
 ```sql
 SELECT nextval('mysequence');
