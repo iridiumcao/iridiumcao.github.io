@@ -39,7 +39,7 @@ git push origin --delete your_branch // if this branch is in the remote reposito
 git push origin your_branch
 ```
 
-多用 rebase 可以显著减少一般提交(commit)记录和合并(merge)记录，但时间隔的太长的分支，用 merge 可能会减少处理 conflict 的难度。一般说，feature branch 到 master branch 的合并记录是有意义的，可以标识和区分一个 ticket 的代码，而 master branch 到 feature branch 的合并记录看起来更像是无谓合并，而且会使线索混乱，用 rebase 更好。
+多用 rebase 可以显著减少一般提交(commit)记录和合并(merge)记录，但如果分支落后主分支太久，用 merge 可能会减少处理 conflict 的难度。一般说，feature branch 到 master branch 的合并记录是有意义的，可以标识和区分一个 ticket 的代码，而 master branch 到 feature branch 的合并记录看起来更像是无谓合并，而且会使线索混乱，用 rebase 更好。
 
 在你执行合并(merge)或变基(rebase)操作之前，可以使用 `git branch bak_bransh` 创建一个备份分支备用。
 

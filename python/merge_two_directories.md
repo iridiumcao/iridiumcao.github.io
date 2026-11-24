@@ -2,9 +2,9 @@
 
 [Index](index.md)
 
-There's a requirement from work today: merge two directories, all files, including directories should be reserved, if files in same name exist in the two directories, save one of them. In short, it uses one directory to override the other.
+At work today, I needed to merge two directories. The result had to preserve the files and subdirectories from both, with the source file taking precedence when the same relative path existed in both.
 
-If we try the command `mv`, it will raises an error:
+If we try the command `mv`, it raises an error:
 
 Git Bash (Windows):
 
@@ -22,7 +22,7 @@ $ mv demo3/* demo4 -f
 mv: cannot move 'demo3/demo' to 'demo4/demo': File exists
 ```
 
-As the above, it does not work even appending the `--force` (`-f`) parameter.
+Adding `--force` (`-f`) still produces the same error.
 
 ## `rsync`
 
@@ -33,13 +33,13 @@ rsync -a --remove-source-files demo3/ demo4/ && rm demo3 -rf
 - `-a`:  This flag preserves file permissions, timestamps, and symbolic links (archive mode)
 - `--remove-source-files`: It deletes each source file after a successful transfer, effectively turning it into a move operation.
 
-After running `rsync`, `demo3/` will be left empty, so it needs `rm` to remove `demo3/`.
+After running `rsync`, transferred files are removed from `demo3/`. The directory and its subdirectories remain.
 
 `mv` command failed because `mv` doesn't recursively merge non-empty directories by default—it treats them as simple moves and errors out when the target already exists and isn't empty. `rsync` handles the recursion and overwriting seamlessly.
 
 ## Python
 
-`rsync` is wonderful, but it will remain some empty directories in `demo3`, let's try Python script:
+To remove the empty source directories as well, we can use a Python script:
 
 ```python
 import shutil

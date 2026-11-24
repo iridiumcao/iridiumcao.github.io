@@ -7,7 +7,7 @@
 ## Basic
 
 - [Hello World in Python](helloworld.md)
-- [Python's Variable's Type Fixed](python_data_type_fixed.md)
+- [Python Names Can Refer to Values of Different Types](python_data_type_fixed.md)
 - [Math in Python](math_in_python.md)
 - [Python Decorator Demo](decorator/decorator_demo.md)
 

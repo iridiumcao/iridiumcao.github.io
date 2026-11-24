@@ -54,7 +54,7 @@ public int fibonacci(int i) {
 }
 ```
 
-完整的可运行的代码参[这里](Fibonacci1.java)。
+完整的可运行代码参[这里](Fibonacci1.java)。
 
 ## 3. Java 实现2
 
@@ -89,7 +89,7 @@ LongStream fib = LongStream.generate(new FibSupplier());
 fib.limit(10).forEach(System.out::println);
 ```
 
-完整的可运行的代码参[这里](Fibonacci2.java)。
+完整的可运行代码参[这里](Fibonacci2.java)。
 
 这是[廖雪峰讲解Stream](https://www.liaoxuefeng.com/wiki/1252599548343744/1322655160467490)时提到的一种解法。
 

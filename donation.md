@@ -4,7 +4,7 @@
 
 如果你愿意小额赞助本站，鄙人不胜感激。下面有一些支付方式。
 
-## Wechat
+## WeChat
 
 ![](images/wechat_code.png)
 

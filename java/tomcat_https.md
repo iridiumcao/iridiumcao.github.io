@@ -72,7 +72,7 @@ keytool -import -alias tomcat -keystore keystore.jks -file yourcertificate.crt
 
 **示例配置**
 
-将前面生成的密钥文件移动到 `{tomcat_home}/conf/keystore.jdk`，在 `<Service>` 标签内添加以下内容：（取消 `<Connector port="8443"...` 的注释再修改即可）
+将前面生成的密钥文件移动到 `{tomcat_home}/conf/keystore.jks`，在 `<Service>` 标签内添加以下内容：（取消 `<Connector port="8443"...` 的注释再修改即可）
 
 ```xml
 <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
@@ -85,7 +85,7 @@ keytool -import -alias tomcat -keystore keystore.jks -file yourcertificate.crt
 </Connector>
 ```
 
-- `port="8443"`：HTTPS 默认端口（可改为 443，但需要 root 权限）。
+- `port="8443"`：本示例的 HTTPS 监听端口。
 - `certificateKeystoreFile`：密钥库文件的路径（这里已经放在 conf 目录下）。
 - `certificateKeystorePassword`：密钥库密码，替换为你在第一步设置的密码。
 

@@ -81,10 +81,7 @@ It told me:
 
 That sounded reasonable.
 
-Then I took it further:
-
-- I provided the original requirement
-- Asked GPT to evaluate how well each implementation matched it
+Then I gave GPT the original requirement and asked it to evaluate how well each implementation matched it.
 
 After about ten minutes, it gave a detailed report:
 
@@ -111,7 +108,7 @@ This time, I fully understood:
 
 - the requirement
 - the differences between implementations
-- and the edge cases involved
+- the edge cases involved
 
 Gemini’s implementation matched the requirement completely. Claude's implementation slightly overreached.
 

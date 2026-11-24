@@ -9,7 +9,7 @@
 ## Docker
 
 - [How to Install Docker on Ubuntu](install_docker_on_ubuntu.md)
-- [How to Install Docker on CentOS8](how_to_install_docker_on_centos8.md) *(Archived)*
+- [How to Install Docker on CentOS 8](how_to_install_docker_on_centos8.md) *(Archived)*
 
 ## SSH
 

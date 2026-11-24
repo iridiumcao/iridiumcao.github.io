@@ -40,9 +40,9 @@ $ git push origin --delete your_branch // if this branch is in the remote reposi
 $ git push origin your_branch
 ```
 
-To use rebase can reduce the number of commits, including merge significantly, but if a branch is behind the master branch for a long period, to use merge can reduce the difficulty of solving conflicts. In general, the merge commit from a feature branch into the master branch is meaningful, it’s a tag where a ticket starts and ends, but the reverse is not true, the merge commits from master into a feature branch is meaningless, but will mess the git tree.
+Rebasing can reduce the number of merge commits. If a branch has been behind `master` for a long time, merging may make conflicts easier to resolve. In general, the merge commit from a feature branch into the master branch is meaningful, it’s a tag where a ticket starts and ends, but the reverse is not true, the merge commits from master into a feature branch is meaningless, but will mess the git tree.
 
-Before you perform rebase or merge, you can use git checkout -b bak_branch to create a branch for bak, in case if there are too many conflicts.
+Before rebasing or merging, you can create a backup branch with `git branch bak_branch` so you can return to the original commit if there are too many conflicts.
 
 If two or more folks share the same branch, you should be more careful when you perform rebase.
 

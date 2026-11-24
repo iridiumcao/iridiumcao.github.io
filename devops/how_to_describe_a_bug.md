@@ -10,7 +10,7 @@
 2. 描述期望输出和实际输出，并说明差异
 3. 指出 bug 发生的环境
 
-在 Google Code 中其实给出了非常不错的模版：
+在 Google Code 中其实给出了非常不错的模板：
 
 ```plaintext
 What steps will reproduce the problem?

@@ -14,7 +14,7 @@
 
 ## 1. Charles的证明
 
-如图所示，将原矩形ABCD向两个长宽两个方向延长一倍成一个更大的矩形AEFG. B, I, H, D是大矩形AEFG所在边的中点。
+如图所示，将原矩形 ABCD 的长和宽各延长一倍，得到更大的矩形 AEFG。 B, I, H, D是大矩形AEFG所在边的中点。
 
 ![](images/rectangle_2.png)
 

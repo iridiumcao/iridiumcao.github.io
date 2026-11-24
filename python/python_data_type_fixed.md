@@ -1,8 +1,8 @@
-# Python's Variable Type is Fixed
+# Python Names Can Refer to Values of Different Types
 
 [Index](index.md)
 
-In Python, when defining a variable, it's not necessary to set the data type. The type will be assigned implicitly as the same as its value.
+In Python, assignment binds a name to an object. The object has a type, and you can later bind the same name to an object of a different type.
 
 For example:
 
@@ -10,11 +10,7 @@ For example:
 x = 100
 ```
 
-100 is an integer, so `x`'s type is `int`.
-
-This is similar to JavaScript. However, JavaScript has two keywords `let` and `var`. Python has no keywords like that.
-
-**In Python, once a variable's data type is set, it cannot be changed.** This is different from JavaScript.
+At this point, `x` refers to an integer. Assigning `x = 'hello'` would bind it to a string instead.
 
 For example:
 
@@ -34,7 +30,7 @@ Traceback (most recent call last):
 TypeError: can only concatenate str (not "int") to str
 ```
 
-`'hello'` is a string, so `y`'s type is `str`, 3 is an integer. A string cannot be added to an integer, so `y+3` raises an error.
+`y` refers to a string, and `3` is an integer. Python does not automatically convert the integer to a string for concatenation, so `y + 3` raises a `TypeError`.
 
 <script src="https://giscus.app/client.js"
         data-repo="iridiumcao/iridiumcao.github.io"

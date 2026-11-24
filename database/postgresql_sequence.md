@@ -10,7 +10,7 @@
 
 在 PostgreSQL 中，序列(sequence)是一个数据库对象，它允许你生成由不同数字构成的一个序列。
 
-典型地，你用序列去为表中的主键生成唯一的标识，甚至你还可以用序列去跨表生成唯一标志！
+典型地，你用序列去为表中的主键生成唯一的标识，甚至你还可以用序列去跨表生成唯一标识！
 
 你可以使用 `CREATE SEQUENCE` 指令创建一个新的序列。
 
@@ -42,19 +42,19 @@ CREATE SEQUENCE [ IF NOT EXISTS ] sequence_name
 
 ### [ INCREMENT [ BY ] increment ]
 
-`increment` 规定了每次产生新值时，从当前值起的增加量。如果它是正数值，这个序列将是递增的，如果它是负的，则这个序列是递减的。它的默认值是1.
+`increment` 规定了每次产生新值时，从当前值起的增加量。如果它是正数值，这个序列将是递增的，如果它是负的，则这个序列是递减的。它的默认值是 1。
 
 ### [ MINVALUE minvalue | NO MINVALUE ]
 ### [ MAXVALUE maxvalue | NO MAXVALUE ]
 
 设置序列的最小和最大值。如果是用默认的 `NO MINVALUE` 和 `NO MAXVALUE`，序列将使用默认值。
 
-- 对递增序列来说，最大值就是它的数据类型支持的最大值，而最小值是1. 
+- 对递增序列来说，最大值就是它的数据类型支持的最大值，而最小值是 1。
 - 对递减序列来说，它的最大值是 -1，而最小值是它的数据类型支持的最小值。
 
 ### [ START [ WITH ] start ]
 
-`START` 语句用来设定序列的起始值。对递增序列，它的默认值是 `minvalue`，对递减序列，它的默认值是 `maxvalue`.
+`START` 语句用来设定序列的起始值。对递增序列，它的默认值是 `minvalue`，对递减序列，它的默认值是 `maxvalue`。
 
 ### cache
 
@@ -78,7 +78,7 @@ CREATE SEQUENCE [ IF NOT EXISTS ] sequence_name
 
 ### 1) 创建一个递增序列
 
-这个语句使用 `CREATE SEQUENCE` 创建一个新的递增序列，它从100开始，并且每次增加5.
+这个语句使用 `CREATE SEQUENCE` 创建一个新的递增序列，它从 100 开始，每次增加 5。
 
 ```sql
 CREATE SEQUENCE mysequence
@@ -205,13 +205,13 @@ DROP SEQUENCE [ IF EXISTS ] sequence_name [, ...]
 
 ## PostgreSQL `DROP SEQUENCE` 语句示例
 
-下面示例删除表 `order_details`. 由于序列 `order_item_id` 和 item_id of the order_details 关联，所以序列会自动删除。
+下面的示例删除表 `order_details`。由于序列 `order_item_id` 与该表的 `item_id` 列关联，删除表时也会自动删除该序列。
 
 ```sql
 DROP TABLE order_details;
 ```
 
-在这篇教程中，你已经学习了 PostgreSQL 序列，也知道了怎么用一个序列去创建一系列序列。
+在这篇教程中，你已经学习了 PostgreSQL 序列，也知道了如何用序列生成一组数值。
 
 <script src="https://giscus.app/client.js"
         data-repo="iridiumcao/iridiumcao.github.io"

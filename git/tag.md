@@ -59,7 +59,7 @@ Date:   Tue Nov 7 10:35:56 2023 +0800
 
 test tag: annotated
 
-（以上是该 tag 的相关信息展示，后面向接的就是 commit 的常规信息，这里省略）
+（以上是该 tag 的相关信息展示，后面接着是 commit 的常规信息，这里省略）
 
 ```
 

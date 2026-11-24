@@ -4,7 +4,7 @@
 
 ## 1. 23个汉语普通话声母中有哪些是平舌音？
 
-答：除了 zh, ch, sh, r，其余的都是平舌音。
+答：z、c、s 是平舌音。
 
 参百度知道的问答：https://zhidao.baidu.com/question/297637256.html
 
@@ -39,7 +39,7 @@ VO maps values of an object which presented to end user, e.g., we can use a VO o
 简单地说，人工智能是机器学习的超集，而机器学习又是深度学习的超集。
 人工智能 > 机器学习 > 深度学习
 
-## 8. How to Set a Script Runs at OS booting?
+## 8. How Can I Run a Script at Startup?
 
 e.g., add the following line to crontab:
 

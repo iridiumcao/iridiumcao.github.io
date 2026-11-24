@@ -6,38 +6,38 @@
 
 The QA team had wanted an auto-task tool for a long time.
 
-I knew it and did not start the project because when I reviewed the requirement I thought I can complete it but it was too complex to implement in my fragmented time.
+I knew about the requirement, but I put off the project. I thought I could build the tool, but the logic was too complex for the short stretches of time I had available.
 
-Two weeks ago, I tried AI with the most powerful modules: Claude Opus 4.6, Gemini 3.1 Pro Preview, and GPT 5.4. I felt confident I could implment it, so I began.
+Two weeks ago, I tried AI with the most powerful models: Claude Opus 4.6, Gemini 3.1 Pro Preview, and GPT 5.4. I felt confident I could implement it, so I began.
 
-Yes, everything seems to go well as expected!
+At first, everything seemed to be going well!
 
-Last Friday, however, the QA team complained there were issues in a repository. I looked into it, it was due to the requirement was not clarified cleanly originally, then we discussed it and updated the requirement.
+Last Friday, however, the QA team reported issues in a repository. I looked into them and found that the original requirement was unclear. We discussed it and updated the requirement.
 
-The new logic was still complex. However, AI could handle it quickly. I used Claude to implement it, but when I review the code, I found I can hardly understand. I reviewed it again at home that evening and found I forgot an implict condition, so that Claude implemented it as his free thinking, that made the code was complex to understatnd. Indeed, I did not understand some parts of the whole problem.
+The new logic was still complex, but Claude implemented it quickly. When I reviewed the code, I struggled to understand it. I read it again at home that evening and realized I had left out an implicit condition. Claude had made its own assumptions, which made the code harder to follow. I also realized there were parts of the problem I didn’t fully understand.
 
-Then I cleaned the logic and use Claude and Gemini to write two new versions individually. Both versions looked better than the old, and I thought both of them were correct. However, I still suspected that they were different, but I could not verify it per my review.
+Then I clarified the logic and asked Claude and Gemini to write two new versions independently. Both looked better than the old version, and I thought they were both correct. Still, I suspected they behaved differently, and I couldn’t verify that by reading the code.
 
-I was tired and I went to sleep.
+I was tired and went to bed.
 
-I was thinking more at bed, decided to use another AI to compare it.
+As I kept thinking about it in bed, I decided to ask another AI to compare the two versions.
 
-Saturday. First I used GPT 5.4 to compare the versions implemented by Claude and Gemini, it told me that they were almost equally but different at some edge cases. I could be relax at that time but still want to get everything cleanly. Then I told GPT 5.4 my requirement and ask him to test how much the two versions implment my requirement. After a while, about 10 minutes, GPT told me that Gemini's version were more constensive to my requirement. And GPT told me that neither Claude nor Gemini did same wrong, I looked that point, and I could 100% be sure that GPT did wrong.
+Saturday. I asked GPT 5.4 to compare the versions from Claude and Gemini. It said they were almost equivalent but differed in some edge cases. That was reassuring, but I still wanted to be sure. I gave GPT my requirement and asked how well each version met it. About ten minutes later, GPT told me that Gemini’s version matched more closely. When I checked a point in the report, I was sure GPT had got it wrong.
 
-Sunday. I was still 90% but not 100% confirmed the Gemini's version was OK. So I printed GPT's two reports and read again. I understood all. Gemini's version matched 100% of my requirement, Claude did some broader than I wanted. GPT's reports were accurately execept it pointed the wrong point.
+Sunday. I was about 90% sure Gemini’s version was right. I printed both of GPT’s reports and read them again. This time I understood everything. Gemini’s version fully matched my requirement, while Claude’s covered more than I wanted. The reports were accurate apart from that one point.
 
-Monday. When I was at office, I continue to think the logic again, and found it can be simplified. I wrote the simplified logic and asked Gemini and Claude in turn if my new idea are equal to the Gemini version. Both Gemini and Claude said YES, my new idea was 100% equal to the current implmentation. I was more confident! Then I asked Gemini to refactor the code with my new idea. But unluckly, Gemini did not use 3.1 Pro Preview this time, it switched to a "flash" version instead of the Pro Preview. The result was frustrating, it just renamed some parameters and rewrote some comments. I aborted this change and deployed the old version. Everything goes well, no complains comes out in the afternoon.
+Monday. Back at the office, I took another look at the logic and realized I could simplify it. I wrote out the simplified version and asked Gemini and Claude in turn whether it was equivalent to Gemini’s implementation. Both said yes, which made me more confident. I asked Gemini to refactor the code using my idea. This time it used a Flash model instead of 3.1 Pro Preview. The result was frustrating. It just renamed some parameters and rewrote some comments. I discarded that change and deployed the previous version. Everything went well, and no complaints came in that afternoon.
 
-This experience scared me because it's the first time I used AI to resolve a real complex issue for work.
+This experience scared me because it was the first time I had used AI to solve a genuinely complex problem at work.
 
 We can use AI to:
 
 - code our ideas.
 - review the code.
 
-But we cannot use AI to replace our own thinking, the requirement must be built by ourself, however, we can use AI to improve it.
+We still need to define the requirements ourselves. AI can help us refine them.
 
-We still need to know the code. If we are blind to the implementation by AI, it's dangerous.
+We also need to understand the code. Using AI-generated code without understanding how it works is risky.
 
 
 <script src="https://giscus.app/client.js"

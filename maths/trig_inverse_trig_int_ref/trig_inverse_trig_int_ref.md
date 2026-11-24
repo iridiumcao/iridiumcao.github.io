@@ -31,7 +31,7 @@ References:
 
 |   | sin                          | cos                          | tan                          | cot                          | sec                          | csc                          |
 |---|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|------------------------------|
-| 1 | [$\int \sin(x) \mathrm{d}x$](a1_b1.md) | [$\int \cos(x) \mathrm{d}x$](a1_b1.md) | [$\int \tan(x) \mathrm{d}x$]((a1_b1.md)) | [$\int \cot(x) \mathrm{d}x$]((a1_b1.md)) | [$\int \sec(x) \mathrm{d}x$]((a1_b1.md)) | [$\int \csc(x) \mathrm{d}x$]((a1_b1.md)) |
+| 1 | [$\int \sin(x) \mathrm{d}x$](a1_b1.md) | [$\int \cos(x) \mathrm{d}x$](a1_b1.md) | [$\int \tan(x) \mathrm{d}x$](a1_b1.md) | [$\int \cot(x) \mathrm{d}x$](a1_b1.md) | [$\int \sec(x) \mathrm{d}x$](a1_b1.md) | [$\int \csc(x) \mathrm{d}x$](a1_b1.md) |
 | 2 | $\int \sin(x^2) \mathrm{d}x$ | $\int \cos(x^2) \mathrm{d}x$ | $\int \tan(x^2) \mathrm{d}x$ | $\int \cot(x^2) \mathrm{d}x$ | $\int \sec(x^2) \mathrm{d}x$ | $\int \csc(x^2) \mathrm{d}x$ |
 | 3 | $\int \sin(x^3) \mathrm{d}x$ | $\int \cos(x^3) \mathrm{d}x$ | $\int \tan(x^3) \mathrm{d}x$ | $\int \cot(x^3) \mathrm{d}x$ | $\int \sec(x^3) \mathrm{d}x$ | $\int \csc(x^3) \mathrm{d}x$ |
 | 4 | $\int \sin(x^4) \mathrm{d}x$ | $\int \cos(x^4) \mathrm{d}x$ | $\int \tan(x^4) \mathrm{d}x$ | $\int \cot(x^4) \mathrm{d}x$ | $\int \sec(x^4) \mathrm{d}x$ | $\int \csc(x^4) \mathrm{d}x$ |

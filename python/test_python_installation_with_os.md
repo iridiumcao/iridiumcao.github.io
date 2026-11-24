@@ -4,11 +4,11 @@
 
 Note: This article was written in 2021 and edited in 2023, so some version values are very old.
 
-Most of the time, the OS would integrate Python in some version. We can check the version first. If Python is not installed, we can install it then.
+Some operating systems come with Python. Check which version is available before installing it.
 
 ## Environment
 
-### MacOS
+### macOS
 
 ``` plaintext
 % python --version

@@ -58,7 +58,7 @@ $\vert BC \vert \lt \vert DC \vert \lt \vert AC \vert$
 
 下面讨论$a \neq b$的情形，假设$a \lt b$
 
-无论是锐角直角还是钝角三角形，都可以用下面的证明。
+无论是锐角、直角还是钝角三角形，都可以用下面的证明。
 
 ![https://www.geogebra.org/calculator/wffnazpm](images/triangle_4.png)
 

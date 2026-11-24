@@ -50,11 +50,11 @@ PostgreSQL 诞生于1996年，是一个功能丰富的免费开源的数据库�
 
 #### 第02步 选择安装组件
 
-这步弹出了4个组件共选择：
+这一步有 4 个组件可供选择：
 
 - PostgreSQL Server, 数据库服务器
 - pgAdmin 4, 客户端管理工具，如果不用它，也可以用其他客户端工具。
-- Stack Builder, 方便使用 PostgreSQL 模块和插件用的。(TODO, 还没经验)
+- Stack Builder, 可用于安装 PostgreSQL 的附加组件和插件。(TODO, 还没经验)
 - Command Line Tools, 这部分功能全部包含在 pgAdmin 4 中。
 
 我这里把4个全部选中。
@@ -83,7 +83,7 @@ PostgreSQL 的默认端口是 5432，你可以自定义端口。为了演示方�
 
 #### 第06步 本地化
 
-用很多国家和地区选择，我选的是 "English, United States", 你也可以选其他的。
+这里有多种区域设置可供选择。我选的是 “English, United States”，你也可以选其他设置。
 
 ![](images/postgresql/6.locale.png)
 
@@ -158,7 +158,7 @@ PostgreSQL 默认只允许本机访问，如果想要局域网的其他机器也
 
 `host    all             all             192.168.0.0/24            scram-sha-256`
 
-设置防火墙设置，允许外部主机通过端口5432访问本机：
+配置防火墙，允许外部主机通过端口5432访问本机：
 
 1. 打开「控制面板(Control Panel)」→ 「系统与安全(System and Security)」→ 「Windows Defender 防火墙(Windows Firewall)」，「高级设置」，「入站规则」
 2. 点击「新建规则...」

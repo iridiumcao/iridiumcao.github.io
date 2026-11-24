@@ -18,11 +18,11 @@
 
 ![kao「考」的笔顺](images/kao.png)
 
-「象」字中间起笔的撇（下图第6笔），穿过了中间的「口」的下面的横的。
+「象」字中间起笔的撇（下图第6笔），穿过了中间「口」字下方的横画。
 
 ![xiang「象」的笔顺](images/xiang.png)
 
-上面的笔顺图和两字的笔顺演示可参：
+上面的笔顺图和三个字的笔顺演示可参：
 
 1. 「延」<http://bihua.51240.com/e5bbb6__bihuachaxun/>
 2. 「考」<http://bihua.51240.com/e88083__bihuachaxun/>

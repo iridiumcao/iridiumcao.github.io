@@ -31,7 +31,7 @@ pull 操作之前执行下面一条命令来抑制本消息：
    * `true`：如果远程分支有新的 commit, 则将本地的提交放到远程分支的最新提交之后，使得提交历史更加线性，不会产生额外的合并提交。
 2. `pull.ff`
    * `false`: create an extra merge commit in such a case (equivalent to giving the `--no-ff` option from the command line)
-   * `only`：这个命令告诉Git在执行git pull命令时只允许快进（fast-forward）合并，等价于 `--ff-only`.如果远程分支能够直接合并到本地分支而不产生新的提交，就会执行快进合并；否则，会出现合并冲突的情况。
+   * `only`：让 `git pull` 只接受快进（fast-forward）合并，等价于 `--ff-only`。如果本地与远程分支已经分叉，Git 会拒绝合并。
    * 不设置，就相当于 `-ff`，没有分叉，就 fast-forward, 有分叉，就生成合并 commit
 
 下面是来自官方文档的内容

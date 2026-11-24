@@ -34,7 +34,7 @@ with:
 CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_\$(date +\%Y\%m\%d).txt 2>&1"
 ```
 
-Take note of how the Linux command is included within the crontask item above.
+Take note of how the Linux command is included within the crontab entry above.
 
 To view the current cron task list, you can use the command:
 
@@ -43,13 +43,13 @@ $ crontab -l
 * * * * * echo "hello, world!" >> log_$(date +\%Y\%m\%d).txt 2>&1
 ```
 
-## The Slash in Cron Task
+## The Backslash in a Crontab Entry
 
 ```bash
 CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_\$(date +\%Y\%m\%d).txt 2>&1"
 ```
 
-Note that the slash before the dollar sign is essential in this command. If the slash is removed:
+Note that the backslash before the dollar sign is essential in this command. If the backslash is removed:
 
 ```bash
 CRONTAB_ENTRY="* * * * * echo \"hello, world!\" >> log_$(date +\%Y\%m\%d).txt 2>&1"

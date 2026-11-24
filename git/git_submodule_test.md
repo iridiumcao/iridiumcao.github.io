@@ -71,11 +71,11 @@ Submodule path 'repoc': checked out '42b2b2369122f5cf25e4569011177caf58d01d5e'
 
 A feature in development would work with a special branch of submodules.
 
-If submodules ara changed, the supermodule can detect it. The supermodule's repository holds the head commit hash code of the current submodules. The submodules are still independent.
+The parent repository records a commit hash for each submodule and can detect when the checked-out commit differs. Each submodule is still an independent Git repository.
 
-You can change directory to submodules and switch to the proper branches and can work in the submodules directories as they are standalone repositories.
+Enter a submodule directory and switch to the branch you need. From there you can work as you would in any Git repository.
 
-e.g., when a submodule changed:
+For example, after checking out a different commit in a submodule, the parent repository reports:
 
 When stepping into the submodule `repob`'s directory, it shows that its workspace is at commit `6443551`.
 
@@ -108,7 +108,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-In the supermode, it shows that the head commit of submodule is changed.
+In the parent repository, Git shows that the submodule is checked out at a different commit.
 
 ```plaintext
 cy@cy:~/sandbox/repoa$ git diff

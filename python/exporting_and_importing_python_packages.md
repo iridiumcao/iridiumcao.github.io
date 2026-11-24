@@ -15,7 +15,7 @@ vboxapi==1.0
 
 Save the above output to a plain text file, assuming it is `requirements.txt`, which will be used by `pip3 install`.
 
-Note that `pip3 list` shows packages too, but it cannot be imported by `pip3 install`.
+`pip3 list` also displays installed packages. Use the output of `pip3 freeze` as input to `pip3 install -r`.
 
 ## 2. Install the Package List
 
@@ -49,7 +49,7 @@ Install Options:
 
 ### 3.2. `pip3 list`
 
-The output is not able to feed to `pip3 install`.
+The output uses a display format and cannot be passed directly to `pip3 install -r`.
 
 ```plaintext
 $ pip3 list

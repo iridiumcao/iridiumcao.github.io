@@ -96,7 +96,7 @@
 
 ## 标准差
 
-标准差也称标准偏差或均方差（英语：standard deviation，缩写SD，符号σ），为方差的非负算数平方根。
+标准差也称标准偏差或均方差（英语：standard deviation，缩写SD，符号σ），为方差的非负算术平方根。
 
 参[维基百科·标准差](https://zh.wikipedia.org/zh-hans/%E6%A8%99%E6%BA%96%E5%B7%AE)
 

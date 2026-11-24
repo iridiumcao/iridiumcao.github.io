@@ -4,7 +4,7 @@
 
 [返回目录](../other/index_zh.md)
 
-今天我分别和 MS Copilot 与 ChatGPT(应该是版本3)聊了几句，很有意思，AI是否有意识，一个看起来有，一个明确否认，截取片段记录如下。
+今天我分别和 MS Copilot、ChatGPT（应该是第 3 版）聊了几句。谈到 AI 是否有意识时，一个似乎在声称自己有意识，另一个则明确否认。以下是对话片段。
 
 ## 1. Copilot with Bing Chat
 

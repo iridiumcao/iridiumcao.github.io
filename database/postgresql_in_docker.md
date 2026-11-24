@@ -18,17 +18,17 @@ Start a postgres instance
 
 ``$ docker run --name some-postgres -e POSTGRES_PASSWORD=helloworld -d postgres``
 
-(`POSTGRES_PASSWORD` is required, or the container is not able to create.)
+(`POSTGRES_PASSWORD` is required, or the container cannot start.)
 
 ### Test the DB on the server side
 
 The docker container does not have a public port, so it's not able to be accessed by other hosts in the network. However, we can still test it.
 
-1. Login container `some-postgres`:
+1. Open a shell in the `some-postgres` container:
 
 ``$ docker exec -it some-postgres bash``
 
-2. Do some tests as following, running the commands in the docker container:
+2. Run the following commands inside the container:
 
 ```text
 # su - postgres
@@ -39,9 +39,9 @@ $ createdb mydb004
 $ dropdb mydb004
 ```
 
-Since the command `docker exec -it some-postgres bash` does not set parameter `--name`, it logins as `root` as default, we use `su - postgres` to change to user `postgres` that's the default user built in the docker container image.
+In this example, `docker exec -it some-postgres bash` opens a shell as `root`. Use `su - postgres` to switch to the `postgres` user.
 
-3. Login Postgres shell with ``psql`` and do some test.
+3. Open the PostgreSQL shell with ``psql`` and run a test.
 
 ```text
 $ psql
@@ -64,7 +64,7 @@ postgres=# \l
 
 ```
 
-The above shows how to login psql and run a command. If we want to more details of all database, use `\l+` here is a demo:
+Once you are in `psql`, run `\l+` to see details about all databases, as shown below.
 
 ```text
 postgres=# \l+
@@ -149,7 +149,7 @@ Refs:
 2. <https://www.postgresqltutorial.com/postgresql-administration/postgresql-show-databases/>
 3. <https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html>
 
-This page is post to [CSDN blog](https://blog.csdn.net/caoi/article/details/127220331).
+This article was also published on [CSDN blog](https://blog.csdn.net/caoi/article/details/127220331).
 
 <script src="https://giscus.app/client.js"
         data-repo="iridiumcao/iridiumcao.github.io"

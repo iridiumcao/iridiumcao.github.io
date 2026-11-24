@@ -59,7 +59,7 @@ Explanation of the third command:
 
 - `${b##*[!0-9]}` is a parameter expansion that removes the longest substring matching the pattern `*[!0-9]` from the beginning of the variable `b`.
 - The pattern `*[!0-9]` matches any sequence of characters that does not end with a numeric digit.
-- As a result, the parameter expansion removes all non-numeric characters from the beginning of the string, leaving only the numeric characters at the end.
+- As a result, the expansion removes everything through the last non-digit character, leaving only the trailing digits.
 
 ---
 

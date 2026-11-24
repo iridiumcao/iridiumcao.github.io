@@ -2,14 +2,14 @@
 
 [Index](index.md)
 
-there are two hosts in the same intranet:
+There are two hosts in the same intranet:
 
 - host A: 192.168.0.100
 - host B: 192.168.0.102
 
-Here is an example to test network accessibility in bash script.
+This example uses a Bash script to check whether host A can reach host B.
 It runs on host A.
-If A can access B, it returns "OK", or returns "Failed"
+The script prints “OK” if A can reach B and “Failed” otherwise.
 
 ## Solution
 

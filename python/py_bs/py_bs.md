@@ -81,12 +81,12 @@ Python 的 `subprocess` 模块提供了调用外部命令的功能。`check_outp
 
 ## 4. Bash shell 脚本调用 Python，并接受返回值
 
-以下是一个示例的 Bash Shell 脚本，它调用一个 Python 脚本并接收并接受返回值：
+以下是一个示例的 Bash Shell 脚本，它调用一个 Python 脚本并接收它的输出：
 
 ```bash
 #!/bin/bash
 
-# 调用 Python 脚本并接收并接受返回值，注意对应的 Python 脚本必须用 print 输出内容才行
+# 调用 Python 脚本并接收它的输出，注意对应的 Python 脚本必须用 print 输出内容才行
 output=$(python your_script.py)
 
 # 将返回的字符串转换为数组
@@ -127,7 +127,7 @@ str=$(python -c "from demo5 import hello2; hello2()")
 echo ${str}
 ```
 
-上面脚本中，`-c`选项用于在命令行中执行 Python 代码。在这里，使用`from demo5 import hello`语句导入 Python 脚本中的 `hello()` 函数，然后调用。主要导入 `demo5.py` 时，需要写成 `import demo5` 而非 `import demo5.py`，在引入模块时，后缀名 `.py` 不能要。
+上面脚本中，`-c`选项用于在命令行中执行 Python 代码。在这里，使用`from demo5 import hello`语句导入 Python 脚本中的 `hello()` 函数，然后调用。注意，导入 `demo5.py` 时，需要写成 `import demo5` 而非 `import demo5.py`，在引入模块时，后缀名 `.py` 不能要。
 
 ```python
 def hello():

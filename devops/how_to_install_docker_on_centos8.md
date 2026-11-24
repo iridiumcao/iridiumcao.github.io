@@ -4,7 +4,7 @@
 
 ---
 
-# How to Install Docker on CentOS8
+# How to Install Docker on CentOS 8
 
 [Index](index.md)
 
@@ -26,7 +26,7 @@ Install download tool ``wget``
 
 ## Step 2, Install containerd.io
 
-To install docker in CentOS 8 is different from other CentOS versions, if you do not install this package manually, the docker service will not work.
+Installing Docker on CentOS 8 differs from installing it on earlier versions of CentOS. The Docker service requires you to install this package manually.
 
 Access page https://download.docker.com/linux/centos/7/x86_64/stable/Packages/ and copy the latest version's link, run the following commands in the new CentOS8:
 
@@ -35,7 +35,7 @@ Access page https://download.docker.com/linux/centos/7/x86_64/stable/Packages/ a
 # dnf install containerd.io-1.2.13-3.2.el7.x86_64.rpm
 ```
 
-The latest version of ``containerd.io`` is ``containerd.io-1.2.13-3.2.el7.x86_64.rpm`` till 2020-05-25
+The latest version of ``containerd.io`` as of 2020-05-25 was ``containerd.io-1.2.13-3.2.el7.x86_64.rpm``
 Ref:  https://www.cnblogs.com/zbseoag/p/11736006.html
 
 ## Step 3, Install ``docker-ce`` by ``yum``

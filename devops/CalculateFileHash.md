@@ -48,7 +48,7 @@ CertUtil: -hashfile 命令成功完成。
 
 ### 2.2 PowerShell
 
-In PowerShell, the default encryption algorithm is SHA256. You can use the `Format-List` command to improve readability:
+In PowerShell, `Get-FileHash` uses SHA-256 by default. You can use the `Format-List` command to improve readability:
 
 ```cmd
 PS ...> Get-FileHash .\ubuntu-24.10-live-server-amd64.iso | Format-List
