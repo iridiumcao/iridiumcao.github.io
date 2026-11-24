@@ -48,4 +48,7 @@ npm install express
 ```bash
 npm config rm proxy
 npm config rm https-proxy
+# or
+npm config delete proxy
+npm config delete https-proxy
 ```
